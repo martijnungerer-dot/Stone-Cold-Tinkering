@@ -20,4 +20,6 @@ Daarna zijn een Krek-personageblad en drie versies van de bewegingsstudie gemaak
 
 Op expliciete gebruikersopdracht is nu de [lokale leesproef](docs/PROTOTYPE.md) gebouwd: drie panelen, navigatie, een Nicola-hotspot, korte effecten, optioneel geluid en een zelfstandig offline HTML-bestand. Broncontroles slagen. De browsercontrole vanuit deze sessie is beperkt door onbereikbaar loopbackverkeer en een geblokkeerd file:-adres; daadwerkelijke layout en audio moeten nog in een browser worden bekeken.
 
-Volgende stap: het offline bestand lezen en de timing, grootte van de panelen en Nicola-interactie beoordelen. Daarna de stijl verder vastleggen en de volledige episode voorbereiden. Er is geen hosting toegevoegd.
+De gebruiker vindt de leesproef prima en heeft Nicola's interactie bijgestuurd: een blauwe tekstballon in het stripkader en zijn hoofd naar de lezer gedraaid, zonder popup. Dit is verwerkt met een transparante hoofdlaag en een korte overgang; vloeiende tussenframes zijn nog niet getekend. Verder bladeren blijft mogelijk terwijl hij praat.
+
+Volgende stap: de aangepaste Nicola-reactie bekijken. Daarna de stijl verder vastleggen en de volledige episode voorbereiden. Er is geen hosting toegevoegd.

@@ -39,9 +39,15 @@
               <title id="art-title">Krek zet zich schrap</title>
               <desc id="art-description">Krek beweegt vooruit; Nicola hangt aan zijn tuig en Nyra volgt achter hen.</desc>
               <image href="assets/forward-v3.png" x="0" y="0" width="1536" height="1024"/>
+              <image id="nicola-facing-head" class="nicola-facing-head" href="assets/nicola-reader-head-v1.png" x="790" y="20" width="94" height="94" aria-hidden="true"/>
             </svg>
             <div id="dust" class="dust" aria-hidden="true"></div>
-            <button id="nicola-hotspot" class="nicola-hotspot" type="button" aria-label="Bekijk Nicola’s opmerking"><span class="hotspot-ring" aria-hidden="true"></span><span class="hotspot-label">Nicola?</span></button>
+            <button id="nicola-hotspot" class="nicola-hotspot" type="button" aria-label="Laat Nicola tegen je praten" aria-controls="nicola-balloon" aria-expanded="false"><span class="hotspot-ring" aria-hidden="true"></span><span class="hotspot-label">Nicola?</span></button>
+          </div>
+          <div id="nicola-balloon" class="nicola-balloon" hidden>
+            <div class="balloon-voice"><span>NICOLA · TEGEN JOU</span><button id="nicola-close" type="button" aria-label="Laat Nicola weer vooruitkijken">×</button></div>
+            <p id="nicola-comment" lang="en" aria-live="polite" aria-atomic="true"></p>
+            <button id="nicola-another" class="balloon-another" type="button">Nog een gedachte ↻</button>
           </div>
           <p id="image-error" class="image-error" hidden>Het beeld kon niet laden. Je kunt het verhaal hieronder als tekst lezen.</p>
         </div>
@@ -59,7 +65,7 @@
         <h2 id="panel-title">Een praktische oplossing.</h2>
         <p id="panel-narration" class="narration"></p>
         <blockquote class="character-quote"><span id="quote-character" class="quote-character"></span><p id="quote-text"></p></blockquote>
-        <button id="nicola-open" type="button" class="nicola-open"><span class="nicola-glyph" aria-hidden="true">◉</span><span>Nicola heeft een theorie<small>Hij weet dat je meekijkt.</small></span><span aria-hidden="true">↗</span></button>
+        <button id="nicola-open" type="button" class="nicola-open" aria-controls="nicola-balloon" aria-expanded="false"><span class="nicola-glyph" aria-hidden="true">◉</span><span>Nicola heeft een theorie<small>Hij weet dat je meekijkt.</small></span><span aria-hidden="true">↗</span></button>
         <p id="ending-note" class="ending-note" hidden>Een gebaand pad. Drie manieren om vooruit te gaan.</p>
       </aside>
     </div>
@@ -77,11 +83,6 @@
 
   <footer class="site-footer"><span>STONE & COLD TINKERING <span class="footer-dot">·</span> CONCEPTEDITIE</span><span class="keyboard-hint"><kbd>←</kbd><kbd>→</kbd> Bladeren op je eigen tempo</span></footer>
 
-  <dialog id="nicola-dialog" class="nicola-dialog" aria-labelledby="nicola-title" aria-describedby="nicola-comment">
-    <div class="dialog-heading"><span class="dialog-person"><span class="dialog-eye" aria-hidden="true">◉</span> NICOLA <small>TEGEN JOU, JA.</small></span><button id="nicola-close" type="button" class="dialog-close" aria-label="Sluit Nicola’s opmerking">×</button></div>
-    <p class="dialog-eyebrow">EEN ONVERWACHTE WAARNEMER</p><h2 id="nicola-title">Ah. Je kijkt mee.</h2><p id="nicola-comment" lang="en" aria-live="polite"></p>
-    <p class="dialog-footnote">Er verandert niets aan hun route. Alleen aan jouw perspectief.</p><button id="nicola-another" class="theory-button" type="button">Nog een theorie <span aria-hidden="true">↻</span></button>
-  </dialog>
   <noscript><p class="noscript-note">Voor bladeren en de extra opmerkingen is JavaScript nodig. De stripplaat en eerste tekst blijven beschikbaar.</p></noscript>
 </body>
 </html>

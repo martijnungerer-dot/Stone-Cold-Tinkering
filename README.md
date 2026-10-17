@@ -18,7 +18,7 @@ De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png 
 
 ## Projectstatus
 
-De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Werkbeeld v3 is voorlopig bruikbaar; de oorspronkelijke poster blijft de stijlmaatstaf. Er is geen hosting toegevoegd.
+De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Klikken op Nicola laat hem naar de lezer kijken en een blauwe tekstballon binnen het stripkader tonen. Werkbeeld v3 is voorlopig bruikbaar; de oorspronkelijke poster blijft de stijlmaatstaf. Er is geen hosting toegevoegd.
 
 ## Proef bekijken
 

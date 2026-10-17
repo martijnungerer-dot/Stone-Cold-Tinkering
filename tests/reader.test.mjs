@@ -28,6 +28,10 @@ test('de lokale reader levert de scène en bewaakt de publieke bestandsgrens', a
   assert.equal(image.headers.get('content-type'), 'image/png');
   const bytes = image.body;
   assert.deepEqual([...bytes.slice(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+  const readerHead = await request('/assets/nicola-reader-head-v1.png');
+  assert.equal(readerHead.status, 200);
+  assert.equal(readerHead.headers.get('content-type'), 'image/png');
+  assert.deepEqual([...readerHead.body.slice(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
   for (const route of ['/.git/config', '/WORLDBUILDING.md', '/content/episodes/frozen-hollow/STORYBOARD.md', '/assets/%2e%2e%2f.git/config', '/not-found']) {
     assert.equal((await request(route)).status, 404, route);
   }

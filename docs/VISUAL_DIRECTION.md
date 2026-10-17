@@ -12,6 +12,8 @@ De basis bestaat uit verweerd oker, steenbruin, zwart en crème. Koel blauw draa
 
 De referentie gebruikt zware paneelranden, crèmekleurige tekstballonnen en verweerde titelvlakken. Neem die grafische taal mee naar de reader. Geef ieder paneel genoeg ruimte en houd tekstballonnen als losse, aanpasbare tekst boven het beeld. Gebruik stabiele, leesbare lettervormen en een duidelijke leesvolgorde. De posterteksten, kaartlabels, statistieken en kanspercentages worden alleen overgenomen wanneer ze afzonderlijk in de wereldbijbel of het storyboard zijn vastgesteld.
 
+Gebruikerskeuze na de eerste leesproef: wanneer Nicola wordt aangeklikt, draait hij zijn hoofd naar de lezer en spreekt die aan via een anders gekleurde tekstballon in het stripkader. Gebruik lichtblauw voor dit directe lezerscontact. Deze interactie hoort bij de strip; toon geen popup of verduisterde achtergrond. De huidige proef gebruikt een transparante frontale hoofdlaag en een korte overgang tussen de twee blikken. Tussenframes voor een vloeiender hoofddraai blijven een latere beeldtaak.
+
 ## Personages
 
 De poster is ook een karakterreferentie. Lees [karakterisering en ontwikkeling](../content/characters/CHARACTER_ARCS.md) voor hun overtuigingen, humor, onderlinge dynamiek en episodeboog. Gebruik die bij houding, blik en reactie; uiterlijk alleen draagt hun identiteit niet volledig.

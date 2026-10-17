@@ -10,7 +10,8 @@ const routes = new Map([
   ['/styles.css', ['reader/styles.css', 'text/css; charset=utf-8']],
   ['/app.js', ['reader/app.js', 'text/javascript; charset=utf-8']],
   ['/scene-data.js', ['reader/scene-data.js', 'text/javascript; charset=utf-8']],
-  ['/assets/forward-v3.png', ['assets/concepts/forward-v3.png', 'image/png']]
+  ['/assets/forward-v3.png', ['assets/concepts/forward-v3.png', 'image/png']],
+  ['/assets/nicola-reader-head-v1.png', ['assets/concepts/nicola-reader-head-v1.png', 'image/png']]
 ]);
 
 export function createReaderHandler() {

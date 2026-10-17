@@ -18,12 +18,17 @@ test('de offline reader bevat de echte bronplaat, alle bediening en geen externe
   const html = await readFile(destination, 'utf8');
   assert.doesNotMatch(html, /<script[^>]+src=/i);
   assert.doesNotMatch(html, /<link[^>]+rel="stylesheet"/i);
-  const encoded = html.match(/href="data:image\/png;base64,([A-Za-z0-9+/=]+)"/);
-  assert.ok(encoded, 'Een ingesloten stripplaat is vereist.');
-  const original = await readFile(new URL('../assets/concepts/forward-v3.png', import.meta.url));
+  const encoded = [...html.matchAll(/href="data:image\/png;base64,([A-Za-z0-9+/=]+)"/g)];
+  assert.equal(encoded.length, 2, 'De stripplaat en de naar de lezer gedraaide kop zitten beide in het bestand.');
   const digest = (bytes) => createHash('sha256').update(bytes).digest('hex');
-  assert.equal(digest(Buffer.from(encoded[1], 'base64')), digest(original));
-  assert.match(html, /dialog.showModal\(\)/);
+  for (const [index, name] of ['forward-v3.png', 'nicola-reader-head-v1.png'].entries()) {
+    const original = await readFile(new URL(`../assets/concepts/${name}`, import.meta.url));
+    assert.equal(digest(Buffer.from(encoded[index][1], 'base64')), digest(original));
+  }
+  assert.doesNotMatch(html, /<dialog|showModal|::backdrop/);
+  assert.match(html, /aria-controls="nicola-balloon"/);
+  assert.match(html, /class="nicola-facing-head"/);
+  assert.match(html, /\.is-looking \.nicola-facing-head\{opacity:1/);
   assert.match(html, /prefers-reduced-motion/);
   assert.match(html, /aria-live="polite"/);
   assert.match(html, /A much better path/);

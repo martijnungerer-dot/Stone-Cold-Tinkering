@@ -9,9 +9,9 @@
   let audioContext = null;
   let audioMaster = null;
   let animationTimer = null;
-  let dialogTrigger = null;
+  let nicolaTrigger = null;
   let soundGeneration = 0;
-  const dialog = $('nicola-dialog');
+  const balloon = $('nicola-balloon');
   const artStage = $('art-stage');
 
   function preferences() {
@@ -100,6 +100,9 @@
     $('quote-text').lang = 'en';
     $('nicola-hotspot').style.left = `${panel.hotspot.x}%`;
     $('nicola-hotspot').style.top = `${panel.hotspot.y}%`;
+    $('art-shell').style.setProperty('--nicola-x', `${panel.hotspot.x}%`);
+    for (const [name, value] of Object.entries(panel.readerHead)) $('nicola-facing-head').setAttribute(name, value);
+    closeNicola();
     $('previous').disabled = state.index === 0;
     $('next').replaceChildren(document.createTextNode(state.index === panels.length - 1 ? 'Opnieuw lezen ' : 'Verder '));
     const arrow = document.createElement('span'); arrow.setAttribute('aria-hidden', 'true'); arrow.textContent = state.index === panels.length - 1 ? '↻' : '→'; $('next').append(arrow);
@@ -116,16 +119,33 @@
   }
 
   function goTo(index) {
-    if (dialog.open) return;
     const next = Math.max(0, Math.min(panels.length - 1, index));
     if (next === state.index) return;
     state.index = next; render();
   }
 
   function showNicola(event) {
-    dialogTrigger = event.currentTarget;
+    if (!balloon.hidden) { closeNicola(); return; }
+    nicolaTrigger = event.currentTarget;
+    // Stop the camera so the gaze stays anchored to Nicola's body.
+    clearTimeout(animationTimer);
+    artStage.classList.remove('is-animating', 'is-impact');
+    artStage.classList.add('is-looking');
+    $('art-shell').classList.add('is-speaking');
+    balloon.hidden = false;
+    for (const id of ['nicola-hotspot', 'nicola-open']) $(id).setAttribute('aria-expanded', 'true');
     $('nicola-comment').textContent = panels[state.index].theories[state.theory];
-    if (!dialog.open) dialog.showModal();
+    $('art-description').textContent = `${panels[state.index].description} Nicola draait zijn hoofd naar de lezer en spreekt die rechtstreeks aan.`;
+  }
+
+  function closeNicola({ restoreFocus = false } = {}) {
+    balloon.hidden = true;
+    artStage.classList.remove('is-looking');
+    $('art-shell').classList.remove('is-speaking');
+    for (const id of ['nicola-hotspot', 'nicola-open']) $(id).setAttribute('aria-expanded', 'false');
+    $('art-description').textContent = panels[state.index].description;
+    const focusWasInBalloon = document.activeElement === $('nicola-close') || document.activeElement === $('nicola-another');
+    if ((restoreFocus || focusWasInBalloon) && nicolaTrigger?.isConnected) nicolaTrigger.focus();
   }
 
   function buildTranscript() {
@@ -149,10 +169,8 @@
   $('replay').addEventListener('click', () => { animate(); void playSound(); });
   $('nicola-hotspot').addEventListener('click', showNicola);
   $('nicola-open').addEventListener('click', showNicola);
-  $('nicola-close').addEventListener('click', () => dialog.close());
+  $('nicola-close').addEventListener('click', () => closeNicola({ restoreFocus: true }));
   $('nicola-another').addEventListener('click', () => { state.theory = (state.theory + 1) % panels[state.index].theories.length; $('nicola-comment').textContent = panels[state.index].theories[state.theory]; });
-  dialog.addEventListener('click', (event) => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
-  dialog.addEventListener('close', () => { if (dialogTrigger?.isConnected) dialogTrigger.focus(); });
   $('motion-toggle').addEventListener('click', () => {
     state.motion = !state.motion; savedMotion = state.motion ? 'on' : 'off';
     try { localStorage.setItem('stone-cold-motion', savedMotion); } catch { /* Optional persistence. */ }
@@ -165,7 +183,8 @@
   });
   motionQuery.addEventListener('change', () => { if (savedMotion === null) { state.motion = !motionQuery.matches; preferences(); if (!state.motion) artStage.classList.remove('is-animating', 'is-impact'); } });
   document.addEventListener('keydown', (event) => {
-    if (dialog.open || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
+    if (event.key === 'Escape' && !balloon.hidden) { event.preventDefault(); closeNicola({ restoreFocus: true }); }
     if (event.key === 'ArrowRight') { event.preventDefault(); goTo(state.index + 1); }
     if (event.key === 'ArrowLeft') { event.preventDefault(); goTo(state.index - 1); }
   });

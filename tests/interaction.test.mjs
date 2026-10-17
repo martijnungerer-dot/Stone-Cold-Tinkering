@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
 
 // In-process DOM double: exercises the real reader logic without pretending to
-// verify browser layout, browser focus trapping, audio hardware or rendering.
+// verify browser layout, audio hardware or rendering.
 test('de reader bewaart paneelvolgorde, optioneel perspectief en veilige voorkeuren', async () => {
   let document;
   class Element {
@@ -19,8 +19,6 @@ test('de reader bewaart paneelvolgorde, optioneel perspectief en veilige voorkeu
     addEventListener(name, handler) { this.listeners.set(name, handler); }
     fire(name, props = {}) { this.listeners.get(name)?.({ target: this, currentTarget: this, ...props }); }
     focus() { document.activeElement = this; }
-    showModal() { this.open = true; }
-    close() { this.open = false; this.fire('close'); }
   }
   const elements = new Map();
   const $ = (id) => { if (!elements.has(id)) elements.set(id, new Element()); return elements.get(id); };
@@ -44,17 +42,32 @@ test('de reader bewaart paneelvolgorde, optioneel perspectief en veilige voorkeu
   assert.equal($('current-number').textContent, '02');
   const viewBox = $('scene-art').getAttribute('viewBox');
   $('nicola-open').fire('click');
-  assert.equal($('nicola-dialog').open, true);
+  assert.equal($('nicola-balloon').hidden, false);
+  assert.equal($('art-stage').classList.contains('is-looking'), true, 'Nicola kijkt ook bij minder beweging meteen naar de lezer.');
+  assert.equal($('nicola-facing-head').getAttribute('x'), '676');
+  assert.equal($('nicola-hotspot').getAttribute('aria-expanded'), 'true');
+  assert.match($('art-description').textContent, /hoofd naar de lezer/);
   const firstTheory = $('nicola-comment').textContent;
   $('nicola-another').fire('click');
   assert.notEqual($('nicola-comment').textContent, firstTheory);
   assert.equal($('scene-art').getAttribute('viewBox'), viewBox, 'Een theorie verandert de verhaalpositie niet.');
-  $('next').fire('click');
-  assert.equal($('current-number').textContent, '02', 'Bladeren achter de dialoog is geblokkeerd.');
   $('nicola-close').fire('click');
+  assert.equal($('nicola-balloon').hidden, true);
+  assert.equal($('art-stage').classList.contains('is-looking'), false);
   assert.equal(document.activeElement, $('nicola-open'), 'Focus keert terug naar de opener.');
+  $('nicola-hotspot').fire('click');
+  document.fire('keydown', { key: 'Escape', preventDefault() {} });
+  assert.equal($('nicola-balloon').hidden, true);
+  assert.equal(document.activeElement, $('nicola-hotspot'));
+  $('nicola-hotspot').fire('click');
+  $('nicola-hotspot').fire('click');
+  assert.equal($('nicola-balloon').hidden, true, 'Dezelfde hotspot schakelt terug naar de scène.');
+  $('nicola-hotspot').fire('click');
   $('next').fire('click');
-  assert.equal($('current-number').textContent, '03');
+  assert.equal($('current-number').textContent, '03', 'Verder lezen blijft mogelijk terwijl Nicola praat.');
+  assert.equal($('nicola-balloon').hidden, true, 'Een nieuw paneel herstelt de gewone blik.');
+  assert.equal($('art-stage').classList.contains('is-looking'), false);
+  assert.equal($('nicola-open').getAttribute('aria-expanded'), 'false');
   assert.match($('next').textContent, /Opnieuw lezen/);
   assert.match($('quote-text').textContent, /A much better path/);
   document.fire('keydown', { key: 'ArrowRight', preventDefault() {} });
@@ -65,6 +78,13 @@ test('de reader bewaart paneelvolgorde, optioneel perspectief en veilige voorkeu
   assert.equal($('current-number').textContent, '01');
   steps[1].fire('click');
   assert.equal($('current-number').textContent, '02');
+  $('nicola-open').fire('click');
+  assert.equal($('nicola-comment').textContent, firstTheory, 'Een nieuw bezoek begint bij de eerste opmerking.');
+  $('nicola-another').focus();
+  document.fire('keydown', { key: 'ArrowLeft', preventDefault() {} });
+  assert.equal($('current-number').textContent, '01', 'Ook pijltjestoetsen blijven beschikbaar tijdens een opmerking.');
+  assert.equal($('nicola-balloon').hidden, true);
+  assert.equal(document.activeElement, $('nicola-open'), 'Focus blijft niet achter in een verborgen ballon.');
   $('motion-toggle').fire('click');
   assert.equal(storage.get('stone-cold-motion'), 'on');
   $('motion-toggle').fire('click');
