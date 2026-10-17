@@ -35,7 +35,7 @@ test('de lokale reader levert de scène en bewaakt de publieke bestandsgrens', a
   const episode = await request('/frozen-hollow');
   assert.equal(episode.status, 200);
   assert.match(episode.body.toString(), /Een uitstekend <em>plan/);
-  for (const route of ['/episode.js','/episode.css','/frozen-hollow-data.js','/assets/frozen-hollow/arrival.png','/assets/frozen-hollow/hollow.png','/assets/frozen-hollow/breakthrough.png','/assets/frozen-hollow/aftermath.png','/assets/frozen-hollow/stash-after.png']) assert.equal((await request(route)).status,200,route);
+  for (const route of ['/episode.js','/episode.css','/frozen-hollow-data.js','/assets/frozen-hollow/arrival.png','/assets/frozen-hollow/hollow.png','/assets/frozen-hollow/breakthrough.png','/assets/frozen-hollow/aftermath.png','/assets/frozen-hollow/stash-after.png','/assets/frozen-hollow/chamber-two-v2.png']) assert.equal((await request(route)).status,200,route);
   for (const route of ['/.git/config', '/WORLDBUILDING.md', '/content/episodes/frozen-hollow/STORYBOARD.md', '/assets/%2e%2e%2f.git/config', '/not-found']) {
     assert.equal((await request(route)).status, 404, route);
   }

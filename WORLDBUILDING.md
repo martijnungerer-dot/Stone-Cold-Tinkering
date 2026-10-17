@@ -1,7 +1,7 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.6 · 17 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
+> Versie 1.7 · 17 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## 1. Doel en kern
@@ -248,7 +248,7 @@ FH-01 tot en met FH-09 zijn door de gebruiker als campagnecontext of gespeelde g
 | FH-02 | Reis door besneeuwde Copperneck Mountains naar de oude stenen tunnelingang; wolvensporen uit SRC-FH-INTRO | Exacte route, reistijd en kaartcoördinaten |
 | FH-03 | R-10: metalen deur in bergwand, knipperende kristallen en middenknop uit SRC-R10; groen is de verkeerde keuze en de stash vertrekt met vreemde energie volgens gebruiker | Wie groen aanraakte, aard/bestemming van de energie en eventuele verdere gevolgen |
 | FH-04 | De eerste claustrofobische smalle gang komt langzaam op gang; wolven en Living Spirits. Spirits gaan lastig dood. Krek en Nicola staan bij het openen van de deur vooraan; Nyra komt later in actie | Aantal wolven/Spirits, exacte vakjes, statistieken en weerstandstype |
-| FH-05 | Nyra vernietigt twee grote ijsdemonen in kamer 2, na de smalle gang, volgens de laatste gebruikerscorrectie | Totaal aantal ijsdemonen, opstelling, officiële kaartnaam en elementaire zwakte |
+| FH-05 | Kamer 2 toont twee grote en twee kleinere ijsdemonen, met één Living Spirit achteraan. Nyra vernietigt de twee grote ijsdemonen | Exacte vakjes, officiële grootteklasse/kaartnaam, elementaire zwakte en verdere acties of lot van de drie overige tegenstanders |
 | FH-06 | Halverwege kamer 2 ontstaat stilstand; Krek zegt “we gaan” en sprint met al zijn kracht door de mist naar kamer 3 voor het eindgevecht. De rest volgt overdonderd | Exacte vakjes, deurconstructie en overige letterlijke gesprekken |
 | FH-07 | Krek gebruikt zijn brute movement ability naar een gekozen obstakel binnen vijf vakjes, bij de schat; tunnelen is de gekozen creatieve verhaalvertaling | Officiële kaartnaam, overige kaartvoorwaarden, precieze beginpositie en schatinhoud |
 | FH-08 | Na het openen van de deur en Kreks verplaatsing zijn ook vijanden overdonderd. Nyra stormt erachteraan en doet veel schade; vijanden leven nog. De volgende ronde maakt de groep het efficiënt af | Verrassing als spelstatus, concrete aanval/kaart, schadegetallen en verdeling van laatste treffers |
@@ -479,6 +479,8 @@ De export noemt daarnaast mogelijke toekomstige NPC's en hun achtergronden. Neem
 Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële Designer Diaries. Gebruik de Second Edition FAQ alleen voor een gerichte vraag. Leg per bevestigde claim een directe bron en vindplaats vast. Zoekresultaten, een eerder antwoord of een los platformlabel zijn onvoldoende voor `OFFICIEEL-2E`.
 
 ### Wijzigingslog
+
+- **1.7 — 17 oktober 2026:** gebruikersannotatie bij P23 verwerkt: twee grote en twee kleinere ijsdemonen plus één Living Spirit achteraan in kamer 2. Geen extra gevechtsuitkomsten toegevoegd.
 
 - **1.6 — 17 oktober 2026:** volledige motion-comicbouw expliciet opgedragen. Nieuwste ruimtelijke correctie verwerkt: claustrofobische gang met wolven, ijsdemonen in kamer 2, sprint halverwege kamer 2 door mist naar kamer 3. De precieze vakjes en spelmechaniek blijven apart te verifiëren.
 

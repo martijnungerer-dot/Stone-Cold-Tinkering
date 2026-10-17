@@ -22,8 +22,9 @@ Nieuwe assets, met ingebouwde imagegen gemaakt voor de volledige bouwopdracht. R
 | breakthrough.png | 1254 × 1254 | Zes scènes: sprint, mist, schat, aankomst bij steen, Nyra's schade en finale; CREATIEF |
 | aftermath.png | 1254 × 1254 | Zes scènes: uitputting, wachten, koude bol, terugkeer, krachtopleving en terugval; CREATIEF |
 | stash-after.png | 1536 × 1024 | Lege bergwand als afzonderlijke eindtoestand van de verdwijnende stash; afgeleid van arrival, CREATIEF |
+| chamber-two-v2.png | 1536 × 1024 | Afzonderlijke vervanging van P23: twee grote en twee kleinere ijsdemonen, één Living Spirit achteraan. Ingebouwde imagegen, edit van hollow.png op gebruikersannotatie; alleen de bezetting is als GESPEELD bevestigd, beeldregie CREATIEF |
 
-De vier atlassen hebben twee kolommen en drie rijen. SVG-viewports tonen telkens één scène zonder de overige cellen in beeld; het offline bestand sluit iedere atlas eenmaal in. De 24 scènes worden gebruikt voor 38 verhaalbeats. Exacte prompts en de gebruikte ingebouwde tool staan in [PROMPTS.json](../assets/episodes/frozen-hollow/PROMPTS.json). De eerdere transparante Nicola-hoofdlaag wordt hergebruikt voor direct lezerscontact.
+De vier atlassen hebben twee kolommen en drie rijen. De middelste rechter cel van hollow.png wordt in P23 vervangen door chamber-two-v2.png; de andere cellen blijven in gebruik. SVG-viewports tonen telkens één scène zonder de overige cellen in beeld; het offline bestand sluit iedere atlas eenmaal in. De 24 scènes worden gebruikt voor 38 verhaalbeats. Exacte prompts en de gebruikte ingebouwde tool staan in [PROMPTS.json](../assets/episodes/frozen-hollow/PROMPTS.json). De eerdere transparante Nicola-hoofdlaag wordt hergebruikt voor direct lezerscontact.
 
 De beelden zijn de eerste volledige uitwerking, geen onafhankelijke lorebron of definitieve character sheets. Zie [FROZEN_HOLLOW.md](FROZEN_HOLLOW.md) voor beweging, verificatie en resterende beeldafwerking.
 

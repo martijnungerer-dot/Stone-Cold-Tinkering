@@ -12,6 +12,10 @@ Dit is dezelfde sessie als de bestaande aflevering, geen nieuwe aflevering 02. H
 
 De omgeving is claustrofobisch. Eerst een smalle gang met wolven; de eerder genoemde Living Spirits blijven deel van de trage start. Door de gang gaat het naar de ijsdemonen in kamer 2. Halverwege kamer 2 besluit Krek met al zijn kracht door de mist naar kamer 3 te sprinten. Daar vindt het eindgevecht plaats. Dit vervangt de plaatsing van de ijsdemonen in kamer 1 in de oudere geplakte tekst. Mist is bevestigd, de oorsprong ervan niet. De gebruiker geeft nu expliciet opdracht de volledige story met bewegende beelden te bouwen.
 
+## Bezetting kamer 2 — aangevuld bij paneel P23
+
+De gebruiker bevestigt via de browserannotatie: twee grote ijsdemonen, twee kleinere ijsdemonen en achteraan één Living Spirit moeten zichtbaar zijn. Dit is GESPEELD voor deze kamer, geen algemene spelregel of grootteklasse. Nyra's twee bevestigde eliminaties blijven de twee grote ijsdemonen; uit deze aanvulling volgt geen nieuw lot voor de kleinere demonen of de Spirit.
+
 ## Events en scenarioverhalen
 
 | Onderdeel | Wat bekend is | Status |
@@ -38,12 +42,13 @@ De twee passages hieronder zijn door de gebruiker als eerder eigen verslag aange
 | s001-a01 | City event zonder consequenties volgens de gebruiker; overslaan | GESPEELD; onbekende identiteit blijft OPEN |
 | s001-a02 | Eerste smalle gang: wolven en Living Spirits; de groep komt langzaam op gang en de Spirits gaan lastig dood | GESPEELD; geen aantallen wolven/Spirits, weerstandstype of aanval verzinnen |
 | s001-a03 | Krek en Nicola staan vooraan in de aanval bij het opengaan van de deur; Nyra komt later in actie | GESPEELD; exacte vakjes en initiatieven OPEN |
-| s001-a04 | Nyra vernietigt twee grote ijsdemonen in kamer 2 volgens de laatste correctie | GESPEELD; dit zijn twee bevestigde slachtoffers, geen bevestiging van het totale vijandenaantal of elementaire zwakte |
+| s001-a04 | Nyra vernietigt twee grote ijsdemonen in kamer 2 volgens de laatste correctie | GESPEELD; dit zijn twee bevestigde slachtoffers; zie s001-a10 voor de aangevulde zichtbare bezetting. Geen elementaire zwakte afleiden |
 | s001-a05 | Halverwege kamer 2 valt de groep stil; Krek zegt “we gaan” en sprint met volle kracht door mist naar kamer 3; anderen volgen overdonderd | GESPEELD; mist en kamerindeling bevestigd; exacte vakjes en deurconstructie OPEN |
 | s001-a06 | De deur gaat open; Krek ziet de schat en verplaatst zich naar de steen ernaast; vijanden zijn overdonderd | GESPEELD; eerdere abilitybeschrijving binnen vijf vakjes blijft gelden. Verrassing is een reactie, geen spelstatus |
 | s001-a07 | Nyra stormt erachteraan en doet veel schade; de vijanden leven daarna nog | GESPEELD; aantallen, kaarten en precieze schade OPEN |
 | s001-a08 | De volgende ronde maakt de groep het efficiënt af; gewonnen | GESPEELD; volgorde en verdeling van laatste treffers OPEN |
 | s001-a09 | Nyra zakt na de overwinning uitgeput in elkaar | GESPEELD; geen sterven, nieuwe ziekte of regelspecifieke verklaring toevoegen |
+| s001-a10 | Kamer 2/P23 toont twee grote ijsdemonen, twee kleinere ijsdemonen en één Living Spirit achteraan | GESPEELD via gebruikersannotatie; verdere acties en lot van de drie extra tegenstanders OPEN |
 
 ## Creatieve taal en voorstellen uit de oudere chat
 

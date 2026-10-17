@@ -10,7 +10,7 @@ Voor een nieuwe sessie of aflevering: lees ook docs/SESSION_WORKFLOW.md, content
 
 De gebruiker heeft nu expliciet de volledige Frozen Hollow-motion comic opgedragen, inclusief beelden en beweging. De eerste volledige leesversie staat in reader/frozen-hollow.html, met hergebruikte vormgeving en bediening van de afgeronde driepanelige proef. De proef blijft bewaard. Zie docs/FROZEN_HOLLOW.md voor bouw, werking en verificatie. Nieuwe dialoog en beelden zijn creatieve adaptatie; er is geen websitepublicatie gevraagd.
 
-Storyboard v0.5 en sessie S001 zijn de actuele basis. Laatste correctie: claustrofobische smalle gang met wolven en Spirits → kamer 2 met twee ijsdemonen → halverwege kamer 2 Kreks sprint vol kracht door mist → kamer 3 met de schat en het eindgevecht → Nyra uitgeput → Hail-epiloog met Nyra als hook. S08/P23–P25 wordt vóór S06 gelezen; IDs zijn stabiel. City event overslaan. Alle drie spreken Engels. De healinggrap is creatief repertoire, geen gespeelde gebeurtenis. Lees bij beelden content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
+Storyboard v0.6 en sessie S001 zijn de actuele basis. Laatste correctie: claustrofobische smalle gang met wolven en Spirits → kamer 2 met twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan → halverwege kamer 2 Kreks sprint vol kracht door mist → kamer 3 met de schat en het eindgevecht → Nyra uitgeput → Hail-epiloog met Nyra als hook. S08/P23–P25 wordt vóór S06 gelezen; IDs zijn stabiel. City event overslaan. Alle drie spreken Engels. De healinggrap is creatief repertoire, geen gespeelde gebeurtenis. Lees bij beelden content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
 
 ## Inhoudelijke regels
 

@@ -2,7 +2,7 @@
 window.COMIC_EPISODE = {
   "id": "frozen-hollow",
   "title": "Een uitstekend plan.",
-  "version": "1.0",
+  "version": "1.0.1",
   "assets": {
     "arrival": {
       "src": "assets/frozen-hollow/arrival.png",
@@ -34,6 +34,13 @@ window.COMIC_EPISODE = {
     },
     "stash-after": {
       "src": "assets/frozen-hollow/stash-after.png",
+      "columns": 1,
+      "rows": 1,
+      "width": 1536,
+      "height": 1024
+    },
+    "chamber-two-v2": {
+      "src": "assets/frozen-hollow/chamber-two-v2.png",
       "columns": 1,
       "rows": 1,
       "width": 1536,
@@ -449,13 +456,13 @@ window.COMIC_EPISODE = {
       "id": "P23",
       "scene": "S08",
       "art": {
-        "key": "hollow",
-        "cell": 3
+        "key": "chamber-two-v2",
+        "cell": 0
       },
       "motion": "spirit",
       "location": "Kamer 2",
-      "narration": "Twee grote ijsdemonen. En nog steeds weinig ruimte.",
-      "description": "De lage tweede kamer biedt nauwelijks ruimte tussen het trio en twee grote, scherpe ijsdemonen. Nyra komt van achteren naar voren.",
+      "narration": "Twee grote ijsdemonen. Twee kleinere. Achteraan een Living Spirit. En nauwelijks ruimte.",
+      "description": "In de lage tweede kamer staan twee grote ijsdemonen aan de zijkanten en twee kleinere ertussen. Achter hen zweeft een Living Spirit. Krek, Nicola en Nyra staan dicht op elkaar op de voorgrond.",
       "title": "IJsdemonen",
       "sceneTitle": "Kamer 2 · Koude tegenstand",
       "dialogue": []

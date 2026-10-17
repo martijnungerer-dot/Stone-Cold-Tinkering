@@ -10,7 +10,7 @@ Voor iedere volgende speelsessie volgen we [van speelsessie naar aflevering](doc
 
 De verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episodes/frozen-hollow/STORYBOARD.md): 38 hoofdpanelen en 6 optionele perspectiefpanelen, inclusief de terugkeer naar Hail met Nyra als dramatische hook. Nieuwe dialogen zijn creatieve voorstellen; expliciete open sessiedetails blijven herkenbaar.
 
-Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions/s001/SESSION.md). Storyboard v0.5 verwerkt de laatste correctie: een claustrofobische gang met wolven, ijsdemonen in kamer 2, Kreks sprint door mist naar kamer 3 en het eindgevecht over twee rondes. Het vergeten city event wordt overgeslagen. Alle drie spreken Engels; voorgestelde Krek-woordgrappen blijven apart van gespeelde feiten.
+Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions/s001/SESSION.md). Storyboard v0.6 verwerkt de laatste correctie: een claustrofobische gang met wolven, ijsdemonen in kamer 2, Kreks sprint door mist naar kamer 3 en het eindgevecht over twee rondes. Het kamerbeeld P23 toont volgens de gebruikerscorrectie twee grote en twee kleinere ijsdemonen, plus één Living Spirit achteraan. Het vergeten city event wordt overgeslagen. Alle drie spreken Engels; voorgestelde Krek-woordgrappen blijven apart van gespeelde feiten.
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
 

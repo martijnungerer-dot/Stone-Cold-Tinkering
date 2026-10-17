@@ -4,7 +4,7 @@ De serie groeit mee met de gespeelde campagne. Uitgangspunt is één aflevering 
 
 | Aflevering | Sessie en bronbereik | Stand | Volgende stap |
 | --- | --- | --- | --- |
-| 01 — [Frozen Hollow: Een uitstekend plan](frozen-hollow/STORYBOARD.md) | [S001](../sessions/s001/SESSION.md), eigen kamer-verslag en geregistreerde bronfoto's; speeldatum OPEN; Frozen Hollow en R-10, city event overslaan | v0.5 verwerkt de nieuwste gang/kamer-2/kamer-3-indeling. Eerste volledige motion-comicversie 1.0 gebouwd; beeld en nieuwe dialoog zijn creatieve adaptatie | De volledige leesversie bekijken; zie docs/FROZEN_HOLLOW.md |
+| 01 — [Frozen Hollow: Een uitstekend plan](frozen-hollow/STORYBOARD.md) | [S001](../sessions/s001/SESSION.md), eigen kamer-verslag en geregistreerde bronfoto's; speeldatum OPEN; Frozen Hollow en R-10, city event overslaan | v0.6 verwerkt ook de vijf zichtbare tegenstanders in kamer 2. Volledige motion-comicversie 1.0.1 gebouwd; beeld en nieuwe dialoog zijn creatieve adaptatie | De volledige leesversie bekijken; zie docs/FROZEN_HOLLOW.md |
 
 Er is nog geen tweede sessie aangeleverd. Maak geen datum, scenario of gebeurtenissen voor aflevering 02 aan. De losse bewegingsproef **Altijd voorwaarts** is afgerond en door de gebruiker aanvaard als basis voor de leeservaring en Nicola's interactie; zij telt niet als een extra gespeelde aflevering. Zie [PROTOTYPE.md](../../docs/PROTOTYPE.md).
 
@@ -15,7 +15,7 @@ Dit is een wegwijzer naar bestaande feiten, geen nieuw sessieverslag of extra go
 | Onderdeel | Wat vastligt | Vindplaats en status |
 | --- | --- | --- |
 | Gezelschap | Krek, Nicola en Nyra | Wereldbijbel; geen nieuw vertrek of nieuwe aansluiting bevestigd |
-| Gang en kamer 2 | Eerst een claustrofobische gang met wolven/Spirits, trage start; Krek en Nicola vooraan. In kamer 2 vernietigt Nyra twee grote ijsdemonen | S001 / SRC-FH-SESSION, GESPEELD; geen exacte kaartposities of kaartwerkingen |
+| Gang en kamer 2 | Eerst een claustrofobische gang met wolven/Spirits, trage start; Krek en Nicola vooraan. Kamer 2 toont twee grote en twee kleinere ijsdemonen met één Spirit achteraan; Nyra vernietigt de twee grote | S001 / SRC-FH-SESSION, GESPEELD; geen exacte kaartposities of kaartwerkingen |
 | Stash | Groen was de verkeerde keuze; de stash vertrok met vreemde energie | FH-03, GESPEELD; geen bevestigde bestemming of latere werking |
 | Krek | Verplaatsing naar een gekozen obstakel binnen vijf vakjes, bij de schat | FH-07, GESPEELD; tunnelen is CREATIEF; schatinhoud OPEN |
 | Nyra | Uitgeput na de finale | FH-09, GESPEELD; geen extra aandoening of regelspecifieke oorzaak bevestigd |

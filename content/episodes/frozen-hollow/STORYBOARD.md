@@ -1,6 +1,6 @@
 # Frozen Hollow — Een uitstekend plan
 
-> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.5
+> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.6
 > Status: de gebruiker geeft nu opdracht de volledige motion comic te bouwen en verduidelijkt de indeling. Deze versie corrigeert v0.4: de ijsdemonen staan in kamer 2; Krek sprint halverwege die kamer door mist naar kamer 3. Beelden en nieuwe dialoog blijven creatieve adaptatie.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
@@ -225,11 +225,11 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 ### S08 — Koude tegenstand
 
-**Locatie:** kamer 2; dit blok staat in de leesvolgorde vóór S06–S07. **Ritme:** Nyra komt later op gang, dan een beslissende bijdrage. **Basis:** GESPEELD FH-05 / s001-a04. Twee grote ijsdemonen worden door haar vernietigd; de exacte aanval en totale vijandenaantallen blijven OPEN.
+**Locatie:** kamer 2; dit blok staat in de leesvolgorde vóór S06–S07. **Ritme:** Nyra komt later op gang, dan een beslissende bijdrage. **Basis:** GESPEELD FH-05 / s001-a04. Kamer 2 bevat twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan, bevestigd in de gebruikersannotatie bij P23 / s001-a10. Nyra vernietigt de twee grote; de exacte aanval en het verdere lot van de drie overige tegenstanders blijven OPEN.
 
 #### P23 — IJsdemonen
 
-**Beeld:** twee grote ijsdemonen krijgen een duidelijke eigen uitsnede. Nyra bereikt de voorgrond en richt haar aandacht op hen. Dit zijn de twee bevestigde doelen; het paneel pretendeert geen volledige vijandopstelling of gedeelde oorsprong met de Spirits te tonen.
+**Beeld:** twee grote ijsdemonen staan aan weerszijden, twee duidelijk kleinere ijsdemonen ertussen en één Living Spirit achter hen. Alle vijf zijn zichtbaar. Krek, Nicola en Nyra staan dicht op elkaar op de voorgrond. De lage stenen kamer blijft claustrofobisch. De Spirit is doorschijnende nevel, duidelijk verschillend van het vaste hoekige ijs.
 
 **Tekst:** geen.
 
@@ -558,6 +558,8 @@ De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke repli
 - Werkt de overgang van Nyra's uitputting via de korte krachtopleving naar “Make it stay” als dramatische hook?
 
 ### Wijzigingslog
+
+- **0.6:** P23 gecorrigeerd op gebruikersannotatie: twee grote en twee kleinere ijsdemonen plus één Living Spirit achteraan. Nieuwe afzonderlijke illustratie; P24/P25 blijven uitsneden van Nyra's aanval op de twee grote. Geen extra eliminaties afgeleid.
 
 - **0.5:** volledige beeld- en readerbouw expliciet opgedragen. Laatste gebruikerscorrectie vervangt de kamerplaatsing uit v0.4: claustrofobische gang met wolven; ijsdemonen in kamer 2; Kreks sprint halverwege kamer 2 door mist naar het eindgevecht in kamer 3. Geen nieuwe kaartregels of deurvernieling afgeleid.
 

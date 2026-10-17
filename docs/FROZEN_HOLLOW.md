@@ -1,6 +1,6 @@
-# Frozen Hollow — volledige motion comic, versie 1.0
+# Frozen Hollow — volledige motion comic, versie 1.0.1
 
-De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.5](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De volledige versie is nog niet door de gebruiker beoordeeld.
+De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.6](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De volledige versie is nog niet door de gebruiker beoordeeld.
 
 ## Openen
 
@@ -12,9 +12,9 @@ Voor ontwikkeling: `npm start` meldt het adres voor `/frozen-hollow`. Er zijn ge
 
 - 38 hoofdpanelen, 11 scène-ingangen en 6 optionele gedachtepanelen bij het overleg. Bestaande IDs zijn behouden; de leesvolgorde staat expliciet in het storyboard en READER.json.
 - Eerst Hail/Crooked Bone, bergreis en de verkeerde groenkeuze bij Qualco's stash. Het onbekende city event is overgeslagen.
-- Binnen: een claustrofobische smalle gang met wolven en Living Spirits. Daarna kamer 2 met twee grote ijsdemonen. Halverwege kamer 2 sprint Krek vol kracht door mist naar kamer 3. Daar volgen de schat, zijn verplaatsing naar de steen, Nyra's schadegolf en de gezamenlijke afronding in de volgende ronde.
+- Binnen: een claustrofobische smalle gang met wolven en Living Spirits. Daarna kamer 2 met twee grote en twee kleinere ijsdemonen, met één Living Spirit achteraan. Halverwege kamer 2 sprint Krek vol kracht door mist naar kamer 3. Daar volgen de schat, zijn verplaatsing naar de steen, Nyra's schadegolf en de gezamenlijke afronding in de volgende ronde.
 - Nyra zakt uitgeput in elkaar. De epiloog keert terug naar Hail; de tijdelijke kracht en het wegvallen daarvan eindigen op Nyra en “Make it stay”. Geen verdere conclusie-onthullingen toegevoegd.
-- 24 nieuwe geïllustreerde scènes in vier atlassen; verschillende uitsneden en hergebruikte camerastandpunten dragen de 38 beats. Een vijfde beeld is de lege bergwand nadat de stash verdwenen is.
+- Vier atlassen en een afzonderlijk gecorrigeerd kamerbeeld dragen de 38 beats. Een zesde beeldbestand is de lege bergwand nadat de stash verdwenen is.
 - Engelse dialoog staat als schaalbare tekstballonnen binnen het stripkader. Vertelling en bediening zijn Nederlands. Alle inhoud staat ook in een statisch transcript in het offline bestand.
 
 ## Bediening en beweging
@@ -41,7 +41,7 @@ Het [assetregister](ASSET_REGISTER.md) bewaart herkomst, afmetingen en de gebrui
 - `scripts/compile-episode.mjs`: koppelt de dialoog rechtstreeks aan stabiele paneel-IDs uit het storyboard; maakt `reader/frozen-hollow-data.js`.
 - `reader/frozen-hollow.html`, `reader/episode.js`, `reader/episode.css`: volledige reader met de bestaande gedeelde vormgeving in `reader/styles.css`.
 - `scripts/build-offline.mjs`: maakt zowel de bewaarde proef als de volledige aflevering; embedt iedere atlas eenmaal en bewaart het transcript zonder JavaScript.
-- `assets/episodes/frozen-hollow/`: de vijf nieuwe beeldbestanden en het promptregister.
+- `assets/episodes/frozen-hollow/`: de zes beeldbestanden en het promptregister.
 
 Controleer met `npm test`. De zeven controles slagen: beide leesversies, de publieke bestandsgrens, alle 38 verhaalstappen, de kamerindeling en tweefasige finale, optionele gedachten, Nicola's blik/ballon, inspectie, paneellinks, voorkeuren en het offline insluiten van de originele PNG-bytes.
 
