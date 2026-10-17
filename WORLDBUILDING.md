@@ -1,7 +1,7 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.1 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
+> Versie 1.2 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## 1. Doel en kern
@@ -22,6 +22,7 @@ Deze versie gebruikt:
 - De teruggelezen conversatie **Party namen Gloomhaven**, ID `69d3fea0-3918-8385-b26d-1f8990877422`.
 - De daadwerkelijk bekeken kaartafbeelding uit die conversatie, oorspronkelijk `image(8).png`.
 - De naderhand door de gebruiker aangeleverde tekstexport van de bespreking, oorspronkelijk `Geplakte tekst.txt`.
+- Aanvullende gebruikersbevestiging: het groene kristal hoorde bij Qualco's Emergency Temporal Stash; groen was de verkeerde keuze en de stash vertrok met vreemde energie. Krek gebruikte een brute movement ability naar een gekozen obstakel binnen vijf vakjes; de verplaatsing mag in de storyline als tunnelen worden verbeeld.
 
 Bij de eerste versie waren de eerdere assistentantwoorden alleen als inhoudsverwijzingen beschikbaar. De aangeleverde tekstexport herstelt nu de inhoudelijke afspraken en de samenvatting van het eerdere onderzoek. De export bevat bronlabels zoals “Cephalofair”, “Reddit” en “GitHub”, maar geen controleerbare directe bronverwijzingen bij de afzonderlijke claims. Eerdere assistentuitspraken zijn daarom geen onafhankelijke loreverificatie. Er is voor dit bestand geen nieuwe externe loreverificatie uitgevoerd.
 
@@ -91,7 +92,7 @@ Neem geen scenarionummers, beloningen, eventuitkomsten, NPC-achtergronden, monst
 5. **Competentie en chaos bestaan naast elkaar.** Het team kan gevaarlijk effectief zijn zonder ineens goed te vergaderen.
 6. **Een grap verandert geen historie.** Humor mag een deur personifiëren; hij mag geen niet-gespeelde beloning of nieuwe vijandelijke factie creëren.
 7. **Geen soort als karikatuur.** De eigenschappen van Krek, Nicola en Nyra zijn individuele karakterkeuzes, geen algemene uitspraken over hun afkomst.
-8. **Mysterie mag onverklaard blijven.** Een groen kristal hoeft geen vooraf bepaalde oorsprong of toekomstige betekenis te krijgen.
+8. **Mysterie mag onverklaard blijven.** Het verband tussen het groene kristal en Qualco's stash is bevestigd; daaruit volgt geen verklaring voor de vreemde energie of een toekomstige betekenis.
 
 ## 5. Kaart en ruimtelijke wereld
 
@@ -166,7 +167,11 @@ Vaste uitspraken, exact bewaren:
 
 **Spelregie — `CREATIEF`:** lage camerastandpunten, stevige diagonalen en vertraagde anticipatie voor een plotselinge impact. Zijn humor is stellig en kort. Laat hem niet iedere scène dezelfde oneliner zeggen; een zwijgende stap kan de grap dragen.
 
-**Grenzen:** geen willekeurige onkwetsbaarheid, geen oneindig teleportvermogen en geen nieuwe steen- of metaalmagie als officiële klassevaardigheid. De teleport bij de schat hoort bij één bevestigde gebeurtenis; oorzaak en mechaniek blijven open.
+**Bevestigde verplaatsing — `GESPEELD / ONBEVESTIGD-2E`:** Krek heeft volgens de gebruiker een brute movement ability waarmee hij teleporteert naar een obstakel naar keuze binnen vijf vakjes. In Frozen Hollow is dat het obstakel/de steen bij de schat. Deze gebruikersbeschrijving legt het gespeelde vermogen vast; de officiële kaartnaam, exacte formulering en verdere beperkingen zijn nog niet gecontroleerd.
+
+**Verhaalvertaling — `CREATIEF`, door gebruiker voorgesteld:** Krek kan zich met enorme fysieke kracht via een tunnel naar dat obstakel verplaatsen. Toon een gekozen doel, een neerwaartse beweging en een krachtige aankomst. Dit geeft de ability massa en richting. Het is geen bevestiging van een extra ondergronds gangenstelsel, vrije graafvaardigheid of nieuwe route door de scenariokaart.
+
+**Grenzen:** geen willekeurige onkwetsbaarheid, geen oneindig teleportvermogen en geen nieuwe steen- of metaalmagie als officiële klassevaardigheid. Leid uit de vijf vakjes geen extra regels voor zichtlijn, obstakelvernietiging, schade, gebruiksfrequentie of terugkeer af. De stash veroorzaakt Kreks beweging niet.
 
 ### 7.2 Nicola — het experiment kijkt terug
 
@@ -224,11 +229,11 @@ Alle onderstaande ankers zijn `GESPEELD`; hun exacte Second Edition-tekst of mec
 | --- | --- | --- |
 | FH-01 | Crooked Bone en Hail horen bij de context | Exact gesprek, opdrachtvoorwaarden en motief |
 | FH-02 | Copperneck Mountains zijn relevant | Exacte route, reistijd en ingang |
-| FH-03 | Road Event R-10 met een groen kristal | Volledige eventtekst, gemaakte keuze, eigenaar, effect en beloning |
+| FH-03 | R-10: het groene kristal hoort bij Qualco's Emergency Temporal Stash; groen is de verkeerde keuze, waarna de stash met vreemde energie vertrekt | Wie groen koos, exacte handeling, vorm van de stash, aard/bestemming van de energie en eventuele verdere gevolgen |
 | FH-04 | Living Spirits blijken lastig | Statistieken, immuniteiten en precieze oorzaak van het probleem |
 | FH-05 | Er zijn ijsdemonen | Aantal, opstelling en officiële monsternaam indien anders gespeld |
 | FH-06 | De planning verloopt chaotisch | Letterlijke gesprekken en exacte beurtvolgorde |
-| FH-07 | Krek teleporteert naar steen bij de schat | Wie dit veroorzaakt, gebruikte vaardigheid en schatinhoud |
+| FH-07 | Krek gebruikt zijn brute movement ability naar een gekozen obstakel binnen vijf vakjes, bij de schat; tunnelen is de gekozen creatieve verhaalvertaling | Officiële kaartnaam, overige kaartvoorwaarden, precieze beginpositie en schatinhoud |
 | FH-08 | De finale bestaat uit efficiënt geweld | Exacte laatste aanval en verdeling van eliminaties |
 | FH-09 | Nyra is aan het einde uitgeput | Een niet-bevestigde regelspecifieke uitputtingsoorzaak |
 
@@ -239,10 +244,10 @@ De volgorde hieronder is een **voorgestelde vertelmontage**, geen hersteld turn-
 1. **Koude opening — `CREATIEF`:** een korte indruk van kou en een ontoereikend plan; geen nieuwe gevechtsuitkomst tonen.
 2. **Contextbeat — `GESPEELD` met open details:** Crooked Bone/Hail. Houd dialoog voorlopig neutraal of als storyboardnotitie.
 3. **Reisovergang — `KAART / CREATIEF`:** bergsilhouetten en veranderend geluid verbinden de stad met de koude omgeving.
-4. **R-10 — `GESPEELD`:** het groene kristal krijgt aandacht. Laat zijn onbekende werking onbekend; maak er geen bewezen oorzaak van latere teleportatie van.
+4. **R-10 — `GESPEELD`:** het groene kristal hoort bij Qualco's Emergency Temporal Stash. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. Vorm en bewegingsbeeld zijn creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Naam en spelling volgen voorlopig de gebruiker; geen onafhankelijk geverifieerde Second Edition-term. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
 5. **Confrontatie — `GESPEELD`:** Living Spirits bieden onverwacht veel weerstand. Toon mislukte verwachtingen via reactie en ritme, zonder regels te verzinnen.
 6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** overlappende voorstellen; ieder personage benoemt een ander probleem.
-7. **Ruimtelijke omslag — `GESPEELD`:** Krek verschijnt bij de steen nabij de schat. Gebruik duidelijke voor-en-na-beelden zodat de verplaatsing leesbaar is. Een verklarend effect blijft optioneel tot het mechaniek bekend is.
+7. **Ruimtelijke omslag — `GESPEELD / CREATIEF`:** Krek kiest met zijn movement ability het obstakel bij de schat, binnen vijf vakjes. Verbeeld de teleport als een brute tunnelbeweging. Gebruik duidelijke begin- en eindposities; introduceer geen blijvende tunnelroute of onbevestigde aanvalsschade.
 8. **Finale — `GESPEELD`:** efficiënt geweld. Minder overleg, kortere beats, heldere gezamenlijke richting. IJsdemonen maken deel uit van de episode, maar krijgen pas een exacte plek in de montage na bevestiging.
 9. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
 
@@ -269,7 +274,7 @@ Dialoog blijft compact. Laat fysieke actie en reacties de helft van een grap ver
 - Living Spirits: visuele ongrijpbaarheid als sfeer, zonder hiermee een specifieke spelregel te claimen.
 - IJsdemonen: scherpe koude vormen en contrast; definitieve anatomie pas na passende referentie.
 
-Kleurgebruik is artdirection, geen nieuwe officiële elementleer. Maak het groene kristal herkenbaar zonder een effect of afkomst vast te leggen.
+Kleurgebruik is artdirection, geen nieuwe officiële elementleer. Het groene kristal hoort bij Qualco's stash; de verkeerde kleurkeuze en het vertrek met vreemde energie zijn bevestigd. Voeg geen energieverklaring, beloning of bestemming toe.
 
 ### 9.3 Geweld en humor
 
@@ -404,7 +409,7 @@ Registreer voor ieder definitief beeld of geluid: ID, maker/bron, gebruiksrecht 
 - Minder beweging bewaart de betekenis van teleportatie en impact.
 - Personagequotes behouden hun exacte formulering.
 - Het groene kristal krijgt geen onbevestigd effect.
-- Kreks teleport krijgt geen verzonnen mechanische verklaring.
+- Kreks movement ability blijft beperkt tot de gebruikersbeschrijving: een gekozen obstakel binnen vijf vakjes. De creatieve tunnelweergave introduceert geen extra spelmechaniek.
 - Nyra blijft na de finale uitgeput.
 - Geleverde bestanden en metadata bevatten geen ongespeelde campagne-inhoud.
 - Smal en breed scherm tonen leesbare tekst zonder dat cruciale delen van panelen verdwijnen.
@@ -418,9 +423,9 @@ Test vooral navigatie, samenkomstpunten, instellingen en de afwezigheid van verb
 | Tot welk concreet punt is de campagne nu gespeeld? | Publicatiegrens voor volgende episodes | Geen toekomstige onthullingen vóór ze gespeeld zijn; houd de huidige Frozen Hollow-grens aan |
 | Is de kaart van de bedoelde editie? | Exacte geografische claims | Gebruik uitsluitend globale, gelabelde referentie |
 | Wat deden Hail en Crooked Bone precies in de sessie? | Definitieve openingsdialoog | Houd de beat als notitie |
-| Welke keuze en uitkomst hoorden bij R-10? | Uitgewerkte eventscène | Toon alleen het bevestigde groene kristal |
+| Wie koos groen bij Qualco's stash en hoe zag de stash eruit? | Definitieve handeling en objectvorm | Toon de bevestigde verkeerde groenkeuze en het vertrek met vreemde energie zonder een kiezer aan te wijzen |
 | Hoe hangen Frozen Hollow en de Copperneck Mountains exact samen? | Routekaart en locatiepin | Gebruik een niet-cartografische overgang |
-| Wat veroorzaakte Kreks teleport? | Mechanische uitleg en bijbehorende effecten | Toon verplaatsing zonder verklaring |
+| Wat is de officiële kaarttekst van Kreks movement ability? | Exacte regeluitleg | Gebruik de bevestigde beschrijving: gekozen obstakel binnen vijf vakjes; tunnel als creatieve vertaling |
 | Wat zat er in de schat en werd die meegenomen? | Buit en vervolgcontinuïteit | Laat de inhoud onbenoemd |
 | Wat was de precieze gevechtsvolgorde? | Definitieve montage | Bewaar ankers; houd volgorde voorlopig |
 | Welke facties zijn al ontmoet? | Factiehoofdstukken | Voeg alleen gecontroleerde, vrijgegeven contacten toe |
@@ -454,5 +459,6 @@ Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële D
 
 ### Wijzigingslog
 
+- **1.2 — 17 oktober 2026:** gebruikersbevestiging verwerkt over Qualco's Emergency Temporal Stash, de verkeerde groenkeuze en het vertrek met vreemde energie; Kreks movement ability naar een gekozen obstakel binnen vijf vakjes vastgelegd, met tunnelen als creatieve verhaalvertaling. Geen nieuwe officiële lore- of regelverificatie.
 - **1.1 — 17 oktober 2026:** aangeleverde gespreksexport verwerkt; tekstfase, tafelcanon en spoilerafspraak hersteld; onderscheid tussen gegenereerde illustratie en campagnekaart verduidelijkt; Nicola's metakennis en reputatiemotief uitgebreid; eerdere loreclaims als onderzoekswachtrij bewaard zonder ze tot geverifieerde canon te verheffen.
 - **1.0 — 17 oktober 2026:** eerste volledige wereldbijbel op basis van de expliciete gebruikerscontext, teruggelezen conversatiemetadata en bekeken kaart. Frozen Hollow-ankers vastgelegd; ontbrekende broninhoud en Second Edition-verificatie expliciet gemarkeerd; motion-comicformat en technische overdracht toegevoegd.

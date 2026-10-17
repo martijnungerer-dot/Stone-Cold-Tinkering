@@ -1,6 +1,6 @@
 # Frozen Hollow — Een uitstekend plan
 
-> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.1
+> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.2
 > Status: tekststoryboard ter inhoudelijke bespreking; nog geen bouwopdracht.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
@@ -22,8 +22,8 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 | Trio | Krek, Nicola en Nyra; onderlinge dynamiek uit de wereldbijbel | Hetzelfde trio; geen vertrek of nieuwe aansluiting |
 | Doel | Aanleiding via Hail/Crooked Bone nog te preciseren | Geen nieuwe opdracht of campagne-ontgrendeling toegevoegd |
 | Middelen | Geen concrete uitrusting, handkaarten of voorraden vastgesteld | Geen zelfbedachte buit, kaartverlies of verbruik bijgehouden |
-| Kristal | R-10 bevat een groen kristal | Eigendom, keuze en werking blijven open |
-| Krek | Altijd voorwaarts; overtuigingen blijven consistent | Teleport bij steen nabij schat is getoond; oorzaak blijft open |
+| Kristal/stash | Het groene kristal hoort bij Qualco's Emergency Temporal Stash | Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. Kiezer en verdere gevolgen blijven open |
+| Krek | Altijd voorwaarts; ability naar een gekozen obstakel binnen vijf vakjes | Beweging naar de steen bij de schat, creatief verbeeld als brute tunnelactie |
 | Nyra | Arrogante beheersing van magische kleur | Uitgeput; exacte spelmechanische betekenis niet ingevuld |
 
 ### Leessleutel bij panelen
@@ -39,11 +39,11 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 | --- | --- | --- | --- |
 | S01 — De aanleiding | P01–P03 | Hail/Crooked Bone verbinden aan het avontuur | FH-01 |
 | S02 — Naar de kou | P04–P06 | Trio introduceren in een veranderende omgeving | FH-02 |
-| S03 — Groen | P07–P09 | Het kristal aandacht geven zonder verklaring | FH-03 |
+| S03 — Groen | P07–P09 | Verkeerde kleurkeuze; Qualco's stash vertrekt met vreemde energie | FH-03 |
 | S04 — Frozen Hollow | P10–P12 | De locatie en karakterverschillen voelbaar maken | Creatieve presentatie van de gespeelde locatie |
 | S05 — Moeilijker dan verwacht | P13–P15 | Living Spirits verstoren het zelfvertrouwen | FH-04 |
 | S06 — Het uitstekende plan | P16–P19 + 6 zijpanelen | Planning-chaos en Nicola's vierde wand | FH-06 |
-| S07 — Verder dan verwacht | P20–P22 | Kreks teleport helder en grappig vertellen | FH-07 |
+| S07 — Verder dan verwacht | P20–P22 | Kreks movement ability als brute tunnelactie vertellen | FH-07 |
 | S08 — Koude tegenstand | P23–P25 | IJsdemonen en de omslag naar uitvoering | FH-05 |
 | S09 — Eindelijk efficiënt | P26–P29 | Korte, besliste finale | FH-08 |
 | S10 — Wat het kost | P30–P32 | Nyra's uitputting laten doorwerken | FH-09 |
@@ -116,33 +116,41 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 ### S03 — Groen
 
-**Locatie:** een niet nader bepaalde plek onderweg; precieze omstandigheden OPEN. **Ritme:** een korte onderbreking. **Basis:** GESPEELD FH-03; R-10-keuze en uitkomst OPEN.
+**Locatie:** een niet nader bepaalde plek onderweg, bij Qualco's Emergency Temporal Stash. **Ritme:** nieuwsgierigheid, kleurkeuze, vreemde energie, lege plek. **Basis:** GESPEELD FH-03. De gebruiker bevestigt: groen was de verkeerde kleur; de stash vertrok met gekke energie. Wie koos, de exacte bediening, het uiterlijk en eventuele verdere gevolgen blijven OPEN. Naam en spelling volgen de gebruiker; officiële Second Edition-tekst is niet geverifieerd.
 
-#### P07 — Een ander groen
+#### P07 — Emergency Temporal Stash
 
-**Beeld:** close-up van het groene kristal tegen een neutrale achtergrond. Geen hand, houder, vinder of omgeving die bezit en vindomstandigheden vastlegt. Het groen zit in het materiaal; het kristal zendt niet vanzelf licht uit.
+**Beeld:** het groene kristal wordt in samenhang met de stash gekaderd. De vorm van de stash blijft een productiesilhouet totdat een beschrijving beschikbaar is; maak er niet automatisch een gewone schatkist of een apparaat met knoppen van. Qualco verschijnt niet zonder bevestiging van diens aanwezigheid.
 
-**Tekst:** geen.
+**Tekst, contextkader:** “Qualco's Emergency Temporal Stash”
 
-**Beweging/geluid:** een rustige verandering in kadrering is mogelijk. Geen puls, stem, visioen of energiestraal.
+**Beweging/geluid:** rustig vóór de keuze. Geen voorafgaande demonstratie van een niet-bevestigde werking.
 
-#### P08 — Drie blikken
+#### P08 — Groen
 
-**Beeld:** drie losse reacties, redactioneel naast het kristal geplaatst. Dit legt nog niet vast wie het vasthoudt of aanraakt.
+**Beeld:** de keuze voor groen krijgt één duidelijke beat. Een kleine tekststrook vermeldt “Gekozen: groen”. Er is geen selecterende hand in beeld; zo blijft open wie de keuze maakte en hoe de stash werd bediend. Reacties van het trio staan ernaast.
 
-**Dialoog, Nyra:** “Better.”
+**Dialoog, Nyra:** “At least it has color.”
 
-**Dialoog, Nicola:** “Color is an observation. It is not a safety assessment.”
+**Dialoog, Nicola:** “An excellent aesthetic argument. Scientifically incomplete.”
 
-**Dialoog, Krek:** “Still green.”
+**Regie:** Nyra's opmerking maakt haar niet tot de kiezer. De dialoog is een creatieve reactie op de situatie, geen hersteld sessiecitaat.
 
-**Interactie I-01, optioneel:** “Bekijk het kristal” toont dezelfde uitsnede groter. Tekst: “Een groen kristal.” Er verschijnt geen extra lore. Sluiten keert terug naar P08; “Verder” gaat naar P09.
+**Interactie I-01, optioneel:** “Bekijk het kristal” toont dezelfde uitsnede groter. Tekst: “Het groene kristal bij Qualco's Emergency Temporal Stash.” Geen kleurkeuzemenu: groen is al de gespeelde keuze. Sluiten keert terug naar P08; “Verder” gaat naar P09. De lezer kan de mislukking niet voorkomen.
 
-#### P09 — De ontbrekende keuze
+#### P09 — Verkeerde kleur
 
-**Beeld/tekst, productie:** `[OPEN: voeg de werkelijk gekozen R-10-handeling en het zichtbare gevolg toe.]`
+**Beeld:** drie smalle beeldstroken binnen één paneel: de stash op zijn plek; een vreemde energievervorming om de stash; de plek nadat de stash is vertrokken. Het effect mag contouren verschuiven en vormen uitrekken. Dit is creatieve beeldtaal voor de bevestigde gekke energie, geen bewezen tijdreis, bestemming of nieuwe natuurwet.
 
-**Regie:** leg zonder die informatie nog geen nemen, achterlaten, testen, schade of beloning vast. De reviewversie mag deze invulplek tonen. De uiteindelijke episode krijgt óf de bevestigde scène óf een expliciete redactionele ellips die geen uitkomst suggereert.
+**Tekst, contextkader:** “Groen was de verkeerde kleur.”
+
+**Dialoog, Krek:** “It retreated.”
+
+**Dialoog, Nicola:** “A very clear result. Inconvenient, but clear.”
+
+**Beweging/geluid:** later één korte vervorming met een vreemd energiegeluid. Statisch blijven de drie opeenvolgende stroken en de lege eindpositie de gebeurtenis volledig vertellen. Geen flitsen nodig.
+
+**Regie/open:** vertrek is bevestigd; transportmiddel, richting en bestemming zijn dat niet. Toon geen verwonding, kristal in een inventaris, achtergebleven buit of specifieke schade. De stroken zeggen evenmin dat alleen het kristal verdween: het vertrek betreft de stash.
 
 **Overgang:** laat na deze beat eerst een volledige omgevingswissel volgen. Geen beeld- of geluidsbrug van kristal naar teleportatie: die zou een onbevestigd oorzakelijk verband leggen.
 
@@ -296,31 +304,33 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 ### S07 — Verder dan verwacht
 
-**Locatie:** bij de steen nabij de schat; verbinding met eerdere ruimte OPEN. **Ritme:** heldere omslag, korte reactie. **Basis:** GESPEELD FH-07; oorzaak, initiatiefnemer en mechaniek OPEN.
+**Locatie:** bij het gekozen obstakel/de steen nabij de schat; verbinding met eerdere ruimte OPEN. **Ritme:** doel kiezen, brute beweging, aankomst. **Basis:** GESPEELD FH-07. De gebruiker beschrijft Kreks movement ability als teleport naar een obstakel naar keuze binnen vijf vakjes. Tunnelen is de door de gebruiker voorgestelde CREATIEVE verhaalvertaling. Officiële kaartnaam en overige voorwaarden blijven ONBEVESTIGD-2E.
 
-#### P20 — Vóór
+#### P20 — Daarheen
 
-**Beeld:** één duidelijke oriëntatiecompositie. Krek heeft een herkenbare beginpositie. De steen en de schatlocatie zijn in een aparte beeldzone aangeduid. De precieze afstand en plattegrond worden nog niet uitgewerkt.
+**Beeld:** één duidelijke oriëntatiecompositie. Krek kiest de steen/het obstakel bij de schat als doel. Zijn beginpositie en het doel krijgen afzonderlijke, herkenbare beeldzones. Zijn houding zakt naar voren en omlaag: een aanloop die evenveel op een inslag lijkt.
 
-**Tekst:** geen.
+**Dialoog, Krek:** “There.”
 
-**Regie/open:** als de werkelijke scène geen gelijktijdige zichtlijn toeliet, gebruik twee expliciet afzonderlijke ruimtelijke uitsneden. Verzin geen kamerindeling om alles in één shot te krijgen.
+**Regie/open:** het gekozen obstakel moet binnen vijf vakjes van Kreks startpositie liggen volgens de gebruikersbeschrijving. De precieze plattegrond blijft open; teken geen vijf willekeurige routevakken of zichtlijnregel. Als de werkelijke scène geen gelijktijdige zichtlijn toeliet, gebruik afzonderlijke uitsneden zonder er een extra spelvoorwaarde van te maken.
 
-#### P21 — Na
+#### P21 — Dwars door steen
 
-**Beeld:** vergelijkbare uitsnede; nu staat Krek bij de steen nabij de schat. Een kleine nevenuitsnede toont zijn vorige positie leeg. Zo is ook stilstaand duidelijk dat hij verplaatst is.
+**Beeld:** drie krachtige stroken: Krek duikt/beukt omlaag het steenoppervlak in; een korte, abstracte doorsnede toont massa die zich door donkere steen verplaatst; hij komt met stof en kracht bij het gekozen obstakel omhoog. De doorsnede is een actiebeeld, geen nieuwe kaart van een ondergrondse gang. Een kleine nevenuitsnede laat zijn vorige positie leeg zien.
 
-**Tekst:** geen spreuknaam, kaartnaam of verklarend onderschrift.
+**Tekst:** geen spreuknaam, kaartnaam of verklarend onderschrift. Een getekend “KRRR” kan als optionele klanktekst het fysieke geweld versterken.
 
-**Beweging/geluid:** later eventueel een korte beeldwissel, zonder energiestroom vanuit Nicola, Nyra of het kristal. Wie of wat de teleport veroorzaakte blijft OPEN.
+**Beweging/geluid:** later één korte neerwaartse beweging, een zware ondergrondse dreun en een krachtige aankomst. Bij minder beweging vertellen de drie statische stroken hetzelfde. Gebruik steen, massa en stof; geen energie-effect uit de stash en geen spreuk van Nicola of Nyra als oorzaak.
+
+**Regie:** dit is Kreks eigen brute verplaatsing. Geen vijand raakt automatisch gewond; het obstakel verdwijnt niet als spelobject; de schat wordt niet automatisch geopend. Er ontstaat geen blijvende tunnel die het trio later vrij kan gebruiken, tenzij een gespeelde gebeurtenis dat alsnog bevestigt.
 
 #### P22 — Kreks interpretatie
 
-**Beeld:** Krek kijkt tevreden over zijn nieuwe positie. Het gaat om de verplaatsing, niet om het openen of meenemen van de schat.
+**Beeld:** Krek staat bij het gekozen obstakel, stof zakt rond hem neer. Hij kijkt tevreden over zijn nieuwe positie. De schatinhoud blijft buiten de uitsnede; het gaat om zijn aankomst, niet om buit. Het paneel stelt niet vast of de schat al open was.
 
 **Dialoog, Krek — vaste karakterquote:** “I don't step back. We use rolling momentum”
 
-**Regie:** de uitspraak is zijn komische interpretatie. Ze verklaart de teleport niet en geeft hem geen nieuwe vaardigheid. De schatinhoud blijft buiten beeld.
+**Regie:** de uitspraak is zijn komische interpretatie van de gekozen tunnelweergave van zijn ability. Ze maakt die ability niet onbeperkt en voegt geen schade of extra beweging toe. De schatinhoud blijft buiten beeld.
 
 ### S08 — Koude tegenstand
 
@@ -446,7 +456,7 @@ Voor een latere technische proef is P16 → P17 → één zijpad → P18 voldoen
 
 ### Leesbaarheid en toegankelijkheid voor later
 
-- Alle panelen hebben een statische toestand. Teleportatie blijft zichtbaar door het verschil tussen P20 en P21.
+- Alle panelen hebben een statische toestand. De stash vertrekt in drie beeldstroken in P09. Kreks tunnelbeweging blijft zichtbaar door doelkeuze in P20, de drie actiestroken in P21 en aankomst in P22.
 - Tekst blijft staan tot de lezer verdergaat; er is geen verplichte timer.
 - De gedachtepanelen krijgen een geschreven aanduiding “Gedachtebeeld”, naast hun afwijkende rand.
 - Het kristal wordt ook in tekst als groen aangeduid; kleur alleen draagt geen kerninformatie.
@@ -459,9 +469,9 @@ Voor een latere technische proef is P16 → P17 → één zijpad → P18 voldoen
 | Vraag | Betrokken panelen | Gevolg voor deze versie |
 | --- | --- | --- |
 | Wat was de aanleiding via Hail en wat gebeurde in Crooked Bone? | P01–P03 | Aanleiding blijft expliciet een invulplek |
-| Wat gebeurde er bij R-10; wat koos de groep en wat was het gevolg? | P07–P09 | Geen handeling, eigenaar of kristalwerking vastgelegd |
+| Wie koos groen bij Qualco's stash, hoe werd gekozen en hoe zag de stash eruit? | P07–P09 | Verkeerde groenkeuze en vertrek met gekke energie zijn bevestigd; kiezer, vorm en verdere gevolgen blijven open |
 | Waar zaten overleg, ijsdemonen en teleport in de gevechtsvolgorde? | S05–S09 | Blokken mogen na bevestiging verschuiven |
-| Wie of wat veroorzaakte Kreks teleport? | P20–P22 | Alleen voor- en natoestand; geen mechanische uitleg |
+| Wat is de officiële kaarttekst en waar stond Krek precies? | P20–P22 | Zijn ability naar een gekozen obstakel binnen vijf vakjes is bevestigd; tunnelen is creatieve vertaling, overige regels blijven open |
 | Wat werd er met de schat gedaan? | P20–P22 | Geen inhoud of meenemen getoond |
 | Welke concrete acties maakten de finale efficiënt? | P26–P29 | Focus op het trio; precieze aanvallen nog open |
 | Hoe zag Nyra's uitputting er aan tafel uit? | P30–P32 | Zichtbare uitputting, zonder niet-bevestigde spelregel |
@@ -478,4 +488,5 @@ Deze vragen blokkeren de bespreekbare conceptversie niet. De betrokken invulplek
 
 ### Wijzigingslog
 
+- **0.2:** gebruikersdetails verwerkt: Qualco's Emergency Temporal Stash vertrekt met gekke energie na de verkeerde groenkeuze. Kreks ability naar een gekozen obstakel binnen vijf vakjes verbeeld als brute tunnelbeweging. Geen verband tussen beide gebeurtenissen toegevoegd; 32 hoofdpanelen en 6 optionele panelen behouden.
 - **0.1:** eerste volledige tekstmontage, met vaste sessieankers, creatieve dialogen, optionele perspectieven en expliciete ontbrekende details. Geen nieuwe externe lorebronnen gebruikt en geen beelden of software gemaakt.
