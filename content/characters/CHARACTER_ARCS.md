@@ -2,6 +2,8 @@
 
 Status: creatieve schrijfrichtlijn op basis van de gebruikersafspraken, de gekozen poster SRC-STYLE-02 en het bestaande Frozen Hollow-storyboard. De gebruiker waardeert de karakterisering op die poster; onderstaande uitwerking maakt die bruikbaar voor scènes. Zij voegt geen nieuwe gespeelde gebeurtenissen of toekomstige campagne-uitkomsten toe.
 
+De [modelgids](MODEL_GUIDE.md) bepaalt de vaste gezichten en vormen. Het [stripstappenplan](../../docs/COMIC_PLAYBOOK.md) bevat de compacte stemkaart en dialoogcontrole. Onderstaande tekst verdiept die stemmen en ontwikkeling; zij vervangt de actuele beeldmodellen niet.
+
 Zie [WORLDBUILDING.md](../../WORLDBUILDING.md) voor vaste quotes en canonlabels, het [bronregister](../sources/REFERENCES.md) voor de poster en het [storyboard](../episodes/frozen-hollow/STORYBOARD.md) voor de paneelnummers.
 
 De oorspronkelijke klassebeelden van 18 oktober bepalen voortaan het uiterlijk; de hieronder beschreven persoonlijkheden blijven behouden. Zie [visuele richting](../../docs/VISUAL_DIRECTION.md).
@@ -58,7 +60,7 @@ De voorgestelde terugkerende grap is: “NOTHING CAN BREAK ME!” → na een zwa
 
 - P03–P06: hij wil bewegen en vertrouwt op materiaal dat hij begrijpt.
 - P16–P22: planning wordt richting; zijn brute movement ability maakt zijn overtuiging zichtbaar.
-- P32: hij vraagt “Forward?” en wacht wanneer Nyra “In a moment” antwoordt. Een kleine verschuiving: hij laat het tempo van iemand anders meetellen.
+- P32: hij vraagt “Ready for the next stone?” en wacht wanneer Nyra “In a moment” antwoordt. Een kleine verschuiving: hij laat het tempo van iemand anders meetellen.
 - P34–P38: hij blijft bij het trio. Voeg geen grote bekentenis of plotseling omgekeerde persoonlijkheid toe.
 
 Die ontwikkeling bewaart zijn karakter. Ook een Krek die rekening houdt met anderen, kan nog steeds deuren als slechte suggesties beschouwen.
@@ -100,8 +102,8 @@ Zijn stilte is hier net zo karaktervol als een vierdewandgrap. Maak hem niet tot
 - P06–P17-Y2: ze beoordeelt de wereld en de mogelijke oplossingen alsof ze haar compositie kiest.
 - P24–P27: haar kleurvoorkeur wordt daadkracht; het geweld is efficiënt.
 - P30–P32: de uitputting doorbreekt haar zelfverzekerde presentatie. “Improved” bewaart haar stem terwijl haar lichaam iets anders vertelt.
-- P36: bij Hail voelt ze kort opnieuw kracht. Haar houding opent zich.
-- P37–P38: die opleving verdwijnt. “Make it stay” geeft haar zelfverzekerde taal een andere lading: ze wil vasthouden wat ze net voelde.
+- Het afzonderlijke P36 is in v0.8 geschrapt. P37 vat het niet-blijvende resultaat van Hails experiment samen.
+- P37–P38: de vermoeidheid blijft. “Make it stay” richt haar verlangen op een blijvender resultaat. Het experiment wordt in de actuele montage samengevat, zonder aparte oplevingsscène.
 
 Dit is de door de gebruiker gewenste dramatische hook. Er is geen vloek, nieuwe diagnose, betaalde verbetering of vastgelegde toekomstige verhaallijn aan verbonden. Het verlangen mag later op bevestigde campagnegebeurtenissen reageren.
 

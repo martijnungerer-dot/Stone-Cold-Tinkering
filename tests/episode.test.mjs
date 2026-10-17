@@ -33,14 +33,15 @@ async function reader(hash = '') {
   return {$,document,window,storage,audioAccesses:()=>audioAccesses};
 }
 
-test('Frozen Hollow bewaart alle ankers, 36 panelen en de gecorrigeerde chronologie', async () => {
+test('Frozen Hollow bewaart alle ankers, 35 panelen en de gecorrigeerde chronologie', async () => {
   const e = await compileEpisode({write:false});
-  assert.equal(e.panels.length,36); assert.equal(new Set(e.panels.map(p=>p.id)).size,36);
+  assert.equal(e.panels.length,35); assert.equal(new Set(e.panels.map(p=>p.id)).size,35);
   const ids=e.panels.map(p=>p.id);
   assert.deepEqual(ids.slice(0,4),['P07','P08','P09','P01']);
   assert.ok(ids.indexOf('P25') < ids.indexOf('P19'));
   assert.deepEqual(ids.slice(ids.indexOf('P27'),ids.indexOf('P27')+2),['P27','P30']);
-  assert.ok(!ids.includes('P28')&&!ids.includes('P29'));
+  assert.ok(!ids.includes('P28')&&!ids.includes('P29')&&!ids.includes('P36'));
+  assert.deepEqual(ids.slice(ids.indexOf('P35'),ids.indexOf('P35')+2),['P35','P37']);
   assert.equal(e.panels.find(p=>p.id==='P23').location,'Kamer 2');
   assert.match(e.panels.find(p=>p.id==='P19').description,/mist naar de derde kamer/);
   assert.match(e.panels.find(p=>p.id==='P27').narration,/staan nog/);
@@ -106,11 +107,12 @@ test('de volledige reader loopt door alle panelen en houdt optionele inhoud binn
   $('motion-toggle').fire('click');assert.equal(storage.get('stone-cold-motion'),'on');assert.equal($('art-stage').classList.contains('is-animating'),true);
   $('motion-toggle').fire('click');assert.equal($('art-stage').classList.contains('is-animating'),false);
   $('sound-toggle').fire('click');await new Promise(resolve=>setImmediate(resolve));assert.equal(audioAccesses(),1);assert.equal($('sound-label').textContent,'Geluid uit');
-  assert.equal($('transcript-content').children.length,36);
+  assert.equal($('transcript-content').children.length,35);
   assert.match($('transcript-content').textContent,/Forward\?/);
 });
 
 test('paneellinks behouden hun scène en overgeslagen finale-panelen openen de nasleep', async()=>{
+  const skipped=await reader('#P36');assert.equal(skipped.window.location.hash,'#P37');assert.equal(skipped.$('panel-title').textContent,'Het resultaat');
   for(const hash of ['#P30','#P28','#P29']){const r=await reader(hash);assert.equal(r.window.location.hash,'#P30');assert.equal(r.$('panel-title').textContent,'Nyra');}
 });
 
@@ -125,7 +127,7 @@ test('het zelfstandige HTML-bestand bevat alle originele assets en een statisch 
   for(const [key,a] of Object.entries(e.assets)){assert.match(a.src,/^data:image\/png;base64,/);assert.equal(digest(Buffer.from(a.src.split(',')[1],'base64')),digest(await readFile(new URL(`../assets/episodes/frozen-hollow/${key}.png`,import.meta.url))));}
   const head=html.match(/id="nicola-facing-head"[^>]+href="data:image\/png;base64,([A-Za-z0-9+/=]+)"/);assert.ok(head);
   assert.equal(digest(Buffer.from(head[1],'base64')),digest(await readFile(new URL('../assets/concepts/nicola-reader-head-v2.png',import.meta.url))));
-  assert.equal((html.match(/<section><h3>/g)||[]).length,36);
+  assert.equal((html.match(/<section><h3>/g)||[]).length,35);
   assert.match(html,/Krek na aanklikken: “Forward\?”/);assert.match(html,/Time is fleeting/);
   assert.match(html,/Make it stay/);assert.match(html,/Gedachtebeeld — Krek/);assert.match(html,/Gedachtebeeld — Nyra/);
   assert.doesNotMatch(html,/Regie\/open|source_labels|SRC-FH-END/,'Productienotities worden niet aan de reader geleverd.');

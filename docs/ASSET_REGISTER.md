@@ -1,5 +1,17 @@
 # Assetregister
 
+De [modelgids](../content/characters/MODEL_GUIDE.md) selecteert vaste gezichten en vormen. Gebruik voor productie het [stripstappenplan](COMIC_PLAYBOOK.md).
+
+## Actuele beeldselectie — reader 1.2.0
+
+Actueel geselecteerd: arrival-v4.png, hollow-v3.png, breakthrough-v3.png, aftermath-v4.png en chamber-two-v4.png, naast de behouden stash-after.png. Vier atlassen van twee kolommen/drie rijen; één afzonderlijk kamerbeeld. De originele bestanden en eerdere versies blijven bewaard.
+
+De ingebouwde beeldgenerator bewerkte alleen bestaande gezichten en Kreks mondhouding. Nicola-reader-head-v2.png is in iedere bewerking rechtstreeks als vaste identiteitsreferentie meegegeven, ook voor profielaanzichten. Nicola's bliklaag zelf blijft hetzelfde bestand. Krek sluit zijn stenen kaak in rustige scènes; tijdens de sprint en het gevecht kan zijn mond open staan. Hails transparantie en Nyra's kristallen zijn behouden. Geen extra figuren toegevoegd. De vijf tegenstanders in kamer 2 blijven dezelfde.
+
+P36 is uit de leeslijn verwijderd; de gebruikte atlascel blijft uitsluitend als historische illustratie bewaard. De actieve uitsneden en het transcript slaan dit paneel over. Exacte prompts staan in [PROMPTS_FACE_REVIEW.json](../assets/episodes/frozen-hollow/PROMPTS_FACE_REVIEW.json). De onderstaande oudere registers documenteren eerdere revisies.
+
+## Historische registraties
+
 | ID | Bestand | Bron en status | Gebruik |
 | --- | --- | --- | --- |
 | forward-v3 | `assets/concepts/forward-v3.png` | Ingebouwde beeldgenerator, afgeleid van de gebruikersposter en eerdere bewegingsstudie; creatieve faninterpretatie | Tijdelijk werkbeeld van de driepanelige leesproef; stijl nog niet definitief |
@@ -36,10 +48,10 @@ Ingebouwde imagegen gebruikt op 17 oktober 2026; transparante uitvoer ongewijzig
 
 ## Revisie 1.1.0 — oorspronkelijke karakters en Aesther Hail
 
-Actuele volledige reader: arrival-v3.png en aftermath-v3.png (Hail gecorrigeerd), hollow-v2.png en breakthrough-v2.png (alle hoofdpersonages herzien), chamber-two-v3.png (vijf tegenstanders en nieuwe trio-ontwerpen), plus de behouden stash-after.png. Alle atlassen zijn 1254 × 1254 met twee kolommen en drie rijen; chamber-two-v3 is 1536 × 1024. De nieuwe transparante hoofdlaag assets/concepts/nicola-reader-head-v2.png is 1254 × 1254. PNG-bytes zijn ongewijzigd gekopieerd; geen rasterbewerking achteraf.
+Selectie van de bewaarde versie 1.1.0: arrival-v3.png en aftermath-v3.png (Hail gecorrigeerd), hollow-v2.png en breakthrough-v2.png (alle hoofdpersonages herzien), chamber-two-v3.png (vijf tegenstanders en nieuwe trio-ontwerpen), plus de behouden stash-after.png. Alle atlassen zijn 1254 × 1254 met twee kolommen en drie rijen; chamber-two-v3 is 1536 × 1024. De nieuwe transparante hoofdlaag assets/concepts/nicola-reader-head-v2.png is 1254 × 1254. PNG-bytes zijn ongewijzigd gekopieerd; geen rasterbewerking achteraf.
 
 Referenties: de drie oorspronkelijke klasseplaten en drie Aesther-inspiratieplaten in assets/references/characters/. Het register bij REFERENCES.md geeft bronlabels en beperkingen. Ze bepalen uiterlijk/materialen; de poster blijft bruikbaar voor karakterhumor en stripkaders. De eerder genoemde oude uiterlijkbeschrijvingen zijn werkgeschiedenis.
 
 Gemaakt met ingebouwde imagegen. Exacte prompts: [karakterrevisie](../assets/episodes/frozen-hollow/PROMPTS_REVISION.json) en [Hail-correctie](../assets/episodes/frozen-hollow/PROMPTS_HAIL.json). Arrival-v2 en aftermath-v2 waren tussenversies en staan lokaal buiten de repository; de oorspronkelijke v1-atlassen zijn behouden. Een tussenversie van breakthrough bevatte dubbele Nyra-figuren; de geselecteerde correctie verwijdert die. In P20 valt Krek na die correctie net buiten de linker beeldrand; het beeld toont zijn zicht op de gesloten schatkist. De uitsnede verandert de bevestigde handeling niet.
 
-De reader gebruikt nu 36 hoofdpanelen. De nieuwe assets zijn afzonderlijk bekeken: herkenbare kristallen/ogen/uitrusting, vijf tegenstanders in P23, Nyra uitgeput, Hail licht doorschijnend. De actuele gegenereerde scènes blijven creatieve faninterpretaties, geen officiële klasseplaten of bewijs van spelmechaniek.
+Die bewaarde versie gebruikt 36 hoofdpanelen. De nieuwe assets zijn afzonderlijk bekeken: herkenbare kristallen/ogen/uitrusting, vijf tegenstanders in P23, Nyra uitgeput, Hail licht doorschijnend. De actuele gegenereerde scènes blijven creatieve faninterpretaties, geen officiële klasseplaten of bewijs van spelmechaniek.

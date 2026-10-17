@@ -117,3 +117,6 @@ Alle drie daadwerkelijk bekeken. De gebruiker geeft deze als het bedoelde oorspr
 | SRC-AESTHER-NIGHTSHROUD | aesther-nightshroud.png | Ijle contouren, koel licht |
 
 BRONFOTO / gebruikersreferentie, daadwerkelijk bekeken. Gebruikerscorrectie: Hail is een Aesther, geen elf, en een beetje transparant. Alleen de illustraties dienen als inspiratie; tekst, klassen, vermogens en biografieën worden niet aan Hail of de campagne toegevoegd. De editie van deze platen is niet onafhankelijk vastgesteld. De volledige bronplaten worden niet aan de reader geleverd.
+## SRC-NICOLA-FACE-02 — vaste gezichtsreferentie
+
+`assets/concepts/nicola-reader-head-v2.png` is het eerder met de ingebouwde beeldgenerator gemaakte Quatryl-gezicht. Op basis van de tweede gebruikersreview is dit het vaste identiteitsbeeld voor Nicola in de volledige aflevering, naast het oorspronkelijke klassebeeld voor anatomie en uitrusting. Status CREATIEF / gebruikersreferentie, geen lorebron. Geef het bestand zichtbaar mee bij iedere nieuwe Nicola-tekening; behoud zijn identiteit vanuit de benodigde gezichtshoek.

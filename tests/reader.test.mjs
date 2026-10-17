@@ -36,7 +36,7 @@ test('de lokale reader levert de scène en bewaakt de publieke bestandsgrens', a
   assert.equal(episode.status, 200);
   assert.match(episode.body.toString(), /Een uitstekend <em>plan/);
   for (const route of ['/episode.js','/episode.css','/frozen-hollow-data.js','/assets/frozen-hollow/arrival.png','/assets/frozen-hollow/hollow.png','/assets/frozen-hollow/breakthrough.png','/assets/frozen-hollow/aftermath.png','/assets/frozen-hollow/stash-after.png','/assets/frozen-hollow/chamber-two-v2.png']) assert.equal((await request(route)).status,200,route);
-  for (const key of ['arrival-v3','hollow-v2','breakthrough-v2','aftermath-v3','chamber-two-v3']) assert.equal((await request(`/assets/frozen-hollow/${key}.png`)).status,200,key);
+  for (const key of ['arrival-v4','hollow-v3','breakthrough-v3','aftermath-v4','chamber-two-v4']) assert.equal((await request(`/assets/frozen-hollow/${key}.png`)).status,200,key);
   assert.equal((await request('/assets/nicola-reader-head-v2.png')).status,200);
   for (const route of ['/.git/config', '/WORLDBUILDING.md', '/content/episodes/frozen-hollow/STORYBOARD.md', '/assets/references/characters/orchid-spellweaver.png', '/assets/%2e%2e%2f.git/config', '/not-found']) {
     assert.equal((await request(route)).status, 404, route);

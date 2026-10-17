@@ -13,7 +13,7 @@ export async function compileEpisode({ write = true } = {}) {
     if (!block) throw new Error(`Ontbrekend storyboardpaneel: ${id}`);
     return [...block.body.matchAll(/^\*\*Dialoog, ([^*]+)\*\*\s*“([^”]+)”/gm)].map(m => ({ speaker: m[1].split(' — ')[0].replace(/:$/, '').trim(), text: m[2] }));
   };
-  if (config.panels.length !== 36 || new Set(config.panels.map(p => p.id)).size !== 36) throw new Error('Verwacht 36 unieke hoofdpanelen.');
+  if (config.panels.length !== 35 || new Set(config.panels.map(p => p.id)).size !== 35) throw new Error('Verwacht 35 unieke hoofdpanelen.');
   for (const asset of Object.values(config.assets)) {
     const bytes = await readFile(path.join(root, asset.file));
     asset.width = bytes.readUInt32BE(16); asset.height = bytes.readUInt32BE(20);

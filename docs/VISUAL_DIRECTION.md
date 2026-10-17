@@ -2,6 +2,8 @@
 
 Status: herzien op 18 oktober 2026 na de eerste volledige leesversie. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. De eerdere proef en haar beelden blijven bewaard als werkgeschiedenis.
 
+Voor de actuele gezichtsankers en lichaamsvormen: lees de [modelgids](../content/characters/MODEL_GUIDE.md). Voor de volgorde van tekst, beeldproductie en controle: volg het [stripstappenplan](COMIC_PLAYBOOK.md). De modelgids bewaart het persoonlijke gezicht; de oorspronkelijke klassebeelden bewaken soort en lichaamsbouw.
+
 Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk is bekeken. Het [storyboard](../content/episodes/frozen-hollow/STORYBOARD.md) bepaalt de scènes; de [wereldbijbel](../WORLDBUILDING.md) bewaakt personages en canon.
 
 ## Stijl
@@ -48,15 +50,11 @@ Voor volgende beelden geldt de bovenstaande referentiehiërarchie. De oude beweg
 
 ## Nyra als dramatische hook
 
-Het einde heeft een eenvoudige visuele boog:
-
-1. **Na de finale:** gezakte houding en zichtbare inspanning; geef de uitputting een stil paneel.
-2. **Tijdens Hails experiment:** haar houding opent zich en de kleur keert terug. Ze voelt heel even een andere mogelijkheid.
-3. **Na het wegvallen:** dezelfde uitsnede, dezelfde vermoeidheid, maar een scherper gerichte blik op de bol.
+De actuele leesversie bewaart Nyra's uitputting en haar interesse in wat de bol mogelijk maakt. Het losse paneel van de krachtopleving (P36) is op gebruikersverzoek geschrapt. P37 vat het niet-blijvende resultaat samen; P38 blijft bij Nyra.
 
 De laatste repliek, “Make it stay”, is een creatief voorstel. De hook is haar verlangen naar blijvende kracht. Voeg geen vloek, blijvende verwonding of nieuw magisch symptoom toe.
 
-Voor een latere visuele proef zijn de twee opeenvolgende Nyra-beelden uit P36–P37 geschikt: hetzelfde gezicht en dezelfde kadrering, met een verschil in houding en licht. Daarmee kunnen we expressie en continuïteit beoordelen voordat de hele episode wordt geïllustreerd.
+P36 is geen voorgeschreven beeldmoment meer voor toekomstige revisies van deze aflevering.
 
 ## Controle vóór een volgende aflevering
 
@@ -65,3 +63,9 @@ Vergelijk ieder nieuw beeld met de drie oorspronkelijke klasseplaten: herkenbaar
 ## Hail — aanvullende gebruikersreferenties
 
 De drie Aesther-illustraties (Summoner, Diviner, Nightshroud) zijn op 18 oktober als inspiratie aangeleverd en bekeken. Gebruik alleen de etherische, licht doorschijnende verschijning. Hail blijft een levende Aesther-onderzoeker; geef haar geen klasse, wapens, vermogens of biografie uit deze platen. De transparantie hoort in het beeld zelf, ook zonder beweging. Haar mantel, handen en randen laten de omgeving subtiel doorschemeren. Nyra behoudt juist haar Orchid-kristallen en spitse oren.
+
+## Vaste gezichten en uitdrukkingen — correctie 18 oktober
+
+Nicola's gezicht is vastgelegd in [nicola-reader-head-v2.png](../assets/concepts/nicola-reader-head-v2.png). Gebruik dit beeld rechtstreeks als identiteitsreferentie, samen met het Quatryl-klassebeeld voor zijn lichaam. Herkenbaar hoekig, grof getextureerd okerkleurig Quatryl-gezicht, lange neus, smalle mond, donkere voorhoofdsbril en blauwe ooglenzen. Geen glad vrouwelijk elfenportret. Pas de gezichtshoek aan de scène aan; plak niet overal dezelfde frontale pose.
+
+Krek heeft in rustige scènes een gesloten stenen kaak met natuurlijke naad. Een donkere borstholte betekent niet dat zijn mond altijd open moet staan. Bij bewegen, roepen en vechten mag hij zijn mond openen. Bewaar amberogen en dezelfde kopvorm.

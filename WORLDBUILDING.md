@@ -1,12 +1,14 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.8 · 18 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
+> Versie 1.9 · 18 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## Visuele en montagecorrectie — 18 oktober 2026
 
 De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. Zie [visuele richting](docs/VISUAL_DIRECTION.md). Nieuwe afbeeldingen zijn gebruikersreferenties, geen automatische OFFICIEEL-2E-lore. R-10 komt vóór de ontmoeting met Hail. De finale wordt korter verteld, maar blijft een gevecht dat de volgende ronde gezamenlijk wordt afgemaakt. Meer variatie in Kreks rotslogica en zorg vervangt mechanische herhaling van catchphrases; bestaande vaste quotes blijven repertoire.
+
+De praktische aanpak staat in [COMIC_PLAYBOOK.md](docs/COMIC_PLAYBOOK.md), met vaste gezichten en vormen in [MODEL_GUIDE.md](content/characters/MODEL_GUIDE.md). De wereldbijbel bewaart canon; de modelgids selecteert de actuele visuele referenties.
 
 ## 1. Doel en kern
 
@@ -495,3 +497,7 @@ Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële D
 - **1.0 — 17 oktober 2026:** eerste volledige wereldbijbel op basis van de expliciete gebruikerscontext, teruggelezen conversatiemetadata en bekeken kaart. Frozen Hollow-ankers vastgelegd; ontbrekende broninhoud en Second Edition-verificatie expliciet gemarkeerd; motion-comicformat en technische overdracht toegevoegd.
 
 Hails uiterlijk volgt ook de op 18 oktober gedeelde Aesther-referenties: etherisch en een beetje transparant, geen elf en geen elfenoren. Dit is visuele inspiratie; geen overdracht van klassevermogens of bronbiografieën. Zie docs/VISUAL_DIRECTION.md en het bronregister.
+
+## Leesversiereview — 18 oktober 2026
+
+De gebruiker schrapt het afzonderlijke paneel van de krachtopleving (P36). De bronpassage blijft geregistreerd; in de actuele montage vat P37 het niet-blijvende resultaat kort samen. Dit is een weergavekeuze en geen nieuw campagnefeit. Nicola gebruikt het vaste Quatryl-gezicht nicola-reader-head-v2; Krek heeft een gesloten mond in rust en mag die bij actie openen.

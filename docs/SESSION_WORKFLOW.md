@@ -2,11 +2,13 @@
 
 Status: vaste werkwijze voor Stone & Cold Tinkering, vastgelegd op 17 oktober 2026. De gebruiker wil voortaan van iedere speelsessie een verhaal in de vorm van de leesproef maken. De driepanelige proef is afgerond en aanvaard als basis voor de leeservaring en Nicola's interactie. De tekenstijl blijft in ontwikkeling.
 
+Voor de concrete productie van een strip gebruiken we het [stappenplan](COMIC_PLAYBOOK.md) en de [modelgids](../content/characters/MODEL_GUIDE.md). Dit document beschrijft de sessieoverdracht; het stappenplan ordent beeld- en tekstwerk. We voegen geen extra invoerformulier of vaste goedkeuringsronde toe.
+
 ## Wat Martijn aanlevert
 
 Een vrij verteld verslag, losse aantekeningen, foto's of spraaknotities volstaan. Het [sessiesjabloon](../content/sessions/SESSION_TEMPLATE.md) is een hulpmiddel; Martijn hoeft geen productieformulier in te vullen.
 
-Martijn begint iedere sessieoverdracht met het **city event, het road event en de verhaalteksten bij de gespeelde scenario's**, voor zover die onderdelen aan bod kwamen. Leg bij events het ID, de gekozen optie en de werkelijk toegepaste uitkomst vast. Bewaar bij scenario's de naam/het nummer, de introductie en de tijdens het spelen gelezen passages; de conclusie volgt zodra die aan tafel is bereikt. Als een event niet voorkwam, noteer dat. Dit is de aanlevervolgorde; de stripmontage kan daarna het beste vertelritme volgen.
+Martijn begint iedere sessieoverdracht met het **city event, het road event en de verhaalteksten bij de gespeelde scenario's**, voor zover die onderdelen aan bod kwamen. Leg bij events het ID, de gekozen optie en de werkelijk toegepaste uitkomst vast. Bewaar bij scenario's de naam/het nummer, de introductie en de tijdens het spelen gelezen passages; de conclusie volgt zodra die aan tafel is bereikt. Als een event niet voorkwam, noteer dat. Dit is de aanlevervolgorde; de stripmontage volgt daarna het beste vertelritme binnen de bevestigde tijdvolgorde.
 
 Naast die spelteksten zijn vooral jullie eigen keuzes, opvallende acties, letterlijke uitspraken en de afloop nodig. Een paar steekwoorden na het spelen volstaan. Foto's van bijzondere posities of een actie kunnen de ruimtelijke regie helpen; een volledig beurtverslag is niet nodig. Een wijziging in uitrusting, level of gezelschap is alleen relevant om vast te leggen als die werkelijk gebeurde en de continuïteit raakt.
 
@@ -33,7 +35,7 @@ De opdracht bepaalt tot welke stap we gaan. Bij een verzoek om tekst maken we te
 - Uitgangspunt: één speelsessie wordt één aflevering. Een splitsing of samenvoeging kan wanneer het verhaal daarom vraagt; vermeld dan alle betrokken sessie-IDs. Een scenario kan meerdere sessies beslaan.
 - Gebruik stabiele, kleine letters en koppeltekens in mapnamen, bijvoorbeeld `s002` en `ep002-werktitel`. De volgorde van de speelsessies bepaalt de nummers, niet een gegokte datum.
 - Frozen Hollow houdt zijn bestaande map en afleveringnummer 01. De bewegingsproef is een afzonderlijke creatieve proef en telt niet als extra gespeelde sessie of aflevering.
-- Titels, duur en paneelaantal volgen de inhoud. De 36 hoofdpanelen van de herziene Frozen Hollow en de drie panelen van de proef zijn geen vaste lengte voor volgende afleveringen.
+- Titels, duur en paneelaantal volgen de inhoud. De 35 hoofdpanelen van de herziene Frozen Hollow en de drie panelen van de proef zijn geen vaste lengte voor volgende afleveringen.
 - Nieuwe afleveringen krijgen eigen bestanden en assets. Bewaar eerdere storyboards en bruikbare leesversies. Een nieuwe sessie overschrijft geen afgeronde aflevering.
 
 ## Feiten, dialoog en continuïteit

@@ -1,6 +1,6 @@
 # Frozen Hollow — Een uitstekend plan
 
-> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.7
+> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.8
 > Status: de gebruiker geeft nu opdracht de volledige motion comic te bouwen en verduidelijkt de indeling. Deze versie corrigeert v0.4: de ijsdemonen staan in kamer 2; Krek sprint halverwege die kamer door mist naar kamer 3. Beelden en nieuwe dialoog blijven creatieve adaptatie.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
@@ -17,7 +17,7 @@ De gebruiker plaatst R-10 vóór de ontmoeting met Hail. Dit is de actuele leesv
 
 De gespeelde gebeurtenissen zijn de vaste ankers. Alle hieronder geschreven dialoog, compositie, timing en gedachtebeelden zijn **CREATIEF**, behalve de expliciet aangeduide vaste karakterquotes. Die quotes zijn door de gebruiker vastgelegde karaktertekst; hun plaatsing in deze episode is een voorstel, geen claim dat ze toen letterlijk zijn uitgesproken.
 
-Deze versie bevat **36 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de ijsdemonen in kamer 2 vóór Kreks doorbraak worden verteld. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
+Deze versie bevat **35 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de ijsdemonen in kamer 2 vóór Kreks doorbraak worden verteld. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
 
 De laatste gebruikerscorrectie is leidend: eerst een claustrofobische smalle gang met wolven en de eerder genoemde Spirits; daar doorheen naar twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan in kamer 2. Halverwege kamer 2 sprint Krek met volle kracht door de mist naar kamer 3, waar schat, verplaatsing en eindgevecht volgen. Nyra's schadegolf laat vijanden leven; de volgende ronde rondt het trio af. Alleen exacte vakjes en de materie van eventuele deuren blijven OPEN. Overige montage is CREATIEF. Onbekende sessiecitaten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen opening, stashvorm en conclusie; hun editie is niet opnieuw geverifieerd.
 
@@ -55,7 +55,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 | S07 — Verder dan verwacht | P20–P22 | Kreks movement ability als brute tunnelactie vertellen | FH-07 |
 | S09 — Eindelijk efficiënt | P26–P27 | Korte, besliste finale | FH-08 |
 | S10 — Wat het kost | P30–P32 | Nyra's uitputting laten doorwerken | FH-09 |
-| S11 — Even | P33–P38 | Terugkeer naar Hail; Nyra voelt kort kracht en wil die behouden | FH-10; SRC-FH-END |
+| S11 — Terug bij Hail | P33–P35, P37–P38 | Terugkeer naar Hail; Nyra voelt kort kracht en wil die behouden | FH-10; SRC-FH-END |
 
 ## 3. Storyboard
 
@@ -449,7 +449,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Regie:** een creatieve kleine verschuiving in het trio: Krek houdt zijn richting, maar laat iemand tijd. Dit is een voorgestelde karakterbeat, geen bevestigde uitspraak of campagnebeslissing.
 
-### S11 — Even
+### S11 — Terug bij Hail
 
 **Locatie:** achter in Frozen Hollow, daarna terug bij Hail in Crooked Bone. **Personages:** trio en Hail. **Ritme:** koud voorwerp, terugkeer, experiment, korte hoop, terugval. **Basis:** FH-10 / BRONFOTO SRC-FH-END, aangevuld met de gebruikerskeuze voor Hail als epiloog en Nyra als dramatische hook. De terugkeer en het experiment volgen de conclusiebron; persoonlijke reacties en de laatste repliek zijn CREATIEF.
 
@@ -487,19 +487,15 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 #### P36 — Heel even
 
-**Beeld:** Hail houdt de bol achtereenvolgens bij de hoofden van het trio. Drie korte uitsneden tonen de krachtopleving. Bij Nyra vertraagt het ritme: haar houding richt zich op, kleur wordt warmer en haar hand opent zich. Voor het eerst sinds de finale lijkt inspanning even niet nodig.
+**Montage v0.8:** dit paneel vervalt op expliciet gebruikersverzoek. Geen los beeld van de krachtopleving meer in de leesversie. Broninhoud blijft in de productiegeschiedenis; de afloop van het experiment wordt kort samengevat bij P37.
 
-**Tekst:** geen dialoog. Een korte vertellersregel mag: “Even.”
+#### P37 — Het resultaat
 
-**Beweging/geluid:** één geleidelijke golf van licht en kleur, zonder flits. Het statische paneel toont vóór en tijdens de opleving. De opleving van de groep volgt de bron; hoe Nyra die emotioneel beleeft is creatieve invulling.
+**Beeld:** Nyra blijft vermoeid aan tafel bij de bol; Hail bestudeert het resultaat. Nicola kijkt toe met zijn vaste Quatryl-gezicht. Krek wacht met gesloten mond. Geen nieuwe wond, ziekte of herstelactie.
 
-#### P37 — En weer weg
+**Tekst, verteller:** “Hails experiment geeft geen blijvend resultaat. Nyra is nog steeds uitgeput.”
 
-**Beeld:** dezelfde uitsnede van Nyra. Het extra licht verdwijnt, haar hand zakt en de eerdere vermoeidheid keert terug in haar houding. Hail kijkt met een onderzoekende frons naar de bol. Nicola ziet Nyra's reactie en houdt zijn opmerking voor zich.
-
-**Tekst:** geen.
-
-**Beweging/geluid:** de kleurlaag trekt rustig terug. Laat dit paneel staan tot de lezer verdergaat. Het verdwijnen van de tijdelijke kracht is broninhoud; het is geen bewijs dat Hail Nyra extra energie ontneemt of dat de bol haar ziek maakt.
+**Beweging/geluid:** rustig stil beeld. De broninhoud wordt samengevat zonder de geschrapte krachtopleving opnieuw als afzonderlijke scène te tonen.
 
 #### P38 — Laat het blijven
 
@@ -516,7 +512,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 ## 4. Interactie en leesvolgorde
 
 ```text
-Hoofdlijn: P07–P09 → P01–P06 → P10–P15 → P23–P25 → P16–P22 → P26–P27 → P30–P38 → einde
+Hoofdlijn: P07–P09 → P01–P06 → P10–P15 → P23–P25 → P16–P22 → P26–P27 → P30–P35 → P37–P38 → einde
 Detail:    P08 → kristal bekijken → P08 → P09
 Gedachten: P17 → K1 → K2 → P18
            P17 → N1 → N2 → P18
@@ -582,3 +578,5 @@ De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke repli
 - **0.7 (18 oktober):** gebruikersannotaties verwerkt; R-10 vóór Hail, P28/P29 uit de reader, afronding in de volgende ronde bij P30. Oorspronkelijke klassebeelden leidend; 36 hoofdpanelen met meer gevarieerde Krek-stem en optionele reacties.
 
 Hail-aanvulling bij v0.7: de Aesther-inspiratieplaten leiden haar licht doorschijnende uiterlijk; geen elf, geen overgenomen klassen of vermogens.
+
+- **0.8 (18 oktober):** P36 op gebruikersverzoek uit de leeslijn verwijderd; P37 vat het resultaat samen. 35 hoofdpanelen. Nicola gebruikt consequent nicola-reader-head-v2.png als gezichtsreferentie; Krek heeft in rust een gesloten stenen mond en kan bij actie zijn mond openen. Dit verandert geen gespeelde gebeurtenis.

@@ -99,3 +99,14 @@ Een uitkomst op een kaart of boekpagina is niet automatisch een gespeelde uitkom
 - Versie en feitelijk beoordeelde onderdelen: OPEN
 - Volgende concrete stap: OPEN
 - Correcties sinds de vorige versie: OPEN
+
+## Productievoorbereiding door Codex
+
+Dit is geen extra aanlevertaak voor Martijn. Werk volgens [het stripstappenplan](../../docs/COMIC_PLAYBOOK.md).
+
+- Bevestigde tijdlijn en welke volgorde nog OPEN is: OPEN
+- Geselecteerde vaste modellen uit [MODEL_GUIDE.md](../characters/MODEL_GUIDE.md): OPEN
+- Nieuwe uiterlijk- of uitrustingswijzigingen werkelijk bevestigd? OPEN
+- Eerste samenhangende scène voor interne beeldcontrole: OPEN
+- Dialoog op stem, variatie en herhaling gecontroleerd? OPEN
+- Actuele assetselectie, feitelijke beoordeling en nog niet uitgevoerde controles: OPEN

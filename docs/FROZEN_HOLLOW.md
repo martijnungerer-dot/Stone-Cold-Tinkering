@@ -1,6 +1,6 @@
-# Frozen Hollow — volledige motion comic, versie 1.1.0
+# Frozen Hollow — volledige motion comic, versie 1.2.0
 
-De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.7](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De gebruiker heeft de eerste leesversie beoordeeld; deze revisie verwerkt de twintig annotaties en de drie nieuwe karakterreferenties. De nieuwe beelden en tekst zijn nog niet afzonderlijk goedgekeurd.
+De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.8](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De gebruiker heeft de eerste leesversie beoordeeld; deze revisie verwerkt de twintig annotaties en de drie nieuwe karakterreferenties. De nieuwe beelden en tekst zijn nog niet afzonderlijk goedgekeurd.
 
 ## Openen
 
@@ -10,11 +10,11 @@ Voor ontwikkeling: `npm start` meldt het adres voor `/frozen-hollow`. Er zijn ge
 
 ## Verhaal en vorm
 
-- 36 hoofdpanelen, 11 scène-ingangen en 6 optionele gedachtepanelen bij het overleg. P28 en P29 zijn uit de leeslijn verwijderd; hun gezamenlijke gevechtsafronding staat in de overgang naar P30. Oude links naar die panelen openen P30. Overige IDs zijn behouden; de leesvolgorde staat expliciet in het storyboard en READER.json.
+- 35 hoofdpanelen, 11 scène-ingangen en 6 optionele gedachtepanelen bij het overleg. P36 is ook uit de leeslijn verwijderd; een oude link naar P36 opent P37. P28 en P29 zijn uit de leeslijn verwijderd; hun gezamenlijke gevechtsafronding staat in de overgang naar P30. Oude links naar die panelen openen P30. Overige IDs zijn behouden; de leesvolgorde staat expliciet in het storyboard en READER.json.
 - Eerst R-10 met de verkeerde groenkeuze bij Qualco's stash, daarna Hail/Crooked Bone en de bergreis. Het onbekende city event is overgeslagen.
 - Binnen: een claustrofobische smalle gang met wolven en Living Spirits. Daarna kamer 2 met twee grote en twee kleinere ijsdemonen, met één Living Spirit achteraan. Halverwege kamer 2 sprint Krek vol kracht door mist naar kamer 3. Daar volgen de schat, zijn verplaatsing naar de steen, Nyra's schadegolf en de gezamenlijke afronding in de volgende ronde.
-- Nyra zakt uitgeput in elkaar. De epiloog keert terug naar Hail; de tijdelijke kracht en het wegvallen daarvan eindigen op Nyra en “Make it stay”. Geen verdere conclusie-onthullingen toegevoegd.
-- Vier atlassen en een afzonderlijk gecorrigeerd kamerbeeld dragen de 36 beats. Een zesde beeldbestand is de lege bergwand nadat de stash verdwenen is.
+- Nyra zakt uitgeput in elkaar. De epiloog keert terug naar Hail; het resultaat van haar experiment wordt kort samengevat en eindigt op Nyra en “Make it stay”. Geen verdere conclusie-onthullingen toegevoegd.
+- Vier atlassen en een afzonderlijk gecorrigeerd kamerbeeld dragen de 35 beats. Een zesde beeldbestand is de lege bergwand nadat de stash verdwenen is.
 - Engelse dialoog staat als schaalbare tekstballonnen binnen het stripkader. Vertelling en bediening zijn Nederlands. Alle inhoud staat ook in een statisch transcript in het offline bestand.
 
 ## Bediening en beweging
@@ -27,7 +27,7 @@ Bij P25 zegt Krek na aanklikken eerst “Forward?” en daarna “Forward!”. P
 
 Het groene kristal is optioneel groter te bekijken. De keuze voor groen staat vast; de lezer kan geen andere eventuitkomst kiezen.
 
-De beweging bestaat uit korte camerabewegingen, sneeuw, stof, mist, impactaccenten en magisch licht. De stash maakt een eenmalige overgang naar een werkelijk getekende lege bergwand. Hails krachtopleving en het wegvallen ervan hebben afzonderlijke beelden. Effecten stoppen na maximaal 3,2 seconden en kunnen worden herhaald. De personages zijn geïllustreerde houdingen; Nicola's blik gebruikt twee tekeningen. Dit is een motion comic met beperkte animatie.
+De beweging bestaat uit korte camerabewegingen, sneeuw, stof, mist, impactaccenten en magisch licht. De stash maakt een eenmalige overgang naar een werkelijk getekende lege bergwand. Het afzonderlijke beeld van Hails krachtopleving (P36) is op gebruikersverzoek verwijderd; P37 vat de afloop samen. Effecten stoppen na maximaal 3,2 seconden en kunnen worden herhaald. De personages zijn geïllustreerde houdingen; Nicola's blik gebruikt twee tekeningen. Dit is een motion comic met beperkte animatie.
 
 Geluid staat uit tot de lezer het aanzet. De geluiden zijn korte, zacht gesynthetiseerde wind-, steen- en magische accenten, met een knal bij de stash en vuurgeknisper bij P26. Er is geen gesproken dialoog. De systeemvoorkeur voor minder beweging wordt gevolgd tot de lezer zelf een voorkeur kiest; bij uitgeschakelde beweging is de uiteindelijke verhaaltoestand direct zichtbaar. Alleen de bewegingsvoorkeur wordt waar mogelijk lokaal opgeslagen.
 
@@ -35,7 +35,7 @@ Geluid staat uit tot de lezer het aanzet. De geluiden zijn korte, zacht gesynthe
 
 De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. De gegenereerde beelden zijn de eerste volledige uitwerking, met eigen ontwerpen voor de tegenstanders en Hail. Exacte kamerafmetingen, tegenstandertotalen, aanvalsvormen en illustratiedetails bewijzen geen officiële kaartopstelling of spelmechaniek. Hail is na de aanvullende gebruikersreferenties hertekend als licht doorschijnende Aesther, met zichtbare omgeving door haar mantel en armen en zonder elfenoren. Kleine gelaatsdetails blijven een aandachtspunt bij latere beelden. Dit verandert de bevestigde sessieankers niet.
 
-De oude atlassen en hoofdlaag blijven bewaard. De volledige reader gebruikt arrival-v3, hollow-v2, breakthrough-v2, aftermath-v3, chamber-two-v3 en nicola-reader-head-v2.
+De oude atlassen en hoofdlaag blijven bewaard. De volledige reader gebruikt arrival-v4, hollow-v3, breakthrough-v3, aftermath-v4, chamber-two-v4 en nicola-reader-head-v2.
 
 Het [assetregister](ASSET_REGISTER.md) bewaart herkomst, afmetingen en de gebruikte prompts. De oude bewegingsproef en haar werktekeningen zijn behouden.
 
@@ -47,7 +47,7 @@ Het [assetregister](ASSET_REGISTER.md) bewaart herkomst, afmetingen en de gebrui
 - `scripts/build-offline.mjs`: maakt zowel de bewaarde proef als de volledige aflevering; embedt iedere atlas eenmaal en bewaart het transcript zonder JavaScript.
 - `assets/episodes/frozen-hollow/`: de zes beeldbestanden en het promptregister.
 
-Controleer met `npm test`. De controles behandelen: beide leesversies, de publieke bestandsgrens, alle 36 verhaalstappen, de kamerindeling en tweefasige finale, optionele gedachten, Nicola's blik/ballon, inspectie, paneellinks, voorkeuren en het offline insluiten van de originele PNG-bytes.
+Controleer met `npm test`. De controles behandelen: beide leesversies, de publieke bestandsgrens, alle 35 verhaalstappen, de kamerindeling en tweefasige finale, optionele gedachten, Nicola's blik/ballon, inspectie, paneellinks, voorkeuren en het offline insluiten van de originele PNG-bytes.
 
 De tests gebruiken de echte readerlogica met een in-process DOM-double; ze bewijzen geen browserlayout of geluidsweergave op hardware. Visuele browsercontrole door de agent blijft beperkt door de eerder vastgestelde ontoegankelijke lokale verbinding en geblokkeerde `file:`-URL. Er is geen alternatief browserkanaal gebruikt om dat beleid te omzeilen. De nieuwe illustraties zijn wel afzonderlijk bekeken. De geleverde HTML vraagt nog gebruikerscontrole op het eigen scherm.
 

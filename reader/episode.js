@@ -222,6 +222,6 @@
     for (const [name, parts] of Object.entries(p.perspectives || {})) if (name !== 'Nicola') for (const part of parts) for (const line of part) { const text = document.createElement('p'); text.lang = 'en'; text.textContent = `Gedachtebeeld — ${line.speaker}: “${line.text}”`; section.append(text); }
     $('transcript-content').append(section);
   });
-  const requested = (window.location?.hash || '').slice(1); const start = panels.findIndex(p => p.id === (['P28','P29'].includes(requested) ? 'P30' : requested)); if (start >= 0) state.index = start;
+  const requested = (window.location?.hash || '').slice(1); const redirects = {P28:'P30',P29:'P30',P36:'P37'}; const start = panels.findIndex(p => p.id === (redirects[requested] || requested)); if (start >= 0) state.index = start;
   preferences(); render();
 })();

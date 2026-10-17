@@ -4,13 +4,15 @@
 
 Lees README.md en WORLDBUILDING.md voordat je aan verhaal, beelden of software werkt. De wereldbijbel is het centrale inhoudelijke referentiedocument.
 
+Voor iedere nieuwe strip of beeldrevisie: lees docs/COMIC_PLAYBOOK.md en content/characters/MODEL_GUIDE.md. Gebruik de daar geselecteerde referentiebeelden bij beeldproductie; oudere afbeeldingen worden niet vanzelf het nieuwe model.
+
 Voor een nieuwe sessie of aflevering: lees ook docs/SESSION_WORKFLOW.md, content/episodes/README.md en de betrokken sessie- en storyboardbestanden. Gebruik content/sessions/SESSION_TEMPLATE.md om vrije gebruikersinput te ordenen; verplicht de gebruiker niet het formulier in te vullen.
 
 ## Huidige fase
 
 De gebruiker heeft nu expliciet de volledige Frozen Hollow-motion comic opgedragen, inclusief beelden en beweging. De eerste volledige leesversie staat in reader/frozen-hollow.html, met hergebruikte vormgeving en bediening van de afgeronde driepanelige proef. De proef blijft bewaard. Zie docs/FROZEN_HOLLOW.md voor bouw, werking en verificatie. Nieuwe dialoog en beelden zijn creatieve adaptatie; er is geen websitepublicatie gevraagd.
 
-Storyboard v0.7 en sessie S001 zijn de actuele basis. Laatste correctie: claustrofobische smalle gang met wolven en Spirits → kamer 2 met twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan → halverwege kamer 2 Kreks sprint vol kracht door mist → kamer 3 met de schat en het eindgevecht → Nyra uitgeput → Hail-epiloog met Nyra als hook. S08/P23–P25 wordt vóór S06 gelezen; IDs zijn stabiel. R-10 staat vóór Hail; P28/P29 vervallen en de volgende ronde blijft in P30. City event overslaan. Alle drie spreken Engels. De healinggrap is creatief repertoire, geen gespeelde gebeurtenis. Lees bij beelden content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
+Storyboard v0.8 en sessie S001 zijn de actuele basis. Laatste correctie: claustrofobische smalle gang met wolven en Spirits → kamer 2 met twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan → halverwege kamer 2 Kreks sprint vol kracht door mist → kamer 3 met de schat en het eindgevecht → Nyra uitgeput → Hail-epiloog met Nyra als hook. S08/P23–P25 wordt vóór S06 gelezen; IDs zijn stabiel. R-10 staat vóór Hail; P28/P29 vervallen en de volgende ronde blijft in P30. City event overslaan. Alle drie spreken Engels. De healinggrap is creatief repertoire, geen gespeelde gebeurtenis. Lees bij beelden content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
 
 ## Inhoudelijke regels
 
@@ -37,3 +39,5 @@ Storyboard v0.7 en sessie S001 zijn de actuele basis. Laatste correctie: claustr
 - Publicatie en repositoryzichtbaarheid volgen de expliciete keuzes van de gebruiker.
 
 Hails uiterlijk volgt ook de op 18 oktober gedeelde Aesther-referenties: etherisch en een beetje transparant, geen elf en geen elfenoren. Dit is visuele inspiratie; geen overdracht van klassevermogens of bronbiografieën. Zie docs/VISUAL_DIRECTION.md en het bronregister.
+
+Laatste review: P36 vervalt; de reader heeft 35 hoofdpanelen. Nicola's vaste gezichtsreferentie is assets/concepts/nicola-reader-head-v2.png; geen wisselende elfachtige gezichten. Krek sluit zijn mond in rust; open mond past bij actie.

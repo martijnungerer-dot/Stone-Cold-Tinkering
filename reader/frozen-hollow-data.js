@@ -2,17 +2,17 @@
 window.COMIC_EPISODE = {
   "id": "frozen-hollow",
   "title": "Een uitstekend plan.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "assets": {
-    "hollow-v2": {
-      "src": "assets/frozen-hollow/hollow-v2.png",
+    "hollow-v3": {
+      "src": "assets/frozen-hollow/hollow-v3.png",
       "columns": 2,
       "rows": 3,
       "width": 1254,
       "height": 1254
     },
-    "breakthrough-v2": {
-      "src": "assets/frozen-hollow/breakthrough-v2.png",
+    "breakthrough-v3": {
+      "src": "assets/frozen-hollow/breakthrough-v3.png",
       "columns": 2,
       "rows": 3,
       "width": 1254,
@@ -25,22 +25,22 @@ window.COMIC_EPISODE = {
       "width": 1536,
       "height": 1024
     },
-    "chamber-two-v3": {
-      "src": "assets/frozen-hollow/chamber-two-v3.png",
+    "chamber-two-v4": {
+      "src": "assets/frozen-hollow/chamber-two-v4.png",
       "columns": 1,
       "rows": 1,
       "width": 1536,
       "height": 1024
     },
-    "arrival-v3": {
-      "src": "assets/frozen-hollow/arrival-v3.png",
+    "arrival-v4": {
+      "src": "assets/frozen-hollow/arrival-v4.png",
       "columns": 2,
       "rows": 3,
       "width": 1254,
       "height": 1254
     },
-    "aftermath-v3": {
-      "src": "assets/frozen-hollow/aftermath-v3.png",
+    "aftermath-v4": {
+      "src": "assets/frozen-hollow/aftermath-v4.png",
       "columns": 2,
       "rows": 3,
       "width": 1254,
@@ -90,7 +90,7 @@ window.COMIC_EPISODE = {
     },
     {
       "id": "S11",
-      "title": "Even"
+      "title": "Terug bij Hail"
     }
   ],
   "panels": [
@@ -98,7 +98,7 @@ window.COMIC_EPISODE = {
       "id": "P07",
       "scene": "S03",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 4
       },
       "motion": "light",
@@ -122,7 +122,7 @@ window.COMIC_EPISODE = {
       "id": "P08",
       "scene": "S03",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 5
       },
       "motion": "orb",
@@ -130,7 +130,7 @@ window.COMIC_EPISODE = {
       "narration": "Gekozen: groen.",
       "description": "Het groene kristal licht op. De ronde middelste knop is duidelijk een ander onderdeel.",
       "detail": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 5,
         "focus": {
           "x": 0.24,
@@ -156,7 +156,7 @@ window.COMIC_EPISODE = {
       "id": "P09",
       "scene": "S03",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 5
       },
       "motion": "vanish",
@@ -186,7 +186,7 @@ window.COMIC_EPISODE = {
       "id": "P01",
       "scene": "S01",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 0
       },
       "motion": "light",
@@ -201,7 +201,7 @@ window.COMIC_EPISODE = {
       "id": "P02",
       "scene": "S01",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 1
       },
       "motion": "light",
@@ -234,7 +234,7 @@ window.COMIC_EPISODE = {
       "id": "P03",
       "scene": "S01",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 2
       },
       "motion": "light",
@@ -258,7 +258,7 @@ window.COMIC_EPISODE = {
       "id": "P04",
       "scene": "S02",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 3
       },
       "motion": "snow",
@@ -273,7 +273,7 @@ window.COMIC_EPISODE = {
       "id": "P05",
       "scene": "S02",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 3
       },
       "motion": "snow",
@@ -301,7 +301,7 @@ window.COMIC_EPISODE = {
       "id": "P06",
       "scene": "S02",
       "art": {
-        "key": "arrival-v3",
+        "key": "arrival-v4",
         "cell": 3
       },
       "motion": "snow",
@@ -321,7 +321,7 @@ window.COMIC_EPISODE = {
       "id": "P10",
       "scene": "S04",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 0
       },
       "motion": "mist",
@@ -341,7 +341,7 @@ window.COMIC_EPISODE = {
       "id": "P11",
       "scene": "S04",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 2
       },
       "motion": "light",
@@ -369,7 +369,7 @@ window.COMIC_EPISODE = {
       "id": "P12",
       "scene": "S04",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 0,
         "focus": {
           "x": 0.58,
@@ -395,7 +395,7 @@ window.COMIC_EPISODE = {
       "id": "P13",
       "scene": "S05",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 1
       },
       "motion": "spirit",
@@ -410,7 +410,7 @@ window.COMIC_EPISODE = {
       "id": "P14",
       "scene": "S05",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 2
       },
       "motion": "still",
@@ -439,7 +439,7 @@ window.COMIC_EPISODE = {
       "id": "P15",
       "scene": "S05",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 2
       },
       "motion": "light",
@@ -467,7 +467,7 @@ window.COMIC_EPISODE = {
       "id": "P23",
       "scene": "S08",
       "art": {
-        "key": "chamber-two-v3",
+        "key": "chamber-two-v4",
         "cell": 0
       },
       "motion": "spirit",
@@ -482,7 +482,7 @@ window.COMIC_EPISODE = {
       "id": "P24",
       "scene": "S08",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 4
       },
       "motion": "spell",
@@ -502,7 +502,7 @@ window.COMIC_EPISODE = {
       "id": "P25",
       "scene": "S08",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 5
       },
       "motion": "impact",
@@ -525,7 +525,7 @@ window.COMIC_EPISODE = {
       "id": "P16",
       "scene": "S06",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 2
       },
       "motion": "still",
@@ -553,7 +553,7 @@ window.COMIC_EPISODE = {
       "id": "P17",
       "scene": "S06",
       "art": {
-        "key": "hollow-v2",
+        "key": "hollow-v3",
         "cell": 2
       },
       "motion": "still",
@@ -625,7 +625,7 @@ window.COMIC_EPISODE = {
       "id": "P18",
       "scene": "S06",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 0
       },
       "motion": "still",
@@ -653,7 +653,7 @@ window.COMIC_EPISODE = {
       "id": "P19",
       "scene": "S06",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 1
       },
       "motion": "charge",
@@ -673,7 +673,7 @@ window.COMIC_EPISODE = {
       "id": "P20",
       "scene": "S07",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 2
       },
       "motion": "mist",
@@ -699,7 +699,7 @@ window.COMIC_EPISODE = {
       "id": "P21",
       "scene": "S07",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 3
       },
       "motion": "tunnel",
@@ -714,7 +714,7 @@ window.COMIC_EPISODE = {
       "id": "P22",
       "scene": "S07",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 3
       },
       "motion": "light",
@@ -734,7 +734,7 @@ window.COMIC_EPISODE = {
       "id": "P26",
       "scene": "S09",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 4
       },
       "motion": "spell",
@@ -759,7 +759,7 @@ window.COMIC_EPISODE = {
       "id": "P27",
       "scene": "S09",
       "art": {
-        "key": "breakthrough-v2",
+        "key": "breakthrough-v3",
         "cell": 4,
         "focus": {
           "x": 0.5,
@@ -785,7 +785,7 @@ window.COMIC_EPISODE = {
       "id": "P30",
       "scene": "S10",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 0
       },
       "motion": "still",
@@ -813,7 +813,7 @@ window.COMIC_EPISODE = {
       "id": "P31",
       "scene": "S10",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 1
       },
       "motion": "still",
@@ -837,7 +837,7 @@ window.COMIC_EPISODE = {
       "id": "P32",
       "scene": "S10",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 0
       },
       "motion": "still",
@@ -861,7 +861,7 @@ window.COMIC_EPISODE = {
       "id": "P33",
       "scene": "S11",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 2
       },
       "motion": "orb",
@@ -873,14 +873,14 @@ window.COMIC_EPISODE = {
         "y": 0.38
       },
       "title": "Te koud om vast te houden",
-      "sceneTitle": "Even",
+      "sceneTitle": "Terug bij Hail",
       "dialogue": []
     },
     {
       "id": "P34",
       "scene": "S11",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 3
       },
       "motion": "light",
@@ -888,7 +888,7 @@ window.COMIC_EPISODE = {
       "narration": "Terug tussen de boeken. Met iets dat de onderbreking waard is.",
       "description": "De bol ligt in een mantel op Hails tafel. Nicola kijkt nieuwsgierig; Krek is aanwezig en Nyra is nog moe. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk.",
       "title": "Terug in de bibliotheek",
-      "sceneTitle": "Even",
+      "sceneTitle": "Terug bij Hail",
       "dialogue": [
         {
           "speaker": "Hail",
@@ -900,7 +900,7 @@ window.COMIC_EPISODE = {
       "id": "P35",
       "scene": "S11",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 3
       },
       "motion": "light",
@@ -908,7 +908,7 @@ window.COMIC_EPISODE = {
       "narration": "Een onderzoeker heeft een idee. Nicola herkent het gevaarlijke woord onmiddellijk.",
       "description": "Hail bekijkt de blauwe bol, met de drie rondom haar werktafel. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk.",
       "title": "Een idee",
-      "sceneTitle": "Even",
+      "sceneTitle": "Terug bij Hail",
       "dialogue": [
         {
           "speaker": "Hail",
@@ -925,48 +925,33 @@ window.COMIC_EPISODE = {
       ]
     },
     {
-      "id": "P36",
-      "scene": "S11",
-      "art": {
-        "key": "aftermath-v3",
-        "cell": 4
-      },
-      "motion": "orb",
-      "location": "Crooked Bone",
-      "narration": "Even.",
-      "description": "Hail houdt de bol bij Nyra. Warm licht keert terug in haar gezicht terwijl de tijdelijke kracht door de groep stroomt. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk.",
-      "title": "Heel even",
-      "sceneTitle": "Even",
-      "dialogue": []
-    },
-    {
       "id": "P37",
       "scene": "S11",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 5
       },
-      "motion": "drain",
+      "motion": "still",
       "location": "Crooked Bone",
-      "narration": "En weer weg.",
-      "description": "De extra kracht is verdwenen. Nyra buigt weer vermoeid naar de tafel. Nicola ziet haar reactie en blijft stil. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk.",
-      "title": "En weer weg",
-      "sceneTitle": "Even",
+      "narration": "Hails experiment geeft geen blijvend resultaat. Nyra is nog steeds uitgeput.",
+      "description": "De bol ligt op tafel bij Hail. Nyra leunt vermoeid op haar hand. Nicola kijkt toe; Krek wacht rustig. Hail is licht doorschijnend.",
+      "title": "Het resultaat",
+      "sceneTitle": "Terug bij Hail",
       "dialogue": []
     },
     {
       "id": "P38",
       "scene": "S11",
       "art": {
-        "key": "aftermath-v3",
+        "key": "aftermath-v4",
         "cell": 5
       },
       "motion": "still",
       "location": "Crooked Bone",
-      "narration": "Ze heeft gevoeld hoe het kan zijn.",
+      "narration": "De mogelijkheid laat haar niet los.",
       "description": "Hail schuift de bol terug. Nyra kijkt scherp naar het blauwe licht, moe maar met een nieuw verlangen. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk.",
       "title": "Laat het blijven",
-      "sceneTitle": "Even",
+      "sceneTitle": "Terug bij Hail",
       "dialogue": [
         {
           "speaker": "Hail",
