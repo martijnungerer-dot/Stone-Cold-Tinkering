@@ -1,10 +1,11 @@
 # Frozen Hollow — Een uitstekend plan
 
-> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.3
-> Status: versie 0.2 is inhoudelijk goedgekeurd. Deze aanvulling verwerkt de aangeleverde bronnen en de door de gebruiker gewenste Hail-epiloog met Nyra als dramatische hook. Nieuwe dialoog is een creatief voorstel; nog geen bouwopdracht.
+> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.4
+> Status: versie 0.2 is inhoudelijk goedgekeurd; v0.3 voegde de gewenste Hail-epiloog toe. Deze tekstversie verwerkt het opnieuw aangeleverde eigen kamer-verslag. Nieuwe montage en dialoog zijn voorstellen, niet met terugwerkende kracht goedgekeurd. Geen nieuwe beeld- of readerproductie.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
 > Bronvindplaatsen: [REFERENCES.md](../../sources/REFERENCES.md).
+> Sessieverslag: [S001](../../sessions/s001/SESSION.md). City event op verzoek overgeslagen; ID onbekend, zonder consequenties volgens gebruiker.
 
 ## 1. Verhaalafspraak
 
@@ -12,9 +13,11 @@
 
 De gespeelde gebeurtenissen zijn de vaste ankers. Alle hieronder geschreven dialoog, compositie, timing en gedachtebeelden zijn **CREATIEF**, behalve de expliciet aangeduide vaste karakterquotes. Die quotes zijn door de gebruiker vastgelegde karaktertekst; hun plaatsing in deze episode is een voorstel, geen claim dat ze toen letterlijk zijn uitgesproken.
 
-Deze versie bevat **38 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. De goedgekeurde 32 panelen blijven de basis; P33–P38 vormen de nieuw gevraagde epiloog.
+Deze versie bevat **38 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de twee ijsdemonen bij de eerste kamer horen. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
 
-De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de planning en Kreks teleport moet nog aan de sessie worden getoetst. Onbekende sessiecitaten, aanvullende eventuitkomsten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen nu de opening, de stashvorm en de conclusie; gebruik daarvoor BRONFOTO met bron-ID. Er zijn geen nieuwe claims met het label OFFICIEEL-2E.
+De hoofdvolgorde komt nu uit S001: trage eerste kamer met wolven en Spirits, Nyra's twee grote ijsdemonen, latere stilstand, Kreks doorbraak en verplaatsing, Nyra's schadegolf zonder directe eliminatie, de volgende ronde de gezamenlijke afronding en Nyra's uitputting. De precieze drempels en de scheiding tussen kamers 2/3 blijven OPEN. Overige montage is CREATIEF. Onbekende sessiecitaten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen opening, stashvorm en conclusie; hun editie is niet opnieuw geverifieerd.
+
+Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinnerde “we gaan” wordt voor de strip “We go.” De extra Krek-catchphrases zijn repertoire, geen nieuwe gevechtsgebeurtenissen of verplichte grappen. Zijn voorgestelde bijna-dood/healinggrap wordt niet aan deze sessie toegevoegd.
 
 ### Vooraf en achteraf
 
@@ -43,9 +46,9 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 | S03 — Groen | P07–P09 | Verkeerde kleurkeuze; Qualco's stash vertrekt met vreemde energie | FH-03 |
 | S04 — Frozen Hollow | P10–P12 | De locatie en karakterverschillen voelbaar maken | Creatieve presentatie van de gespeelde locatie |
 | S05 — Moeilijker dan verwacht | P13–P15 | Living Spirits verstoren het zelfvertrouwen | FH-04 |
+| S08 — Koude tegenstand | P23–P25 | Nyra komt op gang en vernietigt twee grote ijsdemonen in kamer 1 | FH-05; s001-a04 |
 | S06 — Het uitstekende plan | P16–P19 + 6 zijpanelen | Planning-chaos en Nicola's vierde wand | FH-06 |
 | S07 — Verder dan verwacht | P20–P22 | Kreks movement ability als brute tunnelactie vertellen | FH-07 |
-| S08 — Koude tegenstand | P23–P25 | IJsdemonen en de omslag naar uitvoering | FH-05 |
 | S09 — Eindelijk efficiënt | P26–P29 | Korte, besliste finale | FH-08 |
 | S10 — Wat het kost | P30–P32 | Nyra's uitputting laten doorwerken | FH-09 |
 | S11 — Even | P33–P38 | Terugkeer naar Hail; Nyra voelt kort kracht en wil die behouden | FH-10; SRC-FH-END |
@@ -184,7 +187,7 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 #### P12 — Te weinig antwoord
 
-**Beeld:** wolvensporen leiden dieper naar binnen, zoals beschreven in SRC-FH-INTRO. Het trio blijft aan één kant van het paneel zichtbaar. Geen nieuw wolvengevecht, val of schat toevoegen; de sporen zijn een omgevingsdetail.
+**Beeld:** de sporen uit SRC-FH-INTRO leiden naar de eerste kamer. Daar zijn wolven zichtbaar, zoals de gebruiker nu bevestigt. Het trio blijft aan één kant van het paneel. Geen wolfaanval, aantal, val of schat invullen: de aanwezigheid is bekend, de precieze handelingen niet.
 
 **Tekst:** geen.
 
@@ -192,11 +195,11 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 ### S05 — Moeilijker dan verwacht
 
-**Locatie:** gevechtsruimte; exacte posities OPEN. **Personages:** trio en Living Spirits. **Ritme:** verwachting, weerstand, reactie. **Basis:** GESPEELD FH-04; concrete aanvallen en regels OPEN.
+**Locatie:** kamer 1; exacte posities OPEN. **Personages:** trio, wolven en Living Spirits. **Ritme:** trage start, weerstand, reactie. **Basis:** GESPEELD FH-04 / s001-a02–a03; concrete aanvallen en regels OPEN.
 
 #### P13 — Living Spirits
 
-**Beeld:** de Living Spirits zijn zichtbaar tegenover het trio. Hun vorm is een voorlopige creatieve interpretatie tot een passende referentie beschikbaar is. De gevechtsas is duidelijk: trio links, tegenstand rechts.
+**Beeld:** bij het openen van de deur staan Krek en Nicola vooraan tegenover de Living Spirits. Nyra is verder achter hen en komt later in actie. Hun precieze vakjes blijven onbepaald. Spiritvormen blijven een creatieve interpretatie tot een passende referentie beschikbaar is. De gevechtsas is duidelijk: trio links, tegenstand rechts.
 
 **Tekst:** geen verklarende verteller over oorsprong, dood of immuniteiten.
 
@@ -220,9 +223,39 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 **Dialoog, Nicola:** “We have established a direction. That is not yet a plan.”
 
+### S08 — Koude tegenstand
+
+**Locatie:** kamer 1; dit blok staat in de leesvolgorde vóór S06–S07. **Ritme:** Nyra komt later op gang, dan een beslissende bijdrage. **Basis:** GESPEELD FH-05 / s001-a04. Twee grote ijsdemonen worden door haar vernietigd; de exacte aanval en totale vijandenaantallen blijven OPEN.
+
+#### P23 — IJsdemonen
+
+**Beeld:** twee grote ijsdemonen krijgen een duidelijke eigen uitsnede. Nyra bereikt de voorgrond en richt haar aandacht op hen. Dit zijn de twee bevestigde doelen; het paneel pretendeert geen volledige vijandopstelling of gedeelde oorsprong met de Spirits te tonen.
+
+**Tekst:** geen.
+
+**Beweging/geluid:** koude vormen en een lage omgevingslaag, als sfeer. Geen nieuwe aura, statuswerking of aanval demonstreren.
+
+**Regie:** verplaatst op basis van het eigen sessieverslag. Geen nieuwe vijandgolf, formele grootteklasse of spelvermogen afleiden uit “grote”.
+
+#### P24 — Nyra kiest haar kleur
+
+**Beeld:** rood licht weerspiegelt op Nyra's gezicht. De bron is haar eigen voorbereide magie; nog geen specifieke vijandtreffer.
+
+**Dialoog, Nyra — vaste karakterquote:** “Fortunately, burning red is my favorite color”
+
+**Regie:** de tekst stelt geen elementaire zwakte van de ijsdemonen vast. De rode kleur is Nyra's voorkeur, geen tactische uitleg.
+
+#### P25 — Haar bijdrage
+
+**Beeld:** een korte magische impact en daarna twee neergehaalde grote ijsdemonen. Nyra's houding is nu volledig gericht; haar late start contrasteert met het resultaat. De exacte spell en choreografie zijn CREATIEF; de twee eliminaties komen uit het verslag.
+
+**Tekst:** geen. Laat het resultaat van haar actie de reactie zijn.
+
+**Regie:** geen elementaire zwakte, schadegetal of kaartnaam toevoegen. Hierna volgt een montageovergang naar de latere stilstand in S06; dit is niet de eindoverwinning van de aflevering.
+
 ### S06 — Het uitstekende plan
 
-**Locatie:** dezelfde gevechtssituatie. **Personages:** trio. **Ritme:** steeds meer taal, steeds minder gezamenlijke helderheid. **Basis:** GESPEELD FH-06; concrete plannen en exacte plaats in het gevecht OPEN.
+**Locatie:** de latere stilstand in kamers 2/3, na Nyra's eerste grote bijdrage. **Personages:** trio. **Ritme:** steeds meer taal, steeds minder beweging. **Basis:** GESPEELD FH-06 / s001-a05; plannen en de precieze drempelindeling OPEN. De overgang hierheen is een montage-ellips, geen nieuwe vijandgolf of extra gespeelde handeling.
 
 #### P16 — Iedereen begint
 
@@ -268,7 +301,7 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 ##### P17-N2 — De waarnemer
 
-**Beeld:** Nicola wijst naar de rand van zijn eigen gedachtepaneel. De bedieningsknoppen blijven op hun normale plek.
+**Beeld:** Nicola wijst naar de rand van zijn eigen gedachtepaneel en kijkt recht naar de lezer. Zijn directe lezersreactie krijgt de aanvaarde lichtblauwe tekstballon binnen het stripkader. Geen popup; bedieningsknoppen blijven op hun normale plek.
 
 **Dialoog, Nicola:** “You can stop observing now. I would like to blame the next part on uncertainty.”
 
@@ -300,21 +333,21 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 **Regie:** dit is het enige samenkomstpunt voor I-02. Geen zin veronderstelt dat de lezer een bepaald zijpad heeft gezien.
 
-#### P19 — De blik
+#### P19 — We go
 
-**Beeld:** Krek kijkt al verder. Nyra richt haar aandacht weer op de tegenstand. Nicola kijkt één keer naar de lezer.
+**Beeld:** Krek breekt de stilstand met een sprint naar de volgende doorgang. Zijn massa en voorwaartse houding dragen de impact. Nicola en Nyra komen overdonderd achter hem aan. Twee korte uitsneden tonen aanzet en achtervolging; de volgende deur gaat open in P20.
 
-**Dialoog, Nicola:** “For the record: you had a choice of perspectives. We still have one problem.”
+**Dialoog, Krek:** “We go.”
 
-**Regie:** deze zin klopt ook als de lezer alleen “Verder” koos. Daarna geen extra vierdewandgrap tot de nasleep; de actie moet ruimte krijgen.
+**Regie:** Engelse vertaling van het herinnerde “we gaan”, geen letterlijk Engels sessiecitaat. “Mist” in de oorspronkelijke tekst blijft onduidelijk: teken geen nieuwe magische mistbarrière of extra vernietigde deur. De kadrering mag de materie van de doorgang buiten beeld laten. Geen extra vierdewandgrap tijdens deze actie.
 
 ### S07 — Verder dan verwacht
 
-**Locatie:** bij het gekozen obstakel/de steen nabij de schat; verbinding met eerdere ruimte OPEN. **Ritme:** doel kiezen, brute beweging, aankomst. **Basis:** GESPEELD FH-07. De gebruiker beschrijft Kreks movement ability als teleport naar een obstakel naar keuze binnen vijf vakjes. Tunnelen is de door de gebruiker voorgestelde CREATIEVE verhaalvertaling. Officiële kaartnaam en overige voorwaarden blijven ONBEVESTIGD-2E.
+**Locatie:** na het opengaan van de deur, bij de steen nabij de schat. **Ritme:** opening, doel zien, brute beweging, verrassing. **Basis:** GESPEELD FH-07 / s001-a06. Kreks movement ability verplaatst hem naar een obstakel naar keuze binnen vijf vakjes. Tunnelen is de eerder gekozen CREATIEVE verhaalvertaling. Officiële kaartnaam, overige voorwaarden en precieze plattegrond blijven ONBEVESTIGD-2E / OPEN.
 
 #### P20 — Daarheen
 
-**Beeld:** één duidelijke oriëntatiecompositie. Krek kiest de steen/het obstakel bij de schat als doel. Zijn beginpositie en het doel krijgen afzonderlijke, herkenbare beeldzones. Zijn houding zakt naar voren en omlaag: een aanloop die evenveel op een inslag lijkt.
+**Beeld:** de deur gaat open. In de ontstane opening ziet Krek de schat en de steen ernaast. Hij kiest die steen als doel. Beginpositie en doel krijgen afzonderlijke, herkenbare beeldzones. Zijn houding zakt naar voren en omlaag: een aanloop die evenveel op een inslag lijkt.
 
 **Dialoog, Krek:** “There.”
 
@@ -332,71 +365,39 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 #### P22 — Kreks interpretatie
 
-**Beeld:** Krek staat bij het gekozen obstakel, stof zakt rond hem neer. Hij kijkt tevreden over zijn nieuwe positie. De schatinhoud blijft buiten de uitsnede; het gaat om zijn aankomst, niet om buit. Het paneel stelt niet vast of de schat al open was.
+**Beeld:** Krek staat bij het gekozen obstakel, stof zakt rond hem neer. De vijanden reageren overdonderd op zijn plotselinge nieuwe positie. Hun verrassing is uitdrukking, geen statusicoon. Krek kijkt tevreden; de schatinhoud en het al dan niet openen blijven buiten beeld.
 
 **Dialoog, Krek — vaste karakterquote:** “I don't step back. We use rolling momentum”
 
 **Regie:** de uitspraak is zijn komische interpretatie van de gekozen tunnelweergave van zijn ability. Ze maakt die ability niet onbeperkt en voegt geen schade of extra beweging toe. De schatinhoud blijft buiten beeld.
 
-### S08 — Koude tegenstand
-
-**Locatie:** gevechtsruimte met ijsdemonen; precieze relatie tot S07 OPEN. **Ritme:** dreiging wordt concreet. **Basis:** GESPEELD FH-05.
-
-#### P23 — IJsdemonen
-
-**Beeld:** de ijsdemonen krijgen een eigen herkenbare verschijning. De compositie stelt nog geen exact aantal, opstelling of gedeelde oorsprong met de Living Spirits vast.
-
-**Tekst:** geen.
-
-**Beweging/geluid:** koude vormen en een lage omgevingslaag, als sfeer. Geen nieuwe aura, statuswerking of aanval demonstreren.
-
-**Regie/open:** mogelijk hoort deze scène eerder in de episode. Verplaats dit blok als de sessievolgorde dat vereist; leg geen nieuwe vijandgolf of nieuw geopende kamer vast.
-
-#### P24 — Nyra kiest haar kleur
-
-**Beeld:** rood licht weerspiegelt op Nyra's gezicht. De bron is haar eigen voorbereide magie; nog geen specifieke vijandtreffer.
-
-**Dialoog, Nyra — vaste karakterquote:** “Fortunately, burning red is my favorite color”
-
-**Regie:** de tekst stelt geen elementaire zwakte van de ijsdemonen vast. De rode kleur is Nyra's voorkeur, geen tactische uitleg.
-
-#### P25 — Minder woorden
-
-**Beeld:** drie korte uitsneden: Kreks gerichtheid, Nicola's aandacht, Nyra's concentratie. Geen gadget, vaardigheid of verbinding die de samenwerking mechanisch verklaart.
-
-**Dialoog, Krek:** “Ready?”
-
-**Dialoog, Nyra:** “Finally.”
-
-**Regie:** aan het einde van dit paneel stopt het overleg. De volgende scène krijgt een merkbaar ander ritme.
-
 ### S09 — Eindelijk efficiënt
 
-**Locatie:** dezelfde finalecontext; precieze acties OPEN. **Ritme:** korte beelden, duidelijke richting. **Basis:** GESPEELD FH-08; gevechtschoreografie CREATIEF/OPEN.
+**Locatie:** na Kreks verplaatsing in de latere kamers. **Ritme:** Nyra's grote aanval, tegenstanders leven nog, de volgende ronde gezamenlijke afronding. **Basis:** GESPEELD FH-08 / s001-a07–a08. Kaarten, schade en laatste treffers blijven OPEN.
 
-#### P26 — Beweging
+#### P26 — Nyra volgt
 
-**Beeld:** Krek beweegt met zijn volle massa voorwaarts. Kadrering toont inzet en richting, zonder alvast een specifieke vijand of een obstakel als slachtoffer vast te leggen.
-
-**Tekst:** geen.
-
-**Beweging/geluid:** één korte impactaccentuering, indien later passend bij de bevestigde actie. Statisch: duidelijke lichaamshoek en bewegingslijnen.
-
-#### P27 — Concentratie
-
-**Beeld:** Nicola volledig bij het gevecht, zonder blik naar de lezer. Een kleine, beheerste handeling contrasteert met alle eerdere mogelijke plannen.
+**Beeld:** Nyra stormt achter Krek aan en ontketent een grote magische aanval. Haar kleur vult de uitsnede. De vijanden krijgen veel schade, maar blijven zichtbaar overeind. Geen extra gedode tegenstanders in deze aanval tekenen.
 
 **Tekst:** geen.
 
-**Regie/open:** vul zijn concrete bijdrage in vanuit de sessie. Tot die tijd blijft dit een reactie-/concentratiebeeld, zonder een nieuwe aanval of causale keten.
+**Beweging/geluid:** één korte impactaccentuering. Statisch: aanvalsrichting, kleur en zichtbare nog levende tegenstanders. De exacte magievorm blijft creatieve regie, zonder nieuwe spelwerking.
 
-#### P28 — Kleur
+#### P27 — Nog niet
 
-**Beeld:** Nyra's magie geeft het paneel verzadigd rood. Haar houding heeft kracht, maar ook spanning. Beperk de choreografie tot wat later met de gespeelde acties kan worden verenigd.
+**Beeld:** Nicola volledig bij het gevecht, zonder blik naar de lezer. In dezelfde gevechtsas zijn de beschadigde maar nog levende vijanden zichtbaar. Krek en Nyra richten zich opnieuw. Het korte moment laat het verschil zien tussen veel schade en een afgerond gevecht.
 
 **Tekst:** geen.
 
-**Regie/open:** geen apart aantal slachtoffers, laatste treffer of vuurzwakte suggereren. In de montage wordt het gezamenlijke efficiënte geweld verteld; de precieze verdeling blijft open.
+**Regie/open:** Nicola's concrete aanval blijft onbekend. Geen healing, gadget of bijna-doodmoment uit het eerdere grappenvoorstel toevoegen.
+
+#### P28 — De volgende ronde
+
+**Beeld:** een compacte gezamenlijke actiemontage van het trio. Voorwaartse massa, gerichte aandacht en Nyra's magische kleur dragen het efficiënte geweld. Ditmaal wordt het gevecht afgemaakt. De volgorde van individuele treffers blijft buiten beeld.
+
+**Tekst, verteller:** “De volgende ronde.”
+
+**Regie/open:** de tijdsprong volgt de gebruikersherinnering. Geen apart aantal slachtoffers, laatste treffer, vuurzwakte of healing suggereren; de precieze verdeling blijft open.
 
 #### P29 — Stilte na de finale
 
@@ -412,7 +413,7 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 
 #### P30 — Nyra
 
-**Beeld:** Nyra is zichtbaar uitgeput: gezakte houding, arm laag, aandacht die moeite kost. Er verschijnt geen nieuwe heldere vuurbron uit haar hand. De kleur in de omgeving kan als restbeeld blijven, zonder voortdurende spreuk.
+**Beeld:** Nyra zakt na de overwinning uitgeput in elkaar, zoals nu beschreven. Haar houding en steunpunt zijn creatieve uitwerking; ze sterft niet en krijgt geen nieuwe wond. Geen nieuwe heldere vuurbron uit haar hand. De kleur kan als restbeeld blijven, zonder voortdurende spreuk.
 
 **Tekst:** geen. Laat de uitputting een volledig paneel krijgen vóór de volgende grap.
 
@@ -505,10 +506,12 @@ De volgorde is een vertelvoorstel. De precieze positie van de ijsdemonen, de pla
 ## 4. Interactie en leesvolgorde
 
 ```text
-P01 ... P08 → P09 ... P16 → P17 → P18 ... P32 → P33 ... P38 → einde
-        ↕                    ↘ K1 → K2 ↗
-  kristal bekijken            ↘ N1 → N2 ↗
-  en terug naar P08             ↘ Y1 → Y2 ↗
+Hoofdlijn: P01–P15 → P23–P25 → P16–P22 → P26–P38 → einde
+Detail:    P08 → kristal bekijken → P08 → P09
+Gedachten: P17 → K1 → K2 → P18
+           P17 → N1 → N2 → P18
+           P17 → Y1 → Y2 → P18
+Overslaan: P17 → P18
 ```
 
 De leeslijn is volledig zonder een extra detail te openen. In P17 kan de lezer een perspectief bekijken, terugkeren om een ander te bekijken, of meteen verdergaan. Iedere route hervat bij P18. Er zijn geen verborgen punten, niet-uitgesproken verkeerde keuzes of eindes op basis van klikgedrag.
@@ -520,7 +523,7 @@ De leeslijn is volledig zonder een extra detail te openen. In P17 kan de lezer e
 | I-02-N | P17 | P17-N1, P17-N2 | P18 | Alleen perspectief |
 | I-02-Y | P17 | P17-Y1, P17-Y2 | P18 | Alleen perspectief |
 
-Voor een latere technische proef is P16 → P17 → één zijpad → P18 voldoende. Alle labels, open vragen en regie blijven buiten de lezersinterface. Er wordt nu nog geen reader of interactie gebouwd.
+Voor de toekomstige aflevering zijn P16 → P17 → één zijpad → P18 een afgebakende interactie. De losse bewegingsproef is al afgerond en vormt de basis; hier wordt alleen het tekststoryboard bijgewerkt. Alle bronlabels, open vragen en regie blijven buiten de lezersinterface.
 
 ### Leesbaarheid en toegankelijkheid voor later
 
@@ -538,11 +541,11 @@ Voor een latere technische proef is P16 → P17 → één zijpad → P18 voldoen
 | --- | --- | --- |
 | Zijn er persoonlijke sessiereplieken bij Hail die bewaard moeten blijven? | P01–P03 | Setting en bolopdracht zijn bronondersteund; huidige replieken zijn creatieve adaptatie |
 | Wie raakte het groene kristal bij de stash aan? | P07–P09 | Consolevorm en mogelijke bediening volgen de bron; groenkeuze en vertrek zijn bevestigd, kiezer en verdere gevolgen blijven open |
-| Waar zaten overleg, ijsdemonen en teleport in de gevechtsvolgorde? | S05–S09 | Blokken mogen na bevestiging verschuiven |
+| Wat bedoelde “mist” precies en waar lagen de drempels van kamers 2/3? | P19–P22 | Hoofdvolgorde is bevestigd. De doorgangsmaterie en volledige plattegrond blijven buiten beeld |
 | Wat is de officiële kaarttekst en waar stond Krek precies? | P20–P22 | Zijn ability naar een gekozen obstakel binnen vijf vakjes is bevestigd; tunnelen is creatieve vertaling, overige regels blijven open |
 | Wat werd er met de schat gedaan? | P20–P22 | Geen inhoud of meenemen getoond |
-| Welke concrete acties maakten de finale efficiënt? | P26–P29 | Focus op het trio; precieze aanvallen nog open |
-| Hoe zag Nyra's uitputting er aan tafel uit? | P30–P32 | Zichtbare uitputting, zonder niet-bevestigde spelregel |
+| Welke kaarten en laatste treffers maakten de finale af? | P26–P29 | Nyra doet eerst veel schade zonder directe eliminatie; de volgende ronde rondt de groep af. Exacte aanvallen blijven open |
+| Welk steunpunt en welke houding tonen Nyra's ineen zakken? | P30–P32 | Het uitgeput ineen zakken is bevestigd; beeldregie blijft creatief, zonder nieuwe spelregel |
 
 De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke replieken en exacte gevechtsacties blijven waar aangegeven open. De terugkeer naar Hail is door de gebruiker gewenst; de zes epiloogpanelen werken die wens creatief uit. De vaste karakterquote “Doors are suggestions to stop. I hate bad suggestions” blijft beschikbaar voor een werkelijk passende scène; er is hier geen deurvernieling bij verzonnen.
 
@@ -556,6 +559,7 @@ De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke repli
 
 ### Wijzigingslog
 
+- **0.4:** opnieuw aangeleverd eigen verslag S001 verwerkt. City event overslaan; wolven en trage start in kamer 1; Krek/Nicola vooraan; Nyra vernietigt daar twee grote ijsdemonen. S08/P23–P25 verplaatst vóór S06 met behoud van IDs. Latere doorbraak en deur, verraste vijanden, Nyra's eerste schadegolf en gezamenlijke afronding in de volgende ronde verduidelijkt. Nyra zakt uitgeput in elkaar. Alle drie spreken Engels; extra Krek-repertoire blijft voorstel en de healinggrap is niet als gebeurtenis toegevoegd. 38 hoofdpanelen en 6 optionele panelen behouden; Hail-epiloog blijft staan.
 - **0.3:** aangeleverde bronfoto's verwerkt in opening, bergreis, tunnelingang en stashvorm. P33–P38 toegevoegd op verzoek: terugkeer naar Hail met de blauwe bol, tijdelijk experiment en Nyra als dramatische hook. 38 hoofdpanelen en 6 optionele perspectiefpanelen; toekomstige scenario-inhoud uit de conclusie niet overgenomen. Nieuwe dialoog blijft een creatief voorstel.
 - **Goedkeuring — 17 oktober 2026:** gebruiker heeft versie 0.2 gelezen en goedgekeurd als uitgangspunt. Dit stelt geen ontbrekende sessiedetails vast en start geen beeld- of softwareproductie.
 - **0.2:** gebruikersdetails verwerkt: Qualco's Emergency Temporal Stash vertrekt met gekke energie na de verkeerde groenkeuze. Kreks ability naar een gekozen obstakel binnen vijf vakjes verbeeld als brute tunnelbeweging. Geen verband tussen beide gebeurtenissen toegevoegd; 32 hoofdpanelen en 6 optionele panelen behouden.

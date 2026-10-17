@@ -10,6 +10,8 @@ Voor een nieuwe sessie of aflevering: lees ook docs/SESSION_WORKFLOW.md, content
 
 De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is inhoudelijk goedgekeurd; versie 0.3 verwerkt de bronfoto's en de gewenste Hail-epiloog met Nyra als dramatische hook. Nieuwe dialoog blijft creatieve adaptatie. De lokale driepanelige leesproef in reader/ is inmiddels door de gebruiker afgerond en aanvaard als basis voor de leeservaring en Nicola's interactie; zie docs/PROTOTYPE.md. Extra beweging voor Krek en Nyra is optioneel toekomstwerk, geen open taak aan deze proef. De gebruiker wil voortaan van iedere speelsessie een verhaal maken. Er is nog geen tweede sessie aangeleverd of websitepublicatie gevraagd. Lees bij bron- en beeldwerk ook content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
 
+Het opnieuw aangeleverde eigen Frozen Hollow-verslag staat in content/sessions/s001/SESSION.md; dit is dezelfde sessie, geen aflevering 02. Storyboard v0.4 verwerkt kamer 1 met Nyra's twee grote ijsdemonen vóór de latere doorbraak, en de finale over twee rondes. De IDs zijn behouden: S08/P23–P25 wordt vóór S06 gelezen. City event op verzoek overslaan. Alle drie spreken Engels. Extra Krek-catchphrases en de healinggrap uit de oude assistenttekst zijn creatieve voorstellen, geen bevestigde gevechtsacties.
+
 ## Inhoudelijke regels
 
 - Gebeurtenissen aan tafel zijn canon voor de strip.

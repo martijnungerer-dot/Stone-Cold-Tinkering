@@ -8,6 +8,15 @@ Bijgewerkt: 17 oktober 2026. Dit register bewaart wat iedere bron daadwerkelijk 
 
 De samenvattingen hieronder blijven binnen de huidige episode. Naastliggende pagina's, beloningen, ontgrendelingen en toekomstige uitnodigingen worden niet getranscribeerd. De originele bronfoto's worden niet als volledige afbeeldingen in deze repository opgenomen.
 
+## SRC-FH-SESSION — opnieuw aangeleverd sessieverslag
+
+- Bron: door de gebruiker geplakte oudere chat, met eigen verslag van kamer 1 en kamers 2/3; overgenomen in [S001](../sessions/s001/SESSION.md).
+- Status: GESPEELD voor de eigen herinneringen; CREATIEF voor voorstellen van de eerdere assistent.
+- Ondersteunt de trage eerste kamer, wolven en Spirits, Krek/Nicola vooraan, twee grote ijsdemonen door Nyra, Kreks latere doorbraak en verplaatsing, Nyra's eerste schadegolf zonder directe eliminatie en de afronding in de volgende ronde met Nyra uitgeput.
+- Actuele aanvulling: city event zonder consequenties volgens gebruiker; onbekend ID, op verzoek niet uitwerken.
+- De drie opnieuw gedeelde foto's hebben dezelfde SHA-256 als SRC-R10, SRC-FH-INTRO en SRC-FH-END; ze zijn geen nieuwe onafhankelijke editiebron.
+- De door de eerdere assistent voorgestelde healinggrap, stashknal en verdere conclusiepassages bevestigen geen persoonlijke handeling of nieuwe campagne-uitkomst. De bestaande spoilergrens blijft gelden.
+
 ## SRC-R10 — voorkant Road Event R-10
 
 - Bestand: `image-1792228414453.jpg`.

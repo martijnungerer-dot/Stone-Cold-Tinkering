@@ -1,7 +1,7 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.4 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
+> Versie 1.5 · 17 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## 1. Doel en kern
@@ -28,6 +28,7 @@ Deze versie gebruikt:
 - Aangeleverde bronfoto's van R-10, de introductie van Frozen Hollow en conclusie S.3, plus de opnieuw gedeelde kaart. Zie [bronregister](content/sources/REFERENCES.md) voor vindplaatsen, herkomst en precieze grenzen.
 - De bekeken gedeelde stripillustratie als creatieve stijlreferentie. De aparte Library-link kon niet inhoudelijk worden ingezien.
 - Gebruikerskeuze voor een terugkeer naar Hail als epiloog, met Nyra als dramatische hook.
+- Opnieuw geplakt eigen verslag van kamer 1 en kamers 2/3; vastgelegd als [sessie S001](content/sessions/s001/SESSION.md). De erin opgenomen eerdere assistentvoorstellen blijven apart van gespeelde feiten. City event op gebruikersverzoek overgeslagen: zonder consequenties, ID vergeten.
 
 Bij de eerste versie waren de eerdere assistentantwoorden alleen als inhoudsverwijzingen beschikbaar. De aangeleverde tekstexport herstelt nu de inhoudelijke afspraken en de samenvatting van het eerdere onderzoek. De export bevat bronlabels zoals “Cephalofair”, “Reddit” en “GitHub”, maar geen controleerbare directe bronverwijzingen bij de afzonderlijke claims. Eerdere assistentuitspraken zijn daarom geen onafhankelijke loreverificatie. Er is voor dit bestand geen nieuwe externe loreverificatie uitgevoerd.
 
@@ -246,15 +247,15 @@ FH-01 tot en met FH-09 zijn door de gebruiker als campagnecontext of gespeelde g
 | FH-01 | Hail geeft in Crooked Bone de opdracht om de bol te halen en terug te brengen; bibliotheek en onderzoeker uit SRC-FH-INTRO | Persoonlijke gesprekken, nieuwe voorwaarden en beloningen |
 | FH-02 | Reis door besneeuwde Copperneck Mountains naar de oude stenen tunnelingang; wolvensporen uit SRC-FH-INTRO | Exacte route, reistijd en kaartcoördinaten |
 | FH-03 | R-10: metalen deur in bergwand, knipperende kristallen en middenknop uit SRC-R10; groen is de verkeerde keuze en de stash vertrekt met vreemde energie volgens gebruiker | Wie groen aanraakte, aard/bestemming van de energie en eventuele verdere gevolgen |
-| FH-04 | Living Spirits blijken lastig | Statistieken, immuniteiten en precieze oorzaak van het probleem |
-| FH-05 | Er zijn ijsdemonen | Aantal, opstelling en officiële monsternaam indien anders gespeld |
-| FH-06 | De planning verloopt chaotisch | Letterlijke gesprekken en exacte beurtvolgorde |
+| FH-04 | Kamer 1 komt langzaam op gang; wolven en Living Spirits. Spirits gaan lastig dood. Krek en Nicola staan bij het openen van de deur vooraan; Nyra komt later in actie | Aantal wolven/Spirits, exacte vakjes, statistieken en weerstandstype |
+| FH-05 | Nyra vernietigt twee grote ijsdemonen in de fase die de gebruiker als kamer 1 beschrijft | Totaal aantal ijsdemonen, opstelling, officiële kaartnaam en elementaire zwakte |
+| FH-06 | Chaotische stilstand in kamers 2/3; Krek zegt volgens de herinnering “we gaan” en stormt door de volgende doorgang. De rest volgt overdonderd | Precieze betekenis van “mist”, drempelindeling en overige letterlijke gesprekken |
 | FH-07 | Krek gebruikt zijn brute movement ability naar een gekozen obstakel binnen vijf vakjes, bij de schat; tunnelen is de gekozen creatieve verhaalvertaling | Officiële kaartnaam, overige kaartvoorwaarden, precieze beginpositie en schatinhoud |
-| FH-08 | De finale bestaat uit efficiënt geweld | Exacte laatste aanval en verdeling van eliminaties |
-| FH-09 | Nyra is aan het einde uitgeput | Een niet-bevestigde regelspecifieke uitputtingsoorzaak |
+| FH-08 | Na het openen van de deur en Kreks verplaatsing zijn ook vijanden overdonderd. Nyra stormt erachteraan en doet veel schade; vijanden leven nog. De volgende ronde maakt de groep het efficiënt af | Verrassing als spelstatus, concrete aanval/kaart, schadegetallen en verdeling van laatste treffers |
+| FH-09 | Nyra zakt na de gewonnen finale uitgeput in elkaar | Sterven, nieuwe aandoening of een niet-bevestigde regelspecifieke uitputtingsoorzaak |
 | FH-10 | Terugkeer naar Hail met de koude blauwe bol; tijdelijke kracht tijdens haar experiment uit SRC-FH-END; gebruiker kiest Nyra als dramatische hook | Geen verdere scenario-onthullingen, gekochte verbetering of nieuwe aandoening toevoegen |
 
-De volgorde hieronder is een **voorgestelde vertelmontage**, geen hersteld turn-by-turn-sessielog. Met name de onderlinge volgorde van vijanden en het teleportmoment blijft flexibel totdat een sessieverslag die vastlegt.
+Het opnieuw aangeleverde verslag legt de hoofdvolgorde nu vast: trage eerste kamer met Spirits en Nyra's twee ijsdemonen, latere stilstand, Kreks doorbraak en verplaatsing bij de schat, Nyra's schadegolf zonder directe eliminatie, afronding in de volgende ronde en uitputting. De precieze scheiding van kamers 2/3, vakjes en kaarten blijft OPEN. Zie SRC-FH-SESSION en S001. De overige montage en dialoog zijn creatieve voorstellen; dit is geen volledig beurtverslag. Het onbekende city event wordt niet uitgewerkt.
 
 ### 8.2 Voorgestelde episodeboog
 
@@ -262,10 +263,10 @@ De volgorde hieronder is een **voorgestelde vertelmontage**, geen hersteld turn-
 2. **Contextbeat — `GESPEELD / BRONFOTO / CREATIEF`:** Hail in de bibliotheek van Crooked Bone geeft aanleiding en bolopdracht. Haar nieuwe dialogen blijven creatieve adaptatie.
 3. **Reisovergang — `KAART / CREATIEF`:** bergsilhouetten en veranderend geluid verbinden de stad met de koude omgeving.
 4. **R-10 — `GESPEELD / BRONFOTO`:** metalen deur in de bergwand met gekleurde, knipperende kristallen en een middenknop. Het opschrift Emergency Temporal Stash staat op de bronfoto; de koppeling aan Qualco komt van de gebruiker. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. De visuele vervorming is creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
-5. **Confrontatie — `GESPEELD`:** Living Spirits bieden onverwacht veel weerstand. Toon mislukte verwachtingen via reactie en ritme, zonder regels te verzinnen.
+5. **Eerste kamer — `GESPEELD`:** wolven en Living Spirits, trage start. Krek en Nicola staan vooraan; Nyra komt later op gang en vernietigt twee grote ijsdemonen. Aanvalskaart, schade en elementaire werking blijven onbenoemd.
 6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** overlappende voorstellen; ieder personage benoemt een ander probleem.
 7. **Ruimtelijke omslag — `GESPEELD / CREATIEF`:** Krek kiest met zijn movement ability het obstakel bij de schat, binnen vijf vakjes. Verbeeld de teleport als een brute tunnelbeweging. Gebruik duidelijke begin- en eindposities; introduceer geen blijvende tunnelroute of onbevestigde aanvalsschade.
-8. **Finale — `GESPEELD`:** efficiënt geweld. Minder overleg, kortere beats, heldere gezamenlijke richting. IJsdemonen maken deel uit van de episode, maar krijgen pas een exacte plek in de montage na bevestiging.
+8. **Finale — `GESPEELD`:** Nyra stormt achter Krek aan en doet veel schade, maar de vijanden leven nog. Pas de volgende ronde rondt de groep het efficiënt af. Behoud dat onderscheid; laat haar niet alle latere vijanden direct uitschakelen.
 9. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
 10. **Epiloog — `BRONFOTO / CREATIEF`, door gebruiker gewenst:** de koude blauwe bol gaat naar Hail. Haar experiment geeft kort kracht en neemt die weer weg. Houd het laatste perspectief bij Nyra: het korte herstel maakt haar verlangen naar blijvende kracht voelbaar. Dit is een emotionele hook; geen nieuwe ziekte of toekomstig scenario.
 
@@ -281,7 +282,7 @@ Het kristal, de steen en de schat mogen visueel terugkomen zonder een onderlinge
 
 Donkere avonturenfantasy met droge, karaktergedreven humor. De wereld neemt haar eigen gevaar serieus; het trio hoeft dat niet altijd op de juiste manier te doen. Geen voortdurende stroom memes of referenties die de omgeving vervangt.
 
-Dialoog blijft compact. Laat fysieke actie en reacties de helft van een grap vertellen. Engelse karakterquotes blijven Engels; Nederlandse vertelling en interface zorgen voor samenhang. Nieuwe Engelse replieken zijn toegestaan als `CREATIEF` en worden nooit als letterlijk sessiecitaat gepresenteerd.
+Dialoog blijft compact. Laat fysieke actie en reacties de helft van een grap vertellen. Alle drie de hoofdpersonages spreken Engels; Nederlandse vertelling en interface zorgen voor samenhang. Vaste Engelse karakterquotes behouden hun formulering. Nieuwe Engelse replieken en vertalingen van herinnerde Nederlandse tekst zijn `CREATIEF` en worden niet als letterlijk sessiecitaat gepresenteerd. Het aanvullende woordgraprepertoire voor Krek staat als voorstel in CHARACTER_ARCS.md; de healinggrap is geen bevestigde gebeurtenis in Frozen Hollow.
 
 ### 9.2 Visuele grammatica — creatieve richtlijn
 
@@ -447,7 +448,7 @@ Test vooral navigatie, samenkomstpunten, instellingen en de afwezigheid van verb
 | Waar ligt de exacte route naar de ingang in de Copperneck Mountains? | Routekaart en locatiepin | Bergen en stenen ingang zijn bronondersteund; exacte pin blijft open |
 | Wat is de officiële kaarttekst van Kreks movement ability? | Exacte regeluitleg | Gebruik de bevestigde beschrijving: gekozen obstakel binnen vijf vakjes; tunnel als creatieve vertaling |
 | Wat zat er in de schat en werd die meegenomen? | Buit en vervolgcontinuïteit | Laat de inhoud onbenoemd |
-| Wat was de precieze gevechtsvolgorde? | Definitieve montage | Bewaar ankers; houd volgorde voorlopig |
+| Wat waren de precieze drempels en posities in kamers 2/3? | Gedetailleerde plattegrond | Hoofdvolgorde uit S001 staat vast; toon alleen bevestigde deur, schat en doelsteen, zonder een volledige kaart te reconstrueren |
 | Welke facties zijn al ontmoet? | Factiehoofdstukken | Voeg alleen gecontroleerde, vrijgegeven contacten toe |
 
 Deze vragen blokkeren geen conceptstoryboard, karakterstudies of technische proef met de planning-scène. Ze blokkeren wel de betreffende stellige loreclaims en definitieve scènes.
@@ -479,6 +480,7 @@ Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële D
 
 ### Wijzigingslog
 
+- **1.5 — 17 oktober 2026:** opnieuw aangeleverd sessieverslag S001 verwerkt: city event overslaan, kamer 1 met wolven/Spirits en Nyra's twee grote ijsdemonen, latere doorbraak en tweefasige finale. Alle drie spreken Engels; extra Krek-quotes als creatief repertoire bewaard. Geen nieuwe loreverificatie of aanvullende conclusie-onthullingen.
 - **1.4 — 17 oktober 2026:** serie per speelsessie, sessieoverdracht en afleveringsoverzicht vastgelegd. Leesproef op gebruikersaangeven afgerond; leesvorm en Nicola-interactie aanvaard, verdere beweging optioneel. Geen nieuwe sessiegebeurtenissen of lore toegevoegd.
 - **1.3 — 17 oktober 2026:** bronfoto's en bekeken stripreferentie geregistreerd; Hail, Crooked Bone, bolopdracht, reis en stashvorm met bronvindplaatsen ingevuld. Terugkeer naar Hail als epiloog toegevoegd op gebruikersverzoek, met Nyra als dramatische hook en zonder toekomstige ontgrendelingen.
 - **1.2 — 17 oktober 2026:** gebruikersbevestiging verwerkt over Qualco's Emergency Temporal Stash, de verkeerde groenkeuze en het vertrek met vreemde energie; Kreks movement ability naar een gekozen obstakel binnen vijf vakjes vastgelegd, met tunnelen als creatieve verhaalvertaling. Geen nieuwe officiële lore- of regelverificatie.

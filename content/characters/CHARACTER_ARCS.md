@@ -27,6 +27,27 @@ De aandacht voor schatten is een creatieve karaktertrek uit de poster. Ze verkla
 
 **Humor:** korte stellige uitspraken, een volstrekt serieuze herformulering van iets onmogelijks en lichamelijke actie. Metaal hoort volgens hem bij steen. Maak hem geen domme krachtpatser: zijn ruimtelijke inzicht en gerichte keuze van het doelobstakel mogen competent zijn.
 
+**Stem in het Engels:** alle drie de hoofdpersonages spreken Engels; de Nederlandse vertelling en bediening blijven behouden. Krek is kort en bombastisch, Nyra elegant en vernietigend sarcastisch, Nicola droog en precies. Kreks overtuiging van zijn onbreekbaarheid is zelfbeeld, geen echte onkwetsbaarheid.
+
+### Aanvullend creatief repertoire uit de opnieuw gedeelde chat
+
+Dit zijn CREATIEF-voorstellen van de eerdere assistent. Bewaar ze als keuzemateriaal; vervang de vaste karakterquotes niet en presenteer de genoemde situaties niet als gespeelde gebeurtenissen.
+
+| Voorgestelde situatie | Mogelijke repliek |
+| --- | --- |
+| Vuistslag | “ROCK PUNCH!” |
+| Een steen gooien | “YOU ROCK!” |
+| Een vijand verpletteren | “CRUSHING IT!” |
+| Een kamer binnenstormen | “I AM THE MOUNTAIN!” |
+| Zich onsterfelijk wanen | “I AM UNBREAKABLE!” |
+| Zwaar gewond zijn | “THE MOUNTAIN NEEDS HEALING!” |
+| Na een genezing | “ROCK SOLID AGAIN!” |
+| Een indrukwekkende aanval | “LET'S ROCK AND ROLL!” |
+| Tegen een sterke tegenstander | “YOU'RE BETWEEN A ROCK AND ME!” |
+| Na een overwinning | “THAT WAS A ROCK-SOLID PLAN. MINE.” |
+
+De voorgestelde terugkerende grap is: “NOTHING CAN BREAK ME!” → na een zware klap “EXCEPT THAT! NICOLA! HEAL!” → na herstel “AS I WAS SAYING... NOTHING CAN BREAK ME!” Dat Krek zijn tegenspraak niet opmerkt past bij zijn zelfbeeld. Gebruik de fysieke klap en genezing pas als een sessie die bevestigt, of als expliciet onwerkelijk gedachtebeeld. Er is daarmee geen aanval, healing ability of bijna-doodmoment in Frozen Hollow vastgesteld. Doseer de woordgrappen; actie, rotslogica en stilte blijven even bruikbaar.
+
 **Ontwikkeling in Frozen Hollow — creatieve lezing van de bestaande panelen:**
 
 - P03–P06: hij wil bewegen en vertrouwt op materiaal dat hij begrijpt.

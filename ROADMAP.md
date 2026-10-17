@@ -14,6 +14,8 @@ Versie 0.2 van het [tekststoryboard voor Frozen Hollow](content/episodes/frozen-
 
 Aanvulling 0.3 verwerkt de aangeleverde bronfoto's en de door de gebruiker gewenste terugkeer naar Hail, met Nyra als dramatische hook: 38 hoofdpanelen en 6 optionele perspectiefpanelen. Het [bronregister](content/sources/REFERENCES.md) en de [tekstuele visuele briefing](docs/VISUAL_DIRECTION.md) bewaren de nieuwe referenties en ontwerpuitgangspunten. Nieuwe dialoog is creatieve adaptatie.
 
+Werkversie 0.4 verwerkt het opnieuw aangeleverde eigen verslag als [S001](content/sessions/s001/SESSION.md): eerste kamer met wolven/Spirits en Nyra's twee grote ijsdemonen; later Kreks doorbraak en verplaatsing, Nyra's schadegolf zonder directe eliminatie en gezamenlijke afronding in de volgende ronde. City event wordt overgeslagen. Paneel-IDs en aantallen blijven behouden; de leesvolgorde is bijgewerkt. Dit is dezelfde Frozen Hollow-sessie, geen nieuwe aflevering. Geen nieuwe beelden of readerbouw uitgevoerd.
+
 De gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis aangewezen. SRC-STYLE-02 is de primaire stijlreferentie; de visuele briefing is hierop aangepast.
 
 Daarna zijn een Krek-personageblad en drie versies van de bewegingsstudie gemaakt. De beweging en positionering zijn bruikbaar; de tekenstijl van v3 is nog niet helemaal definitief. Nyra volgt verfijnd achter Krek en Nicola en waardeert het gebaande pad. Werkbeeld v3 mag voorlopig worden gebruikt.
