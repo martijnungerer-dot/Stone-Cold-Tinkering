@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171816">
+  <title>Altijd voorwaarts. — Stone & Cold Tinkering</title>
+  <meta name="description" content="Krek baant de weg. Nicola lift mee. Nyra volgt op haar eigen manier. Een korte interactieve strip.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scene-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#reader">Naar de strip</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="Stone and Cold Tinkering, begin opnieuw">
+      <span>STONE <i>&</i> COLD</span><span class="wordmark-bottom">TINKERING</span>
+    </a>
+    <p class="edition"><span class="edition-mark" aria-hidden="true">◆</span> EEN GLOOMHAVEN-VERHAAL <span class="edition-number">/ 01</span></p>
+    <div class="preferences" aria-label="Leesinstellingen">
+      <button id="motion-toggle" class="setting" type="button" aria-pressed="false"><span aria-hidden="true">≋</span><span id="motion-label">Beweging</span></button>
+      <button id="sound-toggle" class="setting" type="button" aria-pressed="false"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm5 3c3 2 3 6 0 8m3-11c5 4 5 10 0 14"/></svg><span id="sound-label">Geluid uit</span></button>
+    </div>
+  </header>
+
+  <main id="reader" class="reader">
+    <section class="chapter-intro" aria-labelledby="chapter-title">
+      <p class="eyebrow"><span class="small-rule" aria-hidden="true"></span> EEN WEG VOORUIT <span class="chapter-count">DRIE PANELEN</span></p>
+      <div class="intro-line"><h1 id="chapter-title">Altijd <em>voorwaarts.</em></h1><p>Krek baant de weg.<br>De rest vindt zijn eigen manier.</p></div>
+    </section>
+
+    <div class="reading-layout">
+      <section class="comic-column" aria-label="Strip en bediening">
+        <div class="frame-top"><span id="frame-label">01 / DE AANZET</span><span class="frame-hint" id="frame-hint">Ontdek Nicola’s kant van het verhaal <span aria-hidden="true">↘</span></span></div>
+        <div id="art-shell" class="art-shell">
+          <div id="art-stage" class="art-stage">
+            <svg id="scene-art" class="scene-art" viewBox="0 0 1536 276" role="img" aria-labelledby="art-title art-description" preserveAspectRatio="xMidYMid meet">
+              <title id="art-title">Krek zet zich schrap</title>
+              <desc id="art-description">Krek beweegt vooruit; Nicola hangt aan zijn tuig en Nyra volgt achter hen.</desc>
+              <image href="assets/forward-v3.png" x="0" y="0" width="1536" height="1024"/>
+            </svg>
+            <div id="dust" class="dust" aria-hidden="true"></div>
+            <button id="nicola-hotspot" class="nicola-hotspot" type="button" aria-label="Bekijk Nicola’s opmerking"><span class="hotspot-ring" aria-hidden="true"></span><span class="hotspot-label">Nicola?</span></button>
+          </div>
+          <p id="image-error" class="image-error" hidden>Het beeld kon niet laden. Je kunt het verhaal hieronder als tekst lezen.</p>
+        </div>
+        <div class="frame-bottom"><span><span class="status-dot" aria-hidden="true"></span> JOUW TEMPO. HUN AVONTUUR.</span><button id="replay" class="text-button" type="button"><span aria-hidden="true">↻</span> Herhaal moment</button></div>
+
+        <nav class="reading-controls" aria-label="Door de strip bladeren">
+          <button id="previous" class="nav-button previous" type="button" disabled><span aria-hidden="true">←</span> Vorige</button>
+          <div class="position"><span id="current-number">01</span><span class="position-divider">/</span><span>03</span><span class="position-line" aria-hidden="true"><span id="progress-fill"></span></span></div>
+          <button id="next" class="nav-button next" type="button">Verder <span aria-hidden="true">→</span></button>
+        </nav>
+      </section>
+
+      <aside class="story-note" aria-labelledby="panel-title">
+        <p class="note-eyebrow">HET MOMENT <span id="note-number">01</span></p>
+        <h2 id="panel-title">Een praktische oplossing.</h2>
+        <p id="panel-narration" class="narration"></p>
+        <blockquote class="character-quote"><span id="quote-character" class="quote-character"></span><p id="quote-text"></p></blockquote>
+        <button id="nicola-open" type="button" class="nicola-open"><span class="nicola-glyph" aria-hidden="true">◉</span><span>Nicola heeft een theorie<small>Hij weet dat je meekijkt.</small></span><span aria-hidden="true">↗</span></button>
+        <p id="ending-note" class="ending-note" hidden>Een gebaand pad. Drie manieren om vooruit te gaan.</p>
+      </aside>
+    </div>
+
+    <nav class="scene-index" aria-label="Kies een paneel">
+      <button class="scene-step" type="button" data-panel="0" aria-current="step"><span class="step-number">01</span><span><strong>De aanzet</strong><small>Een bruikbare lift.</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+      <button class="scene-step" type="button" data-panel="1"><span class="step-number">02</span><span><strong>Rolling momentum</strong><small>De grond geeft mee.</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+      <button class="scene-step" type="button" data-panel="2"><span class="step-number">03</span><span><strong>Op haar manier</strong><small>Een verfijnde volger.</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+    </nav>
+
+    <details class="transcript"><summary><span>Lees de tekstversie</span><span aria-hidden="true">+</span></summary><div id="transcript-content" class="transcript-content"></div></details>
+    <p id="reader-announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    <p id="audio-announcement" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="site-footer"><span>STONE & COLD TINKERING <span class="footer-dot">·</span> CONCEPTEDITIE</span><span class="keyboard-hint"><kbd>←</kbd><kbd>→</kbd> Bladeren op je eigen tempo</span></footer>
+
+  <dialog id="nicola-dialog" class="nicola-dialog" aria-labelledby="nicola-title" aria-describedby="nicola-comment">
+    <div class="dialog-heading"><span class="dialog-person"><span class="dialog-eye" aria-hidden="true">◉</span> NICOLA <small>TEGEN JOU, JA.</small></span><button id="nicola-close" type="button" class="dialog-close" aria-label="Sluit Nicola’s opmerking">×</button></div>
+    <p class="dialog-eyebrow">EEN ONVERWACHTE WAARNEMER</p><h2 id="nicola-title">Ah. Je kijkt mee.</h2><p id="nicola-comment" lang="en" aria-live="polite"></p>
+    <p class="dialog-footnote">Er verandert niets aan hun route. Alleen aan jouw perspectief.</p><button id="nicola-another" class="theory-button" type="button">Nog een theorie <span aria-hidden="true">↻</span></button>
+  </dialog>
+  <noscript><p class="noscript-note">Voor bladeren en de extra opmerkingen is JavaScript nodig. De stripplaat en eerste tekst blijven beschikbaar.</p></noscript>
+</body>
+</html>

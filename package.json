@@ -1,0 +1,13 @@
+{
+  "name": "stone-cold-tinkering",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Lokale motion-comicproef met drie panelen.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build-offline.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

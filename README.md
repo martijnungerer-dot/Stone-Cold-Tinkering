@@ -18,7 +18,23 @@ De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png 
 
 ## Projectstatus
 
-Het project bevindt zich in de tekstuele voorbereiding. Er is nog geen applicatie of installatieprocedure. Afbeeldingen, animaties en softwarebouw beginnen pas na een expliciete bouwopdracht.
+De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Werkbeeld v3 is voorlopig bruikbaar; de oorspronkelijke poster blijft de stijlmaatstaf. Er is geen hosting toegevoegd.
+
+## Proef bekijken
+
+Er zijn geen te installeren pakketten. Met Node.js 18 of nieuwer:
+
+```text
+npm start
+```
+
+Open het gemelde lokale adres. Voor één zelfstandig HTML-bestand dat ook zonder server werkt:
+
+```text
+npm run build
+```
+
+Open daarna `dist/reader-offline.html` in een browser. Alle beelden en bediening zitten erin. Controleer de bron met `npm test`. Zie [de proefdocumentatie](docs/PROTOTYPE.md) voor werking, bediening en verificatiegrenzen, en het [assetregister](docs/ASSET_REGISTER.md) voor de gebruikte afbeelding.
 
 ## Vaste afspraken
 
@@ -33,7 +49,7 @@ Het project bevindt zich in de tekstuele voorbereiding. Er is nog geen applicati
 
 Lees de wereldbijbel vóór je scènes schrijft of bouwt. Bewaar de vastgelegde karakterquotes en episode-ankers. Vul open lorevragen niet op met aannames. Interacties mogen perspectief en timing veranderen; de bevestigde campagne-uitkomst blijft intact.
 
-Versie 0.2 van het tekststoryboard is op 17 oktober 2026 inhoudelijk goedgekeurd. Versie 0.3 verwerkt daarna de bronfoto's en de expliciet gewenste epiloog bij Hail, met Nyra als dramatische hook. Deze aanvullingen staan als bronfeiten en creatieve adaptatie gemarkeerd; nieuwe dialoog wordt niet met terugwerkende kracht goedgekeurd verklaard. De volgende productiestap is beeldproductie na een expliciete bouwopdracht. Voor latere bouw bevat de wereldbijbel een voorgestelde projectindeling en acceptatiecriteria.
+Versie 0.2 van het tekststoryboard is op 17 oktober 2026 inhoudelijk goedgekeurd. Versie 0.3 verwerkt daarna de bronfoto's en de expliciet gewenste epiloog bij Hail, met Nyra als dramatische hook. Deze aanvullingen staan als bronfeiten en creatieve adaptatie gemarkeerd; nieuwe dialoog wordt niet met terugwerkende kracht goedgekeurd verklaard. De huidige readerproef gebruikt de afzonderlijke, creatieve bewegingsstudie. Zij verandert de Frozen Hollow-ankers niet. De volgende stap is de leeservaring en bediening beoordelen voordat de volledige aflevering wordt gebouwd.
 
 ## Materiaal en herkomst
 

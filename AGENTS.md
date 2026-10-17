@@ -6,7 +6,7 @@ Lees README.md en WORLDBUILDING.md voordat je aan verhaal, beelden of software w
 
 ## Huidige fase
 
-De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is op 17 oktober 2026 inhoudelijk goedgekeurd door de gebruiker. Versie 0.3 verwerkt de daarna aangeleverde bronfoto's en de door de gebruiker gewenste terugkeer naar Hail, met Nyra als dramatische hook. Nieuwe dialoog blijft creatieve adaptatie; gemarkeerde open sessiedetails blijven open. Lees bij bron- en beeldwerk ook content/sources/REFERENCES.md en docs/VISUAL_DIRECTION.md. Afbeeldingen, animaties en applicatiecode beginnen pas na een expliciete bouwopdracht van de gebruiker.
+De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is inhoudelijk goedgekeurd; versie 0.3 verwerkt de bronfoto's en de gewenste Hail-epiloog met Nyra als dramatische hook. Nieuwe dialoog blijft creatieve adaptatie. Daarna zijn conceptbeelden gemaakt en heeft de gebruiker expliciet de bouw van een lokale driepanelige leesproef goedgekeurd. Die proef staat in reader/, gebruikt werkbeeld v3 en is beschreven in docs/PROTOTYPE.md. De gebruiker heeft geen hosting of volledige aflevering gevraagd. Lees bij bron- en beeldwerk ook content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
 
 ## Inhoudelijke regels
 
@@ -25,6 +25,6 @@ De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is o
 - Bewaar verhaalafspraken in de repository, zodat volgende chats ermee verder kunnen.
 - Lees bestaande bestanden voordat je ze aanpast en behoud werk van de gebruiker.
 - Schrijf Nederlandstalige documentatie; kenmerkende Engelse personagequotes blijven Engels.
-- Controleer documentlinks en consistentie na tekstwijzigingen. Er zijn in deze fase nog geen applicatietests of bouwcommando's.
+- Controleer documentlinks en consistentie na tekstwijzigingen. De dependencyvrije reader gebruikt npm start voor de lokale server, npm run build voor het offline HTML-bestand en npm test voor de broncontroles. Er is geen installatie nodig.
 - Voeg geen framework, account, database of hosting toe zonder een concrete bouwtaak.
 - Publicatie en repositoryzichtbaarheid volgen de expliciete keuzes van de gebruiker.

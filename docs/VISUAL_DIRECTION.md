@@ -1,6 +1,6 @@
 # Visuele richting — tekstuele briefing
 
-Status: de gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png op 17 oktober 2026 als goede visuele basis aangewezen. Dit is de primaire stijlreferentie (SRC-STYLE-02). De eerdere gedeelde stripillustratie is aanvullend. Er zijn nog geen nieuwe beelden, definitieve character sheets of animaties gemaakt.
+Status: de gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis aangewezen. Dit is de primaire stijlreferentie (SRC-STYLE-02). Er zijn inmiddels een eerste Krek-personageblad en drie versies van een bewegingsstudie gemaakt. De beweging en positionering zijn goed; de stijl is nog niet helemaal die van de bijbel. V3 is voorlopig als werkconcept aanvaard en wordt gebruikt in de lokale readerproef. Dit maakt het nog geen definitieve stijlreferentie of definitief character sheet.
 
 Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk is bekeken. Het [storyboard](../content/episodes/frozen-hollow/STORYBOARD.md) bepaalt de scènes; de [wereldbijbel](../WORLDBUILDING.md) bewaakt personages en canon.
 
@@ -37,6 +37,10 @@ De kaart bovenaan de stijlposter ondersteunt sfeer, perspectief en kleur. Geogra
 ## Krek in beweging
 
 Zijn tunnelactie wordt verteld als drie duidelijke momenten: gekozen obstakel zien, neerwaartse kracht, aankomst bij de steen. Stof, massa en steen dragen de beweging. De tijdelijke doorsnede is een actiebeeld; zij legt geen permanent gangenstelsel of extra spelwerking vast.
+
+De afzonderlijke bewegingsstudie toont Krek als een levende ploeg die voorwaarts een begaanbare strook door de grond trekt. Nicola hangt aan het tuig. Nyra loopt achter hen op dat pad, verfijnd maar zichtbaar tevreden met Kreks bijdrage. Dit is creatieve actieregie, geen extra officiële transport- of terreinregel.
+
+Voor volgende beelden blijft de originele poster leidend: donker, hoekig en ruw geïnkt. Gebruik v2 voor de goedgekeurde choreografie en v3 als tijdelijk readerbeeld. Laat de afgeleide studies de oorspronkelijke stijl niet ongemerkt vervangen.
 
 ## Nyra als dramatische hook
 

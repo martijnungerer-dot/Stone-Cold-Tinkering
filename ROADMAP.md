@@ -16,4 +16,8 @@ Aanvulling 0.3 verwerkt de aangeleverde bronfoto's en de door de gebruiker gewen
 
 De gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis aangewezen. SRC-STYLE-02 is de primaire stijlreferentie; de visuele briefing is hierop aangepast.
 
-De volgende productiestap is beeldproductie: vaste karakterreferenties en een voorbeeldpaneel op basis van die referentie. Die begint na een expliciete bouwopdracht. Er zijn nog geen nieuwe afbeeldingen, animaties, applicatie of hosting gemaakt. De gedeelde illustraties zijn bestaande referenties.
+Daarna zijn een Krek-personageblad en drie versies van de bewegingsstudie gemaakt. De beweging en positionering zijn bruikbaar; de tekenstijl van v3 is nog niet helemaal definitief. Nyra volgt verfijnd achter Krek en Nicola en waardeert het gebaande pad. Werkbeeld v3 mag voorlopig worden gebruikt.
+
+Op expliciete gebruikersopdracht is nu de [lokale leesproef](docs/PROTOTYPE.md) gebouwd: drie panelen, navigatie, een Nicola-hotspot, korte effecten, optioneel geluid en een zelfstandig offline HTML-bestand. Broncontroles slagen. De browsercontrole vanuit deze sessie is beperkt door onbereikbaar loopbackverkeer en een geblokkeerd file:-adres; daadwerkelijke layout en audio moeten nog in een browser worden bekeken.
+
+Volgende stap: het offline bestand lezen en de timing, grootte van de panelen en Nicola-interactie beoordelen. Daarna de stijl verder vastleggen en de volledige episode voorbereiden. Er is geen hosting toegevoegd.

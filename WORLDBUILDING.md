@@ -364,9 +364,9 @@ Dit sjabloon definieert productievelden, geen reeds geïmplementeerd bestandsfor
 
 ### 12.1 Eerst te bouwen onderdeel
 
-Bouw na een expliciete bouwopdracht eerst één korte verticale proef: een planningpaneel, een optionele perspectiefreactie en een terugkeer naar het vaste verhaal. Gebruik neutrale tijdelijke beelden en gelabelde creatieve tekst. Voeg pas daarna de complete episode en finale toe.
+De gebruiker heeft inmiddels gekozen voor een lokale leesproef op basis van de drie panelen van de bewegingsstudie: Krek baant een weg, Nicola hangt aan zijn tuig en Nyra volgt tevreden op het pad. Een optioneel Nicola-perspectief keert terug naar hetzelfde paneel. De proef gebruikt werkbeeld v3, gelabelde creatieve tekst en korte effecten. De volledige episode en finale volgen pas na beoordeling van deze proef.
 
-De huidige opdracht levert uitsluitend deze wereldbijbel op. Er is nog geen app, hosting of assetbibliotheek gebouwd.
+De proef is gebouwd in reader/; zie [PROTOTYPE.md](docs/PROTOTYPE.md) en het [assetregister](docs/ASSET_REGISTER.md). Er is een lokale server en een zelfstandig offline HTML-bestand. Er is geen hosting toegevoegd.
 
 ### 12.2 Voorgestelde projectindeling
 

@@ -66,6 +66,8 @@ Zijn stilte is hier net zo karaktervol als een vierdewandgrap. Maak hem niet tot
 
 **Humor:** scherpe, spaarzame opmerkingen; vernietiging als kleurverbetering; de ijslolly van een bevroren vijand als absurde esthetische vondst. Ze is meer dan een vuurgrap: ook ijs, stilte, blik en een afgemeten reactie kunnen haar herkenbaar maken.
 
+**Aanvullende gebruikersregie bij de bewegingsstudie:** Nicola mag aan Kreks tuig hangen. Nyra vindt zichzelf daar te goed voor en loopt verfijnd achter hen aan, maar is evengoed blij met het gebaande pad. Haar trots gaat samen met waardering voor haar teamgenoot. Speel dit als tevreden elegantie, zonder afkeer van Krek of Nicola. Het is een creatieve karakterafspraak, geen nieuwe campagnegebeurtenis.
+
 **Ontwikkeling in Frozen Hollow — creatieve lezing van de bestaande panelen:**
 
 - P06–P17-Y2: ze beoordeelt de wereld en de mogelijke oplossingen alsof ze haar compositie kiest.
