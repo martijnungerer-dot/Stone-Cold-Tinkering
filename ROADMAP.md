@@ -8,4 +8,6 @@
 
 ## Huidige stand
 
-De Git-basis staat klaar op main, met de inhoudelijke basis en Codex-werkafspraken. De repository is https://github.com/martijnungerer-dot/Stone-Cold-Tinkering. Er is nog geen tekststoryboard, applicatie of hosting. De volgende stap is het tekststoryboard van Frozen Hollow.
+De Git-basis staat klaar op main, met de inhoudelijke basis en Codex-werkafspraken. De repository is https://github.com/martijnungerer-dot/Stone-Cold-Tinkering.
+
+Werkversie 0.1 van het [tekststoryboard voor Frozen Hollow](content/episodes/frozen-hollow/STORYBOARD.md) is opgesteld: 32 hoofdpanelen en 6 optionele perspectiefpanelen. De volgende stap is inhoudelijke bespreking en bevestiging van de open sessiedetails. Er zijn nog geen afbeeldingen, animaties, applicatie of hosting gemaakt.

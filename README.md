@@ -6,6 +6,8 @@ Een interactieve motion comic rond een gespeelde Gloomhaven Second Edition-campa
 
 Lees [WORLDBUILDING.md](WORLDBUILDING.md) voor de personages, wereldbouw, Frozen Hollow-continuïteit, stijl, interactieve vertelvorm en technische overdracht.
 
+De eerste verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episodes/frozen-hollow/STORYBOARD.md): 32 hoofdpanelen en 6 optionele perspectiefpanelen, met creatieve dialogen en expliciete open sessiedetails.
+
 **Spoilerwaarschuwing:** de wereldbijbel bevat de genoemde gespeelde gebeurtenissen rond Frozen Hollow en Road Event R-10.
 
 ## Projectstatus
@@ -25,7 +27,7 @@ Het project bevindt zich in de tekstuele voorbereiding. Er is nog geen applicati
 
 Lees de wereldbijbel vóór je scènes schrijft of bouwt. Bewaar de vastgelegde karakterquotes en episode-ankers. Vul open lorevragen niet op met aannames. Interacties mogen perspectief en timing veranderen; de bevestigde campagne-uitkomst blijft intact.
 
-De volgende inhoudelijke stap is een tekststoryboard voor Frozen Hollow, met bronlabels en open vragen per scène. Voor latere bouw bevat de wereldbijbel een voorgestelde projectindeling en acceptatiecriteria.
+De eerste versie van het tekststoryboard voor Frozen Hollow is klaar voor bespreking. De volgende stap is de gespeelde details bevestigen en het script aanscherpen. Voor latere bouw bevat de wereldbijbel een voorgestelde projectindeling en acceptatiecriteria.
 
 ## Materiaal en herkomst
 
