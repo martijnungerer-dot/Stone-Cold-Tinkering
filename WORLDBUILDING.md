@@ -1,0 +1,458 @@
+# Stone & Cold Tinkering — WORLDBUILDING
+
+> Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
+> Versie 1.1 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
+> **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
+
+## 1. Doel en kern
+
+**Stone & Cold Tinkering** volgt Krek, Nicola en Nyra: drie avonturiers wier gezamenlijke slagkracht hun gezamenlijke planningsvermogen ruimschoots overtreft. Steen blijft bewegen, wetenschap ontspoort en magie maakt een grauwe wereld kleurrijker — soms door haar in brand te zetten.
+
+De strip vertaalt een gespeelde campagne naar personagegedreven scènes. Het plezier zit in botsende overtuigingen, chaotische samenwerking en de afstand tussen een prachtig plan en de praktische uitvoering. Gevechten hebben gewicht; humor komt uit karakter en timing. De spelers herkennen hun avond, terwijl een nieuwe lezer het verhaal zonder spelregels kan volgen.
+
+Dit bestand is het uitgangspunt voor scenario, beeld, geluid, interactie en implementatie. Het is geen volledige Gloomhaven-encyclopedie en ontsluit geen toekomstige campagne-inhoud.
+
+## 2. Bronnen, zekerheid en geldigheid
+
+### 2.1 Beschikbare context
+
+Deze versie gebruikt:
+
+- De expliciete project-, personage- en sessiegegevens uit de huidige gebruikersopdracht.
+- De teruggelezen conversatie **Party namen Gloomhaven**, ID `69d3fea0-3918-8385-b26d-1f8990877422`.
+- De daadwerkelijk bekeken kaartafbeelding uit die conversatie, oorspronkelijk `image(8).png`.
+- De naderhand door de gebruiker aangeleverde tekstexport van de bespreking, oorspronkelijk `Geplakte tekst.txt`.
+
+Bij de eerste versie waren de eerdere assistentantwoorden alleen als inhoudsverwijzingen beschikbaar. De aangeleverde tekstexport herstelt nu de inhoudelijke afspraken en de samenvatting van het eerdere onderzoek. De export bevat bronlabels zoals “Cephalofair”, “Reddit” en “GitHub”, maar geen controleerbare directe bronverwijzingen bij de afzonderlijke claims. Eerdere assistentuitspraken zijn daarom geen onafhankelijke loreverificatie. Er is voor dit bestand geen nieuwe externe loreverificatie uitgevoerd.
+
+### 2.1a Herstelde projectafspraken
+
+- **Voorlopig alleen tekst.** Personages, lore, dialogen en interactieve scènes mogen worden voorbereid. Afbeeldingen, animaties en daadwerkelijke softwarebouw beginnen pas wanneer de gebruiker expliciet aangeeft dat we gaan bouwen. Het maken en bijwerken van deze Markdown-documenten valt onder de tekstuele voorbereiding.
+- **De gebeurtenissen aan tafel zijn canon voor de strip.** Humor en dialogen zijn de creatieve vertaling daarvan.
+- **Geen toekomstige scenario-onthullingen vóór de groep ze heeft gespeeld.** De wereld groeit mee met de campagne.
+- **De aangeleverde campagnekaart is de gekozen geografische referentie.** Dit is een projectkeuze; de editie en alle scenariolocaties zijn daarmee nog niet onafhankelijk geverifieerd.
+- **De serieuze wereld blijft geloofwaardig.** Zwarte humor ontstaat uit de botsing van het trio met die wereld.
+
+De export bespreekt ook een eerdere gegenereerde illustratie/kaart met niet-gecontroleerde namen en verhoudingen. Die artistieke interpretatie is een andere bron dan de later aangeleverde campagnekaart `image(8).png`. Gebruik de gegenereerde illustratie niet als geografische autoriteit. De bij die illustratie genoemde percentages waren annotatieposities, geen wereldcoördinaten.
+
+### 2.2 Verplichte bronlabels
+
+| Label | Betekenis | Toepassing |
+| --- | --- | --- |
+| `OFFICIEEL-2E` | Bevestigd in een primaire bron voor Second Edition | Alleen gebruiken met editie, document en vindplaats |
+| `KAART` | Zichtbaar op de aangeleverde kaart | Bewijst een opschrift of ruimtelijke verhouding, niet de editie |
+| `GESPEELD` | Door gebruiker bevestigde gebeurtenis in deze campagne | Geldt voor deze adaptatie; bewijst geen algemene lore of spelregel |
+| `CREATIEF` | Originele uitwerking voor de strip | Mag de campagne niet stilzwijgend veranderen |
+| `ONBEVESTIGD-2E` | Second Edition-status of precieze betekenis niet gecontroleerd | Geen stellige historische, politieke of mechanische claim maken |
+| `OPEN` | Nog ontbrekende informatie | Alleen blokkeren wat hiervan afhankelijk is |
+
+Een passage kan meerdere labels hebben: `GESPEELD / ONBEVESTIGD-2E` betekent dat iets aan tafel is bevestigd, maar niet als officiële Second Edition-inhoud is geverifieerd.
+
+**Belangrijk:** in deze versie zijn geen nieuwe claims als `OFFICIEEL-2E` aangemerkt. De projecttitel bepaalt de beoogde editie; hij maakt materiaal uit een andere editie niet automatisch geldig.
+
+### 2.3 Beslisregels bij tegenspraak
+
+Voor officiële wereldclaims is een gecontroleerde Second Edition-bron leidend. Voor wat deze groep daadwerkelijk beleefde, is het sessieverslag leidend. Een afwijking tussen beide wordt als campagneafwijking vermeld, niet weggepoetst. Creatieve invulling vult lege ruimte en verliest altijd van bevestigde continuïteit.
+
+Houd personagekennis, lezerskennis en productiekennis apart. Een maker kan een verklaring kennen die een personage nog niet kent. Dat geeft geen toestemming om die verklaring in beeld, metadata of dialoog te onthullen.
+
+## 3. Canon- en spoilerbeleid
+
+### 3.1 Campagnegrens
+
+De toegestane verhaalruimte bestaat uit de drie hoofdpersonages en de expliciet genoemde Frozen Hollow-gebeurtenissen. Onbekende scenario's, toekomstige onthullingen, verborgen klassen, persoonlijke opdrachten, beloningen, ontgrendelingen en onverwachte NPC-identiteiten blijven buiten beeld.
+
+Een officiële bron is nooit op zichzelf toestemming voor een spoiler. Zoek alleen het detail op dat voor de huidige scène nodig is. Raadpleeg bij voorkeur het reeds gespeelde materiaal, met editie en paginaverwijzing. Vermijd brede wiki- of campagnezoektochten die toekomstige inhoud kunnen blootleggen. De herstelde afspraak luidt: “we verklappen nooit toekomstige scenario-onthullingen voordat jullie ze gespeeld hebben.”
+
+### 3.2 Drie publicatieniveaus
+
+| Niveau | Toegestane inhoud |
+| --- | --- |
+| Publieke introductie | Titel, eigen hoofdpersonages, sfeer; geen concrete episode-uitkomst |
+| Episode | Vooraf genoemde locatie, gebeurtenis en tegenstanders binnen het vrijgegeven bereik |
+| Productie | Achtergrondnotities met bronlabel; toekomstige spoilers blijven apart en standaard ontoegankelijk |
+
+Een spoilerkeuze van de lezer ontsluit uitsluitend al vrijgegeven episode-inhoud. Een optie “toon alles” mag nooit automatisch ongespeelde campagnegegevens openen.
+
+### 3.3 Spoilers buiten de tekst
+
+Controleer ook bestandsnamen, thumbnails, alt-teksten, onderschriften, bronbestanden die de browser ontvangt, audio, kaartmarkeringen en toegankelijkheidslabels. Verberg toekomstige informatie niet alleen met CSS; lever die gegevens niet mee.
+
+### 3.4 Edities en spelregels
+
+Neem geen scenarionummers, beloningen, eventuitkomsten, NPC-achtergronden, monstervermogens of kaartcoördinaten over uit de eerste editie zonder afzonderlijke Second Edition-controle. Filmische uitwerking is geen bewijs dat een actie volgens een specifieke kaart of spelregel mogelijk is.
+
+## 4. Wereldbouwprincipes
+
+1. **De wereld biedt weerstand.** Koude, afstand, steen, vermoeidheid en slechte zichtlijnen bepalen hoe een scène voelt.
+2. **De stad verbindt avonturen.** Gloomhaven is de terugkerende sociale en praktische uitvalsbasis van de strip. Specifieke wetten, machthebbers en factieverhoudingen blijven onbevestigd totdat een bron ze ondersteunt.
+3. **Magie krijgt karakter.** Krek maakt ruimte fysiek, Nicola maakt oorzaak en gevolg onzeker, Nyra maakt kleur en temperatuur dominant.
+4. **Succes kost iets.** Vooral Nyra's uitputting moet zichtbaar blijven na een indrukwekkende overwinning.
+5. **Competentie en chaos bestaan naast elkaar.** Het team kan gevaarlijk effectief zijn zonder ineens goed te vergaderen.
+6. **Een grap verandert geen historie.** Humor mag een deur personifiëren; hij mag geen niet-gespeelde beloning of nieuwe vijandelijke factie creëren.
+7. **Geen soort als karikatuur.** De eigenschappen van Krek, Nicola en Nyra zijn individuele karakterkeuzes, geen algemene uitspraken over hun afkomst.
+8. **Mysterie mag onverklaard blijven.** Een groen kristal hoeft geen vooraf bepaalde oorsprong of toekomstige betekenis te krijgen.
+
+## 5. Kaart en ruimtelijke wereld
+
+### 5.1 Status van de referentie
+
+`KAART / ONBEVESTIGD-2E`: de aangeleverde afbeelding is de primaire visuele geografiereferentie van dit project. De editie en eventuele afwijkingen ten opzichte van Second Edition zijn niet vastgesteld. Gebruik haar voorlopig voor herkenning, sfeer en brede verhoudingen.
+
+De kaart toont onder meer Gloomhaven aan de kust bij Merchant's Bay, de Copperneck Mountains ten noordwesten van de stad, Dagger Forest verder westelijk en Corpsewood ten noordoosten. Ook onder meer Watcher Mountains en Lingering Swamp zijn gelabeld. Deze waarnemingen betekenen niet dat al deze gebieden voor de campagne zijn vrijgegeven.
+
+### 5.2 Geografieregels
+
+- Gebruik alleen episode-relevante uitsneden; een volledige campagnekaart kan ongewenste informatie bevatten.
+- Houd kust, gebergte en stadsoriëntatie consequent tussen shots.
+- Geef geen exacte reisduur, schaal, scenario-ingang of route zonder bron.
+- Plaats Frozen Hollow niet op een exact rastervak op basis van vermoeden.
+- Een geanimeerde route is pas toegestaan na bevestiging; een atmosferische overgang naar bergen kan zonder concrete routeclaim.
+- De stadsinzet is geen bewijs voor de politieke functie van ieder zichtbaar gebouw.
+
+### 5.3 Locatieregister
+
+| Locatie | Projectfunctie | Status en grens |
+| --- | --- | --- |
+| Gloomhaven | Terugkerende stad; vertrek, ontmoeting en nasleep | Naam en ligging `KAART`; stadsleven voorlopig `CREATIEF` |
+| Crooked Bone | Onderdeel van de gebruikerscontext rond Hail | `GESPEELD / ONBEVESTIGD-2E`; exacte locatienaam, aard en ontmoetingstekst controleren |
+| Copperneck Mountains | Gebergtereferentie voor de Frozen Hollow-episode | Naam en globale ligging `KAART`; precieze scenariokoppeling `ONBEVESTIGD-2E` |
+| Frozen Hollow | Koude gevechtslocatie van de gespeelde episode | `GESPEELD / ONBEVESTIGD-2E`; geen nummer, indeling of beloning invullen |
+
+**Visuele interpretatie — `CREATIEF`:** de stad krijgt vochtige steen, verweerd hout, doffe metaaltonen en lokaal warm licht. De bergen krijgen wind, open ruimte en harde silhouetten. Frozen Hollow krijgt gebroken ijslicht, diepte en verstilde lucht. Dit zijn artdirectionkeuzes, geen officiële beschrijvingen.
+
+## 6. Personen, groepen en krachten in de wereld
+
+### 6.1 Hail en Crooked Bone
+
+`GESPEELD / ONBEVESTIGD-2E`: Hail en Crooked Bone horen bij de genoemde Frozen Hollow-context. De precieze rol van Hail, de aard van Crooked Bone, een eventuele opdracht en de reden van de reis zijn niet volledig beschikbaar. Presenteer geen achtergrond, soort, loyaliteit, intentie of toekomstig lot als bevestigd.
+
+Tot nadere verificatie kan een storyboard een neutrale ontmoetingsbeat bevatten. Vermijd een uitgewerkte opdrachttekst die voorwaarden of beloningen verzint.
+
+### 6.2 Facties
+
+Er is in de beschikbare context geen gecontroleerd Second Edition-factieregister. Dit document introduceert daarom geen officieel klinkende factienamen, leiders, oorlogen of complotten.
+
+**Eerder onderzoek, nog te controleren — `ONBEVESTIGD-2E`:** de tekstexport noemt Military, Merchants en Demons als drie machtsblokken, ieder met een eigen reputatiespoor. Dat is nu teruggevonden gesprekscontext, maar nog geen gecontroleerde primaire bron. Gebruik deze namen voorlopig uitsluitend als onderzoeksaanknopingspunten. Hun exacte benamingen, reputatieregels, leiders en rol in de campagne vereisen afzonderlijke verificatie én toetsing aan de campagnevoortgang.
+
+Het eerdere gesprek stelde als mogelijke creatieve botsingen voor: Krek die bevelen als suggesties behandelt, Nicola die financiering voor experimenten zoekt en Nyra die gevaarlijke magie esthetisch interessant vindt. Dit zijn `CREATIEF`-voorstellen; ze bewijzen geen ontmoeting, affiliatie of politieke keuze van het trio.
+
+Voor latere uitbreiding krijgt iedere factie een afzonderlijke registratie:
+
+| Veld | Vereiste |
+| --- | --- |
+| Naam en editie | Exacte schrijfwijze en primaire bron |
+| Publiek zichtbaar | Wat inwoners of personages al mogen weten |
+| Campagnecontact | Wat de groep daadwerkelijk heeft meegemaakt |
+| Belang bij deze episode | Alleen relevant en vrijgegeven materiaal |
+| Relaties | Onderbouwde contacten; geen vermoede verborgen loyaliteit |
+| Creatieve ruimte | Welke lokale details de strip mag toevoegen |
+
+Herbergiers, reizigers of handelaren kunnen als `CREATIEF` figureren zonder meteen bij een officiële organisatie te horen. Living Spirits en ijsdemonen worden niet zonder bewijs als één factie of onderdeel van een groter complot beschreven.
+
+## 7. De hoofdpersonages
+
+### 7.1 Krek — steen in voorwaartse beweging
+
+`GESPEELD`: Cragheart. Krek gaat altijd voorwaarts. Zijn overtuiging dat metaal bij steen hoort is persoonlijke logica, geen kosmologische wereldwet.
+
+**Drijfveer:** obstakels veranderen in doorgangen. **Blinde vlek:** een pas terug voelt als een principiële nederlaag. **Competentie:** kracht, besluitvaardigheid en een direct begrip van ruimte. **Komische motor:** hij herformuleert iedere terugtocht tot iets dat toch vooruitgang heet.
+
+Vaste uitspraken, exact bewaren:
+
+- “Retreat is for meat. I am NOT meat”
+- “I don't step back. We use rolling momentum”
+- “Doors are suggestions to stop. I hate bad suggestions”
+
+**Spelregie — `CREATIEF`:** lage camerastandpunten, stevige diagonalen en vertraagde anticipatie voor een plotselinge impact. Zijn humor is stellig en kort. Laat hem niet iedere scène dezelfde oneliner zeggen; een zwijgende stap kan de grap dragen.
+
+**Grenzen:** geen willekeurige onkwetsbaarheid, geen oneindig teleportvermogen en geen nieuwe steen- of metaalmagie als officiële klassevaardigheid. De teleport bij de schat hoort bij één bevestigde gebeurtenis; oorzaak en mechaniek blijven open.
+
+### 7.2 Nicola — het experiment kijkt terug
+
+`GESPEELD`: Quatryl Tinkerer. Nicola combineert techniek met quantummagie en verdraaide quantumexperimenten. Nicola weet dat spelers meekijken en doorbreekt de vierde wand.
+
+De herstelde bespreking gebruikt mannelijke verwijzingen voor Nicola en verduidelijkt dat hij weet dat spelers hem besturen. Hij kan hen rechtstreeks aankijken en proberen zijn eigen speler te beïnvloeden. Grappen over kansberekening, initiatiefkaarten en quantumexperimenten passen binnen dit concept; ze onthullen geen onbekende kaarten of toekomstige spelinhoud.
+
+Dit is karaktercanon voor de strip. Quantummagie en metakennis zijn niet vastgesteld als officiële Tinkerer-lore of als natuurkundige werkelijkheid.
+
+**Drijfveer:** ontdekken wat mogelijk wordt zodra iemand ophoudt een experiment verstandig te noemen. **Blinde vlek:** een interessant resultaat kan belangrijker voelen dan de voorspelbaarheid ervan. **Competentie:** inventiviteit, instrumenten en onverwachte verbindingen.
+
+**Stem — `CREATIEF`:** droog, precies en net iets te comfortabel met onzekerheid. Nicola kan naar de kijker kijken, een pauzeknop opmerken of een vertraagde scène becommentariëren. Deze opmerkingen zijn voorgestelde vertelmiddelen, geen extra gespeelde feiten.
+
+**Grenzen van de vierde wand:** Nicola weet dat er wordt gekeken, maar krijgt daardoor geen kennis van toekomstige scenario's, spelersgegevens of de echte omgeving van de lezer. De interface blijft betrouwbaar. Een komische “storing” verandert nooit ongevraagd instellingen, opslag of navigatie.
+
+### 7.3 Nyra — kleur als oordeel
+
+`GESPEELD`: Orchid Spellweaver. Nyra's magie kleurt de grauwe wereld. Arrogantie en esthetische voorkeur sturen de manier waarop Nyra over vernietiging spreekt.
+
+Vaste uitspraken, exact bewaren:
+
+- “Fortunately, burning red is my favorite color”
+- “Destroying things improves their color by soooo much”
+
+Het beeld van ijslolly's van bevroren vijanden hoort bij Nyra's humor en de aangeleverde karaktercontext. Het is geen officiële buit, voedselregel of wereldgebruik. De precieze verschijningsvorm — letterlijke scène, beeldgrap of terloopse opmerking — is nog creatieve uitwerking.
+
+**Drijfveer:** controle, schoonheid en zichtbare superioriteit. **Blinde vlek:** stijl en zelfvertrouwen kunnen de eigen reserves overschatten. **Competentie:** overweldigende magische aanwezigheid. **Kwetsbaarheid:** aan het eind van Frozen Hollow is Nyra uitgeput.
+
+**Spelregie — `CREATIEF`:** verzadigde kleur trekt het oog naar magie; na de finale worden licht, houding en timing soberder. Uitputting maakt eerdere arrogantie menselijk zonder de persoonlijkheid te vervangen. Een laatste droge opmerking mag, maar herstelt geen energie.
+
+### 7.4 Onderlinge dynamiek
+
+| Relatie | Terugkerende spanning | Dramatische opbrengst |
+| --- | --- | --- |
+| Krek–Nicola | Zekerheid tegenover experimentele onzekerheid | Een rechtlijnige actie krijgt een onvoorspelbare uitvoering |
+| Krek–Nyra | Praktische doorgang tegenover esthetische vernietiging | Beiden willen door, om verschillende redenen |
+| Nicola–Nyra | Interessant resultaat tegenover mooi resultaat | Een plan kan technisch slagen en esthetisch beledigend zijn |
+| Het trio | Iedereen ziet een ander probleem als het belangrijkste | Planningschaos mondt soms uit in scherpe samenwerking |
+
+Deze dynamiek is `CREATIEF`, afgeleid van de opgegeven karaktertrekken. Schrijf niemand structureel als onbekwaam om een ander grappig te maken.
+
+### 7.5 Reputatie als terugkerend motief
+
+`CREATIEF / VOORSTEL UIT EERDERE BESPREKING`: het trio bouwt onbedoeld een reputatie op die afwijkt van het eigen zelfbeeld. Krek kan zichzelf als gerespecteerd militair leider zien, Nicola als baanbrekend onderzoeker en Nyra als beschermvrouwe van de kunsten. Dat zijn mogelijke zelfbeelden, geen vastgelegde rangen, titels of officiële affiliaties.
+
+Werk iedere relevante locatie in drie lagen uit: de gecontroleerde wereldfeiten, de persoonlijke beleving van het trio en de concrete gevolgen van hun bevestigde daden. Reacties van bewoners mogen creatief worden ingevuld, maar een reputatiespoor of factie-uitkomst verandert alleen als de campagne dat bevestigt.
+
+## 8. Frozen Hollow — vastgelegde continuïteit
+
+### 8.1 Bevestigde ankers
+
+Alle onderstaande ankers zijn `GESPEELD`; hun exacte Second Edition-tekst of mechaniek is `ONBEVESTIGD-2E`.
+
+| ID | Anker | Niet zelfstandig aanvullen |
+| --- | --- | --- |
+| FH-01 | Crooked Bone en Hail horen bij de context | Exact gesprek, opdrachtvoorwaarden en motief |
+| FH-02 | Copperneck Mountains zijn relevant | Exacte route, reistijd en ingang |
+| FH-03 | Road Event R-10 met een groen kristal | Volledige eventtekst, gemaakte keuze, eigenaar, effect en beloning |
+| FH-04 | Living Spirits blijken lastig | Statistieken, immuniteiten en precieze oorzaak van het probleem |
+| FH-05 | Er zijn ijsdemonen | Aantal, opstelling en officiële monsternaam indien anders gespeld |
+| FH-06 | De planning verloopt chaotisch | Letterlijke gesprekken en exacte beurtvolgorde |
+| FH-07 | Krek teleporteert naar steen bij de schat | Wie dit veroorzaakt, gebruikte vaardigheid en schatinhoud |
+| FH-08 | De finale bestaat uit efficiënt geweld | Exacte laatste aanval en verdeling van eliminaties |
+| FH-09 | Nyra is aan het einde uitgeput | Een niet-bevestigde regelspecifieke uitputtingsoorzaak |
+
+De volgorde hieronder is een **voorgestelde vertelmontage**, geen hersteld turn-by-turn-sessielog. Met name de onderlinge volgorde van vijanden en het teleportmoment blijft flexibel totdat een sessieverslag die vastlegt.
+
+### 8.2 Voorgestelde episodeboog
+
+1. **Koude opening — `CREATIEF`:** een korte indruk van kou en een ontoereikend plan; geen nieuwe gevechtsuitkomst tonen.
+2. **Contextbeat — `GESPEELD` met open details:** Crooked Bone/Hail. Houd dialoog voorlopig neutraal of als storyboardnotitie.
+3. **Reisovergang — `KAART / CREATIEF`:** bergsilhouetten en veranderend geluid verbinden de stad met de koude omgeving.
+4. **R-10 — `GESPEELD`:** het groene kristal krijgt aandacht. Laat zijn onbekende werking onbekend; maak er geen bewezen oorzaak van latere teleportatie van.
+5. **Confrontatie — `GESPEELD`:** Living Spirits bieden onverwacht veel weerstand. Toon mislukte verwachtingen via reactie en ritme, zonder regels te verzinnen.
+6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** overlappende voorstellen; ieder personage benoemt een ander probleem.
+7. **Ruimtelijke omslag — `GESPEELD`:** Krek verschijnt bij de steen nabij de schat. Gebruik duidelijke voor-en-na-beelden zodat de verplaatsing leesbaar is. Een verklarend effect blijft optioneel tot het mechaniek bekend is.
+8. **Finale — `GESPEELD`:** efficiënt geweld. Minder overleg, kortere beats, heldere gezamenlijke richting. IJsdemonen maken deel uit van de episode, maar krijgen pas een exacte plek in de montage na bevestiging.
+9. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
+
+### 8.3 Dramatische inzet
+
+De episode beweegt van overmatig denken naar gezamenlijke daadkracht. De finale is bevredigend omdat de eerdere verwarring zichtbaar was. Nyra's toestand verhindert dat de overwinning kosteloos voelt.
+
+Het kristal, de steen en de schat mogen visueel terugkomen zonder een onderlinge loreverbinding te suggereren. Herhaling in montage kan causaliteit impliceren; vermijd bijvoorbeeld direct van een pulserend kristal naar Kreks teleport te snijden zolang dat verband niet bevestigd is.
+
+## 9. Toon, dialoog en beeldtaal
+
+### 9.1 Toon
+
+Donkere avonturenfantasy met droge, karaktergedreven humor. De wereld neemt haar eigen gevaar serieus; het trio hoeft dat niet altijd op de juiste manier te doen. Geen voortdurende stroom memes of referenties die de omgeving vervangt.
+
+Dialoog blijft compact. Laat fysieke actie en reacties de helft van een grap vertellen. Engelse karakterquotes blijven Engels; Nederlandse vertelling en interface zorgen voor samenhang. Nieuwe Engelse replieken zijn toegestaan als `CREATIEF` en worden nooit als letterlijk sessiecitaat gepresenteerd.
+
+### 9.2 Visuele grammatica — creatieve richtlijn
+
+- Basis: gedempte steen-, hout- en ijstonen, met leesbare silhouetten.
+- Krek: massa, stof, breuklijnen, tastbaar metaal; kracht door beweging en contact.
+- Nicola: kleine instrumenten, verschoven contouren en korte visuele inconsistenties; effecten blijven leesbaar.
+- Nyra: uitgesproken magische kleur tegen een sobere achtergrond; kleur draagt ook emotie.
+- Living Spirits: visuele ongrijpbaarheid als sfeer, zonder hiermee een specifieke spelregel te claimen.
+- IJsdemonen: scherpe koude vormen en contrast; definitieve anatomie pas na passende referentie.
+
+Kleurgebruik is artdirection, geen nieuwe officiële elementleer. Maak het groene kristal herkenbaar zonder een effect of afkomst vast te leggen.
+
+### 9.3 Geweld en humor
+
+Geweld is krachtig en snel, met nadruk op impact en gevolg. De huidige basis is gestileerd, zonder expliciete gore. De ijslollygrap werkt via vorm, kou en Nyra's reactie; vermijd dat een langdurige martelscène de toon overneemt.
+
+## 10. Interactief motion-comic concept
+
+### 10.1 Ervaring
+
+Een leesbare strip vormt altijd de basis. Beperkte animatie — parallax, licht, blikrichting, deeltjes en korte impactbewegingen — versterkt specifieke beats. Het product is geen volledige animatiefilm en vereist geen tactisch gevechtssysteem.
+
+De lezer bepaalt tempo en aandacht. De gespeelde uitkomst blijft vaststaan. Interactie verdiept perspectief, timing en karakterreacties, en vervalst geen campagnekeuzes.
+
+### 10.2 Toegestane interacties
+
+| Interactie | Functie | Grens |
+| --- | --- | --- |
+| Volgend/vorig paneel | Eigen leestempo | Geen automatische doorsprong tijdens lezen |
+| Inspecteer een detail | Kleine optionele observatie | Geen verborgen toekomstige lore |
+| Kies een perspectief | Andere reactie op dezelfde gebeurtenis | Uitkomst en posities blijven consistent |
+| Bekijk een plan | Vergelijk voorgestelde aanpakken | Geen alternatieve afloop als gespeeld presenteren |
+| Nicola kijkt terug | Metagrap rond kijkgedrag of pauze | Geen echte persoonsgegevens of misleidende bediening |
+| Herhaal een effect | Kijk een korte animatie opnieuw | Geen verplichte herhaling of geluidsstart |
+
+Een kristal-hotspot kan kleur of uiterlijk beschrijven, maar geen geheime werking onthullen. Een perspectiefkeuze bij de planning kan Krek, Nicola of Nyra volgen; alle takken keren terug vóór het volgende bevestigde anker.
+
+### 10.3 Toegankelijkheid
+
+Alle kerninhoud is beschikbaar als statische strip en teksttranscript. Ondersteun toetsenbordbediening, zichtbare focus, voldoende contrast, tekstvergroting, ondertiteling en een instelling voor minder beweging. Geluid begint alleen na een bewuste gebruikersactie. Geen flitsende effecten of informatie die uitsluitend via kleur, hover of geluid wordt overgebracht.
+
+Bij minder beweging vervallen parallax, schokken en continue deeltjes; betekenisvolle voor-en-na-toestanden blijven zichtbaar. Nicola mag over een knop grappen, maar de toegankelijke naam en functie blijven correct.
+
+## 11. Vast episodeformat
+
+Iedere episode bevat:
+
+1. **Metadata:** titel, nummer, versie, bronbereik, spoilerbereik en status.
+2. **Logline:** één zin over het concrete conflict.
+3. **Continuïteit vooraf:** aanwezige personages, locatie, bevestigde bezittingen en toestand.
+4. **Ankers:** onveranderlijke gespeelde feiten, met IDs.
+5. **Scènes:** doel, locatie, personages, bronlabels en verwachte duur als richtwaarde.
+6. **Panelen/beats:** compositie, tekst, beweging, geluid en interactie.
+7. **Samenkomstpunten:** waar optionele perspectieven terugkeren.
+8. **Nasleep:** toestand na afloop en expliciet nog onbekende gevolgen.
+9. **Bron- en spoilercontrole:** controle door iemand met kennis van deze speelsessie.
+
+### Paneelsjabloon
+
+```yaml
+id: fh-planning-01
+scene: fh-planning
+status: draft
+source_labels: [GESPEELD, CREATIEF]
+anchors: [FH-06]
+spoiler_scope: frozen-hollow-played
+location: frozen-hollow
+characters: [krek, nicola, nyra]
+purpose: Laat zien dat ieder personage een ander plan optimaliseert.
+composition: Drie duidelijk gescheiden reacties in één leesbaar paneel.
+dialogue: [] # Nog te schrijven; geen letterlijk sessiecitaat claimen.
+motion: Eenmalige blikverschuiving; daarna stil.
+audio: Optionele zachte omgevingslaag.
+interaction: optional-perspective
+rejoin_at: fh-planning-02
+reduced_motion: Statische reacties naast elkaar.
+transcript: Beschrijving plus alle definitieve dialoog.
+open_questions: [Exacte plannen en positie in het gevecht]
+```
+
+Dit sjabloon definieert productievelden, geen reeds geïmplementeerd bestandsformaat.
+
+## 12. Technische handoff voor Codex
+
+### 12.1 Eerst te bouwen onderdeel
+
+Bouw na een expliciete bouwopdracht eerst één korte verticale proef: een planningpaneel, een optionele perspectiefreactie en een terugkeer naar het vaste verhaal. Gebruik neutrale tijdelijke beelden en gelabelde creatieve tekst. Voeg pas daarna de complete episode en finale toe.
+
+De huidige opdracht levert uitsluitend deze wereldbijbel op. Er is nog geen app, hosting of assetbibliotheek gebouwd.
+
+### 12.2 Voorgestelde projectindeling
+
+```text
+WORLDBUILDING.md
+content/
+  characters/
+  episodes/frozen-hollow/
+  sources/             # Bronregister; geen ongespeelde campagnebestanden bundelen
+assets/
+  characters/
+  environments/
+  effects/
+  audio/
+src/
+  reader/
+  interactions/
+  accessibility/
+docs/
+  continuity.md
+  decisions.md
+  asset-register.md
+```
+
+Dit is een voorstel voor de toekomstige repository. Plaats de kaart pas in de assetbibliotheek wanneer een duurzaam bronbestand beschikbaar is en het gebruiksdoel is vastgelegd. Verwijs niet vanuit de productie naar een tijdelijk previewpad.
+
+### 12.3 Datamodel en grenzen
+
+Scheid inhoud van weergave. Gebruik stabiele IDs voor episodes, scènes, panelen, personages en ankers. Bewaar per inhoudselement bronlabel, spoilerbereik en eventuele open vragen. Laat de renderer geen tekst of lore bijverzinnen om ontbrekende velden op te vullen.
+
+Onderscheid drie soorten toestand:
+
+- **Verhaaltoestand:** vastgelegde gebeurtenissen en personagetoestand; perspectiefkeuzes wijzigen die niet.
+- **Leesvoortgang:** huidig paneel en bekeken optionele details; lokaal te bewaren.
+- **Voorkeuren:** beweging, geluid en tekstgrootte; los van verhaalvoortgang.
+
+Een eenvoudige renderer met declaratieve episodegegevens volstaat. Een specifiek framework is nog niet gekozen. Begin zonder account, externe database of generatieve runtime. Dat houdt de proef overzichtelijk en voorkomt dat de verhaalcanon tijdens het lezen verandert.
+
+### 12.4 Animatie en audio
+
+Gebruik korte, herbruikbare effecten met een statische fallback. Laad eerst de tekst en het hoofdbeeld; aanvullende effecten mogen later volgen. Start geen zware eindeloze animatielussen. Een paneel moet ook begrijpelijk blijven als een effect niet laadt.
+
+Audiolagen krijgen afzonderlijke volumeregeling of een eenvoudige algemene mute. Zet dialoog en relevante geluiden in het transcript. Bewaar geen essentiële timing uitsluitend in audio.
+
+### 12.5 Assetregister
+
+Registreer voor ieder definitief beeld of geluid: ID, maker/bron, gebruiksrecht of toestemming, editie indien relevant, personage/locatie, spoilerbereik en vervangbaar tijdelijk materiaal. Label zelfgemaakte interpretaties als zodanig; presenteer ze niet als officiële Second Edition-illustraties.
+
+### 12.6 Acceptatiecriteria voor een eerste bouwversie
+
+- Het hoofdverhaal is van begin tot einde leesbaar zonder optionele interactie.
+- Perspectieftakken keren aantoonbaar terug naar hetzelfde bevestigde anker.
+- Alle kerninhoud werkt met toetsenbord en zonder geluid.
+- Minder beweging bewaart de betekenis van teleportatie en impact.
+- Personagequotes behouden hun exacte formulering.
+- Het groene kristal krijgt geen onbevestigd effect.
+- Kreks teleport krijgt geen verzonnen mechanische verklaring.
+- Nyra blijft na de finale uitgeput.
+- Geleverde bestanden en metadata bevatten geen ongespeelde campagne-inhoud.
+- Smal en breed scherm tonen leesbare tekst zonder dat cruciale delen van panelen verdwijnen.
+
+Test vooral navigatie, samenkomstpunten, instellingen en de afwezigheid van verboden inhoud. Beoordeel daarnaast handmatig leesritme, humor en visuele continuïteit; die volgen niet uit technische controles alleen.
+
+## 13. Open vragen en veilige vervolgstappen
+
+| Vraag | Blokkeert | Werkbare aanpak tot bevestiging |
+| --- | --- | --- |
+| Tot welk concreet punt is de campagne nu gespeeld? | Publicatiegrens voor volgende episodes | Geen toekomstige onthullingen vóór ze gespeeld zijn; houd de huidige Frozen Hollow-grens aan |
+| Is de kaart van de bedoelde editie? | Exacte geografische claims | Gebruik uitsluitend globale, gelabelde referentie |
+| Wat deden Hail en Crooked Bone precies in de sessie? | Definitieve openingsdialoog | Houd de beat als notitie |
+| Welke keuze en uitkomst hoorden bij R-10? | Uitgewerkte eventscène | Toon alleen het bevestigde groene kristal |
+| Hoe hangen Frozen Hollow en de Copperneck Mountains exact samen? | Routekaart en locatiepin | Gebruik een niet-cartografische overgang |
+| Wat veroorzaakte Kreks teleport? | Mechanische uitleg en bijbehorende effecten | Toon verplaatsing zonder verklaring |
+| Wat zat er in de schat en werd die meegenomen? | Buit en vervolgcontinuïteit | Laat de inhoud onbenoemd |
+| Wat was de precieze gevechtsvolgorde? | Definitieve montage | Bewaar ankers; houd volgorde voorlopig |
+| Welke facties zijn al ontmoet? | Factiehoofdstukken | Voeg alleen gecontroleerde, vrijgegeven contacten toe |
+
+Deze vragen blokkeren geen conceptstoryboard, karakterstudies of technische proef met de planning-scène. Ze blokkeren wel de betreffende stellige loreclaims en definitieve scènes.
+
+## 14. Onderhoud van de wereldbijbel
+
+Nieuwe informatie wordt toegevoegd met bronlabel en datum. Een loreverificatie vermeldt editie, primaire bron, pagina/sectie en toegestaan spoilerbereik. Bewaar letterlijke sessiecitaten apart van nieuw geschreven dialoog. Geef retcons een korte reden in `docs/decisions.md` zodra die repository bestaat.
+
+Controleer bij iedere episode: wie is waar, wie weet wat, welke middelen zijn bevestigd, welke schade of uitputting blijft doorwerken en welke informatie mag de lezer al zien? Een grap die hiermee botst wordt herschreven.
+
+### Onderzoekswachtrij uit het herstelde gesprek
+
+Onderstaande onderwerpen zijn teruggevonden in de eerdere bespreking en hebben status `ONBEVESTIGD-2E`. Het zijn geen vrijgegeven wereldfeiten:
+
+| Onderwerp | Te controleren voordat het in een scène wordt gebruikt |
+| --- | --- |
+| Casskia als wereld-/settingnaam | Exacte betekenis, schrijfwijze en toepasselijkheid op Second Edition |
+| Vair-in-Sul en Valraths | Officiële spelling, geografische betekenis en herkomstclaims |
+| Cyrgen en de herkomst van Quatryls en Orchids | Primaire bron; geen individuele biografie uit een algemene herkomst afleiden |
+| Krek als Savvas | Eerdere bespreking noemt dit; officiële relatie tussen volk en klasse apart controleren |
+| Savvas, Quatryls, Orchids, Inox, Vermlings, Valraths en Aesthers | Editiegebonden beschrijving; geen cultuur of levensduur uit vermoedens invullen |
+| Elementaire en interplanare magie | Welke begrippen werkelijk uit officiële bronnen komen en wat de personages al weten |
+| Politieke machtsstrijd en factiereputaties | Officiële Second Edition-uitleg, zonder campagne-uitkomsten op te zoeken |
+| Hail en The Crooked Bone | Officiële rol, locatie en vrijgegeven achtergrond; het eerdere gesprek noemt aanvullende details die nog niet gecontroleerd zijn |
+
+De export noemt daarnaast mogelijke toekomstige NPC's en hun achtergronden. Neem die pas op in het actieve personageregister zodra vaststaat dat de groep ze kent en de relevante informatie is vrijgegeven. De beschikbare tekstexport is geen toestemming om hun identiteit of affiliaties als teaser te publiceren.
+
+Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële Designer Diaries. Gebruik de Second Edition FAQ alleen voor een gerichte vraag. Leg per bevestigde claim een directe bron en vindplaats vast. Zoekresultaten, een eerder antwoord of een los platformlabel zijn onvoldoende voor `OFFICIEEL-2E`.
+
+### Wijzigingslog
+
+- **1.1 — 17 oktober 2026:** aangeleverde gespreksexport verwerkt; tekstfase, tafelcanon en spoilerafspraak hersteld; onderscheid tussen gegenereerde illustratie en campagnekaart verduidelijkt; Nicola's metakennis en reputatiemotief uitgebreid; eerdere loreclaims als onderzoekswachtrij bewaard zonder ze tot geverifieerde canon te verheffen.
+- **1.0 — 17 oktober 2026:** eerste volledige wereldbijbel op basis van de expliciete gebruikerscontext, teruggelezen conversatiemetadata en bekeken kaart. Frozen Hollow-ankers vastgelegd; ontbrekende broninhoud en Second Edition-verificatie expliciet gemarkeerd; motion-comicformat en technische overdracht toegevoegd.

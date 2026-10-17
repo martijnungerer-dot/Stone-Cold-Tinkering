@@ -1,0 +1,23 @@
+# Lokale instellingen en geheimen
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Afhankelijkheden en gegenereerde bestanden
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Tijdelijke werkbestanden
+work/
+tmp/
+*.tmp
+
+# Besturingssysteem
+.DS_Store
+Thumbs.db
+Desktop.ini
