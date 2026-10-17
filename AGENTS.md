@@ -6,7 +6,7 @@ Lees README.md en WORLDBUILDING.md voordat je aan verhaal, beelden of software w
 
 ## Huidige fase
 
-Eerst de Git-basis klaarzetten. Daarna volgt het tekststoryboard van Frozen Hollow. Afbeeldingen, animaties en applicatiecode beginnen pas na een expliciete bouwopdracht van de gebruiker.
+De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is op 17 oktober 2026 inhoudelijk goedgekeurd door de gebruiker. Gebruik dit als uitgangspunt; de gemarkeerde open sessiedetails blijven open. Afbeeldingen, animaties en applicatiecode beginnen pas na een expliciete bouwopdracht van de gebruiker.
 
 ## Inhoudelijke regels
 

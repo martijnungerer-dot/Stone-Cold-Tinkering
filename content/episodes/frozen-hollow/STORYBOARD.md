@@ -1,7 +1,7 @@
 # Frozen Hollow — Een uitstekend plan
 
 > Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.2
-> Status: tekststoryboard ter inhoudelijke bespreking; nog geen bouwopdracht.
+> Status: inhoudelijk goedgekeurd door de gebruiker op 17 oktober 2026. Gemarkeerde open sessiedetails blijven open; nog geen bouwopdracht.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
 
@@ -488,5 +488,6 @@ Deze vragen blokkeren de bespreekbare conceptversie niet. De betrokken invulplek
 
 ### Wijzigingslog
 
+- **Goedkeuring — 17 oktober 2026:** gebruiker heeft versie 0.2 gelezen en goedgekeurd als uitgangspunt. Dit stelt geen ontbrekende sessiedetails vast en start geen beeld- of softwareproductie.
 - **0.2:** gebruikersdetails verwerkt: Qualco's Emergency Temporal Stash vertrekt met gekke energie na de verkeerde groenkeuze. Kreks ability naar een gekozen obstakel binnen vijf vakjes verbeeld als brute tunnelbeweging. Geen verband tussen beide gebeurtenissen toegevoegd; 32 hoofdpanelen en 6 optionele panelen behouden.
 - **0.1:** eerste volledige tekstmontage, met vaste sessieankers, creatieve dialogen, optionele perspectieven en expliciete ontbrekende details. Geen nieuwe externe lorebronnen gebruikt en geen beelden of software gemaakt.

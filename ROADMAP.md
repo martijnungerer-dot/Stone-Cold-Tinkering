@@ -10,4 +10,6 @@
 
 De Git-basis staat klaar op main, met de inhoudelijke basis en Codex-werkafspraken. De repository is https://github.com/martijnungerer-dot/Stone-Cold-Tinkering.
 
-Werkversie 0.2 van het [tekststoryboard voor Frozen Hollow](content/episodes/frozen-hollow/STORYBOARD.md) is opgesteld: 32 hoofdpanelen en 6 optionele perspectiefpanelen. Qualco's stash en Kreks movement ability zijn verwerkt op basis van aanvullende gebruikersinformatie. De volgende stap is inhoudelijke bespreking en bevestiging van de overige open sessiedetails. Er zijn nog geen afbeeldingen, animaties, applicatie of hosting gemaakt.
+Versie 0.2 van het [tekststoryboard voor Frozen Hollow](content/episodes/frozen-hollow/STORYBOARD.md) is op 17 oktober 2026 inhoudelijk goedgekeurd door de gebruiker: 32 hoofdpanelen en 6 optionele perspectiefpanelen. Qualco's stash en Kreks movement ability zijn verwerkt op basis van aanvullende gebruikersinformatie. Gemarkeerde open sessiedetails blijven open.
+
+De volgende productiestap is de visuele voorbereiding: karakterreferenties, stijl en een voorbeeldpaneel. Die begint na een expliciete bouwopdracht. Er zijn nog geen afbeeldingen, animaties, applicatie of hosting gemaakt.

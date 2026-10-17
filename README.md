@@ -27,7 +27,7 @@ Het project bevindt zich in de tekstuele voorbereiding. Er is nog geen applicati
 
 Lees de wereldbijbel vóór je scènes schrijft of bouwt. Bewaar de vastgelegde karakterquotes en episode-ankers. Vul open lorevragen niet op met aannames. Interacties mogen perspectief en timing veranderen; de bevestigde campagne-uitkomst blijft intact.
 
-De eerste versie van het tekststoryboard voor Frozen Hollow is klaar voor bespreking. De volgende stap is de gespeelde details bevestigen en het script aanscherpen. Voor latere bouw bevat de wereldbijbel een voorgestelde projectindeling en acceptatiecriteria.
+Versie 0.2 van het tekststoryboard voor Frozen Hollow is op 17 oktober 2026 inhoudelijk goedgekeurd door de gebruiker. De expliciet gemarkeerde open sessiedetails blijven open. De volgende productiestap is de visuele voorbereiding, na een expliciete bouwopdracht. Voor latere bouw bevat de wereldbijbel een voorgestelde projectindeling en acceptatiecriteria.
 
 ## Materiaal en herkomst
 
