@@ -97,3 +97,23 @@ De kaart, labels, beschrijvingen, nieuwe replieken en percentages in de poster z
 - Status: `OPEN / NIET INGEZIEN`.
 
 De browser verwijst naar aanmelden. Deze specifieke link is niet inhoudelijk ingezien. De gebruiker heeft inmiddels een rechtstreeks toegankelijke bijlage als visuele basis aangewezen: SRC-STYLE-02. Daarmee is een zichtbare primaire referentie beschikbaar, zonder dat een identieke bestands-ID met de Library-link hoeft te worden verondersteld.
+
+## Oorspronkelijke karakterbeelden — aangeleverd 18 oktober 2026
+
+| ID | Bewaard bestand | Zichtbare ontwerpgegevens | Status |
+| --- | --- | --- | --- |
+| SRC-CHAR-ORCHID | assets/references/characters/orchid-spellweaver.png | Lila huid, witblauwe kristalkroon en borst/schouders, donkere zwart-rode kleding | BRONFOTO / gebruikersreferentie |
+| SRC-CHAR-QUATRYL | assets/references/characters/quatryl-tinkerer.png | Slank, langwerpig gezicht en ledematen, dubbele brillen, koper en blauwe borstkern | BRONFOTO / gebruikersreferentie |
+| SRC-CHAR-SAVVAS | assets/references/characters/savvas-cragheart.png | Lichte gelaagde steen, amberogen, donkere mond/borstkuil, okeren beslag | BRONFOTO / gebruikersreferentie |
+
+Alle drie daadwerkelijk bekeken. De gebruiker geeft deze als het bedoelde oorspronkelijke uiterlijk. Ze gaan voor anatomie, kleding, kleur en schilderachtige materialen vóór de gegenereerde poster en oude comicbeelden. Hun editie is niet onafhankelijk vastgesteld. Alleen de zichtbare illustraties zijn gebruikt; de biografische tekst is niet verwerkt als nieuwe lore of campagne-inhoud. De oudere posterbeschrijvingen hierboven documenteren de historische referentie, niet het actuele uiterlijk.
+
+## Aesther-inspiratie voor Hail — 18 oktober 2026
+
+| ID | Bestand in assets/references/characters/ | Gebruik |
+| --- | --- | --- |
+| SRC-AESTHER-SUMMONER | aesther-summoner.png | Etherisch licht en uitstraling |
+| SRC-AESTHER-DIVINER | aesther-diviner.png | Licht doorschijnende huid en een gelaagd silhouet |
+| SRC-AESTHER-NIGHTSHROUD | aesther-nightshroud.png | Ijle contouren, koel licht |
+
+BRONFOTO / gebruikersreferentie, daadwerkelijk bekeken. Gebruikerscorrectie: Hail is een Aesther, geen elf, en een beetje transparant. Alleen de illustraties dienen als inspiratie; tekst, klassen, vermogens en biografieën worden niet aan Hail of de campagne toegevoegd. De editie van deze platen is niet onafhankelijk vastgesteld. De volledige bronplaten worden niet aan de reader geleverd.

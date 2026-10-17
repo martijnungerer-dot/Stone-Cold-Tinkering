@@ -19,7 +19,8 @@ const routes = new Map([
   ['/assets/forward-v3.png', ['assets/concepts/forward-v3.png', 'image/png']],
   ['/assets/nicola-reader-head-v1.png', ['assets/concepts/nicola-reader-head-v1.png', 'image/png']]
 ]);
-for (const key of ['arrival','hollow','breakthrough','aftermath','stash-after','chamber-two-v2']) routes.set(`/assets/frozen-hollow/${key}.png`, [`assets/episodes/frozen-hollow/${key}.png`, 'image/png']);
+routes.set('/assets/nicola-reader-head-v2.png', ['assets/concepts/nicola-reader-head-v2.png', 'image/png']);
+for (const key of ['arrival','hollow','breakthrough','aftermath','stash-after','chamber-two-v2','arrival-v3','hollow-v2','breakthrough-v2','aftermath-v3','chamber-two-v3']) routes.set(`/assets/frozen-hollow/${key}.png`, [`assets/episodes/frozen-hollow/${key}.png`, 'image/png']);
 
 export function createReaderHandler() {
   return async (request, response) => {

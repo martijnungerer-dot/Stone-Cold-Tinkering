@@ -1,12 +1,12 @@
 # Visuele richting — tekstuele briefing
 
-Status: de gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis aangewezen. Dit is de primaire stijlreferentie (SRC-STYLE-02). Er zijn inmiddels een eerste Krek-personageblad en drie versies van een bewegingsstudie gemaakt. De beweging en positionering zijn goed; de stijl is nog niet helemaal die van de bijbel. V3 is voorlopig als werkconcept aanvaard en wordt gebruikt in de lokale readerproef. Dit maakt het nog geen definitieve stijlreferentie of definitief character sheet.
+Status: herzien op 18 oktober 2026 na de eerste volledige leesversie. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. De eerdere proef en haar beelden blijven bewaard als werkgeschiedenis.
 
 Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk is bekeken. Het [storyboard](../content/episodes/frozen-hollow/STORYBOARD.md) bepaalt de scènes; de [wereldbijbel](../WORLDBUILDING.md) bewaakt personages en canon.
 
 ## Stijl
 
-Vertrek vanuit de nieuw aangeleverde poster: een gedetailleerde fantasystrip met stevige zwarte contouren, diepe schaduwvlakken, hoekige vormen en ruwe oppervlaktestructuren. Combineer leesbare inktlijnen met rijk ingekleurde textuur. Steen krijgt breuken en korrel; metaal krijgt scherpe randen en gerichte lichtaccenten. De lijnvoering en duidelijke kleurvlakken van deze referentie wegen zwaarder dan de zachtere schilderachtige afwerking van de eerdere illustratie.
+Vertrek voor de figuren vanuit de drie rechtstreeks aangeleverde oorspronkelijke klasse-illustraties. Gebruik een schilderachtige fantasyafwerking met korrel, verweerde materialen en natuurlijk gemodelleerd licht. Contouren ondersteunen leesbaarheid, zonder de eerdere zware zwarte inkt als verplichting op te leggen. De strip blijft herkenbaar door kadrering, tekstballonnen, houding en timing.
 
 De basis bestaat uit verweerd oker, steenbruin, zwart en crème. Koel blauw draagt sneeuw, schaduw en Nicola's techniek. Nyra brengt violet, magenta en fel rood/oranje in beeld. Sterk licht contrasteert met donkere silhouetten, terwijl gezichten en handelingen leesbaar blijven. De wereld oogt gevaarlijk en bewoond; humor komt uit houding, blik en timing.
 
@@ -20,12 +20,12 @@ De poster is ook een karakterreferentie. Lees [karakterisering en ontwikkeling](
 
 | Personage | Zichtbaar vertrekpunt | Wat later moet worden vastgelegd |
 | --- | --- | --- |
-| Krek | Zeer breed rotssilhouet; grote vuisten; warmbruine gebarsten steen; heldere blauwe ogen; leren riemen en metalen beslag | Eén herkenbaar gezicht, vaste breuklijnen, vaste verdeling van leer en metaal; dezelfde massa in actie en rust |
-| Nicola | Klein silhouet; metalen hoofddeksel met ronde blauwe lenzen; rode sjaal; bruine kleding en riemen; blauwe geometrische energie | Vaste Quatryl-anatomie, lenzen, instrumenten en kleding; sterke afwisseling tussen geconcentreerd werken en de lezer aankijken |
-| Nyra | Lang lila haar; scherp en expressief profiel; donkere kleding met warme details; violet licht naast fel rood/oranje vuur | Een consistent Orchid-ontwerp, vaste gelaatstrekken en kleding; herkenbaar blijven wanneer de magie wegvalt en de uitputting zichtbaar wordt |
-| Hail | Doorschijnende Aesther, onderzoeker, volgens de introductiebron | Een eigen herkenbaar ontwerp; de bronfoto's bevatten geen volledig karakterportret |
+| Krek | Lichte zand-/okerkleurige gelaagde steen; geribde kop, ambergele ogen, donkere mond en borstkuil; bescheiden okeren schouderbeslag en gordel | Bewaar massa en vaste gezichtsvorm; geen blauwe ogen of zware bronzen borstbepantsering uit de oude poster |
+| Nicola | Kleine slanke Quatryl; fijne lange ledematen, smal okerkleurig gezicht; donkere reservebril op voorhoofd én blauwe ooglenzen; koperen techniek, blauwe borstkern en ruguitrusting | Geen bolle goblin/vliegenier; rode sjaal is geen vast karakterkenmerk. Houd hoofdlaag en afgebeelde kop passend |
+| Nyra | Lila huid, spitse oren, korte witblauwe kristalkroon; kristalgroei op borst en schouders; donkere zwart-rode gelaagde kleding | Geen lang menselijk lila haar. Elegante houding en scherpe blik blijven, ook bij uitputting en zonder magie |
+| Hail | Licht doorschijnende Aesther; koel bleke/lila huid, donkere ogen, ijl zilverblauw haar, praktische leigrijze onderzoekersmantel; kleine ronde of bedekte oren | Geen elf of puntoren. Boeken/ladder/tafel mogen heel subtiel door armen, schouders en mantel zichtbaar zijn. Haar onderzoekende houding blijft leidend |
 
-Dit zijn creatieve ontwerpuitgangspunten uit de door de gebruiker gekozen basis. Ze worden niet als officiële klasse-illustraties voorgesteld. Een basiskeuze betekent nog geen vastgelegde turnaround met ieder kledingdetail. Gebruik bij latere beeldproductie de aangeleverde bijlage als zichtbare referentie; de tekstbriefing vervangt die afbeelding niet. Het afzonderlijke Library-bestand is nog niet via de link ingezien.
+Deze zichtbare kenmerken volgen de nieuwe gebruikersreferenties (BRONFOTO). De afbeeldingen zijn bekeken en in assets/references/characters/ bewaard. Hun editie is niet onafhankelijk vastgesteld; de begeleidende biografieën worden geen nieuwe lore. Scènebeelden blijven creatieve adaptaties, geen officiële platen of volledige turnarounds.
 
 ## Omgevingen en objecten
 
@@ -44,7 +44,7 @@ Zijn tunnelactie wordt verteld als drie duidelijke momenten: gekozen obstakel zi
 
 De afzonderlijke bewegingsstudie toont Krek als een levende ploeg die voorwaarts een begaanbare strook door de grond trekt. Nicola hangt aan het tuig. Nyra loopt achter hen op dat pad, verfijnd maar zichtbaar tevreden met Kreks bijdrage. Dit is creatieve actieregie, geen extra officiële transport- of terreinregel.
 
-Voor volgende beelden blijft de originele poster leidend: donker, hoekig en ruw geïnkt. Gebruik v2 voor de goedgekeurde choreografie en v3 als tijdelijk readerbeeld. Laat de afgeleide studies de oorspronkelijke stijl niet ongemerkt vervangen.
+Voor volgende beelden geldt de bovenstaande referentiehiërarchie. De oude bewegingsstudie bewaart de gekozen choreografie; haar bruine bepantserde Krek, langharige Nyra en ronde Nicola zijn geen model voor nieuwe anatomie.
 
 ## Nyra als dramatische hook
 
@@ -57,3 +57,11 @@ Het einde heeft een eenvoudige visuele boog:
 De laatste repliek, “Make it stay”, is een creatief voorstel. De hook is haar verlangen naar blijvende kracht. Voeg geen vloek, blijvende verwonding of nieuw magisch symptoom toe.
 
 Voor een latere visuele proef zijn de twee opeenvolgende Nyra-beelden uit P36–P37 geschikt: hetzelfde gezicht en dezelfde kadrering, met een verschil in houding en licht. Daarmee kunnen we expressie en continuïteit beoordelen voordat de hele episode wordt geïllustreerd.
+
+## Controle vóór een volgende aflevering
+
+Vergelijk ieder nieuw beeld met de drie oorspronkelijke klasseplaten: herkenbaar silhouet, gezicht, oogkleur, kristallen, kleding en onderlinge schaal. Gebruik de platen zichtbaar bij de beeldgenerator; een tekstprompt alleen volstaat niet. Controleer daarna de gespeelde bezetting, volgorde en uitkomst. Bewaar persoonlijke stemmen in losse tekst en stel herhaalde grappen bij zonder de bevestigde gebeurtenissen te herschrijven.
+
+## Hail — aanvullende gebruikersreferenties
+
+De drie Aesther-illustraties (Summoner, Diviner, Nightshroud) zijn op 18 oktober als inspiratie aangeleverd en bekeken. Gebruik alleen de etherische, licht doorschijnende verschijning. Hail blijft een levende Aesther-onderzoeker; geef haar geen klasse, wapens, vermogens of biografie uit deze platen. De transparantie hoort in het beeld zelf, ook zonder beweging. Haar mantel, handen en randen laten de omgeving subtiel doorschemeren. Nyra behoudt juist haar Orchid-kristallen en spitse oren.

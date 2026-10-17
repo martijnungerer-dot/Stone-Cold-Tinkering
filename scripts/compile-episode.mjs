@@ -13,7 +13,7 @@ export async function compileEpisode({ write = true } = {}) {
     if (!block) throw new Error(`Ontbrekend storyboardpaneel: ${id}`);
     return [...block.body.matchAll(/^\*\*Dialoog, ([^*]+)\*\*\s*“([^”]+)”/gm)].map(m => ({ speaker: m[1].split(' — ')[0].replace(/:$/, '').trim(), text: m[2] }));
   };
-  if (config.panels.length !== 38 || new Set(config.panels.map(p => p.id)).size !== 38) throw new Error('Verwacht 38 unieke hoofdpanelen.');
+  if (config.panels.length !== 36 || new Set(config.panels.map(p => p.id)).size !== 36) throw new Error('Verwacht 36 unieke hoofdpanelen.');
   for (const asset of Object.values(config.assets)) {
     const bytes = await readFile(path.join(root, asset.file));
     asset.width = bytes.readUInt32BE(16); asset.height = bytes.readUInt32BE(20);
@@ -37,6 +37,6 @@ export async function compileEpisode({ write = true } = {}) {
 export function transcriptHTML(episode) {
   const escape = s => String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
   const line = l => `<p lang="en"><strong>${escape(l.speaker)}:</strong> “${escape(l.text)}”</p>`;
-  return episode.panels.map((p,i) => `<section><h3>${i+1}. ${escape(p.title)}</h3><p>${escape(p.description)}</p><p>${escape(p.narration)}</p>${p.dialogue.map(line).join('')}${(p.theories||[]).map(t=>`<p lang="en">Nicola tegen de lezer: “${escape(t)}”</p>`).join('')}${Object.entries(p.perspectives||{}).filter(([name])=>name!=='Nicola').map(([name, parts])=>`<h4>Gedachtebeeld — ${escape(name)}</h4>${parts.flat().map(line).join('')}`).join('')}</section>`).join('\n');
+  return episode.panels.map((p,i) => `<section><h3>${i+1}. ${escape(p.title)}</h3><p>${escape(p.description)}</p><p>${escape(p.narration)}</p>${p.dialogue.map(line).join('')}${(p.krek?.lines||[]).map(t=>`<p lang="en">Krek na aanklikken: “${escape(t)}”</p>`).join('')}${(p.theories||[]).map(t=>`<p lang="en">Nicola tegen de lezer: “${escape(t)}”</p>`).join('')}${Object.entries(p.perspectives||{}).filter(([name])=>name!=='Nicola').map(([name, parts])=>`<h4>Gedachtebeeld — ${escape(name)}</h4>${parts.flat().map(line).join('')}`).join('')}</section>`).join('\n');
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) console.log(`Compiled ${(await compileEpisode()).panels.length} panels.`);

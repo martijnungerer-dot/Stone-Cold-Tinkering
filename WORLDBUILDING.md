@@ -1,8 +1,12 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.7 · 17 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
+> Versie 1.8 · 18 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
+
+## Visuele en montagecorrectie — 18 oktober 2026
+
+De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. Zie [visuele richting](docs/VISUAL_DIRECTION.md). Nieuwe afbeeldingen zijn gebruikersreferenties, geen automatische OFFICIEEL-2E-lore. R-10 komt vóór de ontmoeting met Hail. De finale wordt korter verteld, maar blijft een gevecht dat de volgende ronde gezamenlijk wordt afgemaakt. Meer variatie in Kreks rotslogica en zorg vervangt mechanische herhaling van catchphrases; bestaande vaste quotes blijven repertoire.
 
 ## 1. Doel en kern
 
@@ -259,16 +263,15 @@ Het opnieuw aangeleverde verslag legt de hoofdvolgorde nu vast: trage smalle gan
 
 ### 8.2 Voorgestelde episodeboog
 
-1. **Koude opening — `CREATIEF`:** een korte indruk van kou en een ontoereikend plan; geen nieuwe gevechtsuitkomst tonen.
+1. **R-10 — `GESPEELD / BRONFOTO`:** metalen deur in de bergwand met gekleurde, knipperende kristallen en een middenknop. Het opschrift Emergency Temporal Stash staat op de bronfoto; de koppeling aan Qualco komt van de gebruiker. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. De visuele vervorming is creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
 2. **Contextbeat — `GESPEELD / BRONFOTO / CREATIEF`:** Hail in de bibliotheek van Crooked Bone geeft aanleiding en bolopdracht. Haar nieuwe dialogen blijven creatieve adaptatie.
 3. **Reisovergang — `KAART / CREATIEF`:** bergsilhouetten en veranderend geluid verbinden de stad met de koude omgeving.
-4. **R-10 — `GESPEELD / BRONFOTO`:** metalen deur in de bergwand met gekleurde, knipperende kristallen en een middenknop. Het opschrift Emergency Temporal Stash staat op de bronfoto; de koppeling aan Qualco komt van de gebruiker. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. De visuele vervorming is creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
-5. **Gang en kamer 2 — `GESPEELD`:** eerst een smalle gang met wolven en Living Spirits, trage start. Krek en Nicola staan vooraan; in kamer 2 vernietigt Nyra twee grote ijsdemonen. Aanvalskaart, schade en elementaire werking blijven onbenoemd.
-6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** stilstand halverwege kamer 2. Krek beëindigt die met een sprint vol kracht door de mist naar kamer 3. Overlappende plannen en precieze dialogen zijn creatieve uitwerking.
-7. **Ruimtelijke omslag — `GESPEELD / CREATIEF`:** Krek kiest met zijn movement ability het obstakel bij de schat, binnen vijf vakjes. Verbeeld de teleport als een brute tunnelbeweging. Gebruik duidelijke begin- en eindposities; introduceer geen blijvende tunnelroute of onbevestigde aanvalsschade.
-8. **Finale — `GESPEELD`:** Nyra stormt achter Krek aan en doet veel schade, maar de vijanden leven nog. Pas de volgende ronde rondt de groep het efficiënt af. Behoud dat onderscheid; laat haar niet alle latere vijanden direct uitschakelen.
-9. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
-10. **Epiloog — `BRONFOTO / CREATIEF`, door gebruiker gewenst:** de koude blauwe bol gaat naar Hail. Haar experiment geeft kort kracht en neemt die weer weg. Houd het laatste perspectief bij Nyra: het korte herstel maakt haar verlangen naar blijvende kracht voelbaar. Dit is een emotionele hook; geen nieuwe ziekte of toekomstig scenario.
+4. **Gang en kamer 2 — `GESPEELD`:** eerst een smalle gang met wolven en Living Spirits, trage start. Krek en Nicola staan vooraan; in kamer 2 vernietigt Nyra twee grote ijsdemonen. Aanvalskaart, schade en elementaire werking blijven onbenoemd.
+5. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** stilstand halverwege kamer 2. Krek beëindigt die met een sprint vol kracht door de mist naar kamer 3. Overlappende plannen en precieze dialogen zijn creatieve uitwerking.
+6. **Ruimtelijke omslag — `GESPEELD / CREATIEF`:** Krek kiest met zijn movement ability het obstakel bij de schat, binnen vijf vakjes. Verbeeld de teleport als een brute tunnelbeweging. Gebruik duidelijke begin- en eindposities; introduceer geen blijvende tunnelroute of onbevestigde aanvalsschade.
+7. **Finale — `GESPEELD`:** Nyra stormt achter Krek aan en doet veel schade, maar de vijanden leven nog. Pas de volgende ronde rondt de groep het efficiënt af. Behoud dat onderscheid; laat haar niet alle latere vijanden direct uitschakelen.
+8. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
+9. **Epiloog — `BRONFOTO / CREATIEF`, door gebruiker gewenst:** de koude blauwe bol gaat naar Hail. Haar experiment geeft kort kracht en neemt die weer weg. Houd het laatste perspectief bij Nyra: het korte herstel maakt haar verlangen naar blijvende kracht voelbaar. Dit is een emotionele hook; geen nieuwe ziekte of toekomstig scenario.
 
 ### 8.3 Dramatische inzet
 
@@ -490,3 +493,5 @@ Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële D
 - **1.2 — 17 oktober 2026:** gebruikersbevestiging verwerkt over Qualco's Emergency Temporal Stash, de verkeerde groenkeuze en het vertrek met vreemde energie; Kreks movement ability naar een gekozen obstakel binnen vijf vakjes vastgelegd, met tunnelen als creatieve verhaalvertaling. Geen nieuwe officiële lore- of regelverificatie.
 - **1.1 — 17 oktober 2026:** aangeleverde gespreksexport verwerkt; tekstfase, tafelcanon en spoilerafspraak hersteld; onderscheid tussen gegenereerde illustratie en campagnekaart verduidelijkt; Nicola's metakennis en reputatiemotief uitgebreid; eerdere loreclaims als onderzoekswachtrij bewaard zonder ze tot geverifieerde canon te verheffen.
 - **1.0 — 17 oktober 2026:** eerste volledige wereldbijbel op basis van de expliciete gebruikerscontext, teruggelezen conversatiemetadata en bekeken kaart. Frozen Hollow-ankers vastgelegd; ontbrekende broninhoud en Second Edition-verificatie expliciet gemarkeerd; motion-comicformat en technische overdracht toegevoegd.
+
+Hails uiterlijk volgt ook de op 18 oktober gedeelde Aesther-referenties: etherisch en een beetje transparant, geen elf en geen elfenoren. Dit is visuele inspiratie; geen overdracht van klassevermogens of bronbiografieën. Zie docs/VISUAL_DIRECTION.md en het bronregister.

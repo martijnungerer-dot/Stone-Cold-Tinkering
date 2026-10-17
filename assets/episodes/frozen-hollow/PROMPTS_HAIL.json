@@ -1,0 +1,18 @@
+{
+  "tool": "built-in imagegen",
+  "date": "2026-10-18",
+  "references": [
+    "SRC-AESTHER-SUMMONER",
+    "SRC-AESTHER-DIVINER",
+    "SRC-AESTHER-NIGHTSHROUD"
+  ],
+  "editTargets": [
+    "arrival-v2 (tussenversie, bewaard buiten repo)",
+    "aftermath-v2 (tussenversie, bewaard buiten repo)"
+  ],
+  "outputs": [
+    "arrival-v3.png",
+    "aftermath-v3.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Image1 is edit target comic atlas. Images2-4 are aesthetic references ONLY for Hail's AESTHER appearance, left-side illustrations only, never printed text. EDIT ONLY HAIL, the PALE-HAIRED RESEARCHER WOMAN in the LIBRARY. She is an AESTHER, NOT AN ELF. Preserve her existing poses, expressive stern researcher's face, slate practical robes, pale hair identity, and physical interaction with ladder/books/table/orb. Give her cool pale blue-lilac skin, dark mysterious eyes like the references, wispy slightly floating pale silver-blue hair, subtle ethereal edges. REMOVE ALL POINTED ELF EARS: ears are small round human-like or hidden by hair. Hail's entire body and robes must be SLIGHTLY TRANSPARENT: show faint traces of bookshelf, ladder or table behind her through her hands, forearms, shoulder and robe, about 15-25% see-through. Still clearly visible, alive and grounded in action, no dead ghost, no huge aura, no new magic power or weapons/class costume from the references. Keep transparency gentle but unmistakable when looking at her hands/arms. In arrival atlas Hail only occurs top-right and middle-left. In aftermath Hail only occurs middle-right, bottom-left and bottom-right. Do not change NYRA: Nyra is the purple short crystal-crowned Orchid with chest crystals and black/red clothing, she keeps pointed Orchid ears. Keep Nicola's narrow copper Quatryl design and Krek's pale stone/amber eyes unchanged. No extra characters/duplicate women, no adding Hail to other panels. Preserve EXACT square six-panel grid, TWO equal columns x THREE equal rows, all compositions/props/colors/events, painterly materials. No text."
+}

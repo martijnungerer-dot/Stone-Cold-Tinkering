@@ -4,6 +4,12 @@ Status: creatieve schrijfrichtlijn op basis van de gebruikersafspraken, de gekoz
 
 Zie [WORLDBUILDING.md](../../WORLDBUILDING.md) voor vaste quotes en canonlabels, het [bronregister](../sources/REFERENCES.md) voor de poster en het [storyboard](../episodes/frozen-hollow/STORYBOARD.md) voor de paneelnummers.
 
+De oorspronkelijke klassebeelden van 18 oktober bepalen voortaan het uiterlijk; de hieronder beschreven persoonlijkheden blijven behouden. Zie [visuele richting](../../docs/VISUAL_DIRECTION.md).
+
+## Variatie in Kreks stem
+
+Wissel korte besluiten, rotslogica, grootspraak, metaallust, droge observaties en onhandig zorgzame aanbiedingen af. Laat zijn zekerheid botsen met de situatie. Niet iedere zin behoeft een steenwoordgrap of “Forward”. Bijvoorbeeld: “Less standing. More arriving.”, “Stone. Finally, something with backbone.” en “Lady needs a ride now?”. Quotes zijn repertoire, geen checklist of bewijs van een gespeelde gebeurtenis.
+
 ## 1. Wat de poster toevoegt
 
 De poster is zowel visuele referentie als creatieve karakterreferentie. Neem het zelfbeeld, de droge humor en de reacties op gevaar mee. De wereldkaart en loreclaims hebben een andere status; die blijven aan de campagnekaart en bronregels gebonden.
@@ -92,7 +98,7 @@ Zijn stilte is hier net zo karaktervol als een vierdewandgrap. Maak hem niet tot
 **Ontwikkeling in Frozen Hollow — creatieve lezing van de bestaande panelen:**
 
 - P06–P17-Y2: ze beoordeelt de wereld en de mogelijke oplossingen alsof ze haar compositie kiest.
-- P24–P29: haar kleurvoorkeur wordt daadkracht; het geweld is efficiënt.
+- P24–P27: haar kleurvoorkeur wordt daadkracht; het geweld is efficiënt.
 - P30–P32: de uitputting doorbreekt haar zelfverzekerde presentatie. “Improved” bewaart haar stem terwijl haar lichaam iets anders vertelt.
 - P36: bij Hail voelt ze kort opnieuw kracht. Haar houding opent zich.
 - P37–P38: die opleving verdwijnt. “Make it stay” geeft haar zelfverzekerde taal een andere lading: ze wil vasthouden wat ze net voelde.

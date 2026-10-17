@@ -33,7 +33,7 @@ De opdracht bepaalt tot welke stap we gaan. Bij een verzoek om tekst maken we te
 - Uitgangspunt: één speelsessie wordt één aflevering. Een splitsing of samenvoeging kan wanneer het verhaal daarom vraagt; vermeld dan alle betrokken sessie-IDs. Een scenario kan meerdere sessies beslaan.
 - Gebruik stabiele, kleine letters en koppeltekens in mapnamen, bijvoorbeeld `s002` en `ep002-werktitel`. De volgorde van de speelsessies bepaalt de nummers, niet een gegokte datum.
 - Frozen Hollow houdt zijn bestaande map en afleveringnummer 01. De bewegingsproef is een afzonderlijke creatieve proef en telt niet als extra gespeelde sessie of aflevering.
-- Titels, duur en paneelaantal volgen de inhoud. De 38 hoofdpanelen van Frozen Hollow en de drie panelen van de proef zijn geen vaste lengte voor volgende afleveringen.
+- Titels, duur en paneelaantal volgen de inhoud. De 36 hoofdpanelen van de herziene Frozen Hollow en de drie panelen van de proef zijn geen vaste lengte voor volgende afleveringen.
 - Nieuwe afleveringen krijgen eigen bestanden en assets. Bewaar eerdere storyboards en bruikbare leesversies. Een nieuwe sessie overschrijft geen afgeronde aflevering.
 
 ## Feiten, dialoog en continuïteit
@@ -51,7 +51,7 @@ Een nieuwe foto of herinnering wordt toegevoegd met herkomst. Een correctie krij
 
 ## De herkenbare leesvorm
 
-De [visuele richting](VISUAL_DIRECTION.md) en [leesproef](PROTOTYPE.md) zijn het vertrekpunt. De oorspronkelijke stijlposter blijft de beeldreferentie; de werkbeelden zijn geen definitieve character sheets.
+De [visuele richting](VISUAL_DIRECTION.md) en [leesproef](PROTOTYPE.md) zijn het vertrekpunt. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. Gebruik bij beeldproductie de bewaarde referentieafbeeldingen zelf; controleer uiterlijk en onderlinge schaal vóór integratie. Bevestigde tijdvolgorde gaat vóór een verzonnen vloeiendere montage.
 
 - De lezer bladert op eigen tempo. Het hoofdverhaal blijft compleet zonder optionele interacties.
 - Nicola kan naar de lezer kijken en die aanspreken in een lichtblauwe tekstballon binnen het stripkader. Gebruik geen popup of verduistering. Zijn reactie verandert perspectief, geen gespeelde uitkomst. Ook hij mag stil blijven wanneer een scène daarom vraagt.

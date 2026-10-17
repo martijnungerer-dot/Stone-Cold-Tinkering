@@ -8,13 +8,13 @@ Lees [WORLDBUILDING.md](WORLDBUILDING.md) voor de personages, wereldbouw, Frozen
 
 Voor iedere volgende speelsessie volgen we [van speelsessie naar aflevering](docs/SESSION_WORKFLOW.md). Een vrij verteld verslag volstaat; Codex ordent dat met het [sessiesjabloon](content/sessions/SESSION_TEMPLATE.md). Het [afleveringenoverzicht](content/episodes/README.md) bewaart voortgang en continuïteit. Concrete gebruikerskeuzes staan in het [besluitenlog](docs/decisions.md).
 
-De verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episodes/frozen-hollow/STORYBOARD.md): 38 hoofdpanelen en 6 optionele perspectiefpanelen, inclusief de terugkeer naar Hail met Nyra als dramatische hook. Nieuwe dialogen zijn creatieve voorstellen; expliciete open sessiedetails blijven herkenbaar.
+De verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episodes/frozen-hollow/STORYBOARD.md): 36 hoofdpanelen en 6 optionele perspectiefpanelen, inclusief de terugkeer naar Hail met Nyra als dramatische hook. Nieuwe dialogen zijn creatieve voorstellen; expliciete open sessiedetails blijven herkenbaar.
 
-Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions/s001/SESSION.md). Storyboard v0.6 verwerkt de laatste correctie: een claustrofobische gang met wolven, ijsdemonen in kamer 2, Kreks sprint door mist naar kamer 3 en het eindgevecht over twee rondes. Het kamerbeeld P23 toont volgens de gebruikerscorrectie twee grote en twee kleinere ijsdemonen, plus één Living Spirit achteraan. Het vergeten city event wordt overgeslagen. Alle drie spreken Engels; voorgestelde Krek-woordgrappen blijven apart van gespeelde feiten.
+Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions/s001/SESSION.md). Storyboard v0.7 verwerkt de laatste correctie: een claustrofobische gang met wolven, ijsdemonen in kamer 2, Kreks sprint door mist naar kamer 3 en het eindgevecht over twee rondes. Het kamerbeeld P23 toont volgens de gebruikerscorrectie twee grote en twee kleinere ijsdemonen, plus één Living Spirit achteraan. Het vergeten city event wordt overgeslagen. Alle drie spreken Engels; voorgestelde Krek-woordgrappen blijven apart van gespeelde feiten.
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
 
-De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis gekozen. Die is als SRC-STYLE-02 de primaire stijlreferentie; de campagnekaart blijft de geografische referentie.
+De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis gekozen. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. De campagnekaart blijft de geografische referentie.
 
 [Karakterisering en ontwikkeling](content/characters/CHARACTER_ARCS.md) vertaalt de persoonlijkheden op de poster naar schrijfbare reacties, onderlinge dynamiek en de ontwikkeling van het trio binnen Frozen Hollow.
 
@@ -22,13 +22,13 @@ De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png 
 
 ## Projectstatus
 
-De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Klikken op Nicola laat hem naar de lezer kijken en een blauwe tekstballon binnen het stripkader tonen. Werkbeeld v3 is voorlopig bruikbaar; de oorspronkelijke poster blijft de stijlmaatstaf. Er is geen hosting toegevoegd.
+De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Klikken op Nicola laat hem naar de lezer kijken en een blauwe tekstballon binnen het stripkader tonen. Werkbeeld v3 is voorlopig bruikbaar; voor nieuwe beelden gelden de oorspronkelijke klasse- en Aesther-referenties. Er is geen hosting toegevoegd.
 
 De gebruiker heeft de proef afgerond en de leesvorm en Nicola-interactie aanvaard. Krek en Nyra mogen voorlopig statisch blijven. Het project gaat verder als een serie op basis van de speelsessies; de volgende sessie is nog niet aangeleverd. De proef vraagt geen verdere verfijning zonder nieuwe opdracht.
 
 ## Volledige aflevering bekijken
 
-Frozen Hollow is nu gebouwd als eerste volledige motion-comicversie: 38 hoofdpanelen, 6 optionele gedachtepanelen, Engelse dialoog, een inspecteerbaar kristal, Nicola's blauwe lezerballon en korte beweging met optioneel geluid. De versie eindigt bij Hail met Nyra als dramatische hook. Zie [de afleveringsdocumentatie](docs/FROZEN_HOLLOW.md).
+Frozen Hollow is nu gebouwd als eerste volledige motion-comicversie: 36 hoofdpanelen, 6 optionele gedachtepanelen, Engelse dialoog, een inspecteerbaar kristal, Nicola's blauwe lezerballon en korte beweging met optioneel geluid. De versie eindigt bij Hail met Nyra als dramatische hook. Zie [de afleveringsdocumentatie](docs/FROZEN_HOLLOW.md).
 
 Maak met `npm run build` het zelfstandige bestand `dist/frozen-hollow.html`. Voor ontwikkelen: `npm start`, open het gemelde adres met `/frozen-hollow`. De oude driepanelige proef blijft beschikbaar als `dist/reader-offline.html`. Controleer met `npm test`.
 

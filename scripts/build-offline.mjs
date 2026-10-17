@@ -32,7 +32,7 @@ export async function buildEpisodeOffline(destination = path.join(root, 'dist', 
     readFile(path.join(root, 'reader/styles.css'), 'utf8'),
     readFile(path.join(root, 'reader/episode.css'), 'utf8'),
     readFile(path.join(root, 'reader/episode.js'), 'utf8'),
-    readFile(path.join(root, 'assets/concepts/nicola-reader-head-v1.png'))
+    readFile(path.join(root, 'assets/concepts/nicola-reader-head-v2.png'))
   ]);
   for (const [key, asset] of Object.entries(episode.assets)) {
     const bytes = await readFile(path.join(root, 'assets/episodes/frozen-hollow', key + '.png'));
@@ -44,7 +44,7 @@ export async function buildEpisodeOffline(destination = path.join(root, 'dist', 
     .replace('<link rel="stylesheet" href="episode.css">', () => `<style>${extraCSS}</style>`)
     .replace('<script src="frozen-hollow-data.js" defer></script>', '')
     .replace('<script src="episode.js" defer></script>', '')
-    .replace('href="assets/nicola-reader-head-v1.png"', () => `href="data:image/png;base64,${head.toString('base64')}"`)
+    .replace('href="assets/nicola-reader-head-v2.png"', () => `href="data:image/png;base64,${head.toString('base64')}"`)
     .replace('<!--EPISODE_TRANSCRIPT-->', () => transcriptHTML(episode))
     .replace('</body>', () => `<script>${data}</script><script>${app}</script></body>`);
   await mkdir(path.dirname(destination), { recursive: true });

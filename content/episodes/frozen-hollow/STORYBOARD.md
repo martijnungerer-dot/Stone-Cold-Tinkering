@@ -1,11 +1,15 @@
 # Frozen Hollow — Een uitstekend plan
 
-> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.6
+> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.7
 > Status: de gebruiker geeft nu opdracht de volledige motion comic te bouwen en verduidelijkt de indeling. Deze versie corrigeert v0.4: de ijsdemonen staan in kamer 2; Krek sprint halverwege die kamer door mist naar kamer 3. Beelden en nieuwe dialoog blijven creatieve adaptatie.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
 > Bronvindplaatsen: [REFERENCES.md](../../sources/REFERENCES.md).
 > Sessieverslag: [S001](../../sessions/s001/SESSION.md). City event op verzoek overgeslagen; ID onbekend, zonder consequenties volgens gebruiker.
+
+## Revisie op 18 oktober 2026
+
+De gebruiker plaatst R-10 vóór de ontmoeting met Hail. Dit is de actuele leesvolgorde; geen bestemming, reisduur of oorzakelijk verband tussen de stash en Hail toegevoegd. P28 en P29 vervallen; de volgende ronde blijft expliciet in P30. De nieuwe oorspronkelijke klasse-illustraties bepalen anatomie, materialen en schilderachtige afwerking. Alle nieuwe replieken en klikreacties blijven CREATIEF. De steen-in-het-hoofdgrap is geen nieuwe verwonding.
 
 ## 1. Verhaalafspraak
 
@@ -13,9 +17,9 @@
 
 De gespeelde gebeurtenissen zijn de vaste ankers. Alle hieronder geschreven dialoog, compositie, timing en gedachtebeelden zijn **CREATIEF**, behalve de expliciet aangeduide vaste karakterquotes. Die quotes zijn door de gebruiker vastgelegde karaktertekst; hun plaatsing in deze episode is een voorstel, geen claim dat ze toen letterlijk zijn uitgesproken.
 
-Deze versie bevat **38 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de ijsdemonen in kamer 2 vóór Kreks doorbraak worden verteld. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
+Deze versie bevat **36 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de ijsdemonen in kamer 2 vóór Kreks doorbraak worden verteld. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
 
-De laatste gebruikerscorrectie is leidend: eerst een claustrofobische smalle gang met wolven en de eerder genoemde Spirits; daar doorheen naar twee ijsdemonen in kamer 2. Halverwege kamer 2 sprint Krek met volle kracht door de mist naar kamer 3, waar schat, verplaatsing en eindgevecht volgen. Nyra's schadegolf laat vijanden leven; de volgende ronde rondt het trio af. Alleen exacte vakjes en de materie van eventuele deuren blijven OPEN. Overige montage is CREATIEF. Onbekende sessiecitaten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen opening, stashvorm en conclusie; hun editie is niet opnieuw geverifieerd.
+De laatste gebruikerscorrectie is leidend: eerst een claustrofobische smalle gang met wolven en de eerder genoemde Spirits; daar doorheen naar twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan in kamer 2. Halverwege kamer 2 sprint Krek met volle kracht door de mist naar kamer 3, waar schat, verplaatsing en eindgevecht volgen. Nyra's schadegolf laat vijanden leven; de volgende ronde rondt het trio af. Alleen exacte vakjes en de materie van eventuele deuren blijven OPEN. Overige montage is CREATIEF. Onbekende sessiecitaten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen opening, stashvorm en conclusie; hun editie is niet opnieuw geverifieerd.
 
 Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinnerde “we gaan” wordt voor de strip “We go.” De extra Krek-catchphrases zijn repertoire, geen nieuwe gevechtsgebeurtenissen of verplichte grappen. Zijn voorgestelde bijna-dood/healinggrap wordt niet aan deze sessie toegevoegd.
 
@@ -41,23 +45,63 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 | Scène | Panelen | Functie | Ankers |
 | --- | --- | --- | --- |
+| S03 — Groen | P07–P09 | Verkeerde kleurkeuze; Qualco's stash vertrekt met vreemde energie | FH-03 |
 | S01 — De aanleiding | P01–P03 | Hail/Crooked Bone verbinden aan het avontuur | FH-01 |
 | S02 — Naar de kou | P04–P06 | Trio introduceren in een veranderende omgeving | FH-02 |
-| S03 — Groen | P07–P09 | Verkeerde kleurkeuze; Qualco's stash vertrekt met vreemde energie | FH-03 |
 | S04 — Frozen Hollow | P10–P12 | De locatie en karakterverschillen voelbaar maken | Creatieve presentatie van de gespeelde locatie |
 | S05 — Moeilijker dan verwacht | P13–P15 | Living Spirits verstoren het zelfvertrouwen | FH-04 |
 | S08 — Koude tegenstand | P23–P25 | Nyra vernietigt twee grote ijsdemonen in kamer 2 | FH-05; s001-a04 |
 | S06 — Het uitstekende plan | P16–P19 + 6 zijpanelen | Planning-chaos en Nicola's vierde wand | FH-06 |
 | S07 — Verder dan verwacht | P20–P22 | Kreks movement ability als brute tunnelactie vertellen | FH-07 |
-| S09 — Eindelijk efficiënt | P26–P29 | Korte, besliste finale | FH-08 |
+| S09 — Eindelijk efficiënt | P26–P27 | Korte, besliste finale | FH-08 |
 | S10 — Wat het kost | P30–P32 | Nyra's uitputting laten doorwerken | FH-09 |
 | S11 — Even | P33–P38 | Terugkeer naar Hail; Nyra voelt kort kracht en wil die behouden | FH-10; SRC-FH-END |
 
 ## 3. Storyboard
 
+### S03 — Groen
+
+**Locatie:** onderweg, bij de metalen stash in de bergwand. **Ritme:** machinegeluid, kleurkeuze, vreemde energie, lege plek. **Basis:** FH-03 / BRONFOTO SRC-R10 voor de deur, kristallen, knop en opschrift; GESPEELD voor de koppeling aan Qualco, verkeerde groenkeuze en vertrek. De foto ondersteunt kristallen aanraken als keuze, maar identificeert de kiezer niet. Verdere gevolgen blijven OPEN.
+
+#### P07 — Emergency Temporal Stash
+
+**Beeld:** een metalen deuropening zit in de bergwand. De console heeft links een rond rood kristal, boven een blauw driehoekig kristal, rechts een geel/oranje veelhoekig kristal en onder een groen ruitvormig kristal. In het midden zit de ronde knop. Het plaatje boven de deur draagt het opschrift Emergency Temporal Stash. Qualco verschijnt niet: de kaartvoorkant toont of noemt diens aanwezigheid niet.
+
+**Tekst, op de plaat:** “Emergency Temporal Stash”
+
+**Beweging/geluid:** zacht machinegejank en rustig knipperende kristallen, beide uit de kaartbeschrijving. Geen snelle flitsen of extra werking. De statische versie toont de zichtbare lichtjes en een korte omgevingsbeschrijving.
+
+#### P08 — Groen
+
+**Beeld:** de keuze voor groen krijgt één duidelijke beat. Een kleine tekststrook vermeldt “Gekozen: groen”. Er is geen selecterende hand in beeld; zo blijft open wie de keuze maakte en hoe de stash werd bediend. Reacties van het trio staan ernaast.
+
+**Dialoog, Nyra:** “At least it has color.”
+
+**Dialoog, Nicola:** “An excellent aesthetic argument. Scientifically irrelevant, that too.”
+
+**Regie:** de aanraking van groen mag buiten beeld plaatsvinden: wie dat deed is onbekend. Nyra's opmerking maakt haar niet tot de kiezer. De middelste knop wordt niet als de gespeelde handeling getoond. Dialoog is creatieve adaptatie.
+
+**Interactie I-01, optioneel:** “Bekijk het kristal” toont dezelfde uitsnede groter. Tekst: “Het groene kristal bij Qualco's Emergency Temporal Stash.” Geen kleurkeuzemenu: groen is al de gespeelde keuze. Sluiten keert terug naar P08; “Verder” gaat naar P09. De lezer kan de mislukking niet voorkomen.
+
+#### P09 — Verkeerde kleur
+
+**Beeld:** drie smalle beeldstroken binnen één paneel: de stash op zijn plek; een vreemde energievervorming om de stash; de plek nadat de stash is vertrokken. Het effect mag contouren verschuiven en vormen uitrekken. Dit is creatieve beeldtaal voor de bevestigde gekke energie, geen bewezen tijdreis, bestemming of nieuwe natuurwet.
+
+**Tekst, contextkader:** “Groen was de verkeerde kleur.”
+
+**Dialoog, Krek:** “It retreated! With a bang... and now I've got a stone in my head.”
+
+**Dialoog, Nicola:** “A clear result. Inconvenient, yes, but clear nonetheless.”
+
+**Beweging/geluid:** later één korte vervorming met een vreemd energiegeluid. Statisch blijven de drie opeenvolgende stroken en de lege eindpositie de gebeurtenis volledig vertellen. Geen flitsen nodig.
+
+**Regie/open:** vertrek is bevestigd; transportmiddel, richting en bestemming zijn dat niet. Toon geen verwonding, kristal in een inventaris, achtergebleven buit of specifieke schade. De stroken zeggen evenmin dat alleen het kristal verdween: het vertrek betreft de stash.
+
+**Overgang:** laat na deze beat eerst een volledige omgevingswissel volgen. Geen beeld- of geluidsbrug van kristal naar teleportatie: die zou een onbevestigd oorzakelijk verband leggen.
+
 ### S01 — De aanleiding
 
-**Locatie:** Crooked Bone, vervallen herberg aan de rand van de Sinking Market; binnen een rommelige bibliotheek. **Personages:** trio en Hail. **Ritme:** afwijzing, herkenning, opdracht. **Basis:** FH-01 / BRONFOTO SRC-FH-INTRO; dialoog CREATIEF. Hails precieze uiterlijk is nog te ontwerpen; doorschijnende Aesther en onderzoeker zijn brongegevens.
+**Locatie:** Crooked Bone, vervallen herberg aan de rand van de Sinking Market; binnen een rommelige bibliotheek. **Personages:** trio en Hail. **Ritme:** afwijzing, herkenning, opdracht. **Basis:** FH-01 / BRONFOTO SRC-FH-INTRO; dialoog CREATIEF. Hail wordt volgens de nieuwe Aesther-inspiratie licht doorschijnend getekend, met ijl zilverblauw haar en zonder elfenoren. Onderzoeker en Aesther zijn brongegevens; het gekozen gezicht en de kleding zijn creatieve regie.
 
 #### P01 — Crooked Bone
 
@@ -87,7 +131,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Dialoog, Hail:** “Find the orb. Bring it back. Then we can discuss your problem.”
 
-**Dialoog, Krek:** “We keep moving.”
+**Dialoog, Krek:** “Enough talking. We move.”
 
 **Beweging/geluid:** van de tafel naar open lucht. Geen beloning, nieuwe voorwaarde of eerdere campagneonthulling toevoegen. De blauwe kleur wordt pas zichtbaar bij het vinden van de bol; Hails opdrachtschets hoeft die niet vooraf te verklappen.
 
@@ -107,7 +151,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** dichter bij het trio; Krek kijkt naar het steenlandschap. Geen niet-bevestigde uitrusting in close-up.
 
-**Dialoog, Krek:** “Stone. A sensible material.”
+**Dialoog, Krek:** “Stone. Finally, something with backbone.”
 
 **Dialoog, Nicola:** “And metal?”
 
@@ -123,46 +167,6 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beweging/geluid:** wind houdt even aan terwijl de rest van het beeld stil is. Geen magische verandering van het landschap.
 
-### S03 — Groen
-
-**Locatie:** onderweg, bij de metalen stash in de bergwand. **Ritme:** machinegeluid, kleurkeuze, vreemde energie, lege plek. **Basis:** FH-03 / BRONFOTO SRC-R10 voor de deur, kristallen, knop en opschrift; GESPEELD voor de koppeling aan Qualco, verkeerde groenkeuze en vertrek. De foto ondersteunt kristallen aanraken als keuze, maar identificeert de kiezer niet. Verdere gevolgen blijven OPEN.
-
-#### P07 — Emergency Temporal Stash
-
-**Beeld:** een metalen deuropening zit in de bergwand. De console heeft links een rond rood kristal, boven een blauw driehoekig kristal, rechts een geel/oranje veelhoekig kristal en onder een groen ruitvormig kristal. In het midden zit de ronde knop. Het plaatje boven de deur draagt het opschrift Emergency Temporal Stash. Qualco verschijnt niet: de kaartvoorkant toont of noemt diens aanwezigheid niet.
-
-**Tekst, op de plaat:** “Emergency Temporal Stash”
-
-**Beweging/geluid:** zacht machinegejank en rustig knipperende kristallen, beide uit de kaartbeschrijving. Geen snelle flitsen of extra werking. De statische versie toont de zichtbare lichtjes en een korte omgevingsbeschrijving.
-
-#### P08 — Groen
-
-**Beeld:** de keuze voor groen krijgt één duidelijke beat. Een kleine tekststrook vermeldt “Gekozen: groen”. Er is geen selecterende hand in beeld; zo blijft open wie de keuze maakte en hoe de stash werd bediend. Reacties van het trio staan ernaast.
-
-**Dialoog, Nyra:** “At least it has color.”
-
-**Dialoog, Nicola:** “An excellent aesthetic argument. Scientifically incomplete.”
-
-**Regie:** de aanraking van groen mag buiten beeld plaatsvinden: wie dat deed is onbekend. Nyra's opmerking maakt haar niet tot de kiezer. De middelste knop wordt niet als de gespeelde handeling getoond. Dialoog is creatieve adaptatie.
-
-**Interactie I-01, optioneel:** “Bekijk het kristal” toont dezelfde uitsnede groter. Tekst: “Het groene kristal bij Qualco's Emergency Temporal Stash.” Geen kleurkeuzemenu: groen is al de gespeelde keuze. Sluiten keert terug naar P08; “Verder” gaat naar P09. De lezer kan de mislukking niet voorkomen.
-
-#### P09 — Verkeerde kleur
-
-**Beeld:** drie smalle beeldstroken binnen één paneel: de stash op zijn plek; een vreemde energievervorming om de stash; de plek nadat de stash is vertrokken. Het effect mag contouren verschuiven en vormen uitrekken. Dit is creatieve beeldtaal voor de bevestigde gekke energie, geen bewezen tijdreis, bestemming of nieuwe natuurwet.
-
-**Tekst, contextkader:** “Groen was de verkeerde kleur.”
-
-**Dialoog, Krek:** “It retreated.”
-
-**Dialoog, Nicola:** “A very clear result. Inconvenient, but clear.”
-
-**Beweging/geluid:** later één korte vervorming met een vreemd energiegeluid. Statisch blijven de drie opeenvolgende stroken en de lege eindpositie de gebeurtenis volledig vertellen. Geen flitsen nodig.
-
-**Regie/open:** vertrek is bevestigd; transportmiddel, richting en bestemming zijn dat niet. Toon geen verwonding, kristal in een inventaris, achtergebleven buit of specifieke schade. De stroken zeggen evenmin dat alleen het kristal verdween: het vertrek betreft de stash.
-
-**Overgang:** laat na deze beat eerst een volledige omgevingswissel volgen. Geen beeld- of geluidsbrug van kristal naar teleportatie: die zou een onbevestigd oorzakelijk verband leggen.
-
 ### S04 — Frozen Hollow
 
 **Locatie:** Frozen Hollow; exacte plattegrond OPEN. **Personages:** trio. **Ritme:** stilte vóór weerstand. **Basis:** gespeelde locatie; beeld en dialoog CREATIEF.
@@ -172,6 +176,8 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 **Beeld:** twee aansluitende uitsneden: buiten de nauwe, oude ingang van bewerkt steen in de sneeuw; daarna binnen, waar de koude ruimte dieper doorloopt. Het trio staat samen in een leesbare beeldzone. De ingang volgt SRC-FH-INTRO; de verdere vorm van de grot blijft een voorlopige compositie.
 
 **Tekst, locatietitel:** “Frozen Hollow”
+
+**Dialoog, Krek:** “Let's go, balls of stone!”
 
 **Beweging/geluid:** minimaal zwevend ijsstof, een zachte holle omgevingslaag. Het paneel blijft zonder effecten leesbaar.
 
@@ -189,7 +195,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** de sporen uit SRC-FH-INTRO leiden de smalle gang in. Daar zijn wolven zichtbaar, zoals de gebruiker nu bevestigt. Het trio blijft aan één kant van het paneel. Geen wolfaanval, aantal, val of schat invullen: de aanwezigheid is bekend, de precieze handelingen niet.
 
-**Tekst:** geen.
+**Dialoog, Nicola:** “You go then, I'll help you from over here, yes?”
 
 **Beweging/geluid:** de omgevingslaag wordt stiller. Dit is spanningsregie, geen bewijs van een bovennatuurlijk effect.
 
@@ -219,7 +225,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Dialoog, Nyra:** “We should coordinate.”
 
-**Dialoog, Krek:** “Forward.”
+**Dialoog, Krek:** “We could discuss it closer to the enemy.”
 
 **Dialoog, Nicola:** “We have established a direction. That is not yet a plan.”
 
@@ -241,15 +247,15 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** rood licht weerspiegelt op Nyra's gezicht. De bron is haar eigen voorbereide magie; nog geen specifieke vijandtreffer.
 
-**Dialoog, Nyra — vaste karakterquote:** “Fortunately, burning red is my favorite color”
+**Dialoog, Nyra:** “Cold blue, horrid! Fortunately, burning red is my favorite color. Let me color you a little brighter.”
 
-**Regie:** de tekst stelt geen elementaire zwakte van de ijsdemonen vast. De rode kleur is Nyra's voorkeur, geen tactische uitleg.
+**Regie:** De vaste kleurquote blijft onderdeel van haar repertoire; deze uitbreiding volgt de gebruikersannotatie. de tekst stelt geen elementaire zwakte van de ijsdemonen vast. De rode kleur is Nyra's voorkeur, geen tactische uitleg.
 
 #### P25 — Haar bijdrage
 
 **Beeld:** een korte magische impact en daarna twee neergehaalde grote ijsdemonen. Nyra's houding is nu volledig gericht; haar late start contrasteert met het resultaat. De exacte spell en choreografie zijn CREATIEF; de twee eliminaties komen uit het verslag.
 
-**Tekst:** geen. Laat het resultaat van haar actie de reactie zijn.
+**Interactie:** klik op Krek: eerst “Forward?”, een tweede klik “Forward!”. Een crèmekleurige ballon verschijnt binnen het stripkader. Het verandert geen actie of uitkomst.
 
 **Regie:** geen elementaire zwakte, schadegetal of kaartnaam toevoegen. Hierna volgt een montageovergang naar de latere stilstand in S06; dit is niet de eindoverwinning van de aflevering.
 
@@ -265,7 +271,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Dialoog, Nyra:** “If you leave me a clear view—”
 
-**Dialoog, Krek:** “If we go forward—”
+**Dialoog, Krek:** “If we stop standing still—”
 
 **Beweging/geluid:** ballonnen mogen één voor één verschijnen, maar alle tekst blijft daarna staan. Geen overlappende verplichte audio.
 
@@ -289,7 +295,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Dialoog, Nicola:** “I was allowing for a change in position.”
 
-**Dialoog, Krek:** “So am I. Forward.”
+**Dialoog, Krek:** “A change of position. In the correct direction.”
 
 **Terugkeer:** P18. Gedachtebeeld sluit; er is niets uitgevoerd.
 
@@ -327,7 +333,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Dialoog, Nyra:** “Have we agreed on anything?”
 
-**Dialoog, Krek:** “Forward.”
+**Dialoog, Krek:** “Less standing. More arriving.”
 
 **Dialoog, Nicola:** “A remarkably stable variable.”
 
@@ -349,6 +355,8 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** de deur gaat open. In de ontstane opening ziet Krek de schat en de steen ernaast. Hij kiest die steen als doel. Beginpositie en doel krijgen afzonderlijke, herkenbare beeldzones. Zijn houding zakt naar voren en omlaag: een aanloop die evenveel op een inslag lijkt.
 
+**Lichtaccent:** de gesloten schatkist glanst alsof zij van puur goud is. Dit is Kreks aandacht in beeld, geen bevestiging van materiaal, inhoud of verkregen buit.
+
 **Dialoog, Krek:** “There.”
 
 **Regie/open:** het gekozen obstakel moet binnen vijf vakjes van Kreks startpositie liggen volgens de gebruikersbeschrijving. De precieze plattegrond blijft open; teken geen vijf willekeurige routevakken of zichtlijnregel. Als de werkelijke scène geen gelijktijdige zichtlijn toeliet, gebruik afzonderlijke uitsneden zonder er een extra spelvoorwaarde van te maken.
@@ -367,7 +375,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** Krek staat bij het gekozen obstakel, stof zakt rond hem neer. De vijanden reageren overdonderd op zijn plotselinge nieuwe positie. Hun verrassing is uitdrukking, geen statusicoon. Krek kijkt tevreden; de schatinhoud en het al dan niet openen blijven buiten beeld.
 
-**Dialoog, Krek — vaste karakterquote:** “I don't step back. We use rolling momentum”
+**Dialoog, Krek:** “Retreat is for meat. I am stone, and stone loves metal! Give me metal!”
 
 **Regie:** de uitspraak is zijn komische interpretatie van de gekozen tunnelweergave van zijn ability. Ze maakt die ability niet onbeperkt en voegt geen schade of extra beweging toe. De schatinhoud blijft buiten beeld.
 
@@ -379,33 +387,27 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** Nyra stormt achter Krek aan en ontketent een grote magische aanval. Haar kleur vult de uitsnede. De vijanden krijgen veel schade, maar blijven zichtbaar overeind. Geen extra gedode tegenstanders in deze aanval tekenen.
 
-**Tekst:** geen.
+**Dialoog, Nyra:** “Oh, you're so pretty when you burn.”
 
-**Beweging/geluid:** één korte impactaccentuering. Statisch: aanvalsrichting, kleur en zichtbare nog levende tegenstanders. De exacte magievorm blijft creatieve regie, zonder nieuwe spelwerking.
+**Dialoog, Nicola:** “Your perception is flawless.”
+
+**Beweging/geluid:** één korte impactaccentuering met optioneel vuurgeknisper. Statisch: aanvalsrichting, kleur en zichtbare nog levende tegenstanders. De exacte magievorm blijft creatieve regie, zonder nieuwe spelwerking.
 
 #### P27 — Nog niet
 
 **Beeld:** Nicola volledig bij het gevecht, zonder blik naar de lezer. In dezelfde gevechtsas zijn de beschadigde maar nog levende vijanden zichtbaar. Krek en Nyra richten zich opnieuw. Het korte moment laat het verschil zien tussen veel schade en een afgerond gevecht.
 
-**Tekst:** geen.
+**Dialoog, Nyra:** “Beauty comes with pain.”
 
 **Regie/open:** Nicola's concrete aanval blijft onbekend. Geen healing, gadget of bijna-doodmoment uit het eerdere grappenvoorstel toevoegen.
 
 #### P28 — De volgende ronde
 
-**Beeld:** een compacte gezamenlijke actiemontage van het trio. Voorwaartse massa, gerichte aandacht en Nyra's magische kleur dragen het efficiënte geweld. Ditmaal wordt het gevecht afgemaakt. De volgorde van individuele treffers blijft buiten beeld.
-
-**Tekst, verteller:** “De volgende ronde.”
-
-**Regie/open:** de tijdsprong volgt de gebruikersherinnering. Geen apart aantal slachtoffers, laatste treffer, vuurzwakte of healing suggereren; de precieze verdeling blijft open.
+**Montage v0.7:** dit paneel vervalt op gebruikersverzoek. Bewaard als productiegeschiedenis, niet in de reader of het transcript. De gezamenlijke afronding in de volgende ronde staat nu in de overgang van P27 naar P30.
 
 #### P29 — Stilte na de finale
 
-**Beeld:** een rustig breed paneel na het geweld. De aandacht keert naar het trio terug. Geen nieuwe deur, ongeopende route, buit of scenario-objectief in beeld brengen.
-
-**Tekst:** geen.
-
-**Beweging/geluid:** effecten nemen af. Een bestaande omgevingslaag mag terugkomen. De lezer bepaalt zelf wanneer de nasleep begint.
+**Montage v0.7:** dit paneel vervalt op gebruikersverzoek. Bewaard als productiegeschiedenis, niet in de reader of het transcript. De gezamenlijke afronding in de volgende ronde staat nu in de overgang van P27 naar P30.
 
 ### S10 — Wat het kost
 
@@ -415,7 +417,13 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** Nyra zakt na de overwinning uitgeput in elkaar, zoals nu beschreven. Haar houding en steunpunt zijn creatieve uitwerking; ze sterft niet en krijgt geen nieuwe wond. Geen nieuwe heldere vuurbron uit haar hand. De kleur kan als restbeeld blijven, zonder voortdurende spreuk.
 
-**Tekst:** geen. Laat de uitputting een volledig paneel krijgen vóór de volgende grap.
+**Tekst, verteller:** “De volgende ronde maken ze het samen af. Gehaald. Maar niet zonder prijs.”
+
+**Dialoog, Krek:** “Lady needs a ride now?”
+
+**Interactie, Nicola tegen de lezer:** “Time is fleeting. Death is a remarkably persistent observer. Give her a moment.”
+
+**Regie:** Kreks aanbod is zorg, geen uitgevoerde lift. Nicola spreekt alleen na aanklikken; de ernst en rust van Nyra's uitputting blijven de basis. Geen daadwerkelijk sterfgeval toevoegen.
 
 **Regie:** geen regelspecifieke uitleg over verloren kaarten of de precieze uitputtingsbeurt. Nyra is niet ineens hersteld omdat het gevecht voorbij is.
 
@@ -433,7 +441,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 **Beeld:** Krek kijkt naar Nyra, dan naar de richting waarin hij verder wil. Hij blijft staan. Nicola wacht. Nyra krijgt ruimte. Het paneel sluit de gevechtsnasleep af; daarna volgt de epiloog.
 
-**Dialoog, Krek:** “Forward?”
+**Dialoog, Krek:** “Ready for the next stone?”
 
 **Dialoog, Nyra:** “In a moment.”
 
@@ -452,6 +460,8 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 **Tekst, verteller:** “Zelfs ingepakt blijft de kou dichtbij.”
 
 **Beweging/geluid:** zacht blauw licht; de statische versie toont de zwevende positie en het omwikkelde voorwerp. Geen nieuw effect op de huid, gezondheid of herinneringen.
+
+**Interactie:** klik op de blauwe bol om het licht sterker te laten schijnen. Een tweede klik herstelt de rustige gloed. Dit is lezersaandacht, geen nieuwe spelwerking.
 
 **Regie:** dit is Hails opdrachtbol. Het groene kristal van de stash is een ander object. Verwar de bol evenmin met de schat bij Kreks movement ability.
 
@@ -506,7 +516,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 ## 4. Interactie en leesvolgorde
 
 ```text
-Hoofdlijn: P01–P15 → P23–P25 → P16–P22 → P26–P38 → einde
+Hoofdlijn: P07–P09 → P01–P06 → P10–P15 → P23–P25 → P16–P22 → P26–P27 → P30–P38 → einde
 Detail:    P08 → kristal bekijken → P08 → P09
 Gedachten: P17 → K1 → K2 → P18
            P17 → N1 → N2 → P18
@@ -563,8 +573,12 @@ De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke repli
 
 - **0.5:** volledige beeld- en readerbouw expliciet opgedragen. Laatste gebruikerscorrectie vervangt de kamerplaatsing uit v0.4: claustrofobische gang met wolven; ijsdemonen in kamer 2; Kreks sprint halverwege kamer 2 door mist naar het eindgevecht in kamer 3. Geen nieuwe kaartregels of deurvernieling afgeleid.
 
-- **0.4:** opnieuw aangeleverd eigen verslag S001 verwerkt. City event overslaan; wolven en trage start in kamer 1; Krek/Nicola vooraan; Nyra vernietigt daar twee grote ijsdemonen. S08/P23–P25 verplaatst vóór S06 met behoud van IDs. Latere doorbraak en deur, verraste vijanden, Nyra's eerste schadegolf en gezamenlijke afronding in de volgende ronde verduidelijkt. Nyra zakt uitgeput in elkaar. Alle drie spreken Engels; extra Krek-repertoire blijft voorstel en de healinggrap is niet als gebeurtenis toegevoegd. 38 hoofdpanelen en 6 optionele panelen behouden; Hail-epiloog blijft staan.
-- **0.3:** aangeleverde bronfoto's verwerkt in opening, bergreis, tunnelingang en stashvorm. P33–P38 toegevoegd op verzoek: terugkeer naar Hail met de blauwe bol, tijdelijk experiment en Nyra als dramatische hook. 38 hoofdpanelen en 6 optionele perspectiefpanelen; toekomstige scenario-inhoud uit de conclusie niet overgenomen. Nieuwe dialoog blijft een creatief voorstel.
+- **0.4:** opnieuw aangeleverd eigen verslag S001 verwerkt. City event overslaan; wolven en trage start in kamer 1; Krek/Nicola vooraan; Nyra vernietigt daar twee grote ijsdemonen. S08/P23–P25 verplaatst vóór S06 met behoud van IDs. Latere doorbraak en deur, verraste vijanden, Nyra's eerste schadegolf en gezamenlijke afronding in de volgende ronde verduidelijkt. Nyra zakt uitgeput in elkaar. Alle drie spreken Engels; extra Krek-repertoire blijft voorstel en de healinggrap is niet als gebeurtenis toegevoegd. 36 hoofdpanelen en 6 optionele panelen behouden; Hail-epiloog blijft staan.
+- **0.3:** aangeleverde bronfoto's verwerkt in opening, bergreis, tunnelingang en stashvorm. P33–P38 toegevoegd op verzoek: terugkeer naar Hail met de blauwe bol, tijdelijk experiment en Nyra als dramatische hook. Destijds 38 hoofdpanelen en 6 optionele perspectiefpanelen; toekomstige scenario-inhoud uit de conclusie niet overgenomen. Nieuwe dialoog blijft een creatief voorstel.
 - **Goedkeuring — 17 oktober 2026:** gebruiker heeft versie 0.2 gelezen en goedgekeurd als uitgangspunt. Dit stelt geen ontbrekende sessiedetails vast en start geen beeld- of softwareproductie.
 - **0.2:** gebruikersdetails verwerkt: Qualco's Emergency Temporal Stash vertrekt met gekke energie na de verkeerde groenkeuze. Kreks ability naar een gekozen obstakel binnen vijf vakjes verbeeld als brute tunnelbeweging. Geen verband tussen beide gebeurtenissen toegevoegd; 32 hoofdpanelen en 6 optionele panelen behouden.
 - **0.1:** eerste volledige tekstmontage, met vaste sessieankers, creatieve dialogen, optionele perspectieven en expliciete ontbrekende details. Geen nieuwe externe lorebronnen gebruikt en geen beelden of software gemaakt.
+
+- **0.7 (18 oktober):** gebruikersannotaties verwerkt; R-10 vóór Hail, P28/P29 uit de reader, afronding in de volgende ronde bij P30. Oorspronkelijke klassebeelden leidend; 36 hoofdpanelen met meer gevarieerde Krek-stem en optionele reacties.
+
+Hail-aanvulling bij v0.7: de Aesther-inspiratieplaten leiden haar licht doorschijnende uiterlijk; geen elf, geen overgenomen klassen of vermogens.

@@ -6,7 +6,7 @@
   const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
   let savedMotion = null;
   try { savedMotion = localStorage.getItem('stone-cold-motion'); } catch { /* Reading also works without storage. */ }
-  const state = { index: 0, motion: savedMotion === null ? !mq.matches : savedMotion === 'on', sound: false, theory: 0, detail: false };
+  const state = { index: 0, motion: savedMotion === null ? !mq.matches : savedMotion === 'on', sound: false, theory: 0, detail: false, krek: -1, orb: false };
   const stage = $('art-stage');
   let timer, opener, thoughtOpener, audioContext, master, generation = 0;
 
@@ -36,17 +36,23 @@
       if (audioContext.state === 'suspended') await audioContext.resume();
       if (!state.sound || current !== generation) return;
       master.gain.setTargetAtTime(.09, audioContext.currentTime, .02);
-      const effect = panels[state.index].motion;
+      const panel = panels[state.index], effect = panel.motion;
+      const fire = panel.sound === 'fire', bang = panel.sound === 'bang';
       const magical = ['orb', 'drain', 'spell', 'spirit', 'vanish'].includes(effect);
-      const duration = magical ? 1.6 : .85;
+      const duration = fire ? 2.4 : bang ? .65 : magical ? 1.6 : .85;
       const buffer = audioContext.createBuffer(1, Math.ceil(audioContext.sampleRate * duration), audioContext.sampleRate);
       let last = 0;
       const samples = buffer.getChannelData(0);
-      for (let i = 0; i < samples.length; i++) { last = (last + (Math.random() * 2 - 1) * .04) / 1.04; samples[i] = last * 3; }
+      let crackle = 0;
+      for (let i = 0; i < samples.length; i++) {
+        last = (last + (Math.random() * 2 - 1) * .04) / 1.04;
+        if (fire) { if (Math.random() < 14 / audioContext.sampleRate) crackle = .3 + Math.random() * .6; crackle *= .986; }
+        samples[i] = fire ? last * .6 + (Math.random() * 2 - 1) * crackle : last * 3;
+      }
       const source = audioContext.createBufferSource(), filter = audioContext.createBiquadFilter(), envelope = audioContext.createGain();
-      source.buffer = buffer; filter.type = 'lowpass'; filter.frequency.value = magical ? 1400 : 450;
+      source.buffer = buffer; filter.type = fire ? 'highpass' : 'lowpass'; filter.frequency.value = fire ? 700 : bang ? 850 : magical ? 1400 : 450;
       const now = audioContext.currentTime;
-      envelope.gain.setValueAtTime(.001, now); envelope.gain.exponentialRampToValueAtTime(.6, now + .1); envelope.gain.exponentialRampToValueAtTime(.001, now + duration);
+      envelope.gain.setValueAtTime(.001, now); envelope.gain.exponentialRampToValueAtTime(.6, now + (bang ? .015 : .1)); envelope.gain.exponentialRampToValueAtTime(.001, now + duration);
       source.connect(filter); filter.connect(envelope); envelope.connect(master);
       source.onended = () => { source.disconnect(); filter.disconnect(); envelope.disconnect(); };
       source.start(now); source.stop(now + duration);
@@ -98,13 +104,34 @@
     $('thought-panel').hidden = true;
     if ((restore || inside) && thoughtOpener?.isConnected) thoughtOpener.focus();
   }
+  function closeKrek(restore = false) {
+    $('krek-balloon').hidden = true;
+    $('krek-hotspot').setAttribute('aria-expanded', 'false');
+    if (restore) $('krek-hotspot').focus();
+  }
+  function showKrek() {
+    const lines = panels[state.index].krek?.lines;
+    if (!lines?.length) return;
+    closeNicola(); closeThought(); stopMotion();
+    state.krek = (state.krek + 1) % lines.length;
+    $('krek-comment').textContent = lines[state.krek];
+    $('krek-balloon').hidden = false;
+    $('krek-hotspot').setAttribute('aria-expanded', 'true');
+  }
+  function toggleOrb() {
+    if (!panels[state.index].orb) return;
+    state.orb = !state.orb; stopMotion();
+    $('orb-hotspot').setAttribute('aria-pressed', String(state.orb));
+    stage.dataset.orbBright = String(state.orb);
+    $('art-description').textContent = panels[state.index].description + (state.orb ? ' De blauwe bol schijnt nu helderder.' : '');
+  }
   function showNicola(event) {
     const p = panels[state.index];
     if (!p.theories?.length) return;
     if (!$('nicola-balloon').hidden) { closeNicola(); return; }
-    closeThought(); stopMotion(); opener = event.currentTarget; state.theory = 0;
+    closeThought(); closeKrek(); stopMotion(); opener = event.currentTarget; state.theory = 0;
     stage.classList.add('is-looking'); $('nicola-balloon').hidden = false;
-    $('nicola-comment').textContent = p.theories[0];
+    $('nicola-comment').textContent = p.theories[0]; $('nicola-another').hidden = p.theories.length < 2;
     for (const id of ['nicola-hotspot', 'nicola-open']) $(id).setAttribute('aria-expanded', 'true');
     $('art-description').textContent = `${p.description} Nicola draait zijn hoofd naar de lezer en spreekt die aan.`;
   }
@@ -127,9 +154,18 @@
     $('thought-panel').hidden = false;
   }
   function render() {
-    closeNicola(); closeThought(); stopMotion(); state.theory = 0; state.detail = false;
+    closeNicola(); closeThought(); closeKrek(); stopMotion(); state.theory = 0; state.detail = false; state.krek = -1; state.orb = false;
     const p = panels[state.index], number = String(state.index + 1).padStart(2, '0');
     paintArt(); stage.dataset.effect = p.motion;
+    stage.dataset.orbBright = 'false';
+    $('krek-hotspot').hidden = !p.krek; $('orb-hotspot').hidden = !p.orb;
+    $('orb-hotspot').setAttribute('aria-pressed', 'false');
+    $('orb-glow').hidden = !p.orb; $('treasure-gleam').hidden = !p.treasure;
+    for (const [id, location] of [['krek-hotspot', p.krek], ['orb-hotspot', p.orb], ['orb-glow', p.orb], ['treasure-gleam', p.treasure]]) if (location) {
+      $(id).style.left = `${location.x * 100}%`; $(id).style.top = `${location.y * 100}%`;
+      if (location.width) $(id).style.width = `${location.width * 100}%`;
+      if (location.height) $(id).style.height = `${location.height * 100}%`;
+    }
     $('art-title').textContent = p.title; $('art-description').textContent = p.description;
     $('frame-label').textContent = `${number} / ${p.title.toUpperCase()}`; $('location-label').textContent = p.location;
     $('panel-title').textContent = p.title; $('panel-narration').textContent = p.narration;
@@ -160,7 +196,7 @@
       $('art-shell').scrollIntoView?.({ block: 'start', behavior: state.motion ? 'smooth' : 'instant' });
     }
   }
-  for (const [id, handler] of Object.entries({ previous: () => goTo(state.index - 1), next: () => goTo(state.index === panels.length - 1 ? 0 : state.index + 1), replay: () => { closeNicola(); closeThought(); animate(); void playSound(); }, 'nicola-hotspot': showNicola, 'nicola-open': showNicola, 'nicola-close': () => closeNicola(true), 'thought-close': () => closeThought(true) })) $(id).addEventListener('click', handler);
+  for (const [id, handler] of Object.entries({ previous: () => goTo(state.index - 1), next: () => goTo(state.index === panels.length - 1 ? 0 : state.index + 1), replay: () => { closeNicola(); closeThought(); closeKrek(); animate(); void playSound(); }, 'nicola-hotspot': showNicola, 'nicola-open': showNicola, 'nicola-close': () => closeNicola(true), 'thought-close': () => closeThought(true), 'krek-hotspot': showKrek, 'krek-again': showKrek, 'krek-close': () => closeKrek(true), 'orb-hotspot': toggleOrb })) $(id).addEventListener('click', handler);
   $('nicola-another').addEventListener('click', () => { const lines = panels[state.index].theories; state.theory = (state.theory + 1) % lines.length; $('nicola-comment').textContent = lines[state.theory]; });
   $('crystal-detail').addEventListener('click', () => { state.detail = !state.detail; $('crystal-detail').setAttribute('aria-pressed', String(state.detail)); $('crystal-detail').textContent = state.detail ? 'Terug naar het paneel' : 'Bekijk het kristal'; closeNicola(); stopMotion(); paintArt(); });
   $('chapter-select').addEventListener('change', () => { const index = panels.findIndex(p => p.scene === $('chapter-select').value); if (index >= 0) goTo(index); });
@@ -169,7 +205,7 @@
   mq.addEventListener('change', () => { if (savedMotion === null) { state.motion = !mq.matches; preferences(); if (!state.motion) stopMotion(); } });
   document.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
-    if (event.key === 'Escape') { if (!$('nicola-balloon').hidden) closeNicola(true); if (!$('thought-panel').hidden) closeThought(true); }
+    if (event.key === 'Escape') { if (!$('nicola-balloon').hidden) closeNicola(true); if (!$('thought-panel').hidden) closeThought(true); if (!$('krek-balloon').hidden) closeKrek(true); }
     if (event.key === 'ArrowRight') { event.preventDefault(); goTo(state.index + 1); }
     if (event.key === 'ArrowLeft') { event.preventDefault(); goTo(state.index - 1); }
   });
@@ -181,10 +217,11 @@
     const description = document.createElement('p'); description.textContent = p.description;
     const narration = document.createElement('p'); narration.textContent = p.narration; section.append(heading, description, narration);
     p.dialogue.forEach(line => speech(line, section));
+    for (const text of p.krek?.lines || []) speech({speaker:'Krek na aanklikken', text}, section);
     for (const line of p.theories || []) { const text = document.createElement('p'); text.lang = 'en'; text.textContent = `Nicola tegen de lezer: “${line}”`; section.append(text); }
     for (const [name, parts] of Object.entries(p.perspectives || {})) if (name !== 'Nicola') for (const part of parts) for (const line of part) { const text = document.createElement('p'); text.lang = 'en'; text.textContent = `Gedachtebeeld — ${line.speaker}: “${line.text}”`; section.append(text); }
     $('transcript-content').append(section);
   });
-  const requested = (window.location?.hash || '').slice(1); const start = panels.findIndex(p => p.id === requested); if (start >= 0) state.index = start;
+  const requested = (window.location?.hash || '').slice(1); const start = panels.findIndex(p => p.id === (['P28','P29'].includes(requested) ? 'P30' : requested)); if (start >= 0) state.index = start;
   preferences(); render();
 })();

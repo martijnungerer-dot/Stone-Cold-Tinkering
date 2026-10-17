@@ -1,29 +1,17 @@
 {
   "id": "frozen-hollow",
   "title": "Een uitstekend plan.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "assets": {
-    "arrival": {
-      "src": "assets/frozen-hollow/arrival.png",
-      "file": "assets/episodes/frozen-hollow/arrival.png",
+    "hollow-v2": {
+      "src": "assets/frozen-hollow/hollow-v2.png",
+      "file": "assets/episodes/frozen-hollow/hollow-v2.png",
       "columns": 2,
       "rows": 3
     },
-    "hollow": {
-      "src": "assets/frozen-hollow/hollow.png",
-      "file": "assets/episodes/frozen-hollow/hollow.png",
-      "columns": 2,
-      "rows": 3
-    },
-    "breakthrough": {
-      "src": "assets/frozen-hollow/breakthrough.png",
-      "file": "assets/episodes/frozen-hollow/breakthrough.png",
-      "columns": 2,
-      "rows": 3
-    },
-    "aftermath": {
-      "src": "assets/frozen-hollow/aftermath.png",
-      "file": "assets/episodes/frozen-hollow/aftermath.png",
+    "breakthrough-v2": {
+      "src": "assets/frozen-hollow/breakthrough-v2.png",
+      "file": "assets/episodes/frozen-hollow/breakthrough-v2.png",
       "columns": 2,
       "rows": 3
     },
@@ -33,14 +21,30 @@
       "columns": 1,
       "rows": 1
     },
-    "chamber-two-v2": {
-      "src": "assets/frozen-hollow/chamber-two-v2.png",
-      "file": "assets/episodes/frozen-hollow/chamber-two-v2.png",
+    "chamber-two-v3": {
+      "src": "assets/frozen-hollow/chamber-two-v3.png",
+      "file": "assets/episodes/frozen-hollow/chamber-two-v3.png",
       "columns": 1,
       "rows": 1
+    },
+    "arrival-v3": {
+      "src": "assets/frozen-hollow/arrival-v3.png",
+      "file": "assets/episodes/frozen-hollow/arrival-v3.png",
+      "columns": 2,
+      "rows": 3
+    },
+    "aftermath-v3": {
+      "src": "assets/frozen-hollow/aftermath-v3.png",
+      "file": "assets/episodes/frozen-hollow/aftermath-v3.png",
+      "columns": 2,
+      "rows": 3
     }
   },
   "chapters": [
+    {
+      "id": "S03",
+      "title": "Groen"
+    },
     {
       "id": "S01",
       "title": "De aanleiding"
@@ -48,10 +52,6 @@
     {
       "id": "S02",
       "title": "Naar de kou"
-    },
-    {
-      "id": "S03",
-      "title": "Groen"
     },
     {
       "id": "S04",
@@ -88,91 +88,10 @@
   ],
   "panels": [
     {
-      "id": "P01",
-      "scene": "S01",
-      "art": {
-        "key": "arrival",
-        "cell": 0
-      },
-      "motion": "light",
-      "location": "Gloomhaven",
-      "narration": "Een herberg. Ooit.",
-      "description": "Het trio staat voor de verweerde houten ingang van Crooked Bone in een koude straat."
-    },
-    {
-      "id": "P02",
-      "scene": "S01",
-      "art": {
-        "key": "arrival",
-        "cell": 1
-      },
-      "motion": "light",
-      "location": "Crooked Bone",
-      "narration": "Boeken in plaats van bier. En weinig geduld voor bezoekers.",
-      "description": "Hail staat op een ladder tussen overvolle boekenkasten. Krek, Nicola en Nyra kijken op naar de onderzoeker.",
-      "head": {
-        "x": 0.13,
-        "y": 0.68,
-        "width": 0.18
-      },
-      "theories": [
-        "A research facility. Finally. Please try not to touch anything that looks expensive.",
-        "You are watching? Excellent. Another variable accounted for."
-      ]
-    },
-    {
-      "id": "P03",
-      "scene": "S01",
-      "art": {
-        "key": "arrival",
-        "cell": 2
-      },
-      "motion": "light",
-      "location": "Crooked Bone",
-      "narration": "Een bol halen. Terugbrengen. Dan praten we verder.",
-      "description": "Hail buigt zich over een eenvoudige bolschets. Nicola kijkt geïnteresseerd, Nyra kritisch. Krek staat klaar voor vertrek."
-    },
-    {
-      "id": "P04",
-      "scene": "S02",
-      "art": {
-        "key": "arrival",
-        "cell": 3
-      },
-      "motion": "snow",
-      "location": "Copperneck Mountains",
-      "narration": "Buiten wordt de wereld stiller. En kouder.",
-      "description": "De drie trekken door sneeuw naar een smalle ingang van oud steenwerk in de bergen."
-    },
-    {
-      "id": "P05",
-      "scene": "S02",
-      "art": {
-        "key": "arrival",
-        "cell": 3
-      },
-      "motion": "snow",
-      "location": "Copperneck Mountains",
-      "narration": "Krek herkent tenminste één verstandig bouwmateriaal.",
-      "description": "Krek voorop in een wereld van steen en sneeuw. Nicola en Nyra volgen naar de tunnelingang."
-    },
-    {
-      "id": "P06",
-      "scene": "S02",
-      "art": {
-        "key": "arrival",
-        "cell": 3
-      },
-      "motion": "snow",
-      "location": "Copperneck Mountains",
-      "narration": "Nyra ziet vooral hoeveel kleur er ontbreekt.",
-      "description": "Het trio is klein onder de besneeuwde rotsen. De donkere tunnelingang wacht."
-    },
-    {
       "id": "P07",
       "scene": "S03",
       "art": {
-        "key": "arrival",
+        "key": "arrival-v3",
         "cell": 4
       },
       "motion": "light",
@@ -181,8 +100,8 @@
       "description": "Een metalen console in de bergwand. Rood links, blauw boven, oranje rechts, een groene ruit onder en een ronde knop in het midden. De drie kijken toe.",
       "head": {
         "x": 0.35,
-        "y": 0.71,
-        "width": 0.22
+        "y": 0.63,
+        "width": 0.2
       },
       "theories": [
         "Emergency. Temporal. Stash. Three words that rarely improve one another.",
@@ -193,7 +112,7 @@
       "id": "P08",
       "scene": "S03",
       "art": {
-        "key": "arrival",
+        "key": "arrival-v3",
         "cell": 5
       },
       "motion": "orb",
@@ -201,7 +120,7 @@
       "narration": "Gekozen: groen.",
       "description": "Het groene kristal licht op. De ronde middelste knop is duidelijk een ander onderdeel.",
       "detail": {
-        "key": "arrival",
+        "key": "arrival-v3",
         "cell": 5,
         "focus": {
           "x": 0.24,
@@ -215,7 +134,7 @@
       "id": "P09",
       "scene": "S03",
       "art": {
-        "key": "arrival",
+        "key": "arrival-v3",
         "cell": 5
       },
       "motion": "vanish",
@@ -226,13 +145,95 @@
         "key": "stash-after",
         "cell": 0,
         "inset": 0
-      }
+      },
+      "sound": "bang"
+    },
+    {
+      "id": "P01",
+      "scene": "S01",
+      "art": {
+        "key": "arrival-v3",
+        "cell": 0
+      },
+      "motion": "light",
+      "location": "Gloomhaven",
+      "narration": "Een herberg. Ooit.",
+      "description": "Het trio staat voor de verweerde houten ingang van Crooked Bone in een koude straat."
+    },
+    {
+      "id": "P02",
+      "scene": "S01",
+      "art": {
+        "key": "arrival-v3",
+        "cell": 1
+      },
+      "motion": "light",
+      "location": "Crooked Bone",
+      "narration": "Boeken in plaats van bier. En weinig geduld voor bezoekers.",
+      "description": "Hail staat op een ladder tussen overvolle boekenkasten. Krek, Nicola en Nyra kijken op naar de onderzoeker. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk.",
+      "head": {
+        "x": 0.14,
+        "y": 0.63,
+        "width": 0.18
+      },
+      "theories": [
+        "A research facility. Finally. Please try not to touch anything that looks expensive.",
+        "You are watching? Excellent. Another variable accounted for."
+      ]
+    },
+    {
+      "id": "P03",
+      "scene": "S01",
+      "art": {
+        "key": "arrival-v3",
+        "cell": 2
+      },
+      "motion": "light",
+      "location": "Crooked Bone",
+      "narration": "Een bol halen. Terugbrengen. Dan praten we verder.",
+      "description": "Hail buigt zich over een eenvoudige bolschets. Nicola kijkt geïnteresseerd, Nyra kritisch. Krek staat klaar voor vertrek. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk."
+    },
+    {
+      "id": "P04",
+      "scene": "S02",
+      "art": {
+        "key": "arrival-v3",
+        "cell": 3
+      },
+      "motion": "snow",
+      "location": "Copperneck Mountains",
+      "narration": "Buiten wordt de wereld stiller. En kouder.",
+      "description": "De drie trekken door sneeuw naar een smalle ingang van oud steenwerk in de bergen."
+    },
+    {
+      "id": "P05",
+      "scene": "S02",
+      "art": {
+        "key": "arrival-v3",
+        "cell": 3
+      },
+      "motion": "snow",
+      "location": "Copperneck Mountains",
+      "narration": "Krek herkent tenminste één verstandig bouwmateriaal.",
+      "description": "Krek voorop in een wereld van steen en sneeuw. Nicola en Nyra volgen naar de tunnelingang."
+    },
+    {
+      "id": "P06",
+      "scene": "S02",
+      "art": {
+        "key": "arrival-v3",
+        "cell": 3
+      },
+      "motion": "snow",
+      "location": "Copperneck Mountains",
+      "narration": "Nyra ziet vooral hoeveel kleur er ontbreekt.",
+      "description": "Het trio is klein onder de besneeuwde rotsen. De donkere tunnelingang wacht."
     },
     {
       "id": "P10",
       "scene": "S04",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 0
       },
       "motion": "mist",
@@ -244,7 +245,7 @@
       "id": "P11",
       "scene": "S04",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 2
       },
       "motion": "light",
@@ -256,7 +257,7 @@
       "id": "P12",
       "scene": "S04",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 0,
         "focus": {
           "x": 0.58,
@@ -274,7 +275,7 @@
       "id": "P13",
       "scene": "S05",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 1
       },
       "motion": "spirit",
@@ -286,7 +287,7 @@
       "id": "P14",
       "scene": "S05",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 2
       },
       "motion": "still",
@@ -294,9 +295,9 @@
       "narration": "Het duurt lang voordat ze echt op gang komen.",
       "description": "Een korte blik tussen de drie. Kreks massa vult de gang; Nicola kijkt geconcentreerd en Nyra ongeduldig.",
       "head": {
-        "x": 0.66,
-        "y": 0.63,
-        "width": 0.28
+        "x": 0.68,
+        "y": 0.54,
+        "width": 0.26
       },
       "theories": [
         "You are still here. So are they. Only one of those facts is encouraging.",
@@ -307,7 +308,7 @@
       "id": "P15",
       "scene": "S05",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 2
       },
       "motion": "light",
@@ -319,7 +320,7 @@
       "id": "P23",
       "scene": "S08",
       "art": {
-        "key": "chamber-two-v2",
+        "key": "chamber-two-v3",
         "cell": 0
       },
       "motion": "spirit",
@@ -331,7 +332,7 @@
       "id": "P24",
       "scene": "S08",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 4
       },
       "motion": "spell",
@@ -343,19 +344,27 @@
       "id": "P25",
       "scene": "S08",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 5
       },
       "motion": "impact",
       "location": "Kamer 2",
       "narration": "Laat op gang. Op tijd voor twee grote problemen.",
-      "description": "Twee grote ijsdemonen liggen in brokken voor Nyra. Krek en Nicola staan achter haar."
+      "description": "Twee grote ijsdemonen liggen in brokken voor Nyra. Krek en Nicola staan achter haar.",
+      "krek": {
+        "x": 0.15,
+        "y": 0.17,
+        "lines": [
+          "Forward?",
+          "Forward!"
+        ]
+      }
     },
     {
       "id": "P16",
       "scene": "S06",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 2
       },
       "motion": "still",
@@ -367,7 +376,7 @@
       "id": "P17",
       "scene": "S06",
       "art": {
-        "key": "hollow",
+        "key": "hollow-v2",
         "cell": 2
       },
       "motion": "still",
@@ -375,16 +384,16 @@
       "narration": "Drie helden. Drie ideeën over hetzelfde probleem.",
       "description": "De drie gezichten bieden drie verschillende perspectieven op het overleg.",
       "head": {
-        "x": 0.66,
-        "y": 0.63,
-        "width": 0.28
+        "x": 0.68,
+        "y": 0.54,
+        "width": 0.26
       }
     },
     {
       "id": "P18",
       "scene": "S06",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 0
       },
       "motion": "still",
@@ -396,7 +405,7 @@
       "id": "P19",
       "scene": "S06",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 1
       },
       "motion": "charge",
@@ -408,19 +417,25 @@
       "id": "P20",
       "scene": "S07",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 2
       },
       "motion": "mist",
       "location": "Kamer 3",
       "narration": "De deur gaat open. Krek ziet de schat. En de steen ernaast.",
-      "description": "Vanuit de opening ziet Krek de schatkist en een steen er vlak naast. In de lage derde kamer staan vijanden."
+      "description": "Vanuit de opening ziet Krek de schatkist en een steen er vlak naast. In de lage derde kamer staan vijanden. De gesloten kist vangt een opvallende goudglans.",
+      "treasure": {
+        "x": 0.77,
+        "y": 0.7,
+        "width": 0.3,
+        "height": 0.4
+      }
     },
     {
       "id": "P21",
       "scene": "S07",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 3
       },
       "motion": "tunnel",
@@ -432,7 +447,7 @@
       "id": "P22",
       "scene": "S07",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 3
       },
       "motion": "light",
@@ -444,19 +459,20 @@
       "id": "P26",
       "scene": "S09",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 4
       },
       "motion": "spell",
       "location": "Kamer 3",
       "narration": "Nyra stormt erachteraan. Veel schade.",
-      "description": "Nyra ontketent een grote rode en violette aanval. Nicola is bij het gevecht. De getroffen vijanden staan nog overeind."
+      "description": "Nyra ontketent een grote rode en violette aanval. Nicola is bij het gevecht. De getroffen vijanden staan nog overeind.",
+      "sound": "fire"
     },
     {
       "id": "P27",
       "scene": "S09",
       "art": {
-        "key": "breakthrough",
+        "key": "breakthrough-v2",
         "cell": 4,
         "focus": {
           "x": 0.5,
@@ -471,46 +487,30 @@
       "description": "Beschadigde vijanden blijven in de derde kamer tegenover het trio staan. De strijd is nog niet voorbij."
     },
     {
-      "id": "P28",
-      "scene": "S09",
-      "art": {
-        "key": "breakthrough",
-        "cell": 5
-      },
-      "motion": "impact",
-      "location": "Kamer 3",
-      "narration": "De volgende ronde.",
-      "description": "Krek, Nicola en Nyra maken het gevecht gezamenlijk af. Voorwaartse kracht, geconcentreerde actie en magische kleur vullen de lage kamer."
-    },
-    {
-      "id": "P29",
-      "scene": "S09",
-      "art": {
-        "key": "breakthrough",
-        "cell": 5
-      },
-      "motion": "still",
-      "location": "Kamer 3",
-      "narration": "En dan is het stil.",
-      "description": "De tegenstand is overwonnen. Het trio staat in de nauwe kamer tussen het achtergebleven puin."
-    },
-    {
       "id": "P30",
       "scene": "S10",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 0
       },
       "motion": "still",
       "location": "Na de overwinning",
-      "narration": "Gehaald. Maar niet zonder prijs.",
-      "description": "Nyra is uitgeput in elkaar gezakt en steunt op de grond. Krek en Nicola blijven bij haar."
+      "narration": "De volgende ronde maken ze het samen af. Gehaald. Maar niet zonder prijs.",
+      "description": "Nyra is uitgeput in elkaar gezakt en steunt op de grond. Krek en Nicola blijven bij haar.",
+      "head": {
+        "x": 0.77,
+        "y": 0.45,
+        "width": 0.18
+      },
+      "theories": [
+        "Time is fleeting. Death is a remarkably persistent observer. Give her a moment."
+      ]
     },
     {
       "id": "P31",
       "scene": "S10",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 1
       },
       "motion": "still",
@@ -522,7 +522,7 @@
       "id": "P32",
       "scene": "S10",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 0
       },
       "motion": "still",
@@ -534,73 +534,77 @@
       "id": "P33",
       "scene": "S11",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 2
       },
       "motion": "orb",
       "location": "Achter in Frozen Hollow",
       "narration": "Zelfs ingepakt blijft de kou dichtbij.",
-      "description": "Een kleine blauwe bol zweeft boven een mantel in de koude stenen nis achter in de grot."
+      "description": "Een kleine blauwe bol zweeft boven een mantel in de koude stenen nis achter in de grot.",
+      "orb": {
+        "x": 0.52,
+        "y": 0.38
+      }
     },
     {
       "id": "P34",
       "scene": "S11",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 3
       },
       "motion": "light",
       "location": "Crooked Bone",
       "narration": "Terug tussen de boeken. Met iets dat de onderbreking waard is.",
-      "description": "De bol ligt in een mantel op Hails tafel. Nicola kijkt nieuwsgierig; Krek is aanwezig en Nyra is nog moe."
+      "description": "De bol ligt in een mantel op Hails tafel. Nicola kijkt nieuwsgierig; Krek is aanwezig en Nyra is nog moe. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk."
     },
     {
       "id": "P35",
       "scene": "S11",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 3
       },
       "motion": "light",
       "location": "Crooked Bone",
       "narration": "Een onderzoeker heeft een idee. Nicola herkent het gevaarlijke woord onmiddellijk.",
-      "description": "Hail bekijkt de blauwe bol, met de drie rondom haar werktafel."
+      "description": "Hail bekijkt de blauwe bol, met de drie rondom haar werktafel. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk."
     },
     {
       "id": "P36",
       "scene": "S11",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 4
       },
       "motion": "orb",
       "location": "Crooked Bone",
       "narration": "Even.",
-      "description": "Hail houdt de bol bij Nyra. Warm licht keert terug in haar gezicht terwijl de tijdelijke kracht door de groep stroomt."
+      "description": "Hail houdt de bol bij Nyra. Warm licht keert terug in haar gezicht terwijl de tijdelijke kracht door de groep stroomt. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk."
     },
     {
       "id": "P37",
       "scene": "S11",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 5
       },
       "motion": "drain",
       "location": "Crooked Bone",
       "narration": "En weer weg.",
-      "description": "De extra kracht is verdwenen. Nyra buigt weer vermoeid naar de tafel. Nicola ziet haar reactie en blijft stil."
+      "description": "De extra kracht is verdwenen. Nyra buigt weer vermoeid naar de tafel. Nicola ziet haar reactie en blijft stil. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk."
     },
     {
       "id": "P38",
       "scene": "S11",
       "art": {
-        "key": "aftermath",
+        "key": "aftermath-v3",
         "cell": 5
       },
       "motion": "still",
       "location": "Crooked Bone",
       "narration": "Ze heeft gevoeld hoe het kan zijn.",
-      "description": "Hail schuift de bol terug. Nyra kijkt scherp naar het blauwe licht, moe maar met een nieuw verlangen."
+      "description": "Hail schuift de bol terug. Nyra kijkt scherp naar het blauwe licht, moe maar met een nieuw verlangen. Hail heeft een etherisch, licht doorschijnend Aesther-uiterlijk."
     }
   ]
 }

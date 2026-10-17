@@ -65,3 +65,7 @@ De oudere assistenttekst noemt daarnaast een knal bij de stash, een scenarionumm
 - De sleutelvolgorde ligt nu vast: smalle gang → kamer 2 met Nyra's twee ijsdemonen → stilstand halverwege kamer 2 → Kreks doorbraak en verplaatsing → Nyra's schade zonder directe kills → volgende ronde afronden → uitputting.
 - De globale indeling staat vast; exacte plattegrond/vakjes blijven open.
 - Huidige opdracht: de volledige aflevering bouwen op deze tekstbasis; de afgeronde driepanelige proef blijft afzonderlijk bewaard.
+
+## Correctie op 18 oktober 2026
+
+De gebruiker plaatst Road Event R-10 vóór de ontmoeting met Hail (s001-a11, GESPEELD). Exacte route, reisduur en verband met Hails opdracht blijven OPEN. De andere annotaties geven creatieve replieken, montage en lezersinteracties: zij leggen geen daadwerkelijke steenwond, dood, uitgevoerde lift, gouden schatinhoud of nieuwe bolwerking vast. P28/P29 mogen als afzonderlijke panelen vervallen, terwijl de bevestigde afronding in de volgende ronde behouden blijft.
