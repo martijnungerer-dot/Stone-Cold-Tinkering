@@ -1,0 +1,190 @@
+(() => {
+  'use strict';
+  const episode = window.COMIC_EPISODE;
+  const panels = episode.panels;
+  const $ = (id) => document.getElementById(id);
+  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let savedMotion = null;
+  try { savedMotion = localStorage.getItem('stone-cold-motion'); } catch { /* Reading also works without storage. */ }
+  const state = { index: 0, motion: savedMotion === null ? !mq.matches : savedMotion === 'on', sound: false, theory: 0, detail: false };
+  const stage = $('art-stage');
+  let timer, opener, thoughtOpener, audioContext, master, generation = 0;
+
+  function preferences() {
+    document.body.dataset.motion = state.motion ? 'on' : 'off';
+    for (const name of ['motion', 'sound']) $(name + '-toggle').setAttribute('aria-pressed', String(state[name]));
+    $('motion-label').textContent = state.motion ? 'Beweging aan' : 'Beweging uit';
+    $('sound-label').textContent = state.sound ? 'Geluid aan' : 'Geluid uit';
+  }
+  function stopMotion() { clearTimeout(timer); stage.classList.remove('is-animating', 'is-impact'); }
+  function animate() {
+    stopMotion();
+    if (!state.motion) return;
+    void stage.offsetWidth;
+    stage.classList.add('is-animating');
+    if (['impact', 'tunnel'].includes(panels[state.index].motion)) stage.classList.add('is-impact');
+    timer = setTimeout(stopMotion, 3200);
+  }
+  async function playSound() {
+    if (!state.sound) return;
+    const current = ++generation;
+    try {
+      const Context = window.AudioContext || window.webkitAudioContext;
+      if (!Context) throw new Error('Audio unavailable');
+      audioContext ||= new Context();
+      if (!master) { master = audioContext.createGain(); master.gain.value = .09; master.connect(audioContext.destination); }
+      if (audioContext.state === 'suspended') await audioContext.resume();
+      if (!state.sound || current !== generation) return;
+      master.gain.setTargetAtTime(.09, audioContext.currentTime, .02);
+      const effect = panels[state.index].motion;
+      const magical = ['orb', 'drain', 'spell', 'spirit', 'vanish'].includes(effect);
+      const duration = magical ? 1.6 : .85;
+      const buffer = audioContext.createBuffer(1, Math.ceil(audioContext.sampleRate * duration), audioContext.sampleRate);
+      let last = 0;
+      const samples = buffer.getChannelData(0);
+      for (let i = 0; i < samples.length; i++) { last = (last + (Math.random() * 2 - 1) * .04) / 1.04; samples[i] = last * 3; }
+      const source = audioContext.createBufferSource(), filter = audioContext.createBiquadFilter(), envelope = audioContext.createGain();
+      source.buffer = buffer; filter.type = 'lowpass'; filter.frequency.value = magical ? 1400 : 450;
+      const now = audioContext.currentTime;
+      envelope.gain.setValueAtTime(.001, now); envelope.gain.exponentialRampToValueAtTime(.6, now + .1); envelope.gain.exponentialRampToValueAtTime(.001, now + duration);
+      source.connect(filter); filter.connect(envelope); envelope.connect(master);
+      source.onended = () => { source.disconnect(); filter.disconnect(); envelope.disconnect(); };
+      source.start(now); source.stop(now + duration);
+    } catch {
+      state.sound = false; preferences();
+      $('audio-announcement').textContent = 'Geluid is hier niet beschikbaar. De strip blijft zonder geluid leesbaar.';
+    }
+  }
+  function rect(art) {
+    const asset = episode.assets[art.key];
+    const cw = asset.width / (asset.columns || 1), ch = asset.height / (asset.rows || 1);
+    const col = art.cell % (asset.columns || 1), row = Math.floor(art.cell / (asset.columns || 1));
+    const inset = art.inset ?? 6;
+    const base = { x: col * cw + inset, y: row * ch + inset, width: cw - inset * 2, height: ch - inset * 2 };
+    if (!art.focus) return base;
+    const f = art.focus;
+    return { x: base.x + f.x * base.width, y: base.y + f.y * base.height, width: base.width * f.width, height: base.height * f.height };
+  }
+  function paintArt() {
+    const p = panels[state.index], asset = episode.assets[p.art.key];
+    $('nicola-facing-head').setAttribute('visibility', p.head ? 'visible' : 'hidden');
+    const box = rect(state.detail && p.detail ? p.detail : p.art);
+    $('scene-art').setAttribute('viewBox', `${box.x} ${box.y} ${box.width} ${box.height}`);
+    stage.style.aspectRatio = `${box.width} / ${box.height}`;
+    for (const [key, value] of Object.entries({ href: asset.src, width: asset.width, height: asset.height })) $('scene-image').setAttribute(key, value);
+    const after = p.after ? episode.assets[p.after.key] : null;
+    stage.dataset.after = String(Boolean(after));
+    if (after) {
+      const r = rect(p.after), sx = box.width / r.width, sy = box.height / r.height;
+      for (const [key, value] of Object.entries({ href: after.src, x: box.x - r.x * sx, y: box.y - r.y * sy, width: after.width * sx, height: after.height * sy })) $('scene-after').setAttribute(key, value);
+    } else $('scene-after').removeAttribute('href');
+    if (p.head) {
+      const w = box.width * p.head.width;
+      const values = { x: box.x + box.width * p.head.x - w / 2, y: box.y + box.height * p.head.y - w / 2, width: w, height: w };
+      for (const [key, value] of Object.entries(values)) $('nicola-facing-head').setAttribute(key, value);
+      $('nicola-hotspot').style.left = `${p.head.x * 100}%`; $('nicola-hotspot').style.top = `${p.head.y * 100}%`;
+      $('art-shell').style.setProperty('--nicola-x', `${p.head.x * 100}%`);
+    }
+  }
+  function closeNicola(restore = false) {
+    const inside = document.activeElement === $('nicola-close') || document.activeElement === $('nicola-another');
+    $('nicola-balloon').hidden = true; stage.classList.remove('is-looking');
+    for (const id of ['nicola-hotspot', 'nicola-open']) $(id).setAttribute('aria-expanded', 'false');
+    $('art-description').textContent = panels[state.index].description;
+    if ((restore || inside) && opener?.isConnected) opener.focus();
+  }
+  function closeThought(restore = false) {
+    const inside = document.activeElement === $('thought-close');
+    $('thought-panel').hidden = true;
+    if ((restore || inside) && thoughtOpener?.isConnected) thoughtOpener.focus();
+  }
+  function showNicola(event) {
+    const p = panels[state.index];
+    if (!p.theories?.length) return;
+    if (!$('nicola-balloon').hidden) { closeNicola(); return; }
+    closeThought(); stopMotion(); opener = event.currentTarget; state.theory = 0;
+    stage.classList.add('is-looking'); $('nicola-balloon').hidden = false;
+    $('nicola-comment').textContent = p.theories[0];
+    for (const id of ['nicola-hotspot', 'nicola-open']) $(id).setAttribute('aria-expanded', 'true');
+    $('art-description').textContent = `${p.description} Nicola draait zijn hoofd naar de lezer en spreekt die aan.`;
+  }
+  function speech(line, parent, className = 'speech') {
+    const card = document.createElement('div'); card.className = className; card.dataset.speaker = line.speaker;
+    const name = document.createElement('strong'); name.textContent = line.speaker;
+    const words = document.createElement('p'); words.lang = 'en'; words.textContent = `“${line.text}”`;
+    card.append(name, words); parent.append(card);
+  }
+  function showThought(name, button) {
+    closeNicola(); closeThought(); thoughtOpener = button;
+    if (name === 'Nicola') { showNicola({ currentTarget: button }); return; }
+    $('thought-title').textContent = `${name.toUpperCase()} · GEDACHTEBEELD`;
+    $('thought-cards').replaceChildren();
+    panels[state.index].perspectives[name].forEach((part) => {
+      const card = document.createElement('div'); card.className = 'thought-card';
+      part.forEach(line => { const text = document.createElement('p'); text.lang = 'en'; text.textContent = `${line.speaker}: “${line.text}”`; card.append(text); });
+      $('thought-cards').append(card);
+    });
+    $('thought-panel').hidden = false;
+  }
+  function render() {
+    closeNicola(); closeThought(); stopMotion(); state.theory = 0; state.detail = false;
+    const p = panels[state.index], number = String(state.index + 1).padStart(2, '0');
+    paintArt(); stage.dataset.effect = p.motion;
+    $('art-title').textContent = p.title; $('art-description').textContent = p.description;
+    $('frame-label').textContent = `${number} / ${p.title.toUpperCase()}`; $('location-label').textContent = p.location;
+    $('panel-title').textContent = p.title; $('panel-narration').textContent = p.narration;
+    $('scene-label').textContent = p.sceneTitle.toUpperCase(); $('current-number').textContent = number; $('note-number').textContent = number;
+    $('total-number').textContent = String(panels.length); $('previous').disabled = state.index === 0;
+    $('next').textContent = state.index === panels.length - 1 ? 'Opnieuw lezen ↻' : 'Verder →';
+    $('progress-fill').style.width = `${(state.index + 1) / panels.length * 100}%`;
+    $('ending-note').hidden = state.index !== panels.length - 1;
+    $('dialogue-strip').replaceChildren(); p.dialogue.forEach(line => speech(line, $('dialogue-strip')));
+    const canSpeak = Boolean(p.head && p.theories?.length);
+    $('nicola-hotspot').hidden = !canSpeak; $('nicola-open').hidden = !canSpeak;
+    $('crystal-detail').hidden = !p.detail; $('crystal-detail').setAttribute('aria-pressed', 'false'); $('crystal-detail').textContent = 'Bekijk het kristal';
+    $('perspective-choices').hidden = !p.perspectives;
+    $('perspective-buttons').replaceChildren();
+    if (p.perspectives) Object.keys(p.perspectives).forEach(name => { const b = document.createElement('button'); b.type = 'button'; b.textContent = name; b.addEventListener('click', () => showThought(name, b)); $('perspective-buttons').append(b); });
+    $('chapter-select').value = p.scene;
+    $('reader-announcement').textContent = `Paneel ${state.index + 1} van ${panels.length}. ${p.title}. ${p.narration}`;
+    $('image-error').hidden = true;
+    const check = new Image(); const atIndex = state.index;
+    check.onerror = () => { if (atIndex === state.index) $('image-error').hidden = false; }; check.src = episode.assets[p.art.key].src;
+    try { window.history.replaceState(null, '', `#${p.id}`); } catch { /* Optional local bookmark. */ }
+    animate(); void playSound();
+  }
+  function goTo(index) {
+    const next = Math.max(0, Math.min(panels.length - 1, index));
+    if (next !== state.index) {
+      state.index = next; render();
+      $('art-shell').scrollIntoView?.({ block: 'start', behavior: state.motion ? 'smooth' : 'instant' });
+    }
+  }
+  for (const [id, handler] of Object.entries({ previous: () => goTo(state.index - 1), next: () => goTo(state.index === panels.length - 1 ? 0 : state.index + 1), replay: () => { closeNicola(); closeThought(); animate(); void playSound(); }, 'nicola-hotspot': showNicola, 'nicola-open': showNicola, 'nicola-close': () => closeNicola(true), 'thought-close': () => closeThought(true) })) $(id).addEventListener('click', handler);
+  $('nicola-another').addEventListener('click', () => { const lines = panels[state.index].theories; state.theory = (state.theory + 1) % lines.length; $('nicola-comment').textContent = lines[state.theory]; });
+  $('crystal-detail').addEventListener('click', () => { state.detail = !state.detail; $('crystal-detail').setAttribute('aria-pressed', String(state.detail)); $('crystal-detail').textContent = state.detail ? 'Terug naar het paneel' : 'Bekijk het kristal'; closeNicola(); stopMotion(); paintArt(); });
+  $('chapter-select').addEventListener('change', () => { const index = panels.findIndex(p => p.scene === $('chapter-select').value); if (index >= 0) goTo(index); });
+  $('motion-toggle').addEventListener('click', () => { state.motion = !state.motion; savedMotion = state.motion ? 'on' : 'off'; try { localStorage.setItem('stone-cold-motion', savedMotion); } catch { /* Optional persistence. */ } preferences(); if (state.motion) animate(); else stopMotion(); });
+  $('sound-toggle').addEventListener('click', () => { state.sound = !state.sound; preferences(); if (state.sound) void playSound(); else { generation++; if (master) master.gain.setTargetAtTime(.001, audioContext.currentTime, .02); } });
+  mq.addEventListener('change', () => { if (savedMotion === null) { state.motion = !mq.matches; preferences(); if (!state.motion) stopMotion(); } });
+  document.addEventListener('keydown', event => {
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
+    if (event.key === 'Escape') { if (!$('nicola-balloon').hidden) closeNicola(true); if (!$('thought-panel').hidden) closeThought(true); }
+    if (event.key === 'ArrowRight') { event.preventDefault(); goTo(state.index + 1); }
+    if (event.key === 'ArrowLeft') { event.preventDefault(); goTo(state.index - 1); }
+  });
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { stopMotion(); generation++; if (master) master.gain.setTargetAtTime(.001, audioContext.currentTime, .02); } });
+  episode.chapters.forEach(chapter => { const option = document.createElement('option'); option.value = chapter.id; option.textContent = chapter.title; $('chapter-select').append(option); });
+  for (let i = 0; i < 18; i++) { const particle = document.createElement('span'); particle.className = 'dust-particle'; for (const [key, value] of Object.entries({ x: `${20 + i * 17 % 70}%`, y: `${45 + i * 11 % 50}%`, dx: `${-20 - i * 13 % 80}px`, dy: `${-10 - i * 7 % 45}px`, duration: `${1000 + i * 43 % 600}ms`, delay: `${i * 25}ms` })) particle.style.setProperty('--' + key, value); $('dust').append(particle); }
+  if (!$('transcript-content').children.length) panels.forEach((p, i) => {
+    const section = document.createElement('section'), heading = document.createElement('h3'); heading.textContent = `${i + 1}. ${p.title}`;
+    const description = document.createElement('p'); description.textContent = p.description;
+    const narration = document.createElement('p'); narration.textContent = p.narration; section.append(heading, description, narration);
+    p.dialogue.forEach(line => speech(line, section));
+    for (const line of p.theories || []) { const text = document.createElement('p'); text.lang = 'en'; text.textContent = `Nicola tegen de lezer: “${line}”`; section.append(text); }
+    for (const [name, parts] of Object.entries(p.perspectives || {})) if (name !== 'Nicola') for (const part of parts) for (const line of part) { const text = document.createElement('p'); text.lang = 'en'; text.textContent = `Gedachtebeeld — ${line.speaker}: “${line.text}”`; section.append(text); }
+    $('transcript-content').append(section);
+  });
+  const requested = (window.location?.hash || '').slice(1); const start = panels.findIndex(p => p.id === requested); if (start >= 0) state.index = start;
+  preferences(); render();
+})();

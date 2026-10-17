@@ -2,6 +2,12 @@
 
 Bewaar hier concrete gebruikerskeuzes en hun gevolgen voor het werk. De wereldbijbel bewaart canonregels; dit log maakt zichtbaar waarom de werkwijze of productievorm veranderde. Deze registratiedatum is geen speeldatum.
 
+## 17 oktober 2026 — Volledige Frozen Hollow-motion comic
+
+De gebruiker geeft expliciet opdracht de volledige story met bewegende beelden te maken. De laatste kamerindeling vervangt eerdere onduidelijkheid: claustrofobische smalle gang met wolven, ijsdemonen in kamer 2, halverwege die kamer Kreks sprint vol kracht door mist naar kamer 3 voor het eindgevecht. De uitputting en Hail-epiloog blijven staan.
+
+Gevolg: storyboard v0.5 en de eerste volledige leesversie 1.0 met 38 hoofdpanelen, optionele gedachten en beperkte animatie. De aanvaarde driepanelige proef blijft behouden. Zie [FROZEN_HOLLOW.md](FROZEN_HOLLOW.md). De opdracht omvat geen websitepublicatie.
+
 ## 17 oktober 2026 — Leesproef afgerond
 
 De gebruiker vindt de proef goed en heeft aangegeven dat we hiermee klaar zijn. De leesvorm en Nicola's reactie zijn daarmee aanvaard als vertrekpunt: klikken op Nicola, zijn blik naar de lezer en een lichtblauwe tekstballon binnen het stripkader. Geen popup. De andere personages mogen voorlopig statisch blijven.

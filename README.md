@@ -10,7 +10,7 @@ Voor iedere volgende speelsessie volgen we [van speelsessie naar aflevering](doc
 
 De verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episodes/frozen-hollow/STORYBOARD.md): 38 hoofdpanelen en 6 optionele perspectiefpanelen, inclusief de terugkeer naar Hail met Nyra als dramatische hook. Nieuwe dialogen zijn creatieve voorstellen; expliciete open sessiedetails blijven herkenbaar.
 
-Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions/s001/SESSION.md). Storyboard v0.4 verwerkt de nu bekende volgorde, Nyra's twee ijsdemonen in kamer 1 en de afronding van het latere gevecht in de volgende ronde. Het vergeten city event wordt overgeslagen. Alle drie spreken Engels; voorgestelde Krek-woordgrappen blijven apart van gespeelde feiten.
+Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions/s001/SESSION.md). Storyboard v0.5 verwerkt de laatste correctie: een claustrofobische gang met wolven, ijsdemonen in kamer 2, Kreks sprint door mist naar kamer 3 en het eindgevecht over twee rondes. Het vergeten city event wordt overgeslagen. Alle drie spreken Engels; voorgestelde Krek-woordgrappen blijven apart van gespeelde feiten.
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
 
@@ -26,7 +26,13 @@ De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht:
 
 De gebruiker heeft de proef afgerond en de leesvorm en Nicola-interactie aanvaard. Krek en Nyra mogen voorlopig statisch blijven. Het project gaat verder als een serie op basis van de speelsessies; de volgende sessie is nog niet aangeleverd. De proef vraagt geen verdere verfijning zonder nieuwe opdracht.
 
-## Proef bekijken
+## Volledige aflevering bekijken
+
+Frozen Hollow is nu gebouwd als eerste volledige motion-comicversie: 38 hoofdpanelen, 6 optionele gedachtepanelen, Engelse dialoog, een inspecteerbaar kristal, Nicola's blauwe lezerballon en korte beweging met optioneel geluid. De versie eindigt bij Hail met Nyra als dramatische hook. Zie [de afleveringsdocumentatie](docs/FROZEN_HOLLOW.md).
+
+Maak met `npm run build` het zelfstandige bestand `dist/frozen-hollow.html`. Voor ontwikkelen: `npm start`, open het gemelde adres met `/frozen-hollow`. De oude driepanelige proef blijft beschikbaar als `dist/reader-offline.html`. Controleer met `npm test`.
+
+## Bewaarde proef bekijken
 
 Er zijn geen te installeren pakketten. Met Node.js 18 of nieuwer:
 

@@ -30,4 +30,4 @@ De gebruiker heeft de proef nu afgerond en aanvaard als basis voor de leeservari
 
 De gebruiker wil van iedere speelsessie een verhaal maken. De [vaste werkwijze](docs/SESSION_WORKFLOW.md), het [sessiesjabloon](content/sessions/SESSION_TEMPLATE.md) en het [afleveringenoverzicht](content/episodes/README.md) zijn hiervoor ingericht. Werk vanuit de bestaande wereldbijbel, karakterrichtlijnen en reader. Aantal panelen en speelduur volgen de inhoud.
 
-De volgende concrete invoer is een verslag van een nieuwe sessie, óf een bouwopdracht voor de eerste scène van het bestaande Frozen Hollow-storyboard. Er is nog geen tweede sessie aangeleverd. Nieuwe afleveringen krijgen eigen inhoud en assets; de afgeronde proef blijft bewaard.
+De gebruiker heeft inmiddels de volledige Frozen Hollow-motion comic opgedragen. De eerste volledige leesversie 1.0 is gebouwd met storyboard v0.5 en de laatste kamerindeling; zie docs/FROZEN_HOLLOW.md. De volgende inhoudelijke invoer voor aflevering 02 is een verslag van een nieuwe sessie. Er is nog geen tweede sessie aangeleverd. Nieuwe afleveringen krijgen eigen inhoud en assets; de afgeronde proef blijft bewaard.

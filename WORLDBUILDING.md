@@ -1,7 +1,7 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.5 · 17 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
+> Versie 1.6 · 17 oktober 2026 · Taal: Nederlandse vertelling en bediening; alle drie de hoofdpersonages spreken Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## 1. Doel en kern
@@ -247,15 +247,15 @@ FH-01 tot en met FH-09 zijn door de gebruiker als campagnecontext of gespeelde g
 | FH-01 | Hail geeft in Crooked Bone de opdracht om de bol te halen en terug te brengen; bibliotheek en onderzoeker uit SRC-FH-INTRO | Persoonlijke gesprekken, nieuwe voorwaarden en beloningen |
 | FH-02 | Reis door besneeuwde Copperneck Mountains naar de oude stenen tunnelingang; wolvensporen uit SRC-FH-INTRO | Exacte route, reistijd en kaartcoördinaten |
 | FH-03 | R-10: metalen deur in bergwand, knipperende kristallen en middenknop uit SRC-R10; groen is de verkeerde keuze en de stash vertrekt met vreemde energie volgens gebruiker | Wie groen aanraakte, aard/bestemming van de energie en eventuele verdere gevolgen |
-| FH-04 | Kamer 1 komt langzaam op gang; wolven en Living Spirits. Spirits gaan lastig dood. Krek en Nicola staan bij het openen van de deur vooraan; Nyra komt later in actie | Aantal wolven/Spirits, exacte vakjes, statistieken en weerstandstype |
-| FH-05 | Nyra vernietigt twee grote ijsdemonen in de fase die de gebruiker als kamer 1 beschrijft | Totaal aantal ijsdemonen, opstelling, officiële kaartnaam en elementaire zwakte |
-| FH-06 | Chaotische stilstand in kamers 2/3; Krek zegt volgens de herinnering “we gaan” en stormt door de volgende doorgang. De rest volgt overdonderd | Precieze betekenis van “mist”, drempelindeling en overige letterlijke gesprekken |
+| FH-04 | De eerste claustrofobische smalle gang komt langzaam op gang; wolven en Living Spirits. Spirits gaan lastig dood. Krek en Nicola staan bij het openen van de deur vooraan; Nyra komt later in actie | Aantal wolven/Spirits, exacte vakjes, statistieken en weerstandstype |
+| FH-05 | Nyra vernietigt twee grote ijsdemonen in kamer 2, na de smalle gang, volgens de laatste gebruikerscorrectie | Totaal aantal ijsdemonen, opstelling, officiële kaartnaam en elementaire zwakte |
+| FH-06 | Halverwege kamer 2 ontstaat stilstand; Krek zegt “we gaan” en sprint met al zijn kracht door de mist naar kamer 3 voor het eindgevecht. De rest volgt overdonderd | Exacte vakjes, deurconstructie en overige letterlijke gesprekken |
 | FH-07 | Krek gebruikt zijn brute movement ability naar een gekozen obstakel binnen vijf vakjes, bij de schat; tunnelen is de gekozen creatieve verhaalvertaling | Officiële kaartnaam, overige kaartvoorwaarden, precieze beginpositie en schatinhoud |
 | FH-08 | Na het openen van de deur en Kreks verplaatsing zijn ook vijanden overdonderd. Nyra stormt erachteraan en doet veel schade; vijanden leven nog. De volgende ronde maakt de groep het efficiënt af | Verrassing als spelstatus, concrete aanval/kaart, schadegetallen en verdeling van laatste treffers |
 | FH-09 | Nyra zakt na de gewonnen finale uitgeput in elkaar | Sterven, nieuwe aandoening of een niet-bevestigde regelspecifieke uitputtingsoorzaak |
 | FH-10 | Terugkeer naar Hail met de koude blauwe bol; tijdelijke kracht tijdens haar experiment uit SRC-FH-END; gebruiker kiest Nyra als dramatische hook | Geen verdere scenario-onthullingen, gekochte verbetering of nieuwe aandoening toevoegen |
 
-Het opnieuw aangeleverde verslag legt de hoofdvolgorde nu vast: trage eerste kamer met Spirits en Nyra's twee ijsdemonen, latere stilstand, Kreks doorbraak en verplaatsing bij de schat, Nyra's schadegolf zonder directe eliminatie, afronding in de volgende ronde en uitputting. De precieze scheiding van kamers 2/3, vakjes en kaarten blijft OPEN. Zie SRC-FH-SESSION en S001. De overige montage en dialoog zijn creatieve voorstellen; dit is geen volledig beurtverslag. Het onbekende city event wordt niet uitgewerkt.
+Het opnieuw aangeleverde verslag legt de hoofdvolgorde nu vast: trage smalle gang met wolven/Spirits, Nyra's twee ijsdemonen in kamer 2, stilstand halverwege die kamer, Kreks sprint door mist naar kamer 3 en verplaatsing bij de schat, Nyra's schadegolf zonder directe eliminatie, afronding in de volgende ronde en uitputting. De kamerindeling en de mist zijn nu bevestigd; exacte vakjes en kaarten blijven OPEN. Zie SRC-FH-SESSION en S001. De overige montage en dialoog zijn creatieve voorstellen; dit is geen volledig beurtverslag. Het onbekende city event wordt niet uitgewerkt.
 
 ### 8.2 Voorgestelde episodeboog
 
@@ -263,8 +263,8 @@ Het opnieuw aangeleverde verslag legt de hoofdvolgorde nu vast: trage eerste kam
 2. **Contextbeat — `GESPEELD / BRONFOTO / CREATIEF`:** Hail in de bibliotheek van Crooked Bone geeft aanleiding en bolopdracht. Haar nieuwe dialogen blijven creatieve adaptatie.
 3. **Reisovergang — `KAART / CREATIEF`:** bergsilhouetten en veranderend geluid verbinden de stad met de koude omgeving.
 4. **R-10 — `GESPEELD / BRONFOTO`:** metalen deur in de bergwand met gekleurde, knipperende kristallen en een middenknop. Het opschrift Emergency Temporal Stash staat op de bronfoto; de koppeling aan Qualco komt van de gebruiker. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. De visuele vervorming is creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
-5. **Eerste kamer — `GESPEELD`:** wolven en Living Spirits, trage start. Krek en Nicola staan vooraan; Nyra komt later op gang en vernietigt twee grote ijsdemonen. Aanvalskaart, schade en elementaire werking blijven onbenoemd.
-6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** overlappende voorstellen; ieder personage benoemt een ander probleem.
+5. **Gang en kamer 2 — `GESPEELD`:** eerst een smalle gang met wolven en Living Spirits, trage start. Krek en Nicola staan vooraan; in kamer 2 vernietigt Nyra twee grote ijsdemonen. Aanvalskaart, schade en elementaire werking blijven onbenoemd.
+6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** stilstand halverwege kamer 2. Krek beëindigt die met een sprint vol kracht door de mist naar kamer 3. Overlappende plannen en precieze dialogen zijn creatieve uitwerking.
 7. **Ruimtelijke omslag — `GESPEELD / CREATIEF`:** Krek kiest met zijn movement ability het obstakel bij de schat, binnen vijf vakjes. Verbeeld de teleport als een brute tunnelbeweging. Gebruik duidelijke begin- en eindposities; introduceer geen blijvende tunnelroute of onbevestigde aanvalsschade.
 8. **Finale — `GESPEELD`:** Nyra stormt achter Krek aan en doet veel schade, maar de vijanden leven nog. Pas de volgende ronde rondt de groep het efficiënt af. Behoud dat onderscheid; laat haar niet alle latere vijanden direct uitschakelen.
 9. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
@@ -373,7 +373,7 @@ De gebruiker heeft inmiddels gekozen voor een lokale leesproef op basis van de d
 
 De proef is gebouwd in reader/; zie [PROTOTYPE.md](docs/PROTOTYPE.md) en het [assetregister](docs/ASSET_REGISTER.md). Er is een lokale server en een zelfstandig offline HTML-bestand. Er is geen hosting toegevoegd.
 
-De gebruiker heeft de proef inmiddels afgerond en de leesvorm en Nicola-interactie aanvaard. Hergebruik die basis bij een volgende bouwopdracht. De werktekeningen zijn nog geen definitieve stijl. Voor sessies, afleveringstatus en continuïteit geldt de [vaste werkwijze](docs/SESSION_WORKFLOW.md).
+De gebruiker heeft de proef inmiddels afgerond en de leesvorm en Nicola-interactie aanvaard. Daarna is expliciet de volledige Frozen Hollow-motion comic opgedragen, inclusief beelden en beweging; zie docs/FROZEN_HOLLOW.md. Hergebruik die basis bij een volgende bouwopdracht. De werktekeningen zijn nog geen definitieve stijl. Voor sessies, afleveringstatus en continuïteit geldt de [vaste werkwijze](docs/SESSION_WORKFLOW.md).
 
 ### 12.2 Voorgestelde projectindeling
 
@@ -479,6 +479,8 @@ De export noemt daarnaast mogelijke toekomstige NPC's en hun achtergronden. Neem
 Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële Designer Diaries. Gebruik de Second Edition FAQ alleen voor een gerichte vraag. Leg per bevestigde claim een directe bron en vindplaats vast. Zoekresultaten, een eerder antwoord of een los platformlabel zijn onvoldoende voor `OFFICIEEL-2E`.
 
 ### Wijzigingslog
+
+- **1.6 — 17 oktober 2026:** volledige motion-comicbouw expliciet opgedragen. Nieuwste ruimtelijke correctie verwerkt: claustrofobische gang met wolven, ijsdemonen in kamer 2, sprint halverwege kamer 2 door mist naar kamer 3. De precieze vakjes en spelmechaniek blijven apart te verifiëren.
 
 - **1.5 — 17 oktober 2026:** opnieuw aangeleverd sessieverslag S001 verwerkt: city event overslaan, kamer 1 met wolven/Spirits en Nyra's twee grote ijsdemonen, latere doorbraak en tweefasige finale. Alle drie spreken Engels; extra Krek-quotes als creatief repertoire bewaard. Geen nieuwe loreverificatie of aanvullende conclusie-onthullingen.
 - **1.4 — 17 oktober 2026:** serie per speelsessie, sessieoverdracht en afleveringsoverzicht vastgelegd. Leesproef op gebruikersaangeven afgerond; leesvorm en Nicola-interactie aanvaard, verdere beweging optioneel. Geen nieuwe sessiegebeurtenissen of lore toegevoegd.

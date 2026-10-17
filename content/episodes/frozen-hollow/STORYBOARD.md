@@ -1,7 +1,7 @@
 # Frozen Hollow — Een uitstekend plan
 
-> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.4
-> Status: versie 0.2 is inhoudelijk goedgekeurd; v0.3 voegde de gewenste Hail-epiloog toe. Deze tekstversie verwerkt het opnieuw aangeleverde eigen kamer-verslag. Nieuwe montage en dialoog zijn voorstellen, niet met terugwerkende kracht goedgekeurd. Geen nieuwe beeld- of readerproductie.
+> Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.5
+> Status: de gebruiker geeft nu opdracht de volledige motion comic te bouwen en verduidelijkt de indeling. Deze versie corrigeert v0.4: de ijsdemonen staan in kamer 2; Krek sprint halverwege die kamer door mist naar kamer 3. Beelden en nieuwe dialoog blijven creatieve adaptatie.
 > Spoilers: uitsluitend de genoemde gespeelde Frozen Hollow-gebeurtenissen en Road Event R-10.
 > Referentie: [WORLDBUILDING.md](../../../WORLDBUILDING.md).
 > Bronvindplaatsen: [REFERENCES.md](../../sources/REFERENCES.md).
@@ -13,9 +13,9 @@
 
 De gespeelde gebeurtenissen zijn de vaste ankers. Alle hieronder geschreven dialoog, compositie, timing en gedachtebeelden zijn **CREATIEF**, behalve de expliciet aangeduide vaste karakterquotes. Die quotes zijn door de gebruiker vastgelegde karaktertekst; hun plaatsing in deze episode is een voorstel, geen claim dat ze toen letterlijk zijn uitgesproken.
 
-Deze versie bevat **38 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de twee ijsdemonen bij de eerste kamer horen. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
+Deze versie bevat **38 hoofdpanelen en 6 optionele perspectiefpanelen**. Lezen duurt naar verwachting ongeveer 8–11 minuten, afhankelijk van leestempo en optionele zijpaden. Dat is een productierichtlijn, geen automatische afspeelduur. De lezer gaat zelf verder. P33–P38 vormen de in v0.3 toegevoegde epiloog. Bestaande IDs blijven stabiel: S08 met P23–P25 staat nu vóór S06, omdat de ijsdemonen in kamer 2 vóór Kreks doorbraak worden verteld. De leesvolgorde hieronder is leidend, niet de numerieke sortering van paneel-IDs.
 
-De hoofdvolgorde komt nu uit S001: trage eerste kamer met wolven en Spirits, Nyra's twee grote ijsdemonen, latere stilstand, Kreks doorbraak en verplaatsing, Nyra's schadegolf zonder directe eliminatie, de volgende ronde de gezamenlijke afronding en Nyra's uitputting. De precieze drempels en de scheiding tussen kamers 2/3 blijven OPEN. Overige montage is CREATIEF. Onbekende sessiecitaten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen opening, stashvorm en conclusie; hun editie is niet opnieuw geverifieerd.
+De laatste gebruikerscorrectie is leidend: eerst een claustrofobische smalle gang met wolven en de eerder genoemde Spirits; daar doorheen naar twee ijsdemonen in kamer 2. Halverwege kamer 2 sprint Krek met volle kracht door de mist naar kamer 3, waar schat, verplaatsing en eindgevecht volgen. Nyra's schadegolf laat vijanden leven; de volgende ronde rondt het trio af. Alleen exacte vakjes en de materie van eventuele deuren blijven OPEN. Overige montage is CREATIEF. Onbekende sessiecitaten, kaartwerkingen en buit worden niet ingevuld. De bronfoto's ondersteunen opening, stashvorm en conclusie; hun editie is niet opnieuw geverifieerd.
 
 Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinnerde “we gaan” wordt voor de strip “We go.” De extra Krek-catchphrases zijn repertoire, geen nieuwe gevechtsgebeurtenissen of verplichte grappen. Zijn voorgestelde bijna-dood/healinggrap wordt niet aan deze sessie toegevoegd.
 
@@ -34,7 +34,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 - **Basis** vermeldt de gespeelde ankers of markeert een volledig creatieve overgang. Hun Second Edition-status blijft ONBEVESTIGD-2E waar de wereldbijbel dat aangeeft.
 - **Beeld en tekst** zijn de statische strip én de basis voor het latere transcript. Alle zichtbare tekst moet ook als gewone tekst beschikbaar blijven.
-- **Beweging/geluid** zijn uitsluitend voorstellen voor later. Ze zijn nooit nodig om een gebeurtenis te begrijpen. Geluid staat aanvankelijk uit.
+- **Beweging/geluid** sturen de huidige motion-comicbouw. Ze zijn nooit nodig om een gebeurtenis te begrijpen. Geluid staat aanvankelijk uit.
 - **Regie/open** is productietekst en verschijnt niet in de uiteindelijke strip.
 
 ## 2. Scèneoverzicht
@@ -46,7 +46,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 | S03 — Groen | P07–P09 | Verkeerde kleurkeuze; Qualco's stash vertrekt met vreemde energie | FH-03 |
 | S04 — Frozen Hollow | P10–P12 | De locatie en karakterverschillen voelbaar maken | Creatieve presentatie van de gespeelde locatie |
 | S05 — Moeilijker dan verwacht | P13–P15 | Living Spirits verstoren het zelfvertrouwen | FH-04 |
-| S08 — Koude tegenstand | P23–P25 | Nyra komt op gang en vernietigt twee grote ijsdemonen in kamer 1 | FH-05; s001-a04 |
+| S08 — Koude tegenstand | P23–P25 | Nyra vernietigt twee grote ijsdemonen in kamer 2 | FH-05; s001-a04 |
 | S06 — Het uitstekende plan | P16–P19 + 6 zijpanelen | Planning-chaos en Nicola's vierde wand | FH-06 |
 | S07 — Verder dan verwacht | P20–P22 | Kreks movement ability als brute tunnelactie vertellen | FH-07 |
 | S09 — Eindelijk efficiënt | P26–P29 | Korte, besliste finale | FH-08 |
@@ -187,7 +187,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 #### P12 — Te weinig antwoord
 
-**Beeld:** de sporen uit SRC-FH-INTRO leiden naar de eerste kamer. Daar zijn wolven zichtbaar, zoals de gebruiker nu bevestigt. Het trio blijft aan één kant van het paneel. Geen wolfaanval, aantal, val of schat invullen: de aanwezigheid is bekend, de precieze handelingen niet.
+**Beeld:** de sporen uit SRC-FH-INTRO leiden de smalle gang in. Daar zijn wolven zichtbaar, zoals de gebruiker nu bevestigt. Het trio blijft aan één kant van het paneel. Geen wolfaanval, aantal, val of schat invullen: de aanwezigheid is bekend, de precieze handelingen niet.
 
 **Tekst:** geen.
 
@@ -195,7 +195,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 ### S05 — Moeilijker dan verwacht
 
-**Locatie:** kamer 1; exacte posities OPEN. **Personages:** trio, wolven en Living Spirits. **Ritme:** trage start, weerstand, reactie. **Basis:** GESPEELD FH-04 / s001-a02–a03; concrete aanvallen en regels OPEN.
+**Locatie:** de eerste smalle gang; exacte posities OPEN. **Personages:** trio, wolven en Living Spirits. **Ritme:** trage start, weerstand, reactie. **Basis:** GESPEELD FH-04 / s001-a02–a03; concrete aanvallen en regels OPEN.
 
 #### P13 — Living Spirits
 
@@ -225,7 +225,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 ### S08 — Koude tegenstand
 
-**Locatie:** kamer 1; dit blok staat in de leesvolgorde vóór S06–S07. **Ritme:** Nyra komt later op gang, dan een beslissende bijdrage. **Basis:** GESPEELD FH-05 / s001-a04. Twee grote ijsdemonen worden door haar vernietigd; de exacte aanval en totale vijandenaantallen blijven OPEN.
+**Locatie:** kamer 2; dit blok staat in de leesvolgorde vóór S06–S07. **Ritme:** Nyra komt later op gang, dan een beslissende bijdrage. **Basis:** GESPEELD FH-05 / s001-a04. Twee grote ijsdemonen worden door haar vernietigd; de exacte aanval en totale vijandenaantallen blijven OPEN.
 
 #### P23 — IJsdemonen
 
@@ -255,7 +255,7 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 ### S06 — Het uitstekende plan
 
-**Locatie:** de latere stilstand in kamers 2/3, na Nyra's eerste grote bijdrage. **Personages:** trio. **Ritme:** steeds meer taal, steeds minder beweging. **Basis:** GESPEELD FH-06 / s001-a05; plannen en de precieze drempelindeling OPEN. De overgang hierheen is een montage-ellips, geen nieuwe vijandgolf of extra gespeelde handeling.
+**Locatie:** halverwege kamer 2, na Nyra's eerste grote bijdrage. **Personages:** trio. **Ritme:** steeds meer taal, steeds minder beweging. **Basis:** GESPEELD FH-06 / s001-a05; plannen en de exacte vakjes OPEN. De overgang hierheen is een montage-ellips, geen nieuwe vijandgolf of extra gespeelde handeling.
 
 #### P16 — Iedereen begint
 
@@ -335,15 +335,15 @@ Alle drie spreken Engels; verteller en bediening blijven Nederlands. Het herinne
 
 #### P19 — We go
 
-**Beeld:** Krek breekt de stilstand met een sprint naar de volgende doorgang. Zijn massa en voorwaartse houding dragen de impact. Nicola en Nyra komen overdonderd achter hem aan. Twee korte uitsneden tonen aanzet en achtervolging; de volgende deur gaat open in P20.
+**Beeld:** halverwege kamer 2 breekt Krek de stilstand met een sprint vol kracht door de witte mist naar kamer 3. De lage stenen muren blijven dichtbij. Nicola en Nyra komen overdonderd achter hem aan. Twee uitsneden tonen de aanzet en het verdwijnen in de mist.
 
 **Dialoog, Krek:** “We go.”
 
-**Regie:** Engelse vertaling van het herinnerde “we gaan”, geen letterlijk Engels sessiecitaat. “Mist” in de oorspronkelijke tekst blijft onduidelijk: teken geen nieuwe magische mistbarrière of extra vernietigde deur. De kadrering mag de materie van de doorgang buiten beeld laten. Geen extra vierdewandgrap tijdens deze actie.
+**Regie:** Engelse vertaling van het herinnerde “we gaan”, geen letterlijk Engels sessiecitaat. De mist tussen kamer 2 en 3 is nu expliciet bevestigd. Toon gewone dichte mist zonder onbevestigde magische oorsprong, extra spelstatus of extra vernietigde deur. Geen extra vierdewandgrap tijdens deze actie.
 
 ### S07 — Verder dan verwacht
 
-**Locatie:** na het opengaan van de deur, bij de steen nabij de schat. **Ritme:** opening, doel zien, brute beweging, verrassing. **Basis:** GESPEELD FH-07 / s001-a06. Kreks movement ability verplaatst hem naar een obstakel naar keuze binnen vijf vakjes. Tunnelen is de eerder gekozen CREATIEVE verhaalvertaling. Officiële kaartnaam, overige voorwaarden en precieze plattegrond blijven ONBEVESTIGD-2E / OPEN.
+**Locatie:** kamer 3, na de mistige doorgang en het opengaan van de deur, bij de steen nabij de schat. **Ritme:** opening, doel zien, brute beweging, verrassing. **Basis:** GESPEELD FH-07 / s001-a06. Kreks movement ability verplaatst hem naar een obstakel naar keuze binnen vijf vakjes. Tunnelen is de eerder gekozen CREATIEVE verhaalvertaling. Officiële kaartnaam, overige voorwaarden en precieze plattegrond blijven ONBEVESTIGD-2E / OPEN.
 
 #### P20 — Daarheen
 
@@ -541,7 +541,7 @@ Voor de toekomstige aflevering zijn P16 → P17 → één zijpad → P18 een afg
 | --- | --- | --- |
 | Zijn er persoonlijke sessiereplieken bij Hail die bewaard moeten blijven? | P01–P03 | Setting en bolopdracht zijn bronondersteund; huidige replieken zijn creatieve adaptatie |
 | Wie raakte het groene kristal bij de stash aan? | P07–P09 | Consolevorm en mogelijke bediening volgen de bron; groenkeuze en vertrek zijn bevestigd, kiezer en verdere gevolgen blijven open |
-| Wat bedoelde “mist” precies en waar lagen de drempels van kamers 2/3? | P19–P22 | Hoofdvolgorde is bevestigd. De doorgangsmaterie en volledige plattegrond blijven buiten beeld |
+| Wat zijn de exacte vakjes en de deurconstructie bij kamer 3? | P19–P22 | Smalle gang → kamer 2 → mist → kamer 3 is bevestigd. Geen volledige plattegrond reconstrueren |
 | Wat is de officiële kaarttekst en waar stond Krek precies? | P20–P22 | Zijn ability naar een gekozen obstakel binnen vijf vakjes is bevestigd; tunnelen is creatieve vertaling, overige regels blijven open |
 | Wat werd er met de schat gedaan? | P20–P22 | Geen inhoud of meenemen getoond |
 | Welke kaarten en laatste treffers maakten de finale af? | P26–P29 | Nyra doet eerst veel schade zonder directe eliminatie; de volgende ronde rondt de groep af. Exacte aanvallen blijven open |
@@ -558,6 +558,8 @@ De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke repli
 - Werkt de overgang van Nyra's uitputting via de korte krachtopleving naar “Make it stay” als dramatische hook?
 
 ### Wijzigingslog
+
+- **0.5:** volledige beeld- en readerbouw expliciet opgedragen. Laatste gebruikerscorrectie vervangt de kamerplaatsing uit v0.4: claustrofobische gang met wolven; ijsdemonen in kamer 2; Kreks sprint halverwege kamer 2 door mist naar het eindgevecht in kamer 3. Geen nieuwe kaartregels of deurvernieling afgeleid.
 
 - **0.4:** opnieuw aangeleverd eigen verslag S001 verwerkt. City event overslaan; wolven en trage start in kamer 1; Krek/Nicola vooraan; Nyra vernietigt daar twee grote ijsdemonen. S08/P23–P25 verplaatst vóór S06 met behoud van IDs. Latere doorbraak en deur, verraste vijanden, Nyra's eerste schadegolf en gezamenlijke afronding in de volgende ronde verduidelijkt. Nyra zakt uitgeput in elkaar. Alle drie spreken Engels; extra Krek-repertoire blijft voorstel en de healinggrap is niet als gebeurtenis toegevoegd. 38 hoofdpanelen en 6 optionele panelen behouden; Hail-epiloog blijft staan.
 - **0.3:** aangeleverde bronfoto's verwerkt in opening, bergreis, tunnelingang en stashvorm. P33–P38 toegevoegd op verzoek: terugkeer naar Hail met de blauwe bol, tijdelijk experiment en Nyra als dramatische hook. 38 hoofdpanelen en 6 optionele perspectiefpanelen; toekomstige scenario-inhoud uit de conclusie niet overgenomen. Nieuwe dialoog blijft een creatief voorstel.

@@ -1,10 +1,11 @@
 {
   "name": "stone-cold-tinkering",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Lokale motion-comicproef met drie panelen.",
+  "description": "Frozen Hollow motion comic en de bewaarde driepanelige leesproef.",
   "scripts": {
+    "compile": "node scripts/compile-episode.mjs",
     "start": "node scripts/serve.mjs",
     "build": "node scripts/build-offline.mjs",
     "test": "node --test tests/*.test.mjs"

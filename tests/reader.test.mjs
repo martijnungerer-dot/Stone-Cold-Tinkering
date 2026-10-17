@@ -32,6 +32,10 @@ test('de lokale reader levert de scène en bewaakt de publieke bestandsgrens', a
   assert.equal(readerHead.status, 200);
   assert.equal(readerHead.headers.get('content-type'), 'image/png');
   assert.deepEqual([...readerHead.body.slice(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+  const episode = await request('/frozen-hollow');
+  assert.equal(episode.status, 200);
+  assert.match(episode.body.toString(), /Een uitstekend <em>plan/);
+  for (const route of ['/episode.js','/episode.css','/frozen-hollow-data.js','/assets/frozen-hollow/arrival.png','/assets/frozen-hollow/hollow.png','/assets/frozen-hollow/breakthrough.png','/assets/frozen-hollow/aftermath.png','/assets/frozen-hollow/stash-after.png']) assert.equal((await request(route)).status,200,route);
   for (const route of ['/.git/config', '/WORLDBUILDING.md', '/content/episodes/frozen-hollow/STORYBOARD.md', '/assets/%2e%2e%2f.git/config', '/not-found']) {
     assert.equal((await request(route)).status, 404, route);
   }

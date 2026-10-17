@@ -12,8 +12,9 @@ De samenvattingen hieronder blijven binnen de huidige episode. Naastliggende pag
 
 - Bron: door de gebruiker geplakte oudere chat, met eigen verslag van kamer 1 en kamers 2/3; overgenomen in [S001](../sessions/s001/SESSION.md).
 - Status: GESPEELD voor de eigen herinneringen; CREATIEF voor voorstellen van de eerdere assistent.
-- Ondersteunt de trage eerste kamer, wolven en Spirits, Krek/Nicola vooraan, twee grote ijsdemonen door Nyra, Kreks latere doorbraak en verplaatsing, Nyra's eerste schadegolf zonder directe eliminatie en de afronding in de volgende ronde met Nyra uitgeput.
+- Ondersteunt de trage eerste kamer, wolven en Spirits, Krek/Nicola vooraan, twee grote ijsdemonen door Nyra in kamer 2 volgens de latere correctie, Kreks sprint halverwege kamer 2 door mist naar kamer 3 en verplaatsing en verplaatsing, Nyra's eerste schadegolf zonder directe eliminatie en de afronding in de volgende ronde met Nyra uitgeput.
 - Actuele aanvulling: city event zonder consequenties volgens gebruiker; onbekend ID, op verzoek niet uitwerken.
+- Nieuwste gebruikersverduidelijking is leidend boven de oude kamerlabels: smalle claustrofobische gang met wolven, ijsdemonen in kamer 2, sprint halverwege kamer 2 door mist naar het eindgevecht in kamer 3. Geen magische mistwerking of extra deurvernieling afleiden.
 - De drie opnieuw gedeelde foto's hebben dezelfde SHA-256 als SRC-R10, SRC-FH-INTRO en SRC-FH-END; ze zijn geen nieuwe onafhankelijke editiebron.
 - De door de eerdere assistent voorgestelde healinggrap, stashknal en verdere conclusiepassages bevestigen geen persoonlijke handeling of nieuwe campagne-uitkomst. De bestaande spoilergrens blijft gelden.
 

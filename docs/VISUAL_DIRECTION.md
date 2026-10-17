@@ -29,6 +29,8 @@ Dit zijn creatieve ontwerpuitgangspunten uit de door de gebruiker gekozen basis.
 
 ## Omgevingen en objecten
 
+Nieuwste gebruikersregie voor de volledige aflevering: Frozen Hollow is claustrofobisch. Eerst een smalle gang met wolven; de eerder genoemde Spirits horen bij de trage start. Kamer 2 bevat de ijsdemonen. Halverwege kamer 2 sprint Krek met volle kracht door mist naar kamer 3, waar de schat en het eindgevecht plaatsvinden. Houd plafonds laag, muren dichtbij en licht beperkt tot kleine plekken. Ook de kamers bieden nauwelijks ruimte rond Kreks massa. De mist is bevestigd; voeg geen magische verklaring toe. Dit vervangt de oudere plaatsing van de ijsdemonen in kamer 1.
+
 De kaart bovenaan de stijlposter ondersteunt sfeer, perspectief en kleur. Geografische plaatsing volgt SRC-MAP, de aangeleverde campagnekaart. Niet-gecontroleerde namen en wereldclaims in de stijlposter worden niet als lore gebruikt. Een groot portaal of een geheimzinnige horizon in de poster is geen verplicht verhaalonderdeel.
 
 - **Crooked Bone:** de vervallen herberg is veranderd in een wanordelijke bibliotheek. Gebruik in opening en epiloog dezelfde rekken, ladder en onderzoekstafel zodat de terugkeer direct herkenbaar is. Hun precieze vorm is creatieve invulling.

@@ -11,6 +11,22 @@ Gebruikersregie: Krek baant een weg door de grond; Nicola hangt aan zijn tuig; N
 
 Dit is geen officiële Gloomhaven-illustratie of bewijs van spelmechaniek. Er zijn geen volledige foto's van campagnepagina's of toekomstige scenario-inhoud aan de reader toegevoegd.
 
+## Volledige Frozen Hollow-aflevering
+
+Nieuwe assets, met ingebouwde imagegen gemaakt voor de volledige bouwopdracht. Referenties: SRC-STYLE-02 voor stijl en identiteit; forward-v3 voor aanvullende karaktercontinuïteit. Alle PNG-bytes zijn ongewijzigd gekopieerd. Uitsneden en beweging gebeuren in de reader; er is geen rasterbewerking achteraf uitgevoerd.
+
+| ID / bestand in assets/episodes/frozen-hollow/ | Afmetingen | Inhoud en status |
+| --- | --- | --- |
+| arrival.png | 1254 × 1254 | Zes scènes: Crooked Bone, Hail, bolopdracht, bergen en twee stashbeelden; CREATIEF, brongegevens volgens storyboard |
+| hollow.png | 1254 × 1254 | Zes scènes: nauwe gang, wolven/Spirits, reacties, kamer 2, Nyra's twee ijsdemonen; CREATIEF |
+| breakthrough.png | 1254 × 1254 | Zes scènes: sprint, mist, schat, aankomst bij steen, Nyra's schade en finale; CREATIEF |
+| aftermath.png | 1254 × 1254 | Zes scènes: uitputting, wachten, koude bol, terugkeer, krachtopleving en terugval; CREATIEF |
+| stash-after.png | 1536 × 1024 | Lege bergwand als afzonderlijke eindtoestand van de verdwijnende stash; afgeleid van arrival, CREATIEF |
+
+De vier atlassen hebben twee kolommen en drie rijen. SVG-viewports tonen telkens één scène zonder de overige cellen in beeld; het offline bestand sluit iedere atlas eenmaal in. De 24 scènes worden gebruikt voor 38 verhaalbeats. Exacte prompts en de gebruikte ingebouwde tool staan in [PROMPTS.json](../assets/episodes/frozen-hollow/PROMPTS.json). De eerdere transparante Nicola-hoofdlaag wordt hergebruikt voor direct lezerscontact.
+
+De beelden zijn de eerste volledige uitwerking, geen onafhankelijke lorebron of definitieve character sheets. Zie [FROZEN_HOLLOW.md](FROZEN_HOLLOW.md) voor beweging, verificatie en resterende beeldafwerking.
+
 ## Generatieprompt voor Nicola's hoofdlaag
 
 Ingebouwde imagegen gebruikt op 17 oktober 2026; transparante uitvoer ongewijzigd gekopieerd naar het project. Prompt:
