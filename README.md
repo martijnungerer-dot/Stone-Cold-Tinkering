@@ -10,6 +10,8 @@ De verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episod
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
 
+De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis gekozen. Die is als SRC-STYLE-02 de primaire stijlreferentie; de campagnekaart blijft de geografische referentie.
+
 **Spoilerwaarschuwing:** de wereldbijbel bevat de genoemde gespeelde gebeurtenissen rond Frozen Hollow en Road Event R-10.
 
 ## Projectstatus

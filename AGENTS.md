@@ -17,6 +17,7 @@ De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is o
 - Behoud karakterquotes en de vastgelegde Frozen Hollow-ankers.
 - Perspectiefkeuzes veranderen geen bevestigde campagne-uitkomst.
 - De gegenereerde illustratie is geen geografische bron; gebruik de aangeleverde campagnekaart met de aangegeven beperkingen.
+- SRC-STYLE-02 (Gloomhaven_ Drie Helden in een Gebroken Wereld.png) is door de gebruiker als goede visuele basis aangewezen. Gebruik de inktlijnen, kleuren en silhouetten volgens docs/VISUAL_DIRECTION.md. De afbeelding vervangt geen lorebron of goedgekeurde character sheet.
 
 ## Werkwijze
 

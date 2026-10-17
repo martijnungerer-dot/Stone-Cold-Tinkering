@@ -1,27 +1,31 @@
 # Visuele richting — tekstuele briefing
 
-Status: vertrekpunt op basis van de aangeleverde stripreferentie en bronfoto's. Er zijn nog geen nieuwe beelden, definitieve character sheets of animaties gemaakt.
+Status: de gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png op 17 oktober 2026 als goede visuele basis aangewezen. Dit is de primaire stijlreferentie (SRC-STYLE-02). De eerdere gedeelde stripillustratie is aanvullend. Er zijn nog geen nieuwe beelden, definitieve character sheets of animaties gemaakt.
 
 Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk is bekeken. Het [storyboard](../content/episodes/frozen-hollow/STORYBOARD.md) bepaalt de scènes; de [wereldbijbel](../WORLDBUILDING.md) bewaakt personages en canon.
 
 ## Stijl
 
-Vertrek vanuit de gedeelde illustratie: een geschilderde fantasystrip met duidelijke paneelranden, verweerde texturen, stevige silhouetten en leesbare gezichten. Steen en metaal krijgen tastbaar oppervlak. Aardetonen vormen de basis, terwijl magie en apparatuur heldere kleuraccenten krijgen. De wereld oogt gevaarlijk en bewoond; humor komt uit houding, blik en timing.
+Vertrek vanuit de nieuw aangeleverde poster: een gedetailleerde fantasystrip met stevige zwarte contouren, diepe schaduwvlakken, hoekige vormen en ruwe oppervlaktestructuren. Combineer leesbare inktlijnen met rijk ingekleurde textuur. Steen krijgt breuken en korrel; metaal krijgt scherpe randen en gerichte lichtaccenten. De lijnvoering en duidelijke kleurvlakken van deze referentie wegen zwaarder dan de zachtere schilderachtige afwerking van de eerdere illustratie.
 
-De posterindeling van de referentie is een inspiratiebron. Voor de uiteindelijke leeservaring krijgt ieder paneel genoeg ruimte en blijven tekstballonnen als losse, aanpasbare tekst boven het beeld staan. De kleine ingebakken posterteksten zijn geen productiebron.
+De basis bestaat uit verweerd oker, steenbruin, zwart en crème. Koel blauw draagt sneeuw, schaduw en Nicola's techniek. Nyra brengt violet, magenta en fel rood/oranje in beeld. Sterk licht contrasteert met donkere silhouetten, terwijl gezichten en handelingen leesbaar blijven. De wereld oogt gevaarlijk en bewoond; humor komt uit houding, blik en timing.
+
+De referentie gebruikt zware paneelranden, crèmekleurige tekstballonnen en verweerde titelvlakken. Neem die grafische taal mee naar de reader. Geef ieder paneel genoeg ruimte en houd tekstballonnen als losse, aanpasbare tekst boven het beeld. Gebruik stabiele, leesbare lettervormen en een duidelijke leesvolgorde. De posterteksten, kaartlabels, statistieken en kanspercentages worden alleen overgenomen wanneer ze afzonderlijk in de wereldbijbel of het storyboard zijn vastgesteld.
 
 ## Personages
 
 | Personage | Zichtbaar vertrekpunt | Wat later moet worden vastgelegd |
 | --- | --- | --- |
-| Krek | Breed, massief rotssilhouet; aardse steentonen; fysieke aanwezigheid | Vaste steenstructuur, herkenbaar gezicht, kleding en metaalonderdelen |
-| Nicola | Klein silhouet; ronde lenzen; instrumenten en blauwe technische accenten | Vaste anatomie, accessoires, kleding en herkenbare uitrusting; geen gadgets met vanzelf bewezen werking |
-| Nyra | Elegante magiër; donker haar; paars magielicht in de referentie | Vaste Orchid-kenmerken, gezicht en kleding; paarse sfeer moet samengaan met haar rode vuurmagie en ijshumor |
+| Krek | Zeer breed rotssilhouet; grote vuisten; warmbruine gebarsten steen; heldere blauwe ogen; leren riemen en metalen beslag | Eén herkenbaar gezicht, vaste breuklijnen, vaste verdeling van leer en metaal; dezelfde massa in actie en rust |
+| Nicola | Klein silhouet; metalen hoofddeksel met ronde blauwe lenzen; rode sjaal; bruine kleding en riemen; blauwe geometrische energie | Vaste Quatryl-anatomie, lenzen, instrumenten en kleding; sterke afwisseling tussen geconcentreerd werken en de lezer aankijken |
+| Nyra | Lang lila haar; scherp en expressief profiel; donkere kleding met warme details; violet licht naast fel rood/oranje vuur | Een consistent Orchid-ontwerp, vaste gelaatstrekken en kleding; herkenbaar blijven wanneer de magie wegvalt en de uitputting zichtbaar wordt |
 | Hail | Doorschijnende Aesther, onderzoeker, volgens de introductiebron | Een eigen herkenbaar ontwerp; de bronfoto's bevatten geen volledig karakterportret |
 
-Dit zijn creatieve ontwerpuitgangspunten. Ze worden niet als officiële klasse-illustraties voorgesteld. Definitieve vormen en accessoires mogen pas uit de werkelijk beschikbare referenties worden afgeleid, niet uit het nog ongeziene Library-bestand.
+Dit zijn creatieve ontwerpuitgangspunten uit de door de gebruiker gekozen basis. Ze worden niet als officiële klasse-illustraties voorgesteld. Een basiskeuze betekent nog geen vastgelegde turnaround met ieder kledingdetail. Gebruik bij latere beeldproductie de aangeleverde bijlage als zichtbare referentie; de tekstbriefing vervangt die afbeelding niet. Het afzonderlijke Library-bestand is nog niet via de link ingezien.
 
 ## Omgevingen en objecten
+
+De kaart bovenaan de stijlposter ondersteunt sfeer, perspectief en kleur. Geografische plaatsing volgt SRC-MAP, de aangeleverde campagnekaart. Niet-gecontroleerde namen en wereldclaims in de stijlposter worden niet als lore gebruikt. Een groot portaal of een geheimzinnige horizon in de poster is geen verplicht verhaalonderdeel.
 
 - **Crooked Bone:** de vervallen herberg is veranderd in een wanordelijke bibliotheek. Gebruik in opening en epiloog dezelfde rekken, ladder en onderzoekstafel zodat de terugkeer direct herkenbaar is. Hun precieze vorm is creatieve invulling.
 - **Stash:** metalen deur in de bergwand; de vier gekleurde kristallen en middenknop volgen SRC-R10. De groene ruit onderaan moet van de ronde middenknop te onderscheiden zijn. Alleen Emergency Temporal Stash staat als bronondersteund opschrift op de plaat.

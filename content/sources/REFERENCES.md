@@ -66,11 +66,24 @@ De afbeelding is opnieuw beschikbaar als de gekozen campagnekaart. Gebruik zicht
 
 Zichtbare richting: een geschilderde fantasystrip met omlijnde panelen, verweerde kaders, warme aardetonen, uitgesproken steenstructuur, paars magielicht en blauwe technische accenten. Het trio heeft sterk verschillende silhouetten: een massieve rotsfiguur, een kleine uitvinder met ronde lenzen en instrumenten, en een elegante magiër met donker haar en paarse magie.
 
-Gebruik dit als vertrekpunt voor een tekstuele visuele briefing. Neem de ingebakken teksten, eventuele spelclaims of willekeurige achtergronddetails niet over als canon. Definitieve kleding, gezichten, kleuren en accessoires worden later afzonderlijk vastgelegd. Voor de motion comic blijven tekstballonnen los van de illustraties.
+Gebruik dit als aanvullende stijlreferentie. SRC-STYLE-02 is na de latere gebruikerskeuze het primaire visuele vertrekpunt. Neem de ingebakken teksten, eventuele spelclaims of willekeurige achtergronddetails niet over als canon. Definitieve kleding, gezichten, kleuren en accessoires worden later afzonderlijk vastgelegd. Voor de motion comic blijven tekstballonnen los van de illustraties.
+
+## SRC-STYLE-02 — gekozen visuele basis
+
+- Bestand: `Gloomhaven_ Drie Helden in een Gebroken Wereld.png`, rechtstreeks als bijlage aangeleverd.
+- SHA-256: `3c96ef41d7c7ee5a953f6ba7ec82dfe0f817b40839fea2e9568f93ffc7be589e`.
+- Gebruikerskeuze op 17 oktober 2026: “Dit vond ik wel een goede basis”.
+- Status: `CREATIEF`; primaire stijlreferentie voor de strip, geen geografische of officiële lorebron.
+
+De afbeelding is bekeken. Sterke zwarte inktlijnen, diepe schaduwen, ruwe steenstructuur, warme aardekleuren en crème tekstvlakken bepalen het uiterlijk. Blauw markeert Nicola's techniek; violet en rood/oranje dragen Nyra's magie. De drie silhouetten zijn duidelijk verschillend.
+
+Krek is een brede, hoekige steenfiguur met blauwe ogen, grote vuisten en leer-/metaaldetails. Nicola is klein, met ronde blauwe lenzen, een metalen hoofddeksel, bruine kleding en een rode sjaal. Nyra heeft lang lila haar, een scherp expressief profiel en donkere kleding met warme accenten. Dit zijn projectontwerpkeuzes; er wordt geen officiële anatomie of nieuwe uitrustingswerking uit afgeleid.
+
+De kaart, labels, beschrijvingen, nieuwe replieken en percentages in de poster zijn geen automatisch bevestigde wereldfeiten of gespeelde gebeurtenissen. De campagnekaart blijft de geografische referentie. Bestaande karakterquotes en het storyboard blijven de tekstbron. De keuze voor een goede basis legt de stijlrichting vast; definitieve character sheets worden later apart gemaakt.
 
 ## SRC-LIBRARY — gedeeld Library-bestand
 
 - [Aangeleverde Library-link](https://chatgpt.com/library/share/libfile_43f2d247802481919e757ae82f8c6442?account_id=personal).
 - Status: `OPEN / NIET INGEZIEN`.
 
-De browser verwijst naar aanmelden. Er is geen inhoudelijke beoordeling van dit bestand uitgevoerd. Leid uit de bestands-ID of de andere gedeelde illustratie niet af dat het hetzelfde beeld is. Het bestand kan later als losse bijlage worden toegevoegd.
+De browser verwijst naar aanmelden. Deze specifieke link is niet inhoudelijk ingezien. De gebruiker heeft inmiddels een rechtstreeks toegankelijke bijlage als visuele basis aangewezen: SRC-STYLE-02. Daarmee is een zichtbare primaire referentie beschikbaar, zonder dat een identieke bestands-ID met de Library-link hoeft te worden verondersteld.

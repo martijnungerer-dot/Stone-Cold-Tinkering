@@ -14,4 +14,6 @@ Versie 0.2 van het [tekststoryboard voor Frozen Hollow](content/episodes/frozen-
 
 Aanvulling 0.3 verwerkt de aangeleverde bronfoto's en de door de gebruiker gewenste terugkeer naar Hail, met Nyra als dramatische hook: 38 hoofdpanelen en 6 optionele perspectiefpanelen. Het [bronregister](content/sources/REFERENCES.md) en de [tekstuele visuele briefing](docs/VISUAL_DIRECTION.md) bewaren de nieuwe referenties en ontwerpuitgangspunten. Nieuwe dialoog is creatieve adaptatie.
 
-De volgende productiestap is beeldproductie: vaste karakterreferenties en een voorbeeldpaneel. Die begint na een expliciete bouwopdracht. Er zijn nog geen nieuwe afbeeldingen, animaties, applicatie of hosting gemaakt. De reeds gedeelde stripillustratie is een bestaande referentie.
+De gebruiker heeft de aangeleverde poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis aangewezen. SRC-STYLE-02 is de primaire stijlreferentie; de visuele briefing is hierop aangepast.
+
+De volgende productiestap is beeldproductie: vaste karakterreferenties en een voorbeeldpaneel op basis van die referentie. Die begint na een expliciete bouwopdracht. Er zijn nog geen nieuwe afbeeldingen, animaties, applicatie of hosting gemaakt. De gedeelde illustraties zijn bestaande referenties.
