@@ -13,6 +13,27 @@
 - Vrijgegeven spoilerbereik: OPEN
 - Herkomst: gebruikersverslag / foto's / spraaknotities; vermeld welke werkelijk zijn ontvangen en gelezen
 
+## City event, road event en scenarioverhalen
+
+Dit is Martijns vaste begin van de overdracht. Als iets niet aan bod kwam, noteer dat; vul geen event of scenario in om de structuur compleet te maken. Vooraf aangeleverd materiaal heeft nog geen gespeelde keuze of afloop.
+
+| Onderdeel | Naam / nummer / ID | Aangeleverde en werkelijk gelezen tekst | Keuze van de groep | Werkelijk toegepaste uitkomst | Bron en status |
+| --- | --- | --- | --- | --- | --- |
+| City event | OPEN | OPEN | OPEN | OPEN | OPEN |
+| Road event | OPEN | OPEN | OPEN | OPEN | OPEN |
+
+Per gespeeld scenario, herhaal dit blok indien nodig:
+
+- Naam en nummer: OPEN
+- Introductie en aanleiding om hierheen te gaan: OPEN
+- Tijdens het spel gelezen verhaalpassages, met vindplaats: OPEN
+- Eigen gebeurtenissen en afwijkingen aan tafel: zie de bevestigde ankers hieronder
+- Resultaat: gewonnen / verloren / onderbroken / OPEN
+- Conclusie zoals werkelijk bereikt en gelezen: OPEN
+- Bevestigde gevolgen voor de groep: OPEN
+
+Bewaar de boektekst als bron en de eigen acties als GESPEELD. Ongekozen eventuitkomsten en ongelezen conclusies worden geen bevestigde gebeurtenissen.
+
 ## Ruwe herinneringen
 
 Bewaar hier wat de gebruiker vertelde, met onzekerheden en latere aanvullingen. Citeer alleen letterlijk wanneer de precieze formulering bekend is. Bewaar bronbestanden met hun herkomst of geef een duurzame bronverwijzing; een tijdelijk lokaal pad geldt niet als beschikbaar bestand voor een volgende chat.

@@ -6,9 +6,15 @@ Status: vaste werkwijze voor Stone & Cold Tinkering, vastgelegd op 17 oktober 20
 
 Een vrij verteld verslag, losse aantekeningen, foto's of spraaknotities volstaan. Het [sessiesjabloon](../content/sessions/SESSION_TEMPLATE.md) is een hulpmiddel; Martijn hoeft geen productieformulier in te vullen.
 
+Martijn begint iedere sessieoverdracht met het **city event, het road event en de verhaalteksten bij de gespeelde scenario's**, voor zover die onderdelen aan bod kwamen. Leg bij events het ID, de gekozen optie en de werkelijk toegepaste uitkomst vast. Bewaar bij scenario's de naam/het nummer, de introductie en de tijdens het spelen gelezen passages; de conclusie volgt zodra die aan tafel is bereikt. Als een event niet voorkwam, noteer dat. Dit is de aanlevervolgorde; de stripmontage kan daarna het beste vertelritme volgen.
+
+Naast die spelteksten zijn vooral jullie eigen keuzes, opvallende acties, letterlijke uitspraken en de afloop nodig. Een paar steekwoorden na het spelen volstaan. Foto's van bijzondere posities of een actie kunnen de ruimtelijke regie helpen; een volledig beurtverslag is niet nodig. Een wijziging in uitrusting, level of gezelschap is alleen relevant om vast te leggen als die werkelijk gebeurde en de continuïteit raakt.
+
 De nuttigste informatie is: waar en met wie de sessie begon, het doel, de belangrijke gebeurtenissen, opvallende acties en uitspraken, de afloop en wat de personages daarna bij zich dragen of voelen. Vermeld vooral welke momenten beslist in de strip moeten. Markeer een herinnering als onzeker wanneer dat zo is. De echte speeldatum mag onbekend blijven; de datum van het gesprek is niet automatisch de speeldatum.
 
 Codex ordent dit materiaal en stelt alleen gerichte vragen over ontbrekende feiten die de huidige scène werkelijk veranderen. Andere ontbrekende details blijven OPEN. Een foto van een scenario toont wat in het boek staat; ze bewijst niet dat alle beschreven gebeurtenissen aan tafel plaatsvonden.
+
+Materiaal kan alvast voor de start van het spel worden aangeleverd. Markeer dan keuzes en afloop als nog niet gespeeld; vul die pas na bevestiging in. Ongelezen conclusies, ongekozen eventuitkomsten en volgende scenario's worden niet als toekomstig verhaal verwerkt.
 
 ## De vaste werkwijze
 
