@@ -1,7 +1,7 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.3 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
+> Versie 1.4 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## 1. Doel en kern
@@ -11,6 +11,8 @@
 De strip vertaalt een gespeelde campagne naar personagegedreven scènes. Het plezier zit in botsende overtuigingen, chaotische samenwerking en de afstand tussen een prachtig plan en de praktische uitvoering. Gevechten hebben gewicht; humor komt uit karakter en timing. De spelers herkennen hun avond, terwijl een nieuwe lezer het verhaal zonder spelregels kan volgen.
 
 Dit bestand is het uitgangspunt voor scenario, beeld, geluid, interactie en implementatie. Het is geen volledige Gloomhaven-encyclopedie en ontsluit geen toekomstige campagne-inhoud.
+
+De gebruiker wil voortaan van iedere speelsessie een aflevering maken. De [vaste werkwijze](docs/SESSION_WORKFLOW.md), het [sessiesjabloon](content/sessions/SESSION_TEMPLATE.md) en het [afleveringenoverzicht](content/episodes/README.md) regelen de overdracht. Deze wereldbijbel blijft leidend voor canon en personages.
 
 ## 2. Bronnen, zekerheid en geldigheid
 
@@ -31,7 +33,7 @@ Bij de eerste versie waren de eerdere assistentantwoorden alleen als inhoudsverw
 
 ### 2.1a Herstelde projectafspraken
 
-- **Voorlopig alleen tekst.** Personages, lore, dialogen en interactieve scènes mogen worden voorbereid. Afbeeldingen, animaties en daadwerkelijke softwarebouw beginnen pas wanneer de gebruiker expliciet aangeeft dat we gaan bouwen. Het maken en bijwerken van deze Markdown-documenten valt onder de tekstuele voorbereiding.
+- **Werk binnen de gevraagde fase.** De oorspronkelijke afspraak was eerst tekst; daarna heeft de gebruiker beeldstudies en de lokale readerproef laten bouwen en die proef afgerond. Bij nieuwe sessies mogen tekst en structuur worden voorbereid. Afbeeldingen, animatie en software volgen de concrete bouwopdracht; de werkwijze voegt geen extra toestemming per bestand of paneel toe.
 - **De gebeurtenissen aan tafel zijn canon voor de strip.** Humor en dialogen zijn de creatieve vertaling daarvan.
 - **Geen toekomstige scenario-onthullingen vóór de groep ze heeft gespeeld.** De wereld groeit mee met de campagne.
 - **De aangeleverde campagnekaart is de gekozen geografische referentie.** Dit is een projectkeuze; de editie en alle scenariolocaties zijn daarmee nog niet onafhankelijk geverifieerd.
@@ -66,6 +68,8 @@ Houd personagekennis, lezerskennis en productiekennis apart. Een maker kan een v
 ### 3.1 Campagnegrens
 
 De toegestane verhaalruimte bestaat uit de drie hoofdpersonages en de expliciet genoemde Frozen Hollow-gebeurtenissen, inclusief de door de gebruiker gewenste terugkeer naar Hail uit de aangeleverde conclusie. Nyra blijft de dramatische hook. Onbekende scenario's, toekomstige onthullingen, verborgen klassen, persoonlijke opdrachten, beloningen, ontgrendelingen en onverwachte NPC-identiteiten blijven buiten beeld. De aanwezigheid van zulke informatie op dezelfde bronfoto geeft geen toestemming om die informatie over te nemen.
+
+Dit is het huidige bevestigde bereik. Een nieuw aangeleverd sessieverslag kan voor een volgende aflevering nieuwe gespeelde gebeurtenissen vrijgeven; leg dat bereik per aflevering vast. Het voornemen om een serie te maken geeft op zichzelf geen nieuwe campagne-inhoud vrij. Lever in eerdere afleveringen geen toekomstige gegevens mee.
 
 Een officiële bron is nooit op zichzelf toestemming voor een spoiler. Zoek alleen het detail op dat voor de huidige scène nodig is. Raadpleeg bij voorkeur het reeds gespeelde materiaal, met editie en paginaverwijzing. Vermijd brede wiki- of campagnezoektochten die toekomstige inhoud kunnen blootleggen. De herstelde afspraak luidt: “we verklappen nooit toekomstige scenario-onthullingen voordat jullie ze gespeeld hebben.”
 
@@ -368,6 +372,8 @@ De gebruiker heeft inmiddels gekozen voor een lokale leesproef op basis van de d
 
 De proef is gebouwd in reader/; zie [PROTOTYPE.md](docs/PROTOTYPE.md) en het [assetregister](docs/ASSET_REGISTER.md). Er is een lokale server en een zelfstandig offline HTML-bestand. Er is geen hosting toegevoegd.
 
+De gebruiker heeft de proef inmiddels afgerond en de leesvorm en Nicola-interactie aanvaard. Hergebruik die basis bij een volgende bouwopdracht. De werktekeningen zijn nog geen definitieve stijl. Voor sessies, afleveringstatus en continuïteit geldt de [vaste werkwijze](docs/SESSION_WORKFLOW.md).
+
 ### 12.2 Voorgestelde projectindeling
 
 ```text
@@ -473,6 +479,7 @@ Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële D
 
 ### Wijzigingslog
 
+- **1.4 — 17 oktober 2026:** serie per speelsessie, sessieoverdracht en afleveringsoverzicht vastgelegd. Leesproef op gebruikersaangeven afgerond; leesvorm en Nicola-interactie aanvaard, verdere beweging optioneel. Geen nieuwe sessiegebeurtenissen of lore toegevoegd.
 - **1.3 — 17 oktober 2026:** bronfoto's en bekeken stripreferentie geregistreerd; Hail, Crooked Bone, bolopdracht, reis en stashvorm met bronvindplaatsen ingevuld. Terugkeer naar Hail als epiloog toegevoegd op gebruikersverzoek, met Nyra als dramatische hook en zonder toekomstige ontgrendelingen.
 - **1.2 — 17 oktober 2026:** gebruikersbevestiging verwerkt over Qualco's Emergency Temporal Stash, de verkeerde groenkeuze en het vertrek met vreemde energie; Kreks movement ability naar een gekozen obstakel binnen vijf vakjes vastgelegd, met tunnelen als creatieve verhaalvertaling. Geen nieuwe officiële lore- of regelverificatie.
 - **1.1 — 17 oktober 2026:** aangeleverde gespreksexport verwerkt; tekstfase, tafelcanon en spoilerafspraak hersteld; onderscheid tussen gegenereerde illustratie en campagnekaart verduidelijkt; Nicola's metakennis en reputatiemotief uitgebreid; eerdere loreclaims als onderzoekswachtrij bewaard zonder ze tot geverifieerde canon te verheffen.

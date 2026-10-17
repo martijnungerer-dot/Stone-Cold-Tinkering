@@ -6,6 +6,8 @@ Een interactieve motion comic rond een gespeelde Gloomhaven Second Edition-campa
 
 Lees [WORLDBUILDING.md](WORLDBUILDING.md) voor de personages, wereldbouw, Frozen Hollow-continuïteit, stijl, interactieve vertelvorm en technische overdracht.
 
+Voor iedere volgende speelsessie volgen we [van speelsessie naar aflevering](docs/SESSION_WORKFLOW.md). Een vrij verteld verslag volstaat; Codex ordent dat met het [sessiesjabloon](content/sessions/SESSION_TEMPLATE.md). Het [afleveringenoverzicht](content/episodes/README.md) bewaart voortgang en continuïteit. Concrete gebruikerskeuzes staan in het [besluitenlog](docs/decisions.md).
+
 De verhaaluitwerking staat in [Frozen Hollow — tekststoryboard](content/episodes/frozen-hollow/STORYBOARD.md): 38 hoofdpanelen en 6 optionele perspectiefpanelen, inclusief de terugkeer naar Hail met Nyra als dramatische hook. Nieuwe dialogen zijn creatieve voorstellen; expliciete open sessiedetails blijven herkenbaar.
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
@@ -19,6 +21,8 @@ De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png 
 ## Projectstatus
 
 De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Klikken op Nicola laat hem naar de lezer kijken en een blauwe tekstballon binnen het stripkader tonen. Werkbeeld v3 is voorlopig bruikbaar; de oorspronkelijke poster blijft de stijlmaatstaf. Er is geen hosting toegevoegd.
+
+De gebruiker heeft de proef afgerond en de leesvorm en Nicola-interactie aanvaard. Krek en Nyra mogen voorlopig statisch blijven. Het project gaat verder als een serie op basis van de speelsessies; de volgende sessie is nog niet aangeleverd. De proef vraagt geen verdere verfijning zonder nieuwe opdracht.
 
 ## Proef bekijken
 
@@ -49,7 +53,7 @@ Open daarna `dist/reader-offline.html` in een browser. Alle beelden en bediening
 
 Lees de wereldbijbel vóór je scènes schrijft of bouwt. Bewaar de vastgelegde karakterquotes en episode-ankers. Vul open lorevragen niet op met aannames. Interacties mogen perspectief en timing veranderen; de bevestigde campagne-uitkomst blijft intact.
 
-Versie 0.2 van het tekststoryboard is op 17 oktober 2026 inhoudelijk goedgekeurd. Versie 0.3 verwerkt daarna de bronfoto's en de expliciet gewenste epiloog bij Hail, met Nyra als dramatische hook. Deze aanvullingen staan als bronfeiten en creatieve adaptatie gemarkeerd; nieuwe dialoog wordt niet met terugwerkende kracht goedgekeurd verklaard. De huidige readerproef gebruikt de afzonderlijke, creatieve bewegingsstudie. Zij verandert de Frozen Hollow-ankers niet. De volgende stap is de leeservaring en bediening beoordelen voordat de volledige aflevering wordt gebouwd.
+Versie 0.2 van het tekststoryboard is op 17 oktober 2026 inhoudelijk goedgekeurd. Versie 0.3 verwerkt daarna de bronfoto's en de expliciet gewenste epiloog bij Hail, met Nyra als dramatische hook. Deze aanvullingen staan als bronfeiten en creatieve adaptatie gemarkeerd; nieuwe dialoog wordt niet met terugwerkende kracht goedgekeurd verklaard. De afgeronde readerproef gebruikt de afzonderlijke, creatieve bewegingsstudie. Zij verandert de Frozen Hollow-ankers niet. Een bouwopdracht voor Frozen Hollow start bij het bestaande storyboard; een volgende speelsessie start bij de nieuwe gebruikersherinneringen.
 
 ## Materiaal en herkomst
 

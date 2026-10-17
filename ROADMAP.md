@@ -22,4 +22,10 @@ Op expliciete gebruikersopdracht is nu de [lokale leesproef](docs/PROTOTYPE.md) 
 
 De gebruiker vindt de leesproef prima en heeft Nicola's interactie bijgestuurd: een blauwe tekstballon in het stripkader en zijn hoofd naar de lezer gedraaid, zonder popup. Dit is verwerkt met een transparante hoofdlaag en een korte overgang; vloeiende tussenframes zijn nog niet getekend. Verder bladeren blijft mogelijk terwijl hij praat.
 
-Volgende stap: de aangepaste Nicola-reactie bekijken. Daarna de stijl verder vastleggen en de volledige episode voorbereiden. Er is geen hosting toegevoegd.
+De gebruiker heeft de proef nu afgerond en aanvaard als basis voor de leeservaring en Nicola-interactie. Krek en Nyra mogen voorlopig statisch blijven. Verdere beweging is een mogelijkheid voor later; deze proef wordt niet verder verfijnd zonder nieuwe opdracht. De stijl is daarmee nog niet definitief vastgelegd. Er is geen hosting toegevoegd.
+
+## Verder als serie
+
+De gebruiker wil van iedere speelsessie een verhaal maken. De [vaste werkwijze](docs/SESSION_WORKFLOW.md), het [sessiesjabloon](content/sessions/SESSION_TEMPLATE.md) en het [afleveringenoverzicht](content/episodes/README.md) zijn hiervoor ingericht. Werk vanuit de bestaande wereldbijbel, karakterrichtlijnen en reader. Aantal panelen en speelduur volgen de inhoud.
+
+De volgende concrete invoer is een verslag van een nieuwe sessie, óf een bouwopdracht voor de eerste scène van het bestaande Frozen Hollow-storyboard. Er is nog geen tweede sessie aangeleverd. Nieuwe afleveringen krijgen eigen inhoud en assets; de afgeronde proef blijft bewaard.

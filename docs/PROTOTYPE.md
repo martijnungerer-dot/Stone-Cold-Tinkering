@@ -2,6 +2,8 @@
 
 De gebruiker heeft de bouw van een korte interactieve proef met de drie panelen expliciet goedgekeurd. Dit is een zelfstandige creatieve scène; er is geen nieuwe campagnegebeurtenis of spelregel uit afgeleid.
 
+**Afgerond op gebruikersaangeven:** de leeservaring en Nicola's blauwe tekstballon met blik naar de lezer zijn aanvaard als basis voor volgende afleveringen. Krek en Nyra mogen statisch blijven; extra beweging is optioneel toekomstwerk. Dit keurt de werktekeningen niet als definitieve stijl goed. De hieronder beschreven verificatiegrenzen blijven van toepassing. Zie de [werkwijze voor volgende sessies](SESSION_WORKFLOW.md).
+
 ## Openen
 
 De eenvoudigste versie is één bestand: `dist/reader-offline.html`, gemaakt met `npm run build`. Open dit bestand in een moderne browser. Beeld, vormgeving, tekst en bediening zitten erin; er is geen installatie, account of internetverbinding nodig om te lezen.
