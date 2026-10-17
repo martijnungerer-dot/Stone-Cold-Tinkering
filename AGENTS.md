@@ -6,7 +6,7 @@ Lees README.md en WORLDBUILDING.md voordat je aan verhaal, beelden of software w
 
 ## Huidige fase
 
-De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is op 17 oktober 2026 inhoudelijk goedgekeurd door de gebruiker. Gebruik dit als uitgangspunt; de gemarkeerde open sessiedetails blijven open. Afbeeldingen, animaties en applicatiecode beginnen pas na een expliciete bouwopdracht van de gebruiker.
+De Git-basis is klaar. Versie 0.2 van het tekststoryboard van Frozen Hollow is op 17 oktober 2026 inhoudelijk goedgekeurd door de gebruiker. Versie 0.3 verwerkt de daarna aangeleverde bronfoto's en de door de gebruiker gewenste terugkeer naar Hail, met Nyra als dramatische hook. Nieuwe dialoog blijft creatieve adaptatie; gemarkeerde open sessiedetails blijven open. Lees bij bron- en beeldwerk ook content/sources/REFERENCES.md en docs/VISUAL_DIRECTION.md. Afbeeldingen, animaties en applicatiecode beginnen pas na een expliciete bouwopdracht van de gebruiker.
 
 ## Inhoudelijke regels
 

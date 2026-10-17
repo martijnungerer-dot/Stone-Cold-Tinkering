@@ -1,7 +1,7 @@
 # Stone & Cold Tinkering — WORLDBUILDING
 
 > Wereldbijbel voor een interactieve Gloomhaven Second Edition motion comic.
-> Versie 1.2 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
+> Versie 1.3 · 17 oktober 2026 · Taal: Nederlands; kenmerkende dialogen in het Engels.
 > **Spoilerbereik:** bevat de door de gebruiker genoemde gebeurtenissen rond Frozen Hollow en Road Event R-10. Niet vooraf lezen als je die speelsessie onbevangen wilt beleven.
 
 ## 1. Doel en kern
@@ -23,6 +23,9 @@ Deze versie gebruikt:
 - De daadwerkelijk bekeken kaartafbeelding uit die conversatie, oorspronkelijk `image(8).png`.
 - De naderhand door de gebruiker aangeleverde tekstexport van de bespreking, oorspronkelijk `Geplakte tekst.txt`.
 - Aanvullende gebruikersbevestiging: het groene kristal hoorde bij Qualco's Emergency Temporal Stash; groen was de verkeerde keuze en de stash vertrok met vreemde energie. Krek gebruikte een brute movement ability naar een gekozen obstakel binnen vijf vakjes; de verplaatsing mag in de storyline als tunnelen worden verbeeld.
+- Aangeleverde bronfoto's van R-10, de introductie van Frozen Hollow en conclusie S.3, plus de opnieuw gedeelde kaart. Zie [bronregister](content/sources/REFERENCES.md) voor vindplaatsen, herkomst en precieze grenzen.
+- De bekeken gedeelde stripillustratie als creatieve stijlreferentie. De aparte Library-link kon niet inhoudelijk worden ingezien.
+- Gebruikerskeuze voor een terugkeer naar Hail als epiloog, met Nyra als dramatische hook.
 
 Bij de eerste versie waren de eerdere assistentantwoorden alleen als inhoudsverwijzingen beschikbaar. De aangeleverde tekstexport herstelt nu de inhoudelijke afspraken en de samenvatting van het eerdere onderzoek. De export bevat bronlabels zoals “Cephalofair”, “Reddit” en “GitHub”, maar geen controleerbare directe bronverwijzingen bij de afzonderlijke claims. Eerdere assistentuitspraken zijn daarom geen onafhankelijke loreverificatie. Er is voor dit bestand geen nieuwe externe loreverificatie uitgevoerd.
 
@@ -42,6 +45,7 @@ De export bespreekt ook een eerdere gegenereerde illustratie/kaart met niet-geco
 | --- | --- | --- |
 | `OFFICIEEL-2E` | Bevestigd in een primaire bron voor Second Edition | Alleen gebruiken met editie, document en vindplaats |
 | `KAART` | Zichtbaar op de aangeleverde kaart | Bewijst een opschrift of ruimtelijke verhouding, niet de editie |
+| `BRONFOTO` | Direct leesbaar of zichtbaar op aangeleverd spelmateriaal | Vermeld bron-ID en vindplaats; bewijst geen persoonlijke sessiehandeling en niet automatisch de editie |
 | `GESPEELD` | Door gebruiker bevestigde gebeurtenis in deze campagne | Geldt voor deze adaptatie; bewijst geen algemene lore of spelregel |
 | `CREATIEF` | Originele uitwerking voor de strip | Mag de campagne niet stilzwijgend veranderen |
 | `ONBEVESTIGD-2E` | Second Edition-status of precieze betekenis niet gecontroleerd | Geen stellige historische, politieke of mechanische claim maken |
@@ -49,7 +53,7 @@ De export bespreekt ook een eerdere gegenereerde illustratie/kaart met niet-geco
 
 Een passage kan meerdere labels hebben: `GESPEELD / ONBEVESTIGD-2E` betekent dat iets aan tafel is bevestigd, maar niet als officiële Second Edition-inhoud is geverifieerd.
 
-**Belangrijk:** in deze versie zijn geen nieuwe claims als `OFFICIEEL-2E` aangemerkt. De projecttitel bepaalt de beoogde editie; hij maakt materiaal uit een andere editie niet automatisch geldig.
+**Belangrijk:** de nieuwe bronfoto's ondersteunen nu concrete wereld- en episodefeiten. Ze zijn binnen de Second Edition-context aangeleverd, maar tonen geen editie-imprint. Daarom staan de betrokken claims als `BRONFOTO` met vindplaats geregistreerd; een formele editiecontrole voor `OFFICIEEL-2E` blijft apart. De projecttitel bepaalt de beoogde editie; hij maakt materiaal uit een andere editie niet automatisch geldig.
 
 ### 2.3 Beslisregels bij tegenspraak
 
@@ -61,7 +65,7 @@ Houd personagekennis, lezerskennis en productiekennis apart. Een maker kan een v
 
 ### 3.1 Campagnegrens
 
-De toegestane verhaalruimte bestaat uit de drie hoofdpersonages en de expliciet genoemde Frozen Hollow-gebeurtenissen. Onbekende scenario's, toekomstige onthullingen, verborgen klassen, persoonlijke opdrachten, beloningen, ontgrendelingen en onverwachte NPC-identiteiten blijven buiten beeld.
+De toegestane verhaalruimte bestaat uit de drie hoofdpersonages en de expliciet genoemde Frozen Hollow-gebeurtenissen, inclusief de door de gebruiker gewenste terugkeer naar Hail uit de aangeleverde conclusie. Nyra blijft de dramatische hook. Onbekende scenario's, toekomstige onthullingen, verborgen klassen, persoonlijke opdrachten, beloningen, ontgrendelingen en onverwachte NPC-identiteiten blijven buiten beeld. De aanwezigheid van zulke informatie op dezelfde bronfoto geeft geen toestemming om die informatie over te nemen.
 
 Een officiële bron is nooit op zichzelf toestemming voor een spoiler. Zoek alleen het detail op dat voor de huidige scène nodig is. Raadpleeg bij voorkeur het reeds gespeelde materiaal, met editie en paginaverwijzing. Vermijd brede wiki- of campagnezoektochten die toekomstige inhoud kunnen blootleggen. De herstelde afspraak luidt: “we verklappen nooit toekomstige scenario-onthullingen voordat jullie ze gespeeld hebben.”
 
@@ -116,9 +120,9 @@ De kaart toont onder meer Gloomhaven aan de kust bij Merchant's Bay, de Copperne
 | Locatie | Projectfunctie | Status en grens |
 | --- | --- | --- |
 | Gloomhaven | Terugkerende stad; vertrek, ontmoeting en nasleep | Naam en ligging `KAART`; stadsleven voorlopig `CREATIEF` |
-| Crooked Bone | Onderdeel van de gebruikerscontext rond Hail | `GESPEELD / ONBEVESTIGD-2E`; exacte locatienaam, aard en ontmoetingstekst controleren |
-| Copperneck Mountains | Gebergtereferentie voor de Frozen Hollow-episode | Naam en globale ligging `KAART`; precieze scenariokoppeling `ONBEVESTIGD-2E` |
-| Frozen Hollow | Koude gevechtslocatie van de gespeelde episode | `GESPEELD / ONBEVESTIGD-2E`; geen nummer, indeling of beloning invullen |
+| Crooked Bone | Vervallen herberg aan de rand van de Sinking Market, door Hail als wanordelijke bibliotheek gebruikt | `BRONFOTO SRC-FH-INTRO`; persoonlijke dialoog blijft creatieve adaptatie |
+| Copperneck Mountains | Besneeuwd gebergte waar de introductie de groep naartoe leidt | `KAART / BRONFOTO SRC-FH-INTRO`; geen exacte routepin |
+| Frozen Hollow | Koude gevechtslocatie met toegang via een oude, donkere, smalle tunnel van bewerkt steen | `GESPEELD / BRONFOTO SRC-FH-INTRO`; geen volledige plattegrond of beloning invullen |
 
 **Visuele interpretatie — `CREATIEF`:** de stad krijgt vochtige steen, verweerd hout, doffe metaaltonen en lokaal warm licht. De bergen krijgen wind, open ruimte en harde silhouetten. Frozen Hollow krijgt gebroken ijslicht, diepte en verstilde lucht. Dit zijn artdirectionkeuzes, geen officiële beschrijvingen.
 
@@ -126,9 +130,11 @@ De kaart toont onder meer Gloomhaven aan de kust bij Merchant's Bay, de Copperne
 
 ### 6.1 Hail en Crooked Bone
 
-`GESPEELD / ONBEVESTIGD-2E`: Hail en Crooked Bone horen bij de genoemde Frozen Hollow-context. De precieze rol van Hail, de aard van Crooked Bone, een eventuele opdracht en de reden van de reis zijn niet volledig beschikbaar. Presenteer geen achtergrond, soort, loyaliteit, intentie of toekomstig lot als bevestigd.
+`GESPEELD / BRONFOTO SRC-FH-INTRO`: Hail en Crooked Bone horen bij de Frozen Hollow-context. De bronfoto beschrijft Hail als een doorschijnende Aesther en onderzoeker, en Crooked Bone als een vervallen herberg die een rommelige bibliotheek is geworden. Hail is aanvankelijk afwijzend, raadpleegt haar materiaal en stuurt de groep op pad om een bol te halen en terug te brengen. De bol kan helpen bij een gevaarlijke elementaire breuk. De precieze persoonlijke gesprekken van het trio zijn niet bekend; nieuwe replieken zijn creatieve adaptatie.
 
-Tot nadere verificatie kan een storyboard een neutrale ontmoetingsbeat bevatten. Vermijd een uitgewerkte opdrachttekst die voorwaarden of beloningen verzint.
+`BRONFOTO SRC-FH-END`: de aangeleverde conclusie ondersteunt een terugkeer met de koude blauwe bol en een experiment waarbij kracht tijdelijk in de groep stroomt en weer verdwijnt. De gebruiker wil deze terugkeer als epiloog, met Nyra als dramatische hook. Haar hoop tijdens de opleving en verlangen dat de kracht blijft zijn creatieve invulling. Geen vloek, nieuwe ziekte, aankoop of permanente verbetering als gespeeld feit toevoegen.
+
+De metalen stash onderweg en de bol van Hails opdracht zijn afzonderlijke objecten. Het groene kristal hoort bij de stash. Er is geen aangetoond verband tussen de stash, de opdrachtbol en Kreks eigen movement ability.
 
 ### 6.2 Facties
 
@@ -223,33 +229,35 @@ Werk iedere relevante locatie in drie lagen uit: de gecontroleerde wereldfeiten,
 
 ### 8.1 Bevestigde ankers
 
-Alle onderstaande ankers zijn `GESPEELD`; hun exacte Second Edition-tekst of mechaniek is `ONBEVESTIGD-2E`.
+FH-01 tot en met FH-09 zijn door de gebruiker als campagnecontext of gespeelde gebeurtenissen aangeleverd. Bronfoto's vullen de aangegeven wereldfeiten aan. FH-10 is een door de gebruiker gekozen epiloog op basis van de conclusiebron; de creatieve karakterreacties zijn geen teruggevonden sessiecitaten. Editie en exacte mechaniek blijven waar nodig apart te verifiëren.
 
 | ID | Anker | Niet zelfstandig aanvullen |
 | --- | --- | --- |
-| FH-01 | Crooked Bone en Hail horen bij de context | Exact gesprek, opdrachtvoorwaarden en motief |
-| FH-02 | Copperneck Mountains zijn relevant | Exacte route, reistijd en ingang |
-| FH-03 | R-10: het groene kristal hoort bij Qualco's Emergency Temporal Stash; groen is de verkeerde keuze, waarna de stash met vreemde energie vertrekt | Wie groen koos, exacte handeling, vorm van de stash, aard/bestemming van de energie en eventuele verdere gevolgen |
+| FH-01 | Hail geeft in Crooked Bone de opdracht om de bol te halen en terug te brengen; bibliotheek en onderzoeker uit SRC-FH-INTRO | Persoonlijke gesprekken, nieuwe voorwaarden en beloningen |
+| FH-02 | Reis door besneeuwde Copperneck Mountains naar de oude stenen tunnelingang; wolvensporen uit SRC-FH-INTRO | Exacte route, reistijd en kaartcoördinaten |
+| FH-03 | R-10: metalen deur in bergwand, knipperende kristallen en middenknop uit SRC-R10; groen is de verkeerde keuze en de stash vertrekt met vreemde energie volgens gebruiker | Wie groen aanraakte, aard/bestemming van de energie en eventuele verdere gevolgen |
 | FH-04 | Living Spirits blijken lastig | Statistieken, immuniteiten en precieze oorzaak van het probleem |
 | FH-05 | Er zijn ijsdemonen | Aantal, opstelling en officiële monsternaam indien anders gespeld |
 | FH-06 | De planning verloopt chaotisch | Letterlijke gesprekken en exacte beurtvolgorde |
 | FH-07 | Krek gebruikt zijn brute movement ability naar een gekozen obstakel binnen vijf vakjes, bij de schat; tunnelen is de gekozen creatieve verhaalvertaling | Officiële kaartnaam, overige kaartvoorwaarden, precieze beginpositie en schatinhoud |
 | FH-08 | De finale bestaat uit efficiënt geweld | Exacte laatste aanval en verdeling van eliminaties |
 | FH-09 | Nyra is aan het einde uitgeput | Een niet-bevestigde regelspecifieke uitputtingsoorzaak |
+| FH-10 | Terugkeer naar Hail met de koude blauwe bol; tijdelijke kracht tijdens haar experiment uit SRC-FH-END; gebruiker kiest Nyra als dramatische hook | Geen verdere scenario-onthullingen, gekochte verbetering of nieuwe aandoening toevoegen |
 
 De volgorde hieronder is een **voorgestelde vertelmontage**, geen hersteld turn-by-turn-sessielog. Met name de onderlinge volgorde van vijanden en het teleportmoment blijft flexibel totdat een sessieverslag die vastlegt.
 
 ### 8.2 Voorgestelde episodeboog
 
 1. **Koude opening — `CREATIEF`:** een korte indruk van kou en een ontoereikend plan; geen nieuwe gevechtsuitkomst tonen.
-2. **Contextbeat — `GESPEELD` met open details:** Crooked Bone/Hail. Houd dialoog voorlopig neutraal of als storyboardnotitie.
+2. **Contextbeat — `GESPEELD / BRONFOTO / CREATIEF`:** Hail in de bibliotheek van Crooked Bone geeft aanleiding en bolopdracht. Haar nieuwe dialogen blijven creatieve adaptatie.
 3. **Reisovergang — `KAART / CREATIEF`:** bergsilhouetten en veranderend geluid verbinden de stad met de koude omgeving.
-4. **R-10 — `GESPEELD`:** het groene kristal hoort bij Qualco's Emergency Temporal Stash. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. Vorm en bewegingsbeeld zijn creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Naam en spelling volgen voorlopig de gebruiker; geen onafhankelijk geverifieerde Second Edition-term. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
+4. **R-10 — `GESPEELD / BRONFOTO`:** metalen deur in de bergwand met gekleurde, knipperende kristallen en een middenknop. Het opschrift Emergency Temporal Stash staat op de bronfoto; de koppeling aan Qualco komt van de gebruiker. Groen is de verkeerde keuze; de stash vertrekt met vreemde energie. De visuele vervorming is creatieve uitwerking. Wie kiest en welke verdere gevolgen er zijn blijven open. Maak hiervan geen oorzaak van Kreks latere verplaatsing.
 5. **Confrontatie — `GESPEELD`:** Living Spirits bieden onverwacht veel weerstand. Toon mislukte verwachtingen via reactie en ritme, zonder regels te verzinnen.
 6. **Planning-chaos — `GESPEELD`, dialoog `CREATIEF`:** overlappende voorstellen; ieder personage benoemt een ander probleem.
 7. **Ruimtelijke omslag — `GESPEELD / CREATIEF`:** Krek kiest met zijn movement ability het obstakel bij de schat, binnen vijf vakjes. Verbeeld de teleport als een brute tunnelbeweging. Gebruik duidelijke begin- en eindposities; introduceer geen blijvende tunnelroute of onbevestigde aanvalsschade.
 8. **Finale — `GESPEELD`:** efficiënt geweld. Minder overleg, kortere beats, heldere gezamenlijke richting. IJsdemonen maken deel uit van de episode, maar krijgen pas een exacte plek in de montage na bevestiging.
 9. **Nasleep — `GESPEELD / CREATIEF`:** de actie is voorbij; Nyra's uitputting blijft. Geef de laatste reactie lucht en stilte. Geen onverwachte buit, nieuw doel of campagneonthulling toevoegen.
+10. **Epiloog — `BRONFOTO / CREATIEF`, door gebruiker gewenst:** de koude blauwe bol gaat naar Hail. Haar experiment geeft kort kracht en neemt die weer weg. Houd het laatste perspectief bij Nyra: het korte herstel maakt haar verlangen naar blijvende kracht voelbaar. Dit is een emotionele hook; geen nieuwe ziekte of toekomstig scenario.
 
 ### 8.3 Dramatische inzet
 
@@ -422,9 +430,9 @@ Test vooral navigatie, samenkomstpunten, instellingen en de afwezigheid van verb
 | --- | --- | --- |
 | Tot welk concreet punt is de campagne nu gespeeld? | Publicatiegrens voor volgende episodes | Geen toekomstige onthullingen vóór ze gespeeld zijn; houd de huidige Frozen Hollow-grens aan |
 | Is de kaart van de bedoelde editie? | Exacte geografische claims | Gebruik uitsluitend globale, gelabelde referentie |
-| Wat deden Hail en Crooked Bone precies in de sessie? | Definitieve openingsdialoog | Houd de beat als notitie |
-| Wie koos groen bij Qualco's stash en hoe zag de stash eruit? | Definitieve handeling en objectvorm | Toon de bevestigde verkeerde groenkeuze en het vertrek met vreemde energie zonder een kiezer aan te wijzen |
-| Hoe hangen Frozen Hollow en de Copperneck Mountains exact samen? | Routekaart en locatiepin | Gebruik een niet-cartografische overgang |
+| Welke persoonlijke replieken of acties wil de groep uit het bezoek aan Hail bewaren? | Exacte sessiecitaten | Gebruik de bronfoto voor de setting en de bolopdracht; schrijf eigen dialoog als creatieve adaptatie |
+| Wie raakte het groene kristal bij Qualco's stash aan? | Identiteit van de kiezer | Toon de brongetrouwe console en groenkeuze zonder een kiezer aan te wijzen |
+| Waar ligt de exacte route naar de ingang in de Copperneck Mountains? | Routekaart en locatiepin | Bergen en stenen ingang zijn bronondersteund; exacte pin blijft open |
 | Wat is de officiële kaarttekst van Kreks movement ability? | Exacte regeluitleg | Gebruik de bevestigde beschrijving: gekozen obstakel binnen vijf vakjes; tunnel als creatieve vertaling |
 | Wat zat er in de schat en werd die meegenomen? | Buit en vervolgcontinuïteit | Laat de inhoud onbenoemd |
 | Wat was de precieze gevechtsvolgorde? | Definitieve montage | Bewaar ankers; houd volgorde voorlopig |
@@ -451,7 +459,7 @@ Onderstaande onderwerpen zijn teruggevonden in de eerdere bespreking en hebben s
 | Savvas, Quatryls, Orchids, Inox, Vermlings, Valraths en Aesthers | Editiegebonden beschrijving; geen cultuur of levensduur uit vermoedens invullen |
 | Elementaire en interplanare magie | Welke begrippen werkelijk uit officiële bronnen komen en wat de personages al weten |
 | Politieke machtsstrijd en factiereputaties | Officiële Second Edition-uitleg, zonder campagne-uitkomsten op te zoeken |
-| Hail en The Crooked Bone | Officiële rol, locatie en vrijgegeven achtergrond; het eerdere gesprek noemt aanvullende details die nog niet gecontroleerd zijn |
+| Hail en The Crooked Bone | Setting en rol zijn nu uit SRC-FH-INTRO leesbaar; overige achtergrond en formele editiecontrole blijven afzonderlijk |
 
 De export noemt daarnaast mogelijke toekomstige NPC's en hun achtergronden. Neem die pas op in het actieve personageregister zodra vaststaat dat de groep ze kent en de relevante informatie is vrijgegeven. De beschikbare tekstexport is geen toestemming om hun identiteit of affiliaties als teaser te publiceren.
 
@@ -459,6 +467,7 @@ Begin toekomstige verificatie bij uitgeversmateriaal en de genoemde officiële D
 
 ### Wijzigingslog
 
+- **1.3 — 17 oktober 2026:** bronfoto's en bekeken stripreferentie geregistreerd; Hail, Crooked Bone, bolopdracht, reis en stashvorm met bronvindplaatsen ingevuld. Terugkeer naar Hail als epiloog toegevoegd op gebruikersverzoek, met Nyra als dramatische hook en zonder toekomstige ontgrendelingen.
 - **1.2 — 17 oktober 2026:** gebruikersbevestiging verwerkt over Qualco's Emergency Temporal Stash, de verkeerde groenkeuze en het vertrek met vreemde energie; Kreks movement ability naar een gekozen obstakel binnen vijf vakjes vastgelegd, met tunnelen als creatieve verhaalvertaling. Geen nieuwe officiële lore- of regelverificatie.
 - **1.1 — 17 oktober 2026:** aangeleverde gespreksexport verwerkt; tekstfase, tafelcanon en spoilerafspraak hersteld; onderscheid tussen gegenereerde illustratie en campagnekaart verduidelijkt; Nicola's metakennis en reputatiemotief uitgebreid; eerdere loreclaims als onderzoekswachtrij bewaard zonder ze tot geverifieerde canon te verheffen.
 - **1.0 — 17 oktober 2026:** eerste volledige wereldbijbel op basis van de expliciete gebruikerscontext, teruggelezen conversatiemetadata en bekeken kaart. Frozen Hollow-ankers vastgelegd; ontbrekende broninhoud en Second Edition-verificatie expliciet gemarkeerd; motion-comicformat en technische overdracht toegevoegd.
