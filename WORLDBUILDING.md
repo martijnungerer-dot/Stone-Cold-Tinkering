@@ -225,6 +225,12 @@ Deze dynamiek is `CREATIEF`, afgeleid van de opgegeven karaktertrekken. Schrijf 
 
 Werk iedere relevante locatie in drie lagen uit: de gecontroleerde wereldfeiten, de persoonlijke beleving van het trio en de concrete gevolgen van hun bevestigde daden. Reacties van bewoners mogen creatief worden ingevuld, maar een reputatiespoor of factie-uitkomst verandert alleen als de campagne dat bevestigt.
 
+### 7.6 Karakterisering uit de gekozen poster
+
+SRC-STYLE-02 is ook een creatieve karakterreferentie: Kreks rotslogica en belangstelling voor schatten, Nicola's realiteit als experiment met de lezer als waarnemer, en Nyra's elegante, ongeduldige kleurverbetering van de wereld. Deze karakterisering is uitgewerkt in [CHARACTER_ARCS.md](content/characters/CHARACTER_ARCS.md), met wensen, sterke kanten, blinde vlekken, humor en de kleine veranderingen die het bestaande Frozen Hollow-script al laat zien.
+
+De creatieve ontwikkellijnen zijn: Krek laat bij Nyra's uitputting ruimte voor het tempo van een ander; Nicola laat bij Hail een grap achterwege om haar reactie werkelijk te zien; Nyra's zelfverzekerde kleurcontrole krijgt een kwetsbare onderlaag en een verlangen naar blijvende kracht. Dit legt geen toekomstige campagne-uitkomst vast. De vaste quotes hierboven blijven de tekstbron; postertekst vervangt ze niet automatisch.
+
 ## 8. Frozen Hollow — vastgelegde continuïteit
 
 ### 8.1 Bevestigde ankers

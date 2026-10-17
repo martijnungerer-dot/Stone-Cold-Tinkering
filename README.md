@@ -12,6 +12,8 @@ Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaa
 
 De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis gekozen. Die is als SRC-STYLE-02 de primaire stijlreferentie; de campagnekaart blijft de geografische referentie.
 
+[Karakterisering en ontwikkeling](content/characters/CHARACTER_ARCS.md) vertaalt de persoonlijkheden op de poster naar schrijfbare reacties, onderlinge dynamiek en de ontwikkeling van het trio binnen Frozen Hollow.
+
 **Spoilerwaarschuwing:** de wereldbijbel bevat de genoemde gespeelde gebeurtenissen rond Frozen Hollow en Road Event R-10.
 
 ## Projectstatus

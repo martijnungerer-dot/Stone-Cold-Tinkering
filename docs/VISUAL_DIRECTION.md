@@ -14,6 +14,8 @@ De referentie gebruikt zware paneelranden, crèmekleurige tekstballonnen en verw
 
 ## Personages
 
+De poster is ook een karakterreferentie. Lees [karakterisering en ontwikkeling](../content/characters/CHARACTER_ARCS.md) voor hun overtuigingen, humor, onderlinge dynamiek en episodeboog. Gebruik die bij houding, blik en reactie; uiterlijk alleen draagt hun identiteit niet volledig.
+
 | Personage | Zichtbaar vertrekpunt | Wat later moet worden vastgelegd |
 | --- | --- | --- |
 | Krek | Zeer breed rotssilhouet; grote vuisten; warmbruine gebarsten steen; heldere blauwe ogen; leren riemen en metalen beslag | Eén herkenbaar gezicht, vaste breuklijnen, vaste verdeling van leer en metaal; dezelfde massa in actie en rust |
