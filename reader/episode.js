@@ -11,6 +11,8 @@
   const viewer = $('comic-reader');
   let timer, opener, thoughtOpener, audioContext, master, generation = 0, nativeFullscreen = false;
   const inertBackground = [];
+  let fullscreenPending = false;
+  const activeSounds = new Set();
 
   function expandedView(expanded) {
     state.expanded = expanded;
@@ -33,6 +35,12 @@
     if (!expanded) $('fullscreen-toggle').focus();
   }
   async function toggleFullscreen() {
+    if (fullscreenPending) return;
+    fullscreenPending = true;
+    try { await changeFullscreen(); }
+    finally { fullscreenPending = false; }
+  }
+  async function changeFullscreen() {
     if (state.expanded) {
       if (document.fullscreenElement === viewer) {
         try { await document.exitFullscreen(); }
@@ -63,6 +71,11 @@
     $('sound-label').textContent = state.sound ? 'Geluid aan' : 'Geluid uit';
   }
   function stopMotion() { clearTimeout(timer); stage.classList.remove('is-animating', 'is-impact'); }
+  function stopSound() {
+    generation++;
+    for (const source of activeSounds) source.stop();
+    activeSounds.clear();
+  }
   function animate() {
     stopMotion();
     if (!state.motion) return;
@@ -72,8 +85,9 @@
     timer = setTimeout(stopMotion, 3200);
   }
   async function playSound() {
+    stopSound();
     if (!state.sound) return;
-    const current = ++generation;
+    const current = generation;
     try {
       const Context = window.AudioContext || window.webkitAudioContext;
       if (!Context) throw new Error('Audio unavailable');
@@ -100,9 +114,12 @@
       const now = audioContext.currentTime;
       envelope.gain.setValueAtTime(.001, now); envelope.gain.exponentialRampToValueAtTime(.6, now + (bang ? .015 : .1)); envelope.gain.exponentialRampToValueAtTime(.001, now + duration);
       source.connect(filter); filter.connect(envelope); envelope.connect(master);
-      source.onended = () => { source.disconnect(); filter.disconnect(); envelope.disconnect(); };
+      source.onended = () => { activeSounds.delete(source); source.disconnect(); filter.disconnect(); envelope.disconnect(); };
+      activeSounds.add(source);
       source.start(now); source.stop(now + duration);
     } catch {
+      if (current !== generation) return;
+      stopSound();
       state.sound = false; preferences();
       $('audio-announcement').textContent = 'Geluid is hier niet beschikbaar. De strip blijft zonder geluid leesbaar.';
     }
@@ -189,7 +206,7 @@
     card.append(name, words); parent.append(card);
   }
   function showThought(name, button) {
-    closeNicola(); closeThought(); thoughtOpener = button;
+    closeReactions(); stopMotion(); thoughtOpener = button;
     if (name === 'Nicola') { showNicola({ currentTarget: button }); return; }
     $('thought-title').textContent = `${name.toUpperCase()} · GEDACHTEBEELD`;
     $('thought-cards').replaceChildren();
@@ -200,8 +217,13 @@
     });
     $('thought-panel').hidden = false;
   }
+  function closeReactions(restore = false) {
+    if (!$('nicola-balloon').hidden) closeNicola(restore);
+    if (!$('thought-panel').hidden) closeThought(restore);
+    if (!$('krek-balloon').hidden) closeKrek(restore);
+  }
   function render() {
-    closeNicola(); closeThought(); closeKrek(); stopMotion(); state.theory = 0; state.detail = false; state.krek = -1; state.orb = false;
+    closeReactions(); stopMotion(); state.theory = 0; state.detail = false; state.krek = -1; state.orb = false;
     const p = panels[state.index], number = String(state.index + 1).padStart(2, '0');
     paintArt(); stage.dataset.effect = p.motion;
     stage.dataset.orbBright = 'false';
@@ -244,26 +266,40 @@
       if (!state.expanded) $('art-shell').scrollIntoView?.({ block: 'start', behavior: state.motion ? 'smooth' : 'instant' });
     }
   }
-  for (const [id, handler] of Object.entries({ previous: () => goTo(state.index - 1), next: () => goTo(state.index === panels.length - 1 ? 0 : state.index + 1), replay: () => { closeNicola(); closeThought(); closeKrek(); animate(); void playSound(); }, 'nicola-hotspot': showNicola, 'nicola-open': showNicola, 'nicola-close': () => closeNicola(true), 'thought-close': () => closeThought(true), 'krek-hotspot': showKrek, 'krek-again': showKrek, 'krek-close': () => closeKrek(true), 'orb-hotspot': toggleOrb })) $(id).addEventListener('click', handler);
-  $('scene-previous').addEventListener('click', () => goTo(state.index - 1));
-  $('scene-next').addEventListener('click', () => goTo(state.index + 1));
+  const actions = {
+    previous: () => goTo(state.index - 1),
+    next: () => goTo(state.index === panels.length - 1 ? 0 : state.index + 1),
+    'scene-previous': () => goTo(state.index - 1),
+    'scene-next': () => goTo(state.index + 1),
+    replay: () => { closeReactions(); animate(); void playSound(); },
+    'nicola-hotspot': showNicola,
+    'nicola-open': showNicola,
+    'nicola-close': () => closeNicola(true),
+    'thought-close': () => closeThought(true),
+    'krek-hotspot': showKrek,
+    'krek-again': showKrek,
+    'krek-close': () => closeKrek(true),
+    'orb-hotspot': toggleOrb
+  };
+  for (const [id, handler] of Object.entries(actions)) $(id).addEventListener('click', handler);
   $('nicola-another').addEventListener('click', () => { const lines = panels[state.index].theories; state.theory = (state.theory + 1) % lines.length; $('nicola-comment').textContent = lines[state.theory]; });
   $('crystal-detail').addEventListener('click', () => { state.detail = !state.detail; $('crystal-detail').setAttribute('aria-pressed', String(state.detail)); $('crystal-detail').textContent = state.detail ? 'Terug naar het paneel' : 'Bekijk het kristal'; closeNicola(); stopMotion(); paintArt(); });
   $('chapter-select').addEventListener('change', () => { const index = panels.findIndex(p => p.scene === $('chapter-select').value); if (index >= 0) goTo(index); });
   $('motion-toggle').addEventListener('click', () => { state.motion = !state.motion; savedMotion = state.motion ? 'on' : 'off'; try { localStorage.setItem('stone-cold-motion', savedMotion); } catch { /* Optional persistence. */ } preferences(); if (state.motion) animate(); else stopMotion(); });
-  $('sound-toggle').addEventListener('click', () => { state.sound = !state.sound; preferences(); if (state.sound) void playSound(); else { generation++; if (master) master.gain.setTargetAtTime(.001, audioContext.currentTime, .02); } });
+  $('sound-toggle').addEventListener('click', () => { state.sound = !state.sound; preferences(); if (state.sound) void playSound(); else stopSound(); });
   mq.addEventListener('change', () => { if (savedMotion === null) { state.motion = !mq.matches; preferences(); if (!state.motion) stopMotion(); } });
   document.addEventListener('keydown', event => {
-    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
     if (event.key === 'Escape') {
       const commentOpen = !$('nicola-balloon').hidden || !$('thought-panel').hidden || !$('krek-balloon').hidden;
-      if (!$('nicola-balloon').hidden) closeNicola(true); if (!$('thought-panel').hidden) closeThought(true); if (!$('krek-balloon').hidden) closeKrek(true);
+      closeReactions(true);
       if (!commentOpen && state.expanded) void toggleFullscreen();
+      return;
     }
+    if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
     if (event.key === 'ArrowRight') { event.preventDefault(); goTo(state.index + 1); }
     if (event.key === 'ArrowLeft') { event.preventDefault(); goTo(state.index - 1); }
   });
-  document.addEventListener('visibilitychange', () => { if (document.hidden) { stopMotion(); generation++; if (master) master.gain.setTargetAtTime(.001, audioContext.currentTime, .02); } });
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { stopMotion(); stopSound(); } });
   episode.chapters.forEach(chapter => { const option = document.createElement('option'); option.value = chapter.id; option.textContent = chapter.title; $('chapter-select').append(option); });
   for (let i = 0; i < 18; i++) { const particle = document.createElement('span'); particle.className = 'dust-particle'; for (const [key, value] of Object.entries({ x: `${20 + i * 17 % 70}%`, y: `${45 + i * 11 % 50}%`, dx: `${-20 - i * 13 % 80}px`, dy: `${-10 - i * 7 % 45}px`, duration: `${1000 + i * 43 % 600}ms`, delay: `${i * 25}ms` })) particle.style.setProperty('--' + key, value); $('dust').append(particle); }
   if (!$('transcript-content').children.length) panels.forEach((p, i) => {

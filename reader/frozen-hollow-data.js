@@ -2,7 +2,7 @@
 window.COMIC_EPISODE = {
   "id": "frozen-hollow",
   "title": "Een team in wording",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "assets": {
     "hollow-v3": {
       "src": "assets/frozen-hollow/hollow-v3.png",

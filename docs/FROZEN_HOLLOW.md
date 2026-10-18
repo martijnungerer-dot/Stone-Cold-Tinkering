@@ -1,4 +1,4 @@
-# Frozen Hollow — volledige motion comic, versie 1.4.0
+# Frozen Hollow — volledige motion comic, versie 1.4.1
 
 De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.8](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De gebruiker heeft de eerste leesversie beoordeeld; deze revisie verwerkt de twintig annotaties en de drie nieuwe karakterreferenties. De nieuwe beelden en tekst zijn nog niet afzonderlijk goedgekeurd.
 
@@ -62,3 +62,9 @@ De zijpijlen staan in smalle randen naast het beeld en bedekken geen personages 
 “Volledig scherm” staat boven het beeld. De knop probeert de browserweergave via de Fullscreen API. Als die ontbreekt of door de browser wordt geweigerd, opent dezelfde knop een grote leesweergave binnen het huidige venster. “Normale weergave” sluit die weer. Escape sluit eerst een open reactie, daarna de grote leesweergave; de browser kan volledig scherm zelf met Escape sluiten. Navigatie, dialoog en klikreacties blijven binnen de weergave. Beeldverhouding en volledige uitsnede blijven behouden, ook bij portretpanelen. Instellingen worden niet gewijzigd of automatisch bewaard door deze knop.
 
 De schermwisselingen zijn met gesimuleerde browser-API's gecontroleerd, inclusief geweigerde/niet-beschikbare fullscreen en terugkeer via een fullscreenchange-event. Dit bewijst geen echte browserlayout of toestemming in iedere browser.
+
+## Onderhoud 1.4.1
+
+De aanvaarde leesvorm blijft behouden. Reacties sluiten via één gedeelde afhandeling; de knopacties staan bij elkaar en de stijlregels zijn leesbaar ingedeeld. Schermwisselingen worden na elkaar uitgevoerd, zodat snel dubbelklikken geen concurrerende fullscreenverzoeken start. Escape werkt ook wanneer de scènekeuze focus heeft.
+
+Een nieuw geluid vervangt het vorige effect. Dempen en een verborgen tab stoppen actieve geluiden; een vertraagd hervatte audiocontext mag daarna geen effect alsnog starten. Twaalf geautomatiseerde controles bewaken nu ook deze situaties en de koppeling tussen de vaste HTML-elementen en de readercode. De browser- en hardwarebeperkingen hierboven blijven gelden: foutloos gedrag in iedere browser kan daarmee niet worden gegarandeerd.

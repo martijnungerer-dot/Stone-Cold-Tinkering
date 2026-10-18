@@ -31,13 +31,15 @@ async function reader(hash = '', options = {}) {
   if (options.nativeFullscreen) {
     document.fullscreenEnabled = true;
     $('comic-reader').requestFullscreen = async () => {
+      options.onFullscreenRequest?.();
+      await options.fullscreenWait;
       if (options.rejectFullscreen) throw new Error('Fullscreen denied');
       document.fullscreenElement = $('comic-reader'); document.fire('fullscreenchange');
     };
     document.exitFullscreen = async () => { document.fullscreenElement = null; document.fire('fullscreenchange'); };
   }
   const storage = new Map(), window = { COMIC_EPISODE:await compileEpisode({write:false}), matchMedia:() => ({matches:true,addEventListener(){}}), location:{hash}, history:{replaceState(a,b,c){window.location.hash=c;}} };
-  Object.defineProperty(window,'AudioContext',{get(){audioAccesses++;return undefined;}});
+  Object.defineProperty(window,'AudioContext',{get(){audioAccesses++;return options.AudioContext;}});
   const context = vm.createContext({window,document,localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},Image:class{},setTimeout:()=>1,clearTimeout(){},console});
   vm.runInContext(await readFile(new URL('../reader/episode.js',import.meta.url),'utf8'),context);
   return {$,document,window,storage,audioAccesses:()=>audioAccesses};
@@ -92,6 +94,58 @@ test('native fullscreen kan terugkeren en een geweigerd verzoek behoudt de leesm
   const denied=await reader('#P03',{nativeFullscreen:true,rejectFullscreen:true});await denied.$('fullscreen-toggle').fire('click');
   assert.equal(denied.$('comic-reader').classList.contains('is-expanded'),true);assert.match(denied.$('display-announcement').textContent,/binnen dit venster/);
   await denied.$('fullscreen-toggle').fire('click');assert.equal(denied.$('comic-reader').classList.contains('is-expanded'),false);
+});
+
+test('snel klikken start één schermwissel en Escape werkt vanuit de scènekeuze', async()=>{
+  let release, requests = 0;
+  const fullscreenWait = new Promise(resolve => { release = resolve; });
+  const r = await reader('#P07', {nativeFullscreen:true, fullscreenWait, onFullscreenRequest:()=>requests++});
+  const entering = r.$('fullscreen-toggle').fire('click');
+  await r.$('fullscreen-toggle').fire('click');
+  assert.equal(requests, 1);
+  release(); await entering;
+  assert.equal(r.$('fullscreen-toggle').getAttribute('aria-pressed'), 'true');
+  const fallback = await reader();
+  await fallback.$('fullscreen-toggle').fire('click');
+  fallback.document.fire('keydown', {key:'Escape', target:{tagName:'SELECT'}});
+  await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(fallback.$('fullscreen-toggle').getAttribute('aria-pressed'), 'false');
+});
+
+test('geluid stopt bij bladeren, dempen en een verborgen tab; laat hervatten blijft stil', async()=>{
+  const sources = [];
+  let resume;
+  const parameter = {setTargetAtTime(){},setValueAtTime(){},exponentialRampToValueAtTime(){}};
+  const node = () => ({gain:parameter,frequency:{},connect(){},disconnect(){}});
+  class AudioContext {
+    constructor(){this.state='running';this.currentTime=0;this.sampleRate=100;}
+    createGain(){return node();}
+    createBiquadFilter(){return node();}
+    createBuffer(channels,size){return {getChannelData:()=>new Float32Array(size)};}
+    createBufferSource(){const source={...node(),start(){this.started=true;},stop(at){if(at===undefined)this.stopped=true;}};sources.push(source);return source;}
+  }
+  const r = await reader('', {AudioContext});
+  r.$('sound-toggle').fire('click');assert.equal(sources.length,1);
+  r.$('next').fire('click');assert.equal(sources[0].stopped,true);assert.equal(sources.length,2);
+  r.$('sound-toggle').fire('click');assert.equal(sources[1].stopped,true);
+  r.$('sound-toggle').fire('click');
+  r.document.hidden=true;r.document.fire('visibilitychange');assert.equal(sources[2].stopped,true);
+  class SuspendedAudio extends AudioContext {
+    constructor(){super();this.state='suspended';}
+    resume(){return new Promise(resolve=>{resume=resolve;});}
+  }
+  const delayed = await reader('', {AudioContext:SuspendedAudio});
+  delayed.$('sound-toggle').fire('click');delayed.$('sound-toggle').fire('click');
+  resume();await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(sources.length,3,'Een laat hervat audiocontext start geen gedempt effect.');
+});
+
+test('alle gebruikte vaste elementen bestaan precies eenmaal in de echte HTML', async()=>{
+  const html=await readFile(new URL('../reader/frozen-hollow.html',import.meta.url),'utf8');
+  const js=await readFile(new URL('../reader/episode.js',import.meta.url),'utf8');
+  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+  assert.equal(new Set(ids).size,ids.length,'Dubbele HTML-id');
+  for(const match of js.matchAll(/\$\('([^']+)'\)/g)) assert.ok(ids.includes(match[1]),match[1]);
 });
 
 test('de volledige reader loopt door alle panelen en houdt optionele inhoud binnen hetzelfde verhaal', async () => {

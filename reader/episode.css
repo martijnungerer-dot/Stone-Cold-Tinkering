@@ -1,93 +1,868 @@
-.full-episode .chapter-intro{padding:28px 0 25px}.full-episode .art-stage{aspect-ratio:3/2}.full-episode .story-note{position:sticky;top:20px}.location-label{color:var(--muted);font-size:9px;letter-spacing:.5px}.dialogue-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;padding:16px 14px 13px;background:#161813}.dialogue-strip:empty{display:none}.speech{position:relative;flex:1 1 170px;max-width:440px;padding:11px 15px 12px;border:2px solid #25251e;background:#f0e4c9;border-radius:18px 18px 14px 18px;box-shadow:2px 2px 0 #0008;color:#1d221b}.speech:before{content:'';position:absolute;top:-7px;left:27px;width:12px;height:12px;transform:rotate(45deg);background:#f0e4c9;border-top:2px solid #25251e;border-left:2px solid #25251e}.speech[data-speaker=Nyra]{background:#ece0f2}.speech[data-speaker=Nyra]:before{background:#ece0f2}.speech[data-speaker=Nicola]{background:#e4eee9}.speech[data-speaker=Nicola]:before{background:#e4eee9}.speech strong{display:block;font:700 8px var(--sans);letter-spacing:1.5px;color:#625844;margin-bottom:5px;text-transform:uppercase}.speech p{margin:0;font:italic 600 clamp(15px,1.35vw,20px)/1.4 'Segoe Print','Comic Sans MS',var(--sans);text-wrap:pretty}.chapter-picker{margin:22px 0}.chapter-picker label{display:block;color:var(--muted);font-size:10px;margin-bottom:8px}.chapter-picker select{width:100%;padding:11px 9px;color:var(--paper);background:#22261f;border:1px solid #4b5141;border-radius:2px;font:12px var(--sans)}.chapter-picker select:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}.perspective-choices{font-size:12px;color:var(--muted);margin:20px 0}.perspective-choices>p{font-family:var(--serif);font-size:16px}.perspective-choices button{padding:9px 12px;background:#282b23;border:1px solid #68634f;margin:0 5px 7px 0;font-size:11px;border-radius:2px}.perspective-choices button:hover{border-color:var(--gold)}.thought-panel{margin:16px 10px;padding:14px 16px;border:1px dashed var(--gold);background:#252a22;color:var(--paper)}.thought-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;letter-spacing:1.2px;font-size:10px;color:var(--gold)}.thought-heading button{border:0;background:none;min-width:32px;min-height:32px;font-size:23px}.thought-card{border-left:2px solid var(--gold-dark);padding:8px 12px;margin:12px 0;font:italic 17px/1.6 var(--serif)}.thought-card small{display:block;font:9px var(--sans);letter-spacing:1px;color:var(--muted);margin-bottom:6px}.full-episode .nicola-open{margin-top:16px}.full-episode .transcript{margin-top:30px}.full-episode .transcript-content{grid-template-columns:repeat(2,minmax(0,1fr));font-size:13px}.full-episode .transcript h3{font-size:21px}.full-episode .narration{font-size:13px;line-height:1.85}.effect-light,.mist-layer{position:absolute;inset:0;pointer-events:none;opacity:0;z-index:1}.effect-light{background:radial-gradient(ellipse at var(--fx-x,50%) var(--fx-y,50%),#b7f4ff80,transparent 62%);mix-blend-mode:screen}.mist-layer{inset:-15% -30%;background:radial-gradient(ellipse at 75% 55%,#e4f3f6b8,transparent 55%),radial-gradient(ellipse at 25% 70%,#a9c9d56b,transparent 55%);filter:blur(9px)}.full-episode .dust-particle{width:4px;height:4px}.full-episode .is-animating .dust-particle{animation:none}.full-episode .is-animating[data-effect=snow] .dust-particle{background:#e9f4ff;animation:snow-fall 2.4s ease-out var(--delay) both}.full-episode .is-animating[data-effect=charge] .dust-particle,.full-episode .is-animating[data-effect=tunnel] .dust-particle,.full-episode .is-animating[data-effect=impact] .dust-particle{animation:dust-drift var(--duration) ease-out var(--delay) both}.is-animating[data-effect=mist] .mist-layer,.is-animating[data-effect=charge] .mist-layer{animation:mist-cross 2.7s ease-out both}.is-animating[data-effect=spirit] .effect-light{animation:spirit-light 2.8s ease-out both}.is-animating[data-effect=spell] .effect-light{background:radial-gradient(ellipse at var(--fx-x,45%) var(--fx-y,55%),#ff603fa8,#ca43a466 27%,transparent 68%);animation:power-swell 2.5s ease-out both}.is-animating[data-effect=orb] .effect-light{animation:power-swell 2.8s ease-in-out both}.is-animating[data-effect=drain] .effect-light{animation:power-fade 2.8s ease-out both}.is-animating[data-effect=charge] .scene-art{animation:charge-camera 1s ease-out both}.is-animating[data-effect=tunnel] .scene-art{animation:tunnel-impact 1s ease-out both}.is-animating[data-effect=still] .scene-art{animation:none}.is-animating[data-effect=vanish] .effect-light{background:radial-gradient(ellipse,#c8ffae80,transparent 65%);animation:power-swell 2.8s ease-out both}.full-episode #scene-after{pointer-events:none}.full-episode [data-after=true] #scene-after{opacity:1}.full-episode [data-after=true].is-animating #scene-after{animation:scene-arrive 2.8s ease-out both}
-@keyframes mist-cross{0%{opacity:.15;translate:12% 0}30%{opacity:.7}100%{opacity:0;translate:-14% 0}}@keyframes power-swell{0%{opacity:0;scale:.8}35%{opacity:.8;scale:1.02}100%{opacity:0;scale:1.08}}@keyframes power-fade{from{opacity:.65}to{opacity:0}}@keyframes spirit-light{0%,100%{opacity:0}40%{opacity:.35;translate:-2% 0}75%{opacity:.2;translate:1% 0}}@keyframes charge-camera{from{transform:scale(1.07) translateX(2%)}to{transform:scale(1) translateX(0)}}@keyframes tunnel-impact{0%{transform:translateY(-3%) scale(1.04)}45%{transform:translateY(1%)}65%{transform:translateY(-.6%)}100%{transform:translateY(0)}}@keyframes snow-fall{0%{opacity:0;transform:translate(20px,-100px)}20%{opacity:.6}100%{opacity:0;transform:translate(-40px,35px)}}@keyframes scene-arrive{0%,35%{opacity:0}100%{opacity:1}}
-@media(prefers-reduced-motion:reduce){.full-episode:not([data-motion=on]) *{animation:none!important;transition:none!important}}@media(max-width:740px){.full-episode .chapter-intro{padding:24px 0 20px}.full-episode .story-note{position:static;display:block}.full-episode .story-note h2{font-size:25px}.full-episode .narration{margin-bottom:15px}.full-episode .chapter-picker{margin:16px 0}.full-episode .transcript-content{grid-template-columns:1fr}.dialogue-strip{padding:13px 10px 10px;gap:11px}.speech{flex-basis:125px;padding:10px 12px}.speech p{font-size:15px}.location-label{font-size:8px}.full-episode .frame-bottom{flex-wrap:wrap}.full-episode .nicola-open{margin-top:14px}}
-.scene-hotspot{position:absolute;transform:translate(-50%,-50%);z-index:3;min-width:44px;min-height:44px;border:1px solid #e9d7ad;border-radius:50%;background:#29251bd9;color:#f6e5be;font-size:10px;box-shadow:0 0 0 4px #17180f55}.scene-hotspot:hover{background:#52472dea}.orb-hotspot{border-color:#a8eaff;background:#154a6588;color:#d9faff;font-size:25px}.krek-balloon{margin:14px 9px 9px;padding:12px 18px 10px;background:#f0e4c9;color:#292519;border:2px solid #25251e;border-radius:18px 22px 17px 22px;text-align:center;box-shadow:3px 3px 0 #0008}.krek-balloon .balloon-voice,.krek-balloon button{color:#584323}.krek-balloon p{font-family:'Segoe Print','Comic Sans MS',var(--sans);font-style:italic;font-size:20px;margin:8px 0}.krek-balloon .balloon-another{border-color:#806a3d}#orb-glow,#treasure-gleam{position:absolute;transform:translate(-50%,-50%);pointer-events:none;z-index:1;mix-blend-mode:screen}#treasure-gleam{background:radial-gradient(ellipse,#ffe88999 0,#f7b93b44 30%,transparent 70%);filter:blur(2px)}#treasure-gleam:after{content:'✧';position:absolute;top:20%;left:22%;color:#fff4bf;font-size:clamp(25px,5vw,65px);text-shadow:0 0 15px #ffd342}#orb-glow{width:40%;height:55%;background:radial-gradient(ellipse,#edffffc9,#60d5ff66 35%,transparent 70%);opacity:0;transition:opacity .35s ease-out}[data-orb-bright=true] #orb-glow{opacity:1}[data-orb-bright=true] .orb-hotspot{background:#b3eeff99;box-shadow:0 0 25px #b3eeff88}.is-animating #treasure-gleam{animation:treasure-light 2.8s ease-in-out both}@keyframes treasure-light{0%,100%{opacity:.5}45%{opacity:1}}
-/* The comic owns the width; captions and tools stay secondary. */
-.full-episode .reader{width:min(1480px,calc(100% - 24px))}
-.full-episode .masthead{max-width:1504px;padding:10px 12px;gap:16px}
-.full-episode .wordmark{font-size:18px}
-.full-episode .wordmark-bottom{font-size:12px;letter-spacing:3.7px;margin-top:5px}
-.full-episode .setting{min-height:34px;padding:5px 9px;font-size:10px}
-.full-episode .chapter-intro{display:flex;align-items:center;gap:16px;padding:10px 0}
-.full-episode .eyebrow{margin:0;font-size:8px;letter-spacing:1.4px;gap:8px}
-.full-episode .chapter-count{font-size:8px;letter-spacing:.8px}
-.full-episode .small-rule{width:18px}
-.full-episode .intro-line{flex:1;min-width:0;gap:16px}
-.full-episode .intro-line h1{font-size:clamp(23px,2.7vw,34px);letter-spacing:-.7px;line-height:1.15}
-.full-episode .intro-line>p{font-size:10px;line-height:1.4;min-width:0;max-width:210px;margin:0}
-.full-episode .reading-layout{display:block}
-.full-episode .comic-column{width:100%}
-.full-episode .frame-top{min-height:26px;padding:3px 10px;font-size:8px;letter-spacing:1px}
-.full-episode .frame-top>span:first-child{white-space:normal}
-.full-episode .art-shell{padding:3px}
-.full-episode .story-note{position:static;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 16px;padding:6px 2px;margin:0}
-.full-episode .scene-caption{flex:1 1 270px;min-width:0}
-.full-episode .note-eyebrow.sr-only{padding:0;margin:0;border:0}
-.full-episode .narration{font-size:12px;line-height:1.5;margin:0}
-.full-episode .scene-tools{display:flex;align-items:center;gap:8px;min-width:0}
-.full-episode .chapter-picker{margin:0;min-width:0}
-.full-episode .chapter-picker select{width:190px;max-width:100%;min-height:34px;padding:4px 7px;font-size:11px}
-.full-episode .nicola-open{width:auto;max-width:none;min-height:34px;margin:0;padding:3px 8px;gap:7px;font-size:11px}
-.full-episode .nicola-glyph{font-size:18px}
-.full-episode .nicola-open>span:last-child{font-size:12px}
-.full-episode .perspective-choices{flex-basis:100%;margin:3px 0}
-.full-episode .perspective-choices>p{display:inline;margin:0 8px 0 0;font-size:13px}
-.full-episode .perspective-choices button{margin:2px 4px 2px 0;padding:5px 10px;min-height:32px}
-.full-episode .ending-note{flex-basis:100%;margin:2px 0;font-size:12px;line-height:1.4}
-.full-episode .reader-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2px 16px;padding:4px 0;border-top:1px solid var(--line)}
-.full-episode .reading-controls{order:0;justify-content:flex-start;gap:12px;padding:0}
-.full-episode .nav-button{min-height:34px;padding:4px 12px;font-size:11px;gap:10px}
-.full-episode .nav-button.next{min-width:96px}
-.full-episode .position{min-width:0;gap:7px;font-size:10px}
-.full-episode .position-line{display:none}
-.full-episode .frame-bottom{order:1;flex:1;justify-content:flex-end;min-height:32px;padding:0;border:0;gap:12px}
-.full-episode .frame-bottom>span{display:none}
-.full-episode .text-button{min-height:32px;padding:3px 0;font-size:10px;white-space:nowrap}
-.full-episode .transcript{margin-top:4px}
-.full-episode .transcript summary{min-height:32px;font-size:10px}
-.full-episode .site-footer{max-width:1504px;margin:8px auto 0;padding:8px 12px;font-size:8px}
-@media(max-width:720px){
-  .full-episode .intro-line>p{display:none}
+.full-episode .chapter-intro {
+  padding:28px 0 25px
 }
-@media(max-width:520px){
-  .full-episode .reader{width:calc(100% - 16px)}
-  .full-episode .masthead{padding:8px;gap:8px}
-  .full-episode .wordmark{font-size:16px}
-  .full-episode .wordmark-bottom{font-size:10px;letter-spacing:3.2px}
-  .full-episode .setting{font-size:9px;gap:4px;padding:4px 6px}
-  .full-episode .chapter-intro{display:block;padding:8px 0}
-  .full-episode .eyebrow{margin-bottom:4px}
-  .full-episode .intro-line h1{font-size:26px}
-  .full-episode .scene-tools{flex:1;justify-content:space-between}
-  .full-episode .chapter-picker{flex:1}
-  .full-episode .chapter-picker select{width:100%}
-  .full-episode .reading-controls{flex:1;justify-content:space-between}
+.full-episode .art-stage {
+  aspect-ratio:3/2
+}
+.full-episode .story-note {
+  position:sticky;
+  top:20px
+}
+.location-label {
+  color:var(--muted);
+  font-size:9px;
+  letter-spacing:.5px
+}
+.dialogue-strip {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+  padding:16px 14px 13px;
+  background:#161813
+}
+.dialogue-strip:empty {
+  display:none
+}
+.speech {
+  position:relative;
+  flex:1 1 170px;
+  max-width:440px;
+  padding:11px 15px 12px;
+  border:2px solid #25251e;
+  background:#f0e4c9;
+  border-radius:18px 18px 14px 18px;
+  box-shadow:2px 2px 0 #0008;
+  color:#1d221b
+}
+.speech:before {
+  content:'';
+  position:absolute;
+  top:-7px;
+  left:27px;
+  width:12px;
+  height:12px;
+  transform:rotate(45deg);
+  background:#f0e4c9;
+  border-top:2px solid #25251e;
+  border-left:2px solid #25251e
+}
+.speech[data-speaker=Nyra] {
+  background:#ece0f2
+}
+.speech[data-speaker=Nyra]:before {
+  background:#ece0f2
+}
+.speech[data-speaker=Nicola] {
+  background:#e4eee9
+}
+.speech[data-speaker=Nicola]:before {
+  background:#e4eee9
+}
+.speech strong {
+  display:block;
+  font:700 8px var(--sans);
+  letter-spacing:1.5px;
+  color:#625844;
+  margin-bottom:5px;
+  text-transform:uppercase
+}
+.speech p {
+  margin:0;
+  font:italic 600 clamp(15px,1.35vw,20px)/1.4 'Segoe Print','Comic Sans MS',var(--sans);
+  text-wrap:pretty
+}
+.chapter-picker {
+  margin:22px 0
+}
+.chapter-picker label {
+  display:block;
+  color:var(--muted);
+  font-size:10px;
+  margin-bottom:8px
+}
+.chapter-picker select {
+  width:100%;
+  padding:11px 9px;
+  color:var(--paper);
+  background:#22261f;
+  border:1px solid #4b5141;
+  border-radius:2px;
+  font:12px var(--sans)
+}
+.chapter-picker select:focus-visible {
+  outline:2px solid var(--cyan);
+  outline-offset:3px
+}
+.perspective-choices {
+  font-size:12px;
+  color:var(--muted);
+  margin:20px 0
+}
+.perspective-choices>p {
+  font-family:var(--serif);
+  font-size:16px
+}
+.perspective-choices button {
+  padding:9px 12px;
+  background:#282b23;
+  border:1px solid #68634f;
+  margin:0 5px 7px 0;
+  font-size:11px;
+  border-radius:2px
+}
+.perspective-choices button:hover {
+  border-color:var(--gold)
+}
+.thought-panel {
+  margin:16px 10px;
+  padding:14px 16px;
+  border:1px dashed var(--gold);
+  background:#252a22;
+  color:var(--paper)
+}
+.thought-heading {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  letter-spacing:1.2px;
+  font-size:10px;
+  color:var(--gold)
+}
+.thought-heading button {
+  border:0;
+  background:none;
+  min-width:32px;
+  min-height:32px;
+  font-size:23px
+}
+.thought-card {
+  border-left:2px solid var(--gold-dark);
+  padding:8px 12px;
+  margin:12px 0;
+  font:italic 17px/1.6 var(--serif)
+}
+.thought-card small {
+  display:block;
+  font:9px var(--sans);
+  letter-spacing:1px;
+  color:var(--muted);
+  margin-bottom:6px
+}
+.full-episode .nicola-open {
+  margin-top:16px
+}
+.full-episode .transcript {
+  margin-top:30px
+}
+.full-episode .transcript-content {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  font-size:13px
+}
+.full-episode .transcript h3 {
+  font-size:21px
+}
+.full-episode .narration {
+  font-size:13px;
+  line-height:1.85
+}
+.effect-light,.mist-layer {
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  opacity:0;
+  z-index:1
+}
+.effect-light {
+  background:radial-gradient(ellipse at var(--fx-x,50%) var(--fx-y,50%),#b7f4ff80,transparent 62%);
+  mix-blend-mode:screen
+}
+.mist-layer {
+  inset:-15% -30%;
+  background:radial-gradient(ellipse at 75% 55%,#e4f3f6b8,transparent 55%),radial-gradient(ellipse at 25% 70%,#a9c9d56b,transparent 55%);
+  filter:blur(9px)
+}
+.full-episode .dust-particle {
+  width:4px;
+  height:4px
+}
+.full-episode .is-animating .dust-particle {
+  animation:none
+}
+.full-episode .is-animating[data-effect=snow] .dust-particle {
+  background:#e9f4ff;
+  animation:snow-fall 2.4s ease-out var(--delay) both
+}
+.full-episode .is-animating[data-effect=charge] .dust-particle,.full-episode .is-animating[data-effect=tunnel] .dust-particle,.full-episode .is-animating[data-effect=impact] .dust-particle {
+  animation:dust-drift var(--duration) ease-out var(--delay) both
+}
+.is-animating[data-effect=mist] .mist-layer,.is-animating[data-effect=charge] .mist-layer {
+  animation:mist-cross 2.7s ease-out both
+}
+.is-animating[data-effect=spirit] .effect-light {
+  animation:spirit-light 2.8s ease-out both
+}
+.is-animating[data-effect=spell] .effect-light {
+  background:radial-gradient(ellipse at var(--fx-x,45%) var(--fx-y,55%),#ff603fa8,#ca43a466 27%,transparent 68%);
+  animation:power-swell 2.5s ease-out both
+}
+.is-animating[data-effect=orb] .effect-light {
+  animation:power-swell 2.8s ease-in-out both
+}
+.is-animating[data-effect=drain] .effect-light {
+  animation:power-fade 2.8s ease-out both
+}
+.is-animating[data-effect=charge] .scene-art {
+  animation:charge-camera 1s ease-out both
+}
+.is-animating[data-effect=tunnel] .scene-art {
+  animation:tunnel-impact 1s ease-out both
+}
+.is-animating[data-effect=still] .scene-art {
+  animation:none
+}
+.is-animating[data-effect=vanish] .effect-light {
+  background:radial-gradient(ellipse,#c8ffae80,transparent 65%);
+  animation:power-swell 2.8s ease-out both
+}
+.full-episode #scene-after {
+  pointer-events:none
+}
+.full-episode [data-after=true] #scene-after {
+  opacity:1
+}
+.full-episode [data-after=true].is-animating #scene-after {
+  animation:scene-arrive 2.8s ease-out both
+}
+@keyframes mist-cross {
+  0% {
+    opacity:.15;
+    translate:12% 0
+  }
+  30% {
+    opacity:.7
+  }
+  100% {
+    opacity:0;
+    translate:-14% 0
+  }
+}
+@keyframes power-swell {
+  0% {
+    opacity:0;
+    scale:.8
+  }
+  35% {
+    opacity:.8;
+    scale:1.02
+  }
+  100% {
+    opacity:0;
+    scale:1.08
+  }
+}
+@keyframes power-fade {
+  from {
+    opacity:.65
+  }
+  to {
+    opacity:0
+  }
+}
+@keyframes spirit-light {
+  0%,100% {
+    opacity:0
+  }
+  40% {
+    opacity:.35;
+    translate:-2% 0
+  }
+  75% {
+    opacity:.2;
+    translate:1% 0
+  }
+}
+@keyframes charge-camera {
+  from {
+    transform:scale(1.07) translateX(2%)
+  }
+  to {
+    transform:scale(1) translateX(0)
+  }
+}
+@keyframes tunnel-impact {
+  0% {
+    transform:translateY(-3%) scale(1.04)
+  }
+  45% {
+    transform:translateY(1%)
+  }
+  65% {
+    transform:translateY(-.6%)
+  }
+  100% {
+    transform:translateY(0)
+  }
+}
+@keyframes snow-fall {
+  0% {
+    opacity:0;
+    transform:translate(20px,-100px)
+  }
+  20% {
+    opacity:.6
+  }
+  100% {
+    opacity:0;
+    transform:translate(-40px,35px)
+  }
+}
+@keyframes scene-arrive {
+  0%,35% {
+    opacity:0
+  }
+  100% {
+    opacity:1
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  .full-episode:not([data-motion=on]) * {
+    animation:none!important;
+    transition:none!important
+  }
+}
+@media(max-width:740px) {
+  .full-episode .chapter-intro {
+    padding:24px 0 20px
+  }
+  .full-episode .story-note {
+    position:static;
+    display:block
+  }
+  .full-episode .story-note h2 {
+    font-size:25px
+  }
+  .full-episode .narration {
+    margin-bottom:15px
+  }
+  .full-episode .chapter-picker {
+    margin:16px 0
+  }
+  .full-episode .transcript-content {
+    grid-template-columns:1fr
+  }
+  .dialogue-strip {
+    padding:13px 10px 10px;
+    gap:11px
+  }
+  .speech {
+    flex-basis:125px;
+    padding:10px 12px
+  }
+  .speech p {
+    font-size:15px
+  }
+  .location-label {
+    font-size:8px
+  }
+  .full-episode .frame-bottom {
+    flex-wrap:wrap
+  }
+  .full-episode .nicola-open {
+    margin-top:14px
+  }
+}
+.scene-hotspot {
+  position:absolute;
+  transform:translate(-50%,-50%);
+  z-index:3;
+  min-width:44px;
+  min-height:44px;
+  border:1px solid #e9d7ad;
+  border-radius:50%;
+  background:#29251bd9;
+  color:#f6e5be;
+  font-size:10px;
+  box-shadow:0 0 0 4px #17180f55
+}
+.scene-hotspot:hover {
+  background:#52472dea
+}
+.orb-hotspot {
+  border-color:#a8eaff;
+  background:#154a6588;
+  color:#d9faff;
+  font-size:25px
+}
+.krek-balloon {
+  margin:14px 9px 9px;
+  padding:12px 18px 10px;
+  background:#f0e4c9;
+  color:#292519;
+  border:2px solid #25251e;
+  border-radius:18px 22px 17px 22px;
+  text-align:center;
+  box-shadow:3px 3px 0 #0008
+}
+.krek-balloon .balloon-voice,.krek-balloon button {
+  color:#584323
+}
+.krek-balloon p {
+  font-family:'Segoe Print','Comic Sans MS',var(--sans);
+  font-style:italic;
+  font-size:20px;
+  margin:8px 0
+}
+.krek-balloon .balloon-another {
+  border-color:#806a3d
+}
+#orb-glow,#treasure-gleam {
+  position:absolute;
+  transform:translate(-50%,-50%);
+  pointer-events:none;
+  z-index:1;
+  mix-blend-mode:screen
+}
+#treasure-gleam {
+  background:radial-gradient(ellipse,#ffe88999 0,#f7b93b44 30%,transparent 70%);
+  filter:blur(2px)
+}
+#treasure-gleam:after {
+  content:'✧';
+  position:absolute;
+  top:20%;
+  left:22%;
+  color:#fff4bf;
+  font-size:clamp(25px,5vw,65px);
+  text-shadow:0 0 15px #ffd342
+}
+#orb-glow {
+  width:40%;
+  height:55%;
+  background:radial-gradient(ellipse,#edffffc9,#60d5ff66 35%,transparent 70%);
+  opacity:0;
+  transition:opacity .35s ease-out
+}
+[data-orb-bright=true] #orb-glow {
+  opacity:1
+}
+[data-orb-bright=true] .orb-hotspot {
+  background:#b3eeff99;
+  box-shadow:0 0 25px #b3eeff88
+}
+.is-animating #treasure-gleam {
+  animation:treasure-light 2.8s ease-in-out both
+}
+@keyframes treasure-light {
+  0%,100% {
+    opacity:.5
+  }
+  45% {
+    opacity:1
+  }
+}
+/* The comic owns the width; captions and tools stay secondary. */
+.full-episode .reader {
+  width:min(1480px,calc(100% - 24px))
+}
+.full-episode .masthead {
+  max-width:1504px;
+  padding:10px 12px;
+  gap:16px
+}
+.full-episode .wordmark {
+  font-size:18px
+}
+.full-episode .wordmark-bottom {
+  font-size:12px;
+  letter-spacing:3.7px;
+  margin-top:5px
+}
+.full-episode .setting {
+  min-height:34px;
+  padding:5px 9px;
+  font-size:10px
+}
+.full-episode .chapter-intro {
+  display:flex;
+  align-items:center;
+  gap:16px;
+  padding:10px 0
+}
+.full-episode .eyebrow {
+  margin:0;
+  font-size:8px;
+  letter-spacing:1.4px;
+  gap:8px
+}
+.full-episode .chapter-count {
+  font-size:8px;
+  letter-spacing:.8px
+}
+.full-episode .small-rule {
+  width:18px
+}
+.full-episode .intro-line {
+  flex:1;
+  min-width:0;
+  gap:16px
+}
+.full-episode .intro-line h1 {
+  font-size:clamp(23px,2.7vw,34px);
+  letter-spacing:-.7px;
+  line-height:1.15
+}
+.full-episode .intro-line>p {
+  font-size:10px;
+  line-height:1.4;
+  min-width:0;
+  max-width:210px;
+  margin:0
+}
+.full-episode .reading-layout {
+  display:block
+}
+.full-episode .comic-column {
+  width:100%
+}
+.full-episode .frame-top {
+  min-height:26px;
+  padding:3px 10px;
+  font-size:8px;
+  letter-spacing:1px
+}
+.full-episode .frame-top>span:first-child {
+  white-space:normal
+}
+.full-episode .art-shell {
+  padding:3px
+}
+.full-episode .story-note {
+  position:static;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:4px 16px;
+  padding:6px 2px;
+  margin:0
+}
+.full-episode .scene-caption {
+  flex:1 1 270px;
+  min-width:0
+}
+.full-episode .note-eyebrow.sr-only {
+  padding:0;
+  margin:0;
+  border:0
+}
+.full-episode .narration {
+  font-size:12px;
+  line-height:1.5;
+  margin:0
+}
+.full-episode .scene-tools {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  min-width:0
+}
+.full-episode .chapter-picker {
+  margin:0;
+  min-width:0
+}
+.full-episode .chapter-picker select {
+  width:190px;
+  max-width:100%;
+  min-height:34px;
+  padding:4px 7px;
+  font-size:11px
+}
+.full-episode .nicola-open {
+  width:auto;
+  max-width:none;
+  min-height:34px;
+  margin:0;
+  padding:3px 8px;
+  gap:7px;
+  font-size:11px
+}
+.full-episode .nicola-glyph {
+  font-size:18px
+}
+.full-episode .nicola-open>span:last-child {
+  font-size:12px
+}
+.full-episode .perspective-choices {
+  flex-basis:100%;
+  margin:3px 0
+}
+.full-episode .perspective-choices>p {
+  display:inline;
+  margin:0 8px 0 0;
+  font-size:13px
+}
+.full-episode .perspective-choices button {
+  margin:2px 4px 2px 0;
+  padding:5px 10px;
+  min-height:32px
+}
+.full-episode .ending-note {
+  flex-basis:100%;
+  margin:2px 0;
+  font-size:12px;
+  line-height:1.4
+}
+.full-episode .reader-toolbar {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:2px 16px;
+  padding:4px 0;
+  border-top:1px solid var(--line)
+}
+.full-episode .reading-controls {
+  order:0;
+  justify-content:flex-start;
+  gap:12px;
+  padding:0
+}
+.full-episode .nav-button {
+  min-height:34px;
+  padding:4px 12px;
+  font-size:11px;
+  gap:10px
+}
+.full-episode .nav-button.next {
+  min-width:96px
+}
+.full-episode .position {
+  min-width:0;
+  gap:7px;
+  font-size:10px
+}
+.full-episode .position-line {
+  display:none
+}
+.full-episode .frame-bottom {
+  order:1;
+  flex:1;
+  justify-content:flex-end;
+  min-height:32px;
+  padding:0;
+  border:0;
+  gap:12px
+}
+.full-episode .frame-bottom>span {
+  display:none
+}
+.full-episode .text-button {
+  min-height:32px;
+  padding:3px 0;
+  font-size:10px;
+  white-space:nowrap
+}
+.full-episode .transcript {
+  margin-top:4px
+}
+.full-episode .transcript summary {
+  min-height:32px;
+  font-size:10px
+}
+.full-episode .site-footer {
+  max-width:1504px;
+  margin:8px auto 0;
+  padding:8px 12px;
+  font-size:8px
+}
+@media(max-width:720px) {
+  .full-episode .intro-line>p {
+    display:none
+  }
+}
+@media(max-width:520px) {
+  .full-episode .reader {
+    width:calc(100% - 16px)
+  }
+  .full-episode .masthead {
+    padding:8px;
+    gap:8px
+  }
+  .full-episode .wordmark {
+    font-size:16px
+  }
+  .full-episode .wordmark-bottom {
+    font-size:10px;
+    letter-spacing:3.2px
+  }
+  .full-episode .setting {
+    font-size:9px;
+    gap:4px;
+    padding:4px 6px
+  }
+  .full-episode .chapter-intro {
+    display:block;
+    padding:8px 0
+  }
+  .full-episode .eyebrow {
+    margin-bottom:4px
+  }
+  .full-episode .intro-line h1 {
+    font-size:26px
+  }
+  .full-episode .scene-tools {
+    flex:1;
+    justify-content:space-between
+  }
+  .full-episode .chapter-picker {
+    flex:1
+  }
+  .full-episode .chapter-picker select {
+    width:100%
+  }
+  .full-episode .reading-controls {
+    flex:1;
+    justify-content:space-between
+  }
 }
 /* Scene controls remain outside the illustration and its hotspots. */
-.full-episode .scene-viewport{display:grid;grid-template-columns:36px minmax(0,1fr) 36px;gap:4px;align-items:center;min-width:0}
-.full-episode .scene-viewport .art-stage{grid-column:2;grid-row:1;min-width:0;width:100%}
-.full-episode .scene-arrow{grid-row:1;display:grid;place-items:center;width:36px;min-height:56px;padding:0;border:1px solid #615638;border-radius:5px;background:#24271de6;color:var(--paper);font:36px/1 var(--serif)}
-.full-episode .scene-previous{grid-column:1}
-.full-episode .scene-next{grid-column:3}
-.full-episode .scene-arrow:hover:not(:disabled){background:#49422c;border-color:var(--gold)}
-.full-episode .scene-arrow:disabled{opacity:.22;cursor:default}
-.full-episode .scene-arrow:focus-visible{outline-offset:1px}
-.full-episode .frame-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.full-episode .fullscreen-toggle{display:flex;align-items:center;gap:5px;min-height:30px;padding:3px 7px;border:1px solid #5d553f;border-radius:3px;background:#22251e;color:var(--paper);font-size:10px;white-space:nowrap;letter-spacing:0}
-.full-episode .fullscreen-toggle>span:first-child{font-size:20px;line-height:1}
-.full-episode .fullscreen-toggle:hover{border-color:var(--gold)}
-.has-expanded-reader{overflow:hidden}
-.full-episode .comic-column.is-expanded{position:fixed;inset:0;z-index:100;display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;width:100%;height:100%;max-width:none;margin:0;padding:8px;background:#10120f;overflow:auto}
-.full-episode .is-expanded .art-shell{display:flex;flex-direction:column;min-height:0;overflow:auto}
-.full-episode .is-expanded .scene-viewport{flex:1 1 0;min-height:80px;container-type:size}
-.full-episode .is-expanded .art-stage{width:min(100%,calc(58vh * var(--scene-ratio,1.5)));margin:auto}
-.full-episode .is-expanded .art-shell>:is(.dialogue-strip,.nicola-balloon,.krek-balloon,.thought-panel){flex-shrink:0;max-height:32vh;max-height:32dvh;overflow:auto}
-.full-episode .is-expanded .story-note{max-height:22vh;max-height:22dvh;overflow:auto}
-.full-episode .is-expanded .reader-toolbar{background:#10120f}
-@supports(width:1cqh){.full-episode .is-expanded .art-stage{width:min(100%,calc(100cqh * var(--scene-ratio,1.5)))}}
-@media(max-width:600px){
-  .full-episode .frame-actions .location-label{display:none}
-  .full-episode .scene-viewport{grid-template-columns:28px minmax(0,1fr) 28px;gap:3px}
-  .full-episode .scene-arrow{width:28px;min-height:48px;font-size:30px}
-  .full-episode .comic-column.is-expanded{padding:4px}
+.full-episode .scene-viewport {
+  display:grid;
+  grid-template-columns:36px minmax(0,1fr) 36px;
+  gap:4px;
+  align-items:center;
+  min-width:0
+}
+.full-episode .scene-viewport .art-stage {
+  grid-column:2;
+  grid-row:1;
+  min-width:0;
+  width:100%
+}
+.full-episode .scene-arrow {
+  grid-row:1;
+  display:grid;
+  place-items:center;
+  width:36px;
+  min-height:56px;
+  padding:0;
+  border:1px solid #615638;
+  border-radius:5px;
+  background:#24271de6;
+  color:var(--paper);
+  font:36px/1 var(--serif)
+}
+.full-episode .scene-previous {
+  grid-column:1
+}
+.full-episode .scene-next {
+  grid-column:3
+}
+.full-episode .scene-arrow:hover:not(:disabled) {
+  background:#49422c;
+  border-color:var(--gold)
+}
+.full-episode .scene-arrow:disabled {
+  opacity:.22;
+  cursor:default
+}
+.full-episode .scene-arrow:focus-visible {
+  outline-offset:1px
+}
+.full-episode .frame-actions {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-shrink:0
+}
+.full-episode .fullscreen-toggle {
+  display:flex;
+  align-items:center;
+  gap:5px;
+  min-height:30px;
+  padding:3px 7px;
+  border:1px solid #5d553f;
+  border-radius:3px;
+  background:#22251e;
+  color:var(--paper);
+  font-size:10px;
+  white-space:nowrap;
+  letter-spacing:0
+}
+.full-episode .fullscreen-toggle>span:first-child {
+  font-size:20px;
+  line-height:1
+}
+.full-episode .fullscreen-toggle:hover {
+  border-color:var(--gold)
+}
+.has-expanded-reader {
+  overflow:hidden
+}
+.full-episode .comic-column.is-expanded {
+  position:fixed;
+  inset:0;
+  z-index:100;
+  display:grid;
+  grid-template-rows:auto minmax(0,1fr) auto auto;
+  width:100%;
+  height:100%;
+  max-width:none;
+  margin:0;
+  padding:8px;
+  background:#10120f;
+  overflow:auto
+}
+.full-episode .is-expanded .art-shell {
+  display:flex;
+  flex-direction:column;
+  min-height:0;
+  overflow:auto
+}
+.full-episode .is-expanded .scene-viewport {
+  flex:1 1 0;
+  min-height:80px;
+  container-type:size
+}
+.full-episode .is-expanded .art-stage {
+  width:min(100%,calc(58vh * var(--scene-ratio,1.5)));
+  margin:auto
+}
+.full-episode .is-expanded .art-shell>:is(.dialogue-strip,.nicola-balloon,.krek-balloon,.thought-panel) {
+  flex-shrink:0;
+  max-height:32vh;
+  max-height:32dvh;
+  overflow:auto
+}
+.full-episode .is-expanded .story-note {
+  max-height:22vh;
+  max-height:22dvh;
+  overflow:auto
+}
+.full-episode .is-expanded .reader-toolbar {
+  background:#10120f
+}
+@supports(width:1cqh) {
+  .full-episode .is-expanded .art-stage {
+    width:min(100%,calc(100cqh * var(--scene-ratio,1.5)))
+  }
+}
+@media(max-width:600px) {
+  .full-episode .frame-actions .location-label {
+    display:none
+  }
+  .full-episode .scene-viewport {
+    grid-template-columns:28px minmax(0,1fr) 28px;
+    gap:3px
+  }
+  .full-episode .scene-arrow {
+    width:28px;
+    min-height:48px;
+    font-size:30px
+  }
+  .full-episode .comic-column.is-expanded {
+    padding:4px
+  }
 }
