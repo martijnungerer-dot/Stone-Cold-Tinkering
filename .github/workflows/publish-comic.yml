@@ -27,7 +27,8 @@ jobs:
           mkdir -p _site/episodes/frozen-hollow _site/assets
           cp site/index.html _site/index.html
           cp dist/frozen-hollow.html _site/episodes/frozen-hollow/index.html
-          cp assets/episodes/frozen-hollow/arrival-v4.png _site/assets/preview.png
+          python -m pip install --quiet pillow
+          python -c "from PIL import Image; im=Image.open('assets/episodes/frozen-hollow/arrival-v4.png').convert('RGB'); im.thumbnail((1200,630)); im.save('_site/assets/preview.jpg',quality=78,optimize=True)"
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
