@@ -4,7 +4,7 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#171816">
   <title>Frozen Hollow — Stone & Cold Tinkering</title>
-  <meta name="description" content="Een uitstekend plan. Een complete interactieve motion comic met Krek, Nicola en Nyra.">
+  <meta name="description" content="Een team in wording. Een complete interactieve motion comic met Krek, Nicola en Nyra.">
   <link rel="icon" href="data:,"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="episode.css">
   <script src="frozen-hollow-data.js" defer></script><script src="episode.js" defer></script>
 </head>
@@ -21,7 +21,7 @@
   <main id="reader" class="reader">
     <section class="chapter-intro" aria-labelledby="chapter-title">
       <p class="eyebrow"><span class="small-rule" aria-hidden="true"></span> FROZEN HOLLOW <span class="chapter-count">AFLEVERING 01</span></p>
-      <div class="intro-line"><h1 id="chapter-title">Een uitstekend <em>plan.</em></h1><p>Drie helden. Eén richting.<br>En opvallend weinig ruimte.</p></div>
+      <div class="intro-line"><h1 id="chapter-title">Een team <em>in wording</em></h1><p>Drie helden. Eén richting.<br>En opvallend weinig ruimte.</p></div>
     </section>
     <div class="reading-layout">
       <section class="comic-column" aria-label="Strip en bediening">
@@ -47,17 +47,21 @@
           <div id="thought-panel" class="thought-panel" hidden><div class="thought-heading"><span id="thought-title"></span><button id="thought-close" type="button" aria-label="Terug naar het overleg">×</button></div><div id="thought-cards"></div></div>
           <p id="image-error" class="image-error" hidden>Dit beeld kon niet laden. De vertelling en tekstversie blijven leesbaar.</p>
         </div>
-        <div class="frame-bottom"><span><span class="status-dot" aria-hidden="true"></span> JOUW TEMPO. HUN AVONTUUR.</span><button id="crystal-detail" class="text-button" type="button" aria-pressed="false" hidden>Bekijk het kristal</button><button id="replay" class="text-button" type="button"><span aria-hidden="true">↻</span> Herhaal moment</button></div>
-        <nav class="reading-controls" aria-label="Door de strip bladeren"><button id="previous" class="nav-button previous" type="button" disabled>← Vorige</button><div class="position"><span id="current-number">01</span><span class="position-divider">/</span><span id="total-number">35</span><span class="position-line" aria-hidden="true"><span id="progress-fill"></span></span></div><button id="next" class="nav-button next" type="button">Verder →</button></nav>
-      </section>
       <aside class="story-note" aria-labelledby="panel-title">
-        <p class="note-eyebrow"><span id="scene-label">DE AANLEIDING</span><span id="note-number">01</span></p>
-        <h2 id="panel-title">Crooked Bone</h2><p id="panel-narration" class="narration"></p>
-        <div class="chapter-picker"><label for="chapter-select">Ga naar een scène</label><select id="chapter-select"></select></div>
-        <button id="nicola-open" type="button" class="nicola-open" aria-controls="nicola-balloon" aria-expanded="false" hidden><span class="nicola-glyph" aria-hidden="true">◉</span><span>Nicola heeft een theorie<small>Hij weet dat je meekijkt.</small></span><span aria-hidden="true">↗</span></button>
+        <div class="scene-caption"><p class="note-eyebrow sr-only"><span id="scene-label">DE AANLEIDING</span><span id="note-number">01</span></p>
+        <h2 id="panel-title" class="sr-only">Crooked Bone</h2><p id="panel-narration" class="narration"></p>
+        </div>
+        <div class="scene-tools"><div class="chapter-picker"><label class="sr-only" for="chapter-select">Ga naar een scène</label><select id="chapter-select"></select></div>
+        <button id="nicola-open" type="button" class="nicola-open" aria-label="Laat Nicola tegen je praten" aria-controls="nicola-balloon" aria-expanded="false" hidden><span class="nicola-glyph" aria-hidden="true">◉</span><span>Nicola?</span><span aria-hidden="true">↗</span></button>
+        </div>
         <div id="perspective-choices" class="perspective-choices" hidden><p>Drie manieren om een plan te zien.</p><div id="perspective-buttons"></div></div>
         <p id="ending-note" class="ending-note" hidden>De bol belooft mogelijkheden.<br>Nyra wil weten wat kan blijven.</p>
       </aside>
+        <div class="reader-toolbar">
+        <nav class="reading-controls" aria-label="Door de strip bladeren"><button id="previous" class="nav-button previous" type="button" disabled>← Vorige</button><div class="position"><span id="current-number">01</span><span class="position-divider">/</span><span id="total-number">35</span><span class="position-line" aria-hidden="true"><span id="progress-fill"></span></span></div><button id="next" class="nav-button next" type="button">Verder →</button></nav>
+        <div class="frame-bottom"><span><span class="status-dot" aria-hidden="true"></span> JOUW TEMPO. HUN AVONTUUR.</span><button id="crystal-detail" class="text-button" type="button" aria-pressed="false" hidden>Bekijk het kristal</button><button id="replay" class="text-button" type="button"><span aria-hidden="true">↻</span> Herhaal moment</button></div>
+        </div>
+      </section>
     </div>
     <details class="transcript"><summary><span>Lees de tekstversie</span><span aria-hidden="true">+</span></summary><div id="transcript-content" class="transcript-content"><!--EPISODE_TRANSCRIPT--></div></details>
     <p id="reader-announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p><p id="audio-announcement" class="sr-only" role="status" aria-live="polite"></p>

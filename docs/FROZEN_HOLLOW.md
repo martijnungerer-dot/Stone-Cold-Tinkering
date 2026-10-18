@@ -1,6 +1,8 @@
-# Frozen Hollow — volledige motion comic, versie 1.2.0
+# Frozen Hollow — volledige motion comic, versie 1.3.0
 
 De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.8](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De gebruiker heeft de eerste leesversie beoordeeld; deze revisie verwerkt de twintig annotaties en de drie nieuwe karakterreferenties. De nieuwe beelden en tekst zijn nog niet afzonderlijk goedgekeurd.
+
+De actuele afleveringstitel is **Een team in wording**. Op gebruikersfeedback is de leesvorm beeldgericht gemaakt: geen brede zijbalk meer, het paneel gebruikt de volle leesbreedte. De vertelling, scènekeuze en Nicola-knop staan compact onder het beeld. Herhaal/detail en Vorige/Verder delen een kleine bedieningsstrook. De titel, kopruimte en footer zijn ook verkleind; illustraties behouden hun uitsnede en verhouding.
 
 ## Openen
 

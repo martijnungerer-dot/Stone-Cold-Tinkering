@@ -33,3 +33,7 @@ P36 “Heel even” vervalt op expliciet verzoek. P37 wordt “Het resultaat” 
 ## 18 oktober 2026 — vaste productieaanpak voor volgende strips
 
 De gebruiker vraagt om de lessen vast te leggen, uniformiteit in gezichten, vormen en stemmen, en een sneller stappenplan. COMIC_PLAYBOOK.md ordent feiten → verhaal/dialoog → vaste referenties → één gecontroleerde scène → kleine beeldrondes → bestaande reader → verhaal-, beeld- en leescontrole. MODEL_GUIDE.md selecteert de concrete huidige gezichts- en lichaamsankers, met onderscheid tussen vaste identiteit en variabele expressie. AGENTS, README, visuele richting, sessiewerkwijze en sessiesjabloon verwijzen hiernaar. Dit voegt geen verplichte goedkeuring per stap of nieuwe toekomstige beeldproductie toe.
+
+## 18 oktober 2026 — meer stripbeeld, compacte leesbediening
+
+De gebruiker verandert de titel naar “Een team in wording” en vraagt meer beeld, een veel kleinere zijtekst en kleinere ruimte voor navigatie/transcript. Reader 1.3.0 gebruikt één brede beeldkolom; de voormalige zijbalk wordt een compacte bijschriftstrook onder de illustratie. Navigatie, detail en herhalen zijn samengebracht; kop en footer krijgen minder ruimte. Beelden en verhaalvolgorde blijven behouden. De voorkeur is toegevoegd aan de vaste productie-instructies.

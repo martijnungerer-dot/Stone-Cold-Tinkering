@@ -34,7 +34,7 @@ test('de lokale reader levert de scène en bewaakt de publieke bestandsgrens', a
   assert.deepEqual([...readerHead.body.slice(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
   const episode = await request('/frozen-hollow');
   assert.equal(episode.status, 200);
-  assert.match(episode.body.toString(), /Een uitstekend <em>plan/);
+  assert.match(episode.body.toString(), /Een team <em>in wording/);
   for (const route of ['/episode.js','/episode.css','/frozen-hollow-data.js','/assets/frozen-hollow/arrival.png','/assets/frozen-hollow/hollow.png','/assets/frozen-hollow/breakthrough.png','/assets/frozen-hollow/aftermath.png','/assets/frozen-hollow/stash-after.png','/assets/frozen-hollow/chamber-two-v2.png']) assert.equal((await request(route)).status,200,route);
   for (const key of ['arrival-v4','hollow-v3','breakthrough-v3','aftermath-v4','chamber-two-v4']) assert.equal((await request(`/assets/frozen-hollow/${key}.png`)).status,200,key);
   assert.equal((await request('/assets/nicola-reader-head-v2.png')).status,200);

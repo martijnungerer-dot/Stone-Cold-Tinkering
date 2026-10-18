@@ -69,3 +69,7 @@ De drie Aesther-illustraties (Summoner, Diviner, Nightshroud) zijn op 18 oktober
 Nicola's gezicht is vastgelegd in [nicola-reader-head-v2.png](../assets/concepts/nicola-reader-head-v2.png). Gebruik dit beeld rechtstreeks als identiteitsreferentie, samen met het Quatryl-klassebeeld voor zijn lichaam. Herkenbaar hoekig, grof getextureerd okerkleurig Quatryl-gezicht, lange neus, smalle mond, donkere voorhoofdsbril en blauwe ooglenzen. Geen glad vrouwelijk elfenportret. Pas de gezichtshoek aan de scène aan; plak niet overal dezelfde frontale pose.
 
 Krek heeft in rustige scènes een gesloten stenen kaak met natuurlijke naad. Een donkere borstholte betekent niet dat zijn mond altijd open moet staan. Bij bewegen, roepen en vechten mag hij zijn mond openen. Bewaar amberogen en dezelfde kopvorm.
+
+## Beeld krijgt voorrang in de reader
+
+Gebruikersfeedback van 18 oktober: het is een strip; laat het beeld de leesbreedte dragen. Gebruik compacte koppen, een kort bijschrift en kleine ondersteunende bediening. Een brede tekstzijbalk mag de illustratie niet verdringen. Behoud leesbare ballonnen, bruikbare knoppen, volledige uitsnede en correcte beeldverhouding op smal en breed scherm. Deze voorkeur geldt voor volgende afleveringen.

@@ -1,4 +1,4 @@
-# Frozen Hollow — Een uitstekend plan
+# Frozen Hollow — Een team in wording
 
 > Stone & Cold Tinkering · Aflevering 01 · Werkversie 0.8
 > Status: de gebruiker geeft nu opdracht de volledige motion comic te bouwen en verduidelijkt de indeling. Deze versie corrigeert v0.4: de ijsdemonen staan in kamer 2; Krek sprint halverwege die kamer door mist naar kamer 3. Beelden en nieuwe dialoog blijven creatieve adaptatie.
@@ -580,3 +580,7 @@ De bronfoto's vullen de setting, bolopdracht en stashvorm in. Persoonlijke repli
 Hail-aanvulling bij v0.7: de Aesther-inspiratieplaten leiden haar licht doorschijnende uiterlijk; geen elf, geen overgenomen klassen of vermogens.
 
 - **0.8 (18 oktober):** P36 op gebruikersverzoek uit de leeslijn verwijderd; P37 vat het resultaat samen. 35 hoofdpanelen. Nicola gebruikt consequent nicola-reader-head-v2.png als gezichtsreferentie; Krek heeft in rust een gesloten stenen mond en kan bij actie zijn mond openen. Dit verandert geen gespeelde gebeurtenis.
+
+## Titel en leesvorm — 18 oktober 2026
+
+De gebruiker hernoemt de aflevering naar “Een team in wording”. De leesversie krijgt een groot beeld over de hele leesbreedte, een compacte bijschriftstrook en kleinere navigatie. Het verhaal en de panelen blijven hetzelfde.

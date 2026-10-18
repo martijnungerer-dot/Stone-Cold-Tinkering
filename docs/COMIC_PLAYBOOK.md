@@ -103,3 +103,7 @@ Bewaar de leesversie, actuele assets, prompts/referenties, versiestatus, gebruik
 Martijn kan zeggen: “Nieuwe Gloomhaven-sessie” en daarna de gebeurtenissen en foto's sturen. Codex leest AGENTS.md, de wereldbijbel, dit stappenplan, de modelgids en de betrokken sessie. Hergebruik wat al vaststaat. Stel alleen vragen over ontbrekende feiten die het huidige verhaal veranderen.
 
 Bij feedback: noteer paneel-ID, gewenste wijziging en of het om verhaal, tekst, gezicht/vorm of interactie gaat. Verwerk de correctie in zowel de aflevering als de betreffende vaste afspraak. Zo hoeft dezelfde les niet bij iedere strip opnieuw te worden ontdekt.
+
+## Beeld krijgt voorrang in de reader
+
+Gebruikersfeedback van 18 oktober: het is een strip; laat het beeld de leesbreedte dragen. Gebruik compacte koppen, een kort bijschrift en kleine ondersteunende bediening. Een brede tekstzijbalk mag de illustratie niet verdringen. Behoud leesbare ballonnen, bruikbare knoppen, volledige uitsnede en correcte beeldverhouding op smal en breed scherm. Deze voorkeur geldt voor volgende afleveringen.

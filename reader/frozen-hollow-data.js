@@ -1,8 +1,8 @@
 /* Generated from the storyboard and READER.json. Run node scripts/compile-episode.mjs. */
 window.COMIC_EPISODE = {
   "id": "frozen-hollow",
-  "title": "Een uitstekend plan.",
-  "version": "1.2.0",
+  "title": "Een team in wording",
+  "version": "1.3.0",
   "assets": {
     "hollow-v3": {
       "src": "assets/frozen-hollow/hollow-v3.png",

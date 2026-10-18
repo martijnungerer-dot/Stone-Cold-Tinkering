@@ -41,3 +41,5 @@ Storyboard v0.8 en sessie S001 zijn de actuele basis. Laatste correctie: claustr
 Hails uiterlijk volgt ook de op 18 oktober gedeelde Aesther-referenties: etherisch en een beetje transparant, geen elf en geen elfenoren. Dit is visuele inspiratie; geen overdracht van klassevermogens of bronbiografieën. Zie docs/VISUAL_DIRECTION.md en het bronregister.
 
 Laatste review: P36 vervalt; de reader heeft 35 hoofdpanelen. Nicola's vaste gezichtsreferentie is assets/concepts/nicola-reader-head-v2.png; geen wisselende elfachtige gezichten. Krek sluit zijn mond in rust; open mond past bij actie.
+
+Leesvorm: groot stripbeeld over de hele leesbreedte, compacte kop/bijschrift/bediening. Geen brede tekstzijbalk. Frozen Hollow heet nu “Een team in wording”; de 35 panelen blijven gelijk.
