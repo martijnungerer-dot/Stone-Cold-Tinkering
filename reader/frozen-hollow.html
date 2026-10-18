@@ -24,9 +24,11 @@
       <div class="intro-line"><h1 id="chapter-title">Een team <em>in wording</em></h1><p>Drie helden. Eén richting.<br>En opvallend weinig ruimte.</p></div>
     </section>
     <div class="reading-layout">
-      <section class="comic-column" aria-label="Strip en bediening">
-        <div class="frame-top"><span id="frame-label">01 / CROOKED BONE</span><span id="location-label" class="location-label">Gloomhaven</span></div>
+      <section id="comic-reader" class="comic-column" aria-label="Strip en bediening">
+        <div class="frame-top"><span id="frame-label">01 / CROOKED BONE</span><div class="frame-actions"><span id="location-label" class="location-label">Gloomhaven</span><button id="fullscreen-toggle" class="fullscreen-toggle" type="button" aria-pressed="false" aria-label="Volledig scherm"><span aria-hidden="true">⛶</span> <span id="fullscreen-label">Volledig scherm</span></button></div></div>
         <div id="art-shell" class="art-shell">
+          <div class="scene-viewport">
+            <button id="scene-previous" class="scene-arrow scene-previous" type="button" aria-label="Vorig paneel" title="Vorig paneel" disabled><span aria-hidden="true">‹</span></button>
           <div id="art-stage" class="art-stage">
             <svg id="scene-art" class="scene-art" viewBox="0 0 768 512" role="img" aria-labelledby="art-title art-description" preserveAspectRatio="xMidYMid meet">
               <title id="art-title">Crooked Bone</title><desc id="art-description">Het trio voor een vervallen herberg in Gloomhaven.</desc>
@@ -40,6 +42,8 @@
             <div id="dust" class="dust" aria-hidden="true"></div>
             <div id="effect-light" class="effect-light" aria-hidden="true"></div><div class="mist-layer" aria-hidden="true"></div>
             <button id="nicola-hotspot" class="nicola-hotspot" type="button" aria-label="Laat Nicola tegen je praten" aria-controls="nicola-balloon" aria-expanded="false" hidden><span class="hotspot-ring" aria-hidden="true"></span><span class="hotspot-label">Nicola?</span></button>
+          </div>
+            <button id="scene-next" class="scene-arrow scene-next" type="button" aria-label="Volgend paneel" title="Volgend paneel"><span aria-hidden="true">›</span></button>
           </div>
           <div id="dialogue-strip" class="dialogue-strip" aria-label="Dialoog"></div>
           <div id="nicola-balloon" class="nicola-balloon" hidden><div class="balloon-voice"><span>NICOLA · TEGEN JOU</span><button id="nicola-close" type="button" aria-label="Laat Nicola weer vooruitkijken">×</button></div><p id="nicola-comment" lang="en" aria-live="polite" aria-atomic="true"></p><button id="nicola-another" class="balloon-another" type="button">Nog een gedachte ↻</button></div>
@@ -61,10 +65,11 @@
         <nav class="reading-controls" aria-label="Door de strip bladeren"><button id="previous" class="nav-button previous" type="button" disabled>← Vorige</button><div class="position"><span id="current-number">01</span><span class="position-divider">/</span><span id="total-number">35</span><span class="position-line" aria-hidden="true"><span id="progress-fill"></span></span></div><button id="next" class="nav-button next" type="button">Verder →</button></nav>
         <div class="frame-bottom"><span><span class="status-dot" aria-hidden="true"></span> JOUW TEMPO. HUN AVONTUUR.</span><button id="crystal-detail" class="text-button" type="button" aria-pressed="false" hidden>Bekijk het kristal</button><button id="replay" class="text-button" type="button"><span aria-hidden="true">↻</span> Herhaal moment</button></div>
         </div>
+        <p id="display-announcement" class="sr-only" role="status" aria-live="polite"></p>
+    <p id="reader-announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p><p id="audio-announcement" class="sr-only" role="status" aria-live="polite"></p>
       </section>
     </div>
     <details class="transcript"><summary><span>Lees de tekstversie</span><span aria-hidden="true">+</span></summary><div id="transcript-content" class="transcript-content"><!--EPISODE_TRANSCRIPT--></div></details>
-    <p id="reader-announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p><p id="audio-announcement" class="sr-only" role="status" aria-live="polite"></p>
   </main>
   <footer class="site-footer"><span>STONE & COLD TINKERING <span class="footer-dot">·</span> FROZEN HOLLOW</span><span class="keyboard-hint"><kbd>←</kbd><kbd>→</kbd> Jouw leestempo · <kbd>Esc</kbd> Terug naar de scène</span></footer>
   <noscript><p class="noscript-note">Bladeren en beweging vragen JavaScript. De volledige tekstversie hierboven kun je zonder JavaScript lezen.</p></noscript>

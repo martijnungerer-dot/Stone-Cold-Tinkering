@@ -4,7 +4,7 @@ De serie groeit mee met de gespeelde campagne. Uitgangspunt is één aflevering 
 
 | Aflevering | Sessie en bronbereik | Stand | Volgende stap |
 | --- | --- | --- | --- |
-| 01 — [Frozen Hollow: Een team in wording](frozen-hollow/STORYBOARD.md) | [S001](../sessions/s001/SESSION.md), eigen kamer-verslag en geregistreerde bronfoto's; speeldatum OPEN; Frozen Hollow en R-10, city event overslaan | v0.8 verwerkt ook de vijf zichtbare tegenstanders in kamer 2. Volledige motion-comicversie 1.3.0 gebouwd; beeld en nieuwe dialoog zijn creatieve adaptatie | De volledige leesversie bekijken; zie docs/FROZEN_HOLLOW.md |
+| 01 — [Frozen Hollow: Een team in wording](frozen-hollow/STORYBOARD.md) | [S001](../sessions/s001/SESSION.md), eigen kamer-verslag en geregistreerde bronfoto's; speeldatum OPEN; Frozen Hollow en R-10, city event overslaan | v0.8 verwerkt ook de vijf zichtbare tegenstanders in kamer 2. Volledige motion-comicversie 1.4.0 gebouwd; beeld en nieuwe dialoog zijn creatieve adaptatie | De volledige leesversie bekijken; zie docs/FROZEN_HOLLOW.md |
 
 Er is nog geen tweede sessie aangeleverd. Maak geen datum, scenario of gebeurtenissen voor aflevering 02 aan. De losse bewegingsproef **Altijd voorwaarts** is afgerond en door de gebruiker aanvaard als basis voor de leeservaring en Nicola's interactie; zij telt niet als een extra gespeelde aflevering. Zie [PROTOTYPE.md](../../docs/PROTOTYPE.md).
 

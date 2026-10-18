@@ -37,3 +37,7 @@ De gebruiker vraagt om de lessen vast te leggen, uniformiteit in gezichten, vorm
 ## 18 oktober 2026 — meer stripbeeld, compacte leesbediening
 
 De gebruiker verandert de titel naar “Een team in wording” en vraagt meer beeld, een veel kleinere zijtekst en kleinere ruimte voor navigatie/transcript. Reader 1.3.0 gebruikt één brede beeldkolom; de voormalige zijbalk wordt een compacte bijschriftstrook onder de illustratie. Navigatie, detail en herhalen zijn samengebracht; kop en footer krijgen minder ruimte. Beelden en verhaalvolgorde blijven behouden. De voorkeur is toegevoegd aan de vaste productie-instructies.
+
+## 18 oktober 2026 — zijpijlen en volledig scherm
+
+Op gebruikersverzoek krijgt reader 1.4.0 pijlen naast de scène en een fullscreenknop. De pijlen bedekken geen illustratie of interactie. Native browserfullscreen is optioneel; een ontbrekende/geweigerde API valt terug op een grote leesweergave in de tab. De lezer behoudt navigatie en reacties en kan terug via knop/Escape. Verhaal en assets veranderen niet.

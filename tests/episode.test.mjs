@@ -8,7 +8,7 @@ import os from 'node:os';
 import { compileEpisode } from '../scripts/compile-episode.mjs';
 import { buildEpisodeOffline } from '../scripts/build-offline.mjs';
 
-async function reader(hash = '') {
+async function reader(hash = '', options = {}) {
   let document, audioAccesses = 0;
   class Element {
     constructor(tag = 'div') {
@@ -20,12 +20,22 @@ async function reader(hash = '') {
     setAttribute(k,v) { this.attrs.set(k,String(v)); } getAttribute(k) { return this.attrs.get(k); } removeAttribute(k) { this.attrs.delete(k); }
     append(...a) { this.children.push(...a); } replaceChildren(...a) { this._text = ''; this.children = a; }
     addEventListener(k,h) { this.listeners.set(k,h); }
-    fire(k,p = {}) { this.listeners.get(k)?.({ target: this, currentTarget: this, preventDefault() {}, ...p }); }
+    fire(k,p = {}) { return this.listeners.get(k)?.({ target: this, currentTarget: this, preventDefault() {}, ...p }); }
     focus() { document.activeElement = this; }
     scrollIntoView(options) { this.scrollOptions = options; }
   }
   const elements = new Map(), $ = id => { if (!elements.has(id)) elements.set(id,new Element()); return elements.get(id); };
   document = new Element(); Object.assign(document,{ body:new Element('body'), getElementById:$, createElement:tag => new Element(tag) });
+  const layout = new Element(); layout.append($('comic-reader')); layout.parentElement = document.body;
+  $('comic-reader').parentElement = layout; document.body.append(layout,$('motion-toggle'));
+  if (options.nativeFullscreen) {
+    document.fullscreenEnabled = true;
+    $('comic-reader').requestFullscreen = async () => {
+      if (options.rejectFullscreen) throw new Error('Fullscreen denied');
+      document.fullscreenElement = $('comic-reader'); document.fire('fullscreenchange');
+    };
+    document.exitFullscreen = async () => { document.fullscreenElement = null; document.fire('fullscreenchange'); };
+  }
   const storage = new Map(), window = { COMIC_EPISODE:await compileEpisode({write:false}), matchMedia:() => ({matches:true,addEventListener(){}}), location:{hash}, history:{replaceState(a,b,c){window.location.hash=c;}} };
   Object.defineProperty(window,'AudioContext',{get(){audioAccesses++;return undefined;}});
   const context = vm.createContext({window,document,localStorage:{getItem:k=>storage.get(k)??null,setItem:(k,v)=>storage.set(k,v)},Image:class{},setTimeout:()=>1,clearTimeout(){},console});
@@ -53,6 +63,35 @@ test('Frozen Hollow bewaart alle ankers, 35 panelen en de gecorrigeerde chronolo
   assert.match(allWords,/Retreat is for meat\. I am stone, and stone loves metal! Give me metal!/);
   assert.match(allWords,/Cold blue, horrid!/); assert.match(allWords,/Your perception is flawless/);
   assert.doesNotMatch(allWords,/NICOLA! HEAL|NOTHING CAN BREAK ME/,'De voorgestelde healinggebeurtenis wordt niet toegevoegd.');
+});
+
+test('zijpijlen volgen de leeslijn en de grote leesweergave bewaart reacties en grenzen', async()=>{
+  const {$,window,document}=await reader('#P03');
+  $('scene-previous').fire('click');assert.equal(window.location.hash,'#P02');
+  await $('fullscreen-toggle').fire('click');
+  assert.equal($('comic-reader').classList.contains('is-expanded'),true);
+  assert.equal(document.body.classList.contains('has-expanded-reader'),true);
+  assert.equal($('motion-toggle').inert,true,'Bediening buiten de leesweergave krijgt geen onzichtbare toetsenbordfocus.');
+  assert.equal($('fullscreen-toggle').getAttribute('aria-pressed'),'true');
+  assert.match($('display-announcement').textContent,/binnen dit venster/);
+  $('nicola-hotspot').fire('click');assert.equal($('nicola-balloon').hidden,false);
+  document.fire('keydown',{key:'Escape'});assert.equal($('nicola-balloon').hidden,true);assert.equal($('comic-reader').classList.contains('is-expanded'),true);
+  $('scene-next').fire('click');assert.equal(window.location.hash,'#P03');assert.equal($('comic-reader').classList.contains('is-expanded'),true);
+  document.fire('keydown',{key:'Escape'});assert.equal($('comic-reader').classList.contains('is-expanded'),false);assert.equal(document.activeElement,$('fullscreen-toggle'));
+  assert.equal($('motion-toggle').inert,false);
+  const start=await reader('#P07');assert.equal(start.$('scene-previous').disabled,true);start.$('scene-previous').fire('click');assert.equal(start.window.location.hash,'#P07');
+  const end=await reader('#P38');assert.equal(end.$('scene-next').disabled,true);end.$('scene-next').fire('click');assert.equal(end.window.location.hash,'#P38');
+});
+
+test('native fullscreen kan terugkeren en een geweigerd verzoek behoudt de leesmogelijkheid', async()=>{
+  const {$,document}=await reader('#P25',{nativeFullscreen:true});
+  await $('fullscreen-toggle').fire('click');assert.equal(document.fullscreenElement,$('comic-reader'));
+  $('krek-hotspot').fire('click');assert.equal($('krek-comment').textContent,'Forward?');
+  await document.exitFullscreen();assert.equal($('fullscreen-toggle').getAttribute('aria-pressed'),'false');assert.equal($('comic-reader').classList.contains('is-expanded'),false);
+  await $('fullscreen-toggle').fire('click');await $('fullscreen-toggle').fire('click');assert.equal(document.fullscreenElement,null);assert.equal(document.body.classList.contains('has-expanded-reader'),false);
+  const denied=await reader('#P03',{nativeFullscreen:true,rejectFullscreen:true});await denied.$('fullscreen-toggle').fire('click');
+  assert.equal(denied.$('comic-reader').classList.contains('is-expanded'),true);assert.match(denied.$('display-announcement').textContent,/binnen dit venster/);
+  await denied.$('fullscreen-toggle').fire('click');assert.equal(denied.$('comic-reader').classList.contains('is-expanded'),false);
 });
 
 test('de volledige reader loopt door alle panelen en houdt optionele inhoud binnen hetzelfde verhaal', async () => {

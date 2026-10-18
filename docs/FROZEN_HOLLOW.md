@@ -1,4 +1,4 @@
-# Frozen Hollow — volledige motion comic, versie 1.3.0
+# Frozen Hollow — volledige motion comic, versie 1.4.0
 
 De gebruiker heeft de volledige aflevering met beelden en beweging opgedragen na de leesproef. Deze eerste volledige leesversie volgt [storyboard v0.8](../content/episodes/frozen-hollow/STORYBOARD.md) en [sessie S001](../content/sessions/s001/SESSION.md). Nieuwe beelden, Engelse dialoog en montage zijn creatieve adaptatie. De gebruiker heeft de eerste leesversie beoordeeld; deze revisie verwerkt de twintig annotaties en de drie nieuwe karakterreferenties. De nieuwe beelden en tekst zijn nog niet afzonderlijk goedgekeurd.
 
@@ -21,7 +21,7 @@ Voor ontwikkeling: `npm start` meldt het adres voor `/frozen-hollow`. Er zijn ge
 
 ## Bediening en beweging
 
-Vorige/Verder en de pijltjestoetsen volgen het verhaal; een keuzelijst springt naar een scène. De URL-fragmenten zoals `#P30` heropenen dat paneel. Er is geen automatische paginawisseling.
+Pijlen links en rechts naast het beeld, Vorige/Verder en de pijltjestoetsen volgen het verhaal; een keuzelijst springt naar een scène. De URL-fragmenten zoals `#P30` heropenen dat paneel. Er is geen automatische paginawisseling.
 
 Klik op Nicola op de gemarkeerde momenten: hij kijkt naar de lezer met de nieuwe bij de Quatryl-referentie passende frontale hoofdlaag en spreekt via de aanvaarde blauwe ballon. Nogmaals klikken, het kruisje of Escape sluit zijn opmerking. Verder bladeren blijft beschikbaar. Bij het overleg kan de lezer ook twee gedachtepanelen van Krek of Nyra lezen; alle perspectieven hervatten dezelfde gebeurtenis.
 
@@ -54,3 +54,11 @@ Controleer met `npm test`. De controles behandelen: beide leesversies, de publie
 De tests gebruiken de echte readerlogica met een in-process DOM-double; ze bewijzen geen browserlayout of geluidsweergave op hardware. Visuele browsercontrole door de agent blijft beperkt door de eerder vastgestelde ontoegankelijke lokale verbinding en geblokkeerde `file:`-URL. Er is geen alternatief browserkanaal gebruikt om dat beleid te omzeilen. De nieuwe illustraties zijn wel afzonderlijk bekeken. De geleverde HTML vraagt nog gebruikerscontrole op het eigen scherm.
 
 Er is geen hosting toegevoegd.
+
+## Zijpijlen en volledig scherm
+
+De zijpijlen staan in smalle randen naast het beeld en bedekken geen personages of aanklikpunten. Bij het begin/einde is de betreffende pijl uitgeschakeld; opnieuw beginnen blijft een bewuste knop onder het slotpaneel.
+
+“Volledig scherm” staat boven het beeld. De knop probeert de browserweergave via de Fullscreen API. Als die ontbreekt of door de browser wordt geweigerd, opent dezelfde knop een grote leesweergave binnen het huidige venster. “Normale weergave” sluit die weer. Escape sluit eerst een open reactie, daarna de grote leesweergave; de browser kan volledig scherm zelf met Escape sluiten. Navigatie, dialoog en klikreacties blijven binnen de weergave. Beeldverhouding en volledige uitsnede blijven behouden, ook bij portretpanelen. Instellingen worden niet gewijzigd of automatisch bewaard door deze knop.
+
+De schermwisselingen zijn met gesimuleerde browser-API's gecontroleerd, inclusief geweigerde/niet-beschikbare fullscreen en terugkeer via een fullscreenchange-event. Dit bewijst geen echte browserlayout of toestemming in iedere browser.

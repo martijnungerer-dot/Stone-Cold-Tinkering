@@ -6,9 +6,55 @@
   const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
   let savedMotion = null;
   try { savedMotion = localStorage.getItem('stone-cold-motion'); } catch { /* Reading also works without storage. */ }
-  const state = { index: 0, motion: savedMotion === null ? !mq.matches : savedMotion === 'on', sound: false, theory: 0, detail: false, krek: -1, orb: false };
+  const state = { index: 0, motion: savedMotion === null ? !mq.matches : savedMotion === 'on', sound: false, theory: 0, detail: false, krek: -1, orb: false, expanded: false };
   const stage = $('art-stage');
-  let timer, opener, thoughtOpener, audioContext, master, generation = 0;
+  const viewer = $('comic-reader');
+  let timer, opener, thoughtOpener, audioContext, master, generation = 0, nativeFullscreen = false;
+  const inertBackground = [];
+
+  function expandedView(expanded) {
+    state.expanded = expanded;
+    if (expanded && !inertBackground.length) {
+      for (let current = viewer; current?.parentElement && current !== document.body; current = current.parentElement) {
+        for (const sibling of current.parentElement.children) if (sibling !== current && !sibling.inert) {
+          sibling.inert = true; inertBackground.push(sibling);
+        }
+      }
+    } else if (!expanded) {
+      for (const element of inertBackground.splice(0)) element.inert = false;
+    }
+    for (const [element, name] of [[viewer, 'is-expanded'], [document.body, 'has-expanded-reader']]) {
+      if (expanded) element.classList.add(name); else element.classList.remove(name);
+    }
+    const label = expanded ? 'Normale weergave' : 'Volledig scherm';
+    $('fullscreen-label').textContent = label;
+    $('fullscreen-toggle').setAttribute('aria-label', label);
+    $('fullscreen-toggle').setAttribute('aria-pressed', String(expanded));
+    if (!expanded) $('fullscreen-toggle').focus();
+  }
+  async function toggleFullscreen() {
+    if (state.expanded) {
+      if (document.fullscreenElement === viewer) {
+        try { await document.exitFullscreen(); }
+        catch { $('display-announcement').textContent = 'Gebruik Escape om volledig scherm te sluiten.'; return; }
+      }
+      nativeFullscreen = false; expandedView(false); return;
+    }
+    stopMotion();
+    if (document.fullscreenEnabled !== false && typeof viewer.requestFullscreen === 'function') {
+      try {
+        await viewer.requestFullscreen();
+        if (document.fullscreenElement === viewer) { nativeFullscreen = true; expandedView(true); return; }
+      } catch { /* Some embedded browsers offer only an expanded reading view. */ }
+    }
+    expandedView(true);
+    $('display-announcement').textContent = 'Grote leesweergave binnen dit venster. Met Escape keer je terug.';
+  }
+  document.addEventListener('fullscreenchange', () => {
+    if (document.fullscreenElement === viewer) { nativeFullscreen = true; expandedView(true); }
+    else if (nativeFullscreen) { nativeFullscreen = false; expandedView(false); }
+  });
+  $('fullscreen-toggle').addEventListener('click', toggleFullscreen);
 
   function preferences() {
     document.body.dataset.motion = state.motion ? 'on' : 'off';
@@ -77,6 +123,7 @@
     const box = rect(state.detail && p.detail ? p.detail : p.art);
     $('scene-art').setAttribute('viewBox', `${box.x} ${box.y} ${box.width} ${box.height}`);
     stage.style.aspectRatio = `${box.width} / ${box.height}`;
+    stage.style.setProperty('--scene-ratio', String(box.width / box.height));
     for (const [key, value] of Object.entries({ href: asset.src, width: asset.width, height: asset.height })) $('scene-image').setAttribute(key, value);
     const after = p.after ? episode.assets[p.after.key] : null;
     stage.dataset.after = String(Boolean(after));
@@ -171,6 +218,7 @@
     $('panel-title').textContent = p.title; $('panel-narration').textContent = p.narration;
     $('scene-label').textContent = p.sceneTitle.toUpperCase(); $('current-number').textContent = number; $('note-number').textContent = number;
     $('total-number').textContent = String(panels.length); $('previous').disabled = state.index === 0;
+    $('scene-previous').disabled = state.index === 0; $('scene-next').disabled = state.index === panels.length - 1;
     $('next').textContent = state.index === panels.length - 1 ? 'Opnieuw lezen ↻' : 'Verder →';
     $('progress-fill').style.width = `${(state.index + 1) / panels.length * 100}%`;
     $('ending-note').hidden = state.index !== panels.length - 1;
@@ -193,10 +241,12 @@
     const next = Math.max(0, Math.min(panels.length - 1, index));
     if (next !== state.index) {
       state.index = next; render();
-      $('art-shell').scrollIntoView?.({ block: 'start', behavior: state.motion ? 'smooth' : 'instant' });
+      if (!state.expanded) $('art-shell').scrollIntoView?.({ block: 'start', behavior: state.motion ? 'smooth' : 'instant' });
     }
   }
   for (const [id, handler] of Object.entries({ previous: () => goTo(state.index - 1), next: () => goTo(state.index === panels.length - 1 ? 0 : state.index + 1), replay: () => { closeNicola(); closeThought(); closeKrek(); animate(); void playSound(); }, 'nicola-hotspot': showNicola, 'nicola-open': showNicola, 'nicola-close': () => closeNicola(true), 'thought-close': () => closeThought(true), 'krek-hotspot': showKrek, 'krek-again': showKrek, 'krek-close': () => closeKrek(true), 'orb-hotspot': toggleOrb })) $(id).addEventListener('click', handler);
+  $('scene-previous').addEventListener('click', () => goTo(state.index - 1));
+  $('scene-next').addEventListener('click', () => goTo(state.index + 1));
   $('nicola-another').addEventListener('click', () => { const lines = panels[state.index].theories; state.theory = (state.theory + 1) % lines.length; $('nicola-comment').textContent = lines[state.theory]; });
   $('crystal-detail').addEventListener('click', () => { state.detail = !state.detail; $('crystal-detail').setAttribute('aria-pressed', String(state.detail)); $('crystal-detail').textContent = state.detail ? 'Terug naar het paneel' : 'Bekijk het kristal'; closeNicola(); stopMotion(); paintArt(); });
   $('chapter-select').addEventListener('change', () => { const index = panels.findIndex(p => p.scene === $('chapter-select').value); if (index >= 0) goTo(index); });
@@ -205,7 +255,11 @@
   mq.addEventListener('change', () => { if (savedMotion === null) { state.motion = !mq.matches; preferences(); if (!state.motion) stopMotion(); } });
   document.addEventListener('keydown', event => {
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable) return;
-    if (event.key === 'Escape') { if (!$('nicola-balloon').hidden) closeNicola(true); if (!$('thought-panel').hidden) closeThought(true); if (!$('krek-balloon').hidden) closeKrek(true); }
+    if (event.key === 'Escape') {
+      const commentOpen = !$('nicola-balloon').hidden || !$('thought-panel').hidden || !$('krek-balloon').hidden;
+      if (!$('nicola-balloon').hidden) closeNicola(true); if (!$('thought-panel').hidden) closeThought(true); if (!$('krek-balloon').hidden) closeKrek(true);
+      if (!commentOpen && state.expanded) void toggleFullscreen();
+    }
     if (event.key === 'ArrowRight') { event.preventDefault(); goTo(state.index + 1); }
     if (event.key === 'ArrowLeft') { event.preventDefault(); goTo(state.index - 1); }
   });

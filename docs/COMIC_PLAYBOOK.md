@@ -107,3 +107,5 @@ Bij feedback: noteer paneel-ID, gewenste wijziging en of het om verhaal, tekst, 
 ## Beeld krijgt voorrang in de reader
 
 Gebruikersfeedback van 18 oktober: het is een strip; laat het beeld de leesbreedte dragen. Gebruik compacte koppen, een kort bijschrift en kleine ondersteunende bediening. Een brede tekstzijbalk mag de illustratie niet verdringen. Behoud leesbare ballonnen, bruikbare knoppen, volledige uitsnede en correcte beeldverhouding op smal en breed scherm. Deze voorkeur geldt voor volgende afleveringen.
+
+Bedieningsvoorkeur: links/rechts naast het beeld terug/verder, zonder gezicht of klikpunt te bedekken. Bied optioneel volledig scherm met behoud van verhouding, ballonnen en navigatie. Een browser die fullscreen niet toestaat krijgt een grote leesweergave binnen het venster, met een zichtbare terugknop en Escape.
