@@ -4,7 +4,7 @@
 
 Lees README.md en WORLDBUILDING.md voordat je aan verhaal, beelden of software werkt. De wereldbijbel is het centrale inhoudelijke referentiedocument.
 
-Voor iedere nieuwe strip of beeldrevisie: lees docs/COMIC_PLAYBOOK.md en content/characters/MODEL_GUIDE.md. Gebruik de daar geselecteerde referentiebeelden bij beeldproductie; oudere afbeeldingen worden niet vanzelf het nieuwe model.
+**Verplichte visuele start voor iedere nieuwe strip of beeldrevisie:** lees eerst docs/VISUAL_DIRECTION.md (actuele dark-comic stijl van 20 oktober 2026), docs/COMIC_PLAYBOOK.md en content/characters/MODEL_GUIDE.md. Gebruik oorspronkelijke klassebeelden alleen voor anatomie/identiteit en vaste gezichtsankers; oudere afleveringsbeelden, posters, schilderachtige prompts en SRC-STYLE-02 zijn géén actuele stijlreferentie. Bij conflict wint de nieuwe VISUAL_DIRECTION voor grafische afwerking en kleur; de MODEL_GUIDE en oorspronkelijke klassebeelden voor soort/anatomie.
 
 Voor een nieuwe sessie of aflevering: lees ook docs/SESSION_WORKFLOW.md, content/episodes/README.md en de betrokken sessie- en storyboardbestanden. Gebruik content/sessions/SESSION_TEMPLATE.md om vrije gebruikersinput te ordenen; verplicht de gebruiker niet het formulier in te vullen.
 
@@ -23,7 +23,7 @@ Storyboard v0.8 en sessie S001 zijn de actuele basis. Laatste correctie: claustr
 - Behoud karakterquotes en de vastgelegde Frozen Hollow-ankers.
 - Perspectiefkeuzes veranderen geen bevestigde campagne-uitkomst.
 - De gegenereerde illustratie is geen geografische bron; gebruik de aangeleverde campagnekaart met de aangegeven beperkingen.
-- De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. Lees docs/VISUAL_DIRECTION.md. De referenties bewijzen geen nieuwe lore.
+- Nieuwe illustraties gebruiken uitsluitend de actuele grafische dark-comic beeldtaal uit docs/VISUAL_DIRECTION.md: zware schaduwvlakken, hoekige inktlijnen, verweerde textuur en rijkere gerichte kleuraccenten. De oorspronkelijke klasse-illustraties blijven leidend voor soort, anatomie, gezichten, kleding en herkenbare uitrusting, maar niet voor de vroegere schilderachtige renderstijl. SRC-STYLE-02 en bestaande Frozen Hollow-afbeeldingen zijn historische bronnen voor humor, lay-out of continuïteit, nooit automatische stijlankers. De referenties bewijzen geen nieuwe lore.
 
 ## Werkwijze
 
