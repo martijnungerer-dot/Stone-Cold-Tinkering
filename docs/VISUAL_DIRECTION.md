@@ -1,6 +1,6 @@
 # Visuele richting — tekstuele briefing
 
-Status: herzien op 18 oktober 2026 na de eerste volledige leesversie. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. De eerdere proef en haar beelden blijven bewaard als werkgeschiedenis.
+**Actuele productiestandaard vanaf 20 oktober 2026:** onderstaande grafische dark-comic beeldtaal vervangt de eerdere schilderachtige stijl. Oude poster, SRC-STYLE-02 en bestaande afleveringsbeelden zijn archief/continuïteitsbronnen en worden nooit automatisch als visueel stijlanker gebruikt. De oorspronkelijke klassebeelden blijven wel leidend voor anatomie, soort en identiteit; alle bestaande afleveringsbestanden blijven ongewijzigd.
 
 Voor de actuele gezichtsankers en lichaamsvormen: lees de [modelgids](../content/characters/MODEL_GUIDE.md). Voor de volgorde van tekst, beeldproductie en controle: volg het [stripstappenplan](COMIC_PLAYBOOK.md). De modelgids bewaart het persoonlijke gezicht; de oorspronkelijke klassebeelden bewaken soort en lichaamsbouw.
 
@@ -49,7 +49,7 @@ Behoud zware paneelkaders, crèmekleurige tekstballonnen, verweerde titelvlakken
 
 ## Personages
 
-De poster is ook een karakterreferentie. Lees [karakterisering en ontwikkeling](../content/characters/CHARACTER_ARCS.md) voor hun overtuigingen, humor, onderlinge dynamiek en episodeboog. Gebruik die bij houding, blik en reactie; uiterlijk alleen draagt hun identiteit niet volledig.
+De oudere poster is uitsluitend een historische referentie voor karakterhumor en onderlinge dynamiek, niet voor actuele tekenstijl, anatomie of nieuwe identiteitsdetails. Lees [karakterisering en ontwikkeling](../content/characters/CHARACTER_ARCS.md) voor hun overtuigingen, humor, onderlinge dynamiek en episodeboog. Gebruik die bij houding, blik en reactie; uiterlijk alleen draagt hun identiteit niet volledig.
 
 | Personage | Zichtbaar vertrekpunt | Wat later moet worden vastgelegd |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ Deze zichtbare kenmerken volgen de nieuwe gebruikersreferenties (BRONFOTO). De a
 
 Nieuwste gebruikersregie voor de volledige aflevering: Frozen Hollow is claustrofobisch. Eerst een smalle gang met wolven; de eerder genoemde Spirits horen bij de trage start. Kamer 2 bevat de ijsdemonen. Halverwege kamer 2 sprint Krek met volle kracht door mist naar kamer 3, waar de schat en het eindgevecht plaatsvinden. Houd plafonds laag, muren dichtbij en licht beperkt tot kleine plekken. Ook de kamers bieden nauwelijks ruimte rond Kreks massa. De mist is bevestigd; voeg geen magische verklaring toe. Dit vervangt de oudere plaatsing van de ijsdemonen in kamer 1.
 
-De kaart bovenaan de stijlposter ondersteunt sfeer, perspectief en kleur. Geografische plaatsing volgt SRC-MAP, de aangeleverde campagnekaart. Niet-gecontroleerde namen en wereldclaims in de stijlposter worden niet als lore gebruikt. Een groot portaal of een geheimzinnige horizon in de poster is geen verplicht verhaalonderdeel.
+De kaart bovenaan de oude stijlposter is hoogstens historisch sfeer- en compositiemateriaal en vormt geen actuele kleur-/stijlreferentie. Geografische plaatsing volgt SRC-MAP, de aangeleverde campagnekaart. Niet-gecontroleerde namen en wereldclaims in de stijlposter worden niet als lore gebruikt. Een groot portaal of een geheimzinnige horizon in de poster is geen verplicht verhaalonderdeel.
 
 - **Crooked Bone:** de vervallen herberg is veranderd in een wanordelijke bibliotheek. Gebruik in opening en epiloog dezelfde rekken, ladder en onderzoekstafel zodat de terugkeer direct herkenbaar is. Hun precieze vorm is creatieve invulling.
 - **Stash:** metalen deur in de bergwand; de vier gekleurde kristallen en middenknop volgen SRC-R10. De groene ruit onderaan moet van de ronde middenknop te onderscheiden zijn. Alleen Emergency Temporal Stash staat als bronondersteund opschrift op de plaat.
