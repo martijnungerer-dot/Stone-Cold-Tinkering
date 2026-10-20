@@ -120,3 +120,7 @@ BRONFOTO / gebruikersreferentie, daadwerkelijk bekeken. Gebruikerscorrectie: Hai
 ## SRC-NICOLA-FACE-02 — vaste gezichtsreferentie
 
 `assets/concepts/nicola-reader-head-v2.png` is het eerder met de ingebouwde beeldgenerator gemaakte Quatryl-gezicht. Op basis van de tweede gebruikersreview is dit het vaste identiteitsbeeld voor Nicola in de volledige aflevering, naast het oorspronkelijke klassebeeld voor anatomie en uitrusting. Status CREATIEF / gebruikersreferentie, geen lorebron. Geef het bestand zichtbaar mee bij iedere nieuwe Nicola-tekening; behoud zijn identiteit vanuit de benodigde gezichtshoek.
+
+## Actuele productiehiërarchie — 20 oktober 2026
+
+Voor **nieuwe** Nyra-illustraties is uitsluitend **NYRA-M03**, de door gebruiker goedgekeurde melkachtig bleke model-sheet, de actuele beeldreferentie (PNG-upload naar `assets/references/approved/NYRA-M03-approved-character-sheet.png` nog te bevestigen). Oudere Nyra-sheets, SRC-STYLE-02 en eerdere Frozen Hollow-beelden zijn **historisch** en mogen niet als kleur-, anatomie-, outfit- of stijlanker worden gebruikt. SRC-CHAR-ORCHID blijft nuttig als oorspronkelijke soort-/klassebron, maar bij verschil in concrete persoonlijke vormgeving wint de goedgekeurde NYRA-M03. Zie MODEL_GUIDE.md en VISUAL_DIRECTION.md.
