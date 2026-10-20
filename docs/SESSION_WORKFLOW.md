@@ -53,7 +53,7 @@ Een nieuwe foto of herinnering wordt toegevoegd met herkomst. Een correctie krij
 
 ## De herkenbare leesvorm
 
-De [visuele richting](VISUAL_DIRECTION.md) en [leesproef](PROTOTYPE.md) zijn het vertrekpunt. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. Gebruik bij beeldproductie de bewaarde referentieafbeeldingen zelf; controleer uiterlijk en onderlinge schaal vóór integratie. Bevestigde tijdvolgorde gaat vóór een verzonnen vloeiendere montage.
+De [visuele richting](VISUAL_DIRECTION.md) en [leesproef](PROTOTYPE.md) zijn het vertrekpunt. Voor alle **nieuwe** afleveringen geldt de dark-comic standaard van 20 oktober uit VISUAL_DIRECTION.md. De klassebeelden bepalen uitsluitend anatomie, soort en herkenbare uitrusting; ze schrijven geen schilderachtige afwerking meer voor. SRC-STYLE-02 en oude scènebeelden blijven historisch/voor lay-out of continuïteit, nooit het visuele stijlanker. Gebruik bij beeldproductie de bewaarde referentieafbeeldingen zelf; controleer uiterlijk en onderlinge schaal vóór integratie. Bevestigde tijdvolgorde gaat vóór een verzonnen vloeiendere montage.
 
 - De lezer bladert op eigen tempo. Het hoofdverhaal blijft compleet zonder optionele interacties.
 - Nicola kan naar de lezer kijken en die aanspreken in een lichtblauwe tekstballon binnen het stripkader. Gebruik geen popup of verduistering. Zijn reactie verandert perspectief, geen gespeelde uitkomst. Ook hij mag stil blijven wanneer een scène daarom vraagt.
