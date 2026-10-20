@@ -4,6 +4,14 @@ Actuele werkstandaard · 20 oktober 2026. Lees dit vóór iedere nieuwe illustra
 
 Zie [visuele richting](../../docs/VISUAL_DIRECTION.md), [persoonlijkheden](CHARACTER_ARCS.md) en [productiestappen](../../docs/COMIC_PLAYBOOK.md). Deze tabel bepaalt de actuele selectie; oudere versies in het assetregister zijn geschiedenis.
 
+## Nieuw goedgekeurd karakterblad — Nicola (20 oktober 2026)
+
+**Gebruikersgoedkeuring:** de tweede, gecorrigeerde NICOLA-M04-modelsheet is expliciet goedgekeurd met “Dit is perfect”. Deze sheet heeft kleine brongetrouwe oren, een compact hoofd zonder goblin-neus, een bescheiden technische rugopbouw, hybride handtool en subtiele level-1 quantummagie. Het is de **goedgekeurde visuele doelreferentie** voor toekomstige Nicola-afbeeldingen, samen met de oorspronkelijke Quatryl-klasseplaat voor anatomische correcties.
+
+**Assetstatus:** de PNG is goedgekeurd in de ChatGPT-conversatie maar is **nog niet fysiek opgenomen in GitHub**. Bestandsnaam voor upload: `assets/references/approved/NICOLA-M04-approved-character-sheet.png`. Dit pad mag pas als bestaande beeldbron worden aangehaald nadat de upload is bevestigd. Tot dan niet terugvallen op de oude NICOLA-M03-studies als stijlankers. De eerste eerder gegenereerde modelsheet met enorme zijwaartse oren is expliciet **afgekeurd**.
+
+De grafische dark-comic standaard blijft [VISUAL_DIRECTION.md](../../docs/VISUAL_DIRECTION.md). Bestaande Frozen Hollow-beelden en oude schildereffecten zijn geen stijlankers voor een nieuwe strip.
+
 ## Referenties die bij elke beeldopdracht meegaan
 
 | Model | Gezicht en vorm | Vaste kenmerken | Controle |
