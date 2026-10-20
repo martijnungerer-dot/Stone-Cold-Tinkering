@@ -16,7 +16,7 @@ Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
 
-De gebruiker heeft de poster Gloomhaven_ Drie Helden in een Gebroken Wereld.png als goede visuele basis gekozen. De op 18 oktober aangeleverde klasse-illustraties (SRC-CHAR-ORCHID, SRC-CHAR-QUATRYL en SRC-CHAR-SAVVAS) zijn leidend voor anatomie, kleding, kleuren en schilderachtige materialen. SRC-STYLE-02 blijft richting geven aan karakterhumor, paneelkaders en losse tekstballonnen. Bij tegenspraak wint het nieuwe oorspronkelijke karakterbeeld. De campagnekaart blijft de geografische referentie.
+**Actuele beeldtaal (20 oktober 2026):** volwassen grafische dark fantasy met zware zwartvlakken, krachtige inktcontouren, meer gerichte kleur en de herkenbare groene steen-Krek, technische cyaan-gadgets van Quatryl Nicola en paarse Orchid Nyra. Zie [VISUAL_DIRECTION.md](docs/VISUAL_DIRECTION.md). De oorspronkelijke klasse-illustraties bepalen soort/anatomie/identiteit, niet de schilderachtige afwerking. De vroegere poster SRC-STYLE-02 en bestaande afleveringbeelden zijn historisch materiaal, géén stijlreferenties voor nieuwe afleveringen. De campagnekaart blijft de geografische referentie.
 
 [Karakterisering en ontwikkeling](content/characters/CHARACTER_ARCS.md) vertaalt de persoonlijkheden op de poster naar schrijfbare reacties, onderlinge dynamiek en de ontwikkeling van het trio binnen Frozen Hollow.
 
