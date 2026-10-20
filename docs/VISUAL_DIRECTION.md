@@ -6,15 +6,46 @@ Voor de actuele gezichtsankers en lichaamsvormen: lees de [modelgids](../content
 
 Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk is bekeken. Het [storyboard](../content/episodes/frozen-hollow/STORYBOARD.md) bepaalt de scènes; de [wereldbijbel](../WORLDBUILDING.md) bewaakt personages en canon.
 
-## Stijl
+## Stijl — gekozen dark-comic richting (20 oktober 2026)
 
-Vertrek voor de figuren vanuit de drie rechtstreeks aangeleverde oorspronkelijke klasse-illustraties. Gebruik een schilderachtige fantasyafwerking met korrel, verweerde materialen en natuurlijk gemodelleerd licht. Contouren ondersteunen leesbaarheid, zonder de eerdere zware zwarte inkt als verplichting op te leggen. De strip blijft herkenbaar door kadrering, tekstballonnen, houding en timing.
+**Status: door gebruiker gekozen visuele richting na opeenvolgende mockups.** Dit vervangt de eerdere schilderachtige afwerking als standaard voor nieuwe illustraties. Het bestaande materiaal en de aflevering worden niet automatisch opnieuw getekend. De laatste door de gebruiker als 'prima' beoordeelde drietal-mockup uit het gesprek op 20 oktober is de **stijlreferentie**, maar niet een nieuwe bron voor gewijzigde anatomie. Het gesprekbeeld is nog niet als repository-asset opgeslagen; gebruik dit document en de oorspronkelijke klassebeelden tot een goedgekeurd beeldbestand in het assetregister is opgenomen.
 
-De basis bestaat uit verweerd oker, steenbruin, zwart en crème. Koel blauw draagt sneeuw, schaduw en Nicola's techniek. Nyra brengt violet, magenta en fel rood/oranje in beeld. Sterk licht contrasteert met donkere silhouetten, terwijl gezichten en handelingen leesbaar blijven. De wereld oogt gevaarlijk en bewoond; humor komt uit houding, blik en timing.
+### Grafische vormtaal
+- Volwassen, duistere **gothic dark-fantasy graphic novel**, geïnspireerd door de algemene grafische eigenschappen van Hellboy/Mignola, **niet** een letterlijke stijlkopie.
+- Grote diepzwarte schaduwvlakken, krachtige hoekige silhouetten, scherpe inktcontouren, grafische licht-donkercontrasten en selectieve, ruwe textuur.
+- Iets rijkere materialen, kleurnuance en anatomische detaillering dan extreem minimalistische schaduwstrips. Beeld moet herkenbaar een **getekende strip** zijn, geen glanzende 3D-game-render of zachte kinderboekillustratie.
+- Schaduw mag de vaste ogen, gezichten, kristallen, apparaten en silhouetten nooit onleesbaar maken. Houd scènes leesbaar op telefoonformaat.
+- Verweerde steen, scheuren, beschadigd leer, oud metaal en gebruikte apparaten krijgen gewicht. Architectuur is dreigend en geloofwaardig; in Frozen Hollow blijft deze nauw en claustrofobisch.
+- Filmische actie, maar ook aandacht voor stilte, blikken en droge komische timing.
 
-De referentie gebruikt zware paneelranden, crèmekleurige tekstballonnen en verweerde titelvlakken. Neem die grafische taal mee naar de reader. Geef ieder paneel genoeg ruimte en houd tekstballonnen als losse, aanpasbare tekst boven het beeld. Gebruik stabiele, leesbare lettervormen en een duidelijke leesvolgorde. De posterteksten, kaartlabels, statistieken en kanspercentages worden alleen overgenomen wanneer ze afzonderlijk in de wereldbijbel of het storyboard zijn vastgesteld.
+### Kleurrichting
+**Donkere wereld, kleurrijke personages.** Gebruik diepzwart, koel leigrijs, rotsbruin, vuil oker, gedempt mosgroen en koud blauw voor de omgeving. Vermijd algehele ontkleuring. Kleuren dragen óók identiteit, zonder actieve magie:
+- **Krek:** licht, gelaagd steenmateriaal met herkenbare **olijf-/mosgroene aardetint**, niet uitsluitend zandbruin of felgroen. Amberogen, donkere naad en borstkuil; geen ongevraagde wijziging van de bestaande vorm.
+- **Nicola:** okerkleurige Quatryl-huid, koper/messing en doorleefd leer; **helder cyaanblauw** voor lenzen, spoelen, energiekernen, kleine elektrische ontladingen en experimentele gadgets. Laat techniek tastbaar, vreemd en ambachtelijk lijken, niet als één generiek geweer.
+- **Nyra:** **zichtbaar verzadigde lila/paarse huid**, ook zonder licht van toverspreuken; paarse/magenta kristalreflecties op de vastgelegde witblauwe kristalkroon en schouder-/borstkristallen, donkere zwart-rode lagen. Fel rood/oranje vuur en helder blauw ijs kunnen apart of samen voorkomen. Verander geen anatomie of kristalvorm alleen voor extra paars.
 
-Gebruikerskeuze na de eerste leesproef: wanneer Nicola wordt aangeklikt, draait hij zijn hoofd naar de lezer en spreekt die aan via een anders gekleurde tekstballon in het stripkader. Gebruik lichtblauw voor dit directe lezerscontact. Deze interactie hoort bij de strip; toon geen popup of verduisterde achtergrond. De huidige proef gebruikt een transparante frontale hoofdlaag en een korte overgang tussen de twee blikken. Tussenframes voor een vloeiender hoofddraai blijven een latere beeldtaak.
+### Karakterpresentatie, niet alleen karakterontwerp
+- **Krek**: grootste/zwaarste silhouet, beweegt onverschrokken voorwaarts, heroïsche maar bloedserieus bedoelde houding. Bewaar slimme ruimtelijke daadkracht; geen domme, generieke groene ork/golem.
+- **Nicola**: herkenbaar **kleine, slanke mannelijke Quatryl** uit de modelgids: lang gevormde neus, hoekig getextureerd okergezicht, smalle mond, vaste blauwe ooglenzen en donkere voorhoofdsbril. Omring hem waar passend met koperen instrumenten, spoelen, hulpmiddelen, elektrische ontladingen en merkwaardig quantummagisch onderzoek. **Geen goblin**, grote karikaturale puntoren, mens, meisje of conventionele geweerschutter. Uitrusting mag de anatomie niet verbergen of permanent veranderen.
+- **Nyra**: Orchid, geen menselijke tovenares of elf. Lila huid, **korte** witblauwe kristalkroon, eigen Orchid-oren en herkenbare schouder-/borstkristallen; elegante aristocratische houding, hooghartige blik, beheerste sarcastische expressie. Geen lang menselijk haar. Haar magie mag kleurrijk zijn, maar haar lichaam is óók zonder magie paars.
+
+### Compositie en toon
+De goedgekeurde groepsopstelling uit de eerdere gedeelde comic blijft een bruikbare compositie: **Nyra links, Nicola in het midden en Krek rechts**, drie volledige herkenbare figuren in een donkere stenen doorgang, helder gescheiden silhouetten en onderlinge schaal. Deze opstelling is een referentie voor groepsstudies, **geen verplicht sjabloon voor alle verhaalpanelen**. In scènes mogen kadrering en posities volgen uit het storyboard.
+Laat hun disfunctioneel effectieve samenwerking zien: Krek gaat eerder dan het overleg klaar is, Nicola experimenteert tijdens het handelen, Nyra reageert met koele superioriteit. De wereld blijft serieus en gevaarlijk; humor ontstaat uit personages en timing, niet uit kinderachtige cartoongezichten.
+
+### Verboden stijl- en identiteitsafwijkingen
+Geen pastelachtige kinderfantasy, geen gladde videogamerender, geen alles-verduisterend zwart, geen kleurloze Nyra, geen generieke groene krijger als Krek, geen humanoïde goblin/elf/steampunk-schutter als Nicola. Geen anatomische wijziging of nieuw permanent voorwerp zonder expliciete goedkeuring.
+
+### Productiewerkwijze
+1. Lees [MODEL_GUIDE.md](../content/characters/MODEL_GUIDE.md), [CHARACTER_ARCS.md](../content/characters/CHARACTER_ARCS.md) en de oorspronkelijke [klassebeelden](../assets/references/characters/) vóór beeldproductie.
+2. Gebruik echte karakterbeelden als **beeldreferenties**, niet alleen een prompt. De klassebeelden en vaste gezichtsankers hebben altijd voorrang op de mockup als die iets anatomisch verkeerd toont.
+3. Test het ontwerp eerst als driekarakterstudie; toets elke figuur afzonderlijk op soort, gezicht, kleur, silhouet en uitrusting. Kijk ook naar de expressie en onderlinge dynamiek.
+4. Corrigeer gericht, met **dezelfde compositie** als alleen een detail verandert; behoud wat al goedgekeurd is.
+5. Sla pas een daadwerkelijk beoordeelde en goedgekeurde definitieve stijlafbeelding op als asset en registreer de bron/versie. Pas na een aparte opdracht bestaande Frozen Hollow-panelen aan.
+
+### Reader en interacties
+Behoud zware paneelkaders, crèmekleurige tekstballonnen, verweerde titelvlakken en losse aanpasbare tekst boven het beeld. Bij Nicola's vierdewandcontact wordt de tekstballon lichtblauw **binnen het paneel**; geen pop-up. Afbeeldingen blijven dominant in de reader, ook op mobiel.
+
 
 ## Personages
 
