@@ -7,7 +7,7 @@ Vastgelegd op 18 oktober 2026 na de Frozen Hollow-reviews. Gebruik dit als prakt
 | Les | Vaste aanpak voortaan |
 | --- | --- |
 | Een stijlomschrijving alleen hield gezichten niet gelijk | Geef de echte gezichts- en lichaamsreferenties mee. Controleer iedere nieuwe scène tegen de [vaste modellen](../content/characters/MODEL_GUIDE.md) |
-| De gegenereerde poster verdrong de oorspronkelijke soortkenmerken | Klassebeelden en actuele modelkeuzes bepalen anatomie; de poster ondersteunt humor, kaders en ballonnen |
+| De gegenereerde poster verdrong de oorspronkelijke soortkenmerken | Klassebeelden en actuele modelkeuzes bepalen anatomie; de poster is hoogstens historische inspiratie voor humor, kaders en ballonnen, nooit voor de grafische tekenstijl |
 | Krek kreeg overal dezelfde open mond | Noteer vóór het tekenen: rust, spreken of actie. Gesloten kaak in rust; een open mond past bij beweging of strijd |
 | Nicola werd een ander persoon in nieuwe beelden | NICOLA-M02 is het gezichtsanker bij elke generatie, ook voor profiel en driekwart |
 | Hail werd elfachtig | Gebruik haar Aesther-referenties en licht doorschijnende werkmodel; behoud haar rol als onderzoeker |
@@ -45,7 +45,7 @@ Bewaar ook de bestaande tekstvorm: vaste sprekerlabels, dezelfde letterstijl en 
 
 ## 3. Maak een kleine beeldlijst met vaste modellen
 
-Lees de [modelgids](../content/characters/MODEL_GUIDE.md) en [visuele richting](VISUAL_DIRECTION.md). Selecteer de huidige model-IDs en bestanden vóór het eerste beeld. Gebruik bij iedere generatie die referenties zelf, niet alleen een afgeleid werkbeeld. Houd de gekozen schilderachtige materiaalafwerking gelijk.
+Lees de [modelgids](../content/characters/MODEL_GUIDE.md) en [visuele richting](VISUAL_DIRECTION.md). Selecteer de huidige model-IDs en bestanden vóór het eerste beeld. Gebruik bij iedere generatie die referenties zelf, niet alleen een afgeleid werkbeeld. Pas uitsluitend de actuele grafische dark-comic beeldtaal uit VISUAL_DIRECTION.md toe. Neem nooit de vroegere schilderachtige afwerking, oude poster of Frozen Hollow-atlassen als stijlanker. Gebruik klassebeelden alleen voor anatomie/identiteit en de vaste modelbeelden voor gezichtsherkenning.
 
 Een paneelbrief bevat minimaal:
 
