@@ -26,7 +26,7 @@ Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk 
 
 ### Karakterpresentatie, niet alleen karakterontwerp
 - **Krek**: grootste/zwaarste silhouet, beweegt onverschrokken voorwaarts, heroïsche maar bloedserieus bedoelde houding. Bewaar slimme ruimtelijke daadkracht; geen domme, generieke groene ork/golem.
-- **Nicola**: herkenbaar **kleine, slanke mannelijke Quatryl** uit de modelgids: lang gevormde neus, hoekig getextureerd okergezicht, smalle mond, vaste blauwe ooglenzen en donkere voorhoofdsbril. Omring hem waar passend met koperen instrumenten, spoelen, hulpmiddelen, elektrische ontladingen en merkwaardig quantummagisch onderzoek. **Geen goblin**, grote karikaturale puntoren, mens, meisje of conventionele geweerschutter. Uitrusting mag de anatomie niet verbergen of permanent veranderen.
+- **Nicola**: herkenbaar **kleine, slanke mannelijke Quatryl** uit de modelgids: neus en Quatryl-gezicht **zoals op de oorspronkelijke klasseillustratie**, niet overdreven lang of goblinachtig; okerkleurige huid, herkenbare blauwe ooglenzen en voorhoofdsbril. Geef hem een **bescheiden rugapparaat** met zorgvuldig geselecteerde koperen instrumenten en spoelen, handige gereedschappen en een **hybride tool/weapon** in plaats van een conventioneel geweer. Hij is nu **level 1**: elektrische ontladingen en quantummagische effecten blijven subtiel. Naarmate de campagne en zijn ontwikkeling vorderen, mag de vreemde quantumbeeldtaal geleidelijk groeien, niet vooraf. **Geen goblin**, grote karikaturale puntoren, mens, meisje of conventionele geweerschutter. Uitrusting mag de anatomie niet verbergen of permanent veranderen.
 - **Nyra**: Orchid, geen menselijke tovenares of elf. Lila huid, **korte** witblauwe kristalkroon, eigen Orchid-oren en herkenbare schouder-/borstkristallen; elegante aristocratische houding, hooghartige blik, beheerste sarcastische expressie. Geen lang menselijk haar. Haar magie mag kleurrijk zijn, maar haar lichaam is óók zonder magie paars.
 
 ### Compositie en toon
@@ -54,7 +54,7 @@ De oudere poster is uitsluitend een historische referentie voor karakterhumor en
 | Personage | Zichtbaar vertrekpunt | Wat later moet worden vastgelegd |
 | --- | --- | --- |
 | Krek | Lichte zand-/okerkleurige gelaagde steen; geribde kop, ambergele ogen, donkere mond en borstkuil; bescheiden okeren schouderbeslag en gordel | Bewaar massa en vaste gezichtsvorm; geen blauwe ogen of zware bronzen borstbepantsering uit de oude poster |
-| Nicola | Kleine slanke Quatryl; fijne lange ledematen, smal okerkleurig gezicht; donkere reservebril op voorhoofd én blauwe ooglenzen; koperen techniek, blauwe borstkern en ruguitrusting | Geen bolle goblin/vliegenier; rode sjaal is geen vast karakterkenmerk. Houd hoofdlaag en afgebeelde kop passend |
+| Nicola | Kleine slanke mannelijke Quatryl; gezicht en neus direct volgens de oorspronkelijke Quatryl-bron; okerkleurige huid, herkenbare brillen/lenzen en verfijnde techniek; compact bescheiden rugapparaat, hybride handtool en level-1 subtiele quantummagie | Geen lange haakneus uit de eerdere AI-modellen, geen goblin/vliegenier, geen enorm rugapparaat, geen overdaad aan quantumvuurwerk; de oorspronkelijke Quatryl-tekening wint van oude gegenereerde hoofdbeelden |
 | Nyra | Lila huid, spitse oren, korte witblauwe kristalkroon; kristalgroei op borst en schouders; donkere zwart-rode gelaagde kleding | Geen lang menselijk lila haar. Elegante houding en scherpe blik blijven, ook bij uitputting en zonder magie |
 | Hail | Licht doorschijnende Aesther; koel bleke/lila huid, donkere ogen, ijl zilverblauw haar, praktische leigrijze onderzoekersmantel; kleine ronde of bedekte oren | Geen elf of puntoren. Boeken/ladder/tafel mogen heel subtiel door armen, schouders en mantel zichtbaar zijn. Haar onderzoekende houding blijft leidend |
 
@@ -97,7 +97,7 @@ De drie Aesther-illustraties (Summoner, Diviner, Nightshroud) zijn op 18 oktober
 
 ## Vaste gezichten en uitdrukkingen — correctie 18 oktober
 
-Nicola's gezicht is vastgelegd in [nicola-reader-head-v2.png](../assets/concepts/nicola-reader-head-v2.png). Gebruik dit beeld rechtstreeks als identiteitsreferentie, samen met het Quatryl-klassebeeld voor zijn lichaam. Herkenbaar hoekig, grof getextureerd okerkleurig Quatryl-gezicht, lange neus, smalle mond, donkere voorhoofdsbril en blauwe ooglenzen. Geen glad vrouwelijk elfenportret. Pas de gezichtshoek aan de scène aan; plak niet overal dezelfde frontale pose.
+**Nieuwe correctie 20 oktober:** Nicola's oude AI-gezicht [nicola-reader-head-v2.png](../assets/concepts/nicola-reader-head-v2.png) is niet langer het primaire gezichtsanker. Het introduceerde mogelijk een overdreven lange neus. Gebruik voor NICOLA-M03 in nieuwe afleveringen rechtstreeks het [oorspronkelijke Quatryl-klassebeeld](../assets/references/characters/quatryl-tinkerer.png) als hoofd- en lichaamsreferentie. Neus en oren blijven brongetrouw en worden niet gekarikaturiseerd. Het oude hoofd blijft alleen in de reeds bestaande Frozen Hollow-reader voor historische continuïteit. Zie MODEL_GUIDE.md.
 
 Krek heeft in rustige scènes een gesloten stenen kaak met natuurlijke naad. Een donkere borstholte betekent niet dat zijn mond altijd open moet staan. Bij bewegen, roepen en vechten mag hij zijn mond openen. Bewaar amberogen en dezelfde kopvorm.
 
