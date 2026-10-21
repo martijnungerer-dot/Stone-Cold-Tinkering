@@ -138,3 +138,27 @@ Deze kleine bewegingen zijn de creatieve interpretatie van het huidige script, g
 - Bewaar momenten zonder grap. P32 en P37 geven de latere hook betekenis.
 - Een interactieve keuze toont hoe iemand denkt. Ze maakt geen van de drie de enige juiste of competente held.
 - Stel de herhaling van een grap steeds afhankelijk van de scène. Krek hoeft niet elke deur te slopen, Nicola niet elke knop te becommentariëren en Nyra niet elk paneel in brand te zetten.
+
+## Stap 6 — visuele dynamiek en groei van het hoofdtrio (vastgelegd 21 oktober 2026)
+
+**Definitieve keuze: B, filmisch en expressief met geleidelijke ontwikkeling.** Krek, Nicola en Nyra vormen de kern; Hail verschijnt alleen waar de gespeelde verhaallijn haar daadwerkelijk bevat. Het uiterlijk blijft gebonden aan KREK-M03, NICOLA-M04 en NYRA-M03, met de grafische dark-comic standaard van VISUAL_DIRECTION.md. Geen nieuw karakterontwerp of automatisch hertekenen van Frozen Hollow.
+
+### Lichaamstaal
+
+- **Krek:** zwaar, beslissend, altijd geneigd tot voorwaarts momentum. Monumentale poses zijn oprecht; hij is geen clown, dwaas of permanente beschermer.
+- **Nicola:** klein, precies, nieuwsgierig; blik en handen zijn vaak nog aan het onderzoeken terwijl de situatie verandert. Een spaarzame blik naar de lezer werkt beter dan een constante vierdewandgrap.
+- **Nyra:** eeuwenoude, daadwerkelijk wijze Orchid; rustige, waardige houding en kleine afgemeten expressies. Ze waardeert haar teamgenoten ondanks hun verschillen. Haar grote magie is visueel overweldigend uitsluitend wanneer een werkelijk gebruikte vaardigheid dat ondersteunt.
+
+### Onderlinge reacties
+
+- **Krek / Nicola:** impuls en experiment; Krek handelt vaak voordat Nicola is uitgedacht, Nicola reageert met fascinatie en bezorgd onderzoek.
+- **Krek / Nyra:** onbevangen zekerheid tegenover ervaren overzicht; Nyra's kleine reactie of stilte zegt vaak genoeg, zonder voortdurende irritatie.
+- **Nicola / Nyra:** experimentele nieuwsgierigheid tegenover geleefde kennis; wederzijds intellectueel respect met ruimte voor scepsis en droog sarcasme.
+
+### Ontwikkeling in beeld
+
+1. **Vroeg / Frozen Hollow:** afzonderlijke acties, botsende bewegingsrichtingen en improvisatie. Het effectieve eindgevecht toont potentieel, niet plotseling perfecte coördinatie.
+2. **Groeiende samenwerking:** steeds vaker gedeelde composities en acties die elkaar aanvullen, mits de speelsessies die ontwikkeling laten zien.
+3. **Ervaren samenwerking:** meer vloeiende overgangen en anticipatie, maar behoud van eigenzinnigheid en karaktergebonden humor. Geen vooraf vastgelegde campagne-uitkomst.
+
+**Beeldregie:** silhouet en houding vóór uitleg; filmische camerakeuze ondersteunt actie of reactie. Timing, stilte en kijkrichting mogen tekst vervangen. Gebruik geen permanente magische aura's of niet-gespeelde vaardigheden. Hail krijgt geen eigen vaste plaats in deze teamboog.
