@@ -14,6 +14,13 @@ De gebruiker heeft nu expliciet de volledige Frozen Hollow-motion comic opgedrag
 
 Storyboard v0.8 en sessie S001 zijn de actuele basis. Laatste correctie: claustrofobische smalle gang met wolven en Spirits → kamer 2 met twee grote en twee kleinere ijsdemonen en één Living Spirit achteraan → halverwege kamer 2 Kreks sprint vol kracht door mist → kamer 3 met de schat en het eindgevecht → Nyra uitgeput → Hail-epiloog met Nyra als hook. S08/P23–P25 wordt vóór S06 gelezen; IDs zijn stabiel. R-10 staat vóór Hail; P28/P29 vervallen en de volgende ronde blijft in P30. City event overslaan. Alle drie spreken Engels. De healinggrap is creatief repertoire, geen gespeelde gebeurtenis. Lees bij beelden content/sources/REFERENCES.md, content/characters/CHARACTER_ARCS.md en docs/VISUAL_DIRECTION.md.
 
+## Bijpersonages, vijanden en eindbazen: lichtgewicht continuïteit
+
+- Gebruik voor belangrijke NPC's, terugkerende tegenstanders en bazen één compact karakterregister: [docs/CHARACTER_LIBRARY.md](docs/CHARACTER_LIBRARY.md). Maak geen volledige modelbladen voor ieder personage.
+- Leg een personage pas vast zodra het in de gespeelde/vrijgegeven verhaallijn voorkomt; geen toekomstige scenario-spoilers. Bestaande officiële beelden dienen waar mogelijk als anatomische referentie, nooit automatisch als actuele tekenstijl.
+- Start met een korte beschrijving en bruikbare bron; ontwikkel alleen bij belangrijke terugkeer een apart goedgekeurd modelblad. Een monstersoort en een uniek monsterpersonage zijn verschillende entries.
+- Hail is een belangrijk terugkerend Aesther-bijpersonage, met lichte transparantie en geen elfenanatomie. Haar nieuwe detailontwerp is nog niet expliciet goedgekeurd; geen verzonnen definitieve sheet claimen.
+
 ## Inhoudelijke regels
 
 - Gebeurtenissen aan tafel zijn canon voor de strip.
