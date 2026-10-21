@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "description": "Register van actuele visuele referenties. Voeg bij nieuwe NPC's, monsters en bazen entries toe zonder het controlescript te wijzigen.",
+  "characters": [
+    {
+      "id": "krek",
+      "name": "Krek Cragheart",
+      "kind": "main",
+      "model": "KREK-M03",
+      "approval": "approved",
+      "references": [
+        {
+          "path": "assets/references/characters/Krek Cragheart Karaktermodelblad.png",
+          "role": "approved-model",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "nicola",
+      "name": "Nicola Tinkerer",
+      "kind": "main",
+      "model": "NICOLA-M04",
+      "approval": "approved",
+      "references": [
+        {
+          "path": "assets/references/characters/Nicola Tinkerer Karaktermodelblad.png",
+          "role": "approved-model",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "nyra",
+      "name": "Nyra Spellweaver",
+      "kind": "main",
+      "model": "NYRA-M03",
+      "approval": "approved",
+      "references": [
+        {
+          "path": "assets/references/characters/Nyra Spellweaver Karaktermodelblad.png",
+          "role": "approved-model",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "hail",
+      "name": "Hail",
+      "kind": "npc",
+      "model": null,
+      "approval": "pending",
+      "references": [],
+      "note": "Aesther-referenties uit bronregister nog niet op exact pad geverifieerd; voeg pas na scan en beeldinspectie toe. Geen goedgekeurd modelblad."
+    }
+  ]
+}
