@@ -1,0 +1,30 @@
+# Betrouwbare beeldreferenties voor nieuwe strips
+
+**Doel:** een nieuwe Codex-sessie kan zelfstandig vaststellen welke afbeeldingen in GitHub aanwezig zijn, welke modelversie is goedgekeurd en welke bestanden de beeldgenerator werkelijk moet ontvangen. Geen nieuwe handmatige checklist per aflevering.
+
+## Bij iedere nieuwe productie in de uitgecheckte repository
+
+1. Lees `AGENTS.md`, `docs/VISUAL_DIRECTION.md`, `content/characters/MODEL_GUIDE.md`, `docs/MAGIC_EFFECTS.md` en de relevante episode/sessie.
+2. Voer `npm run check:references` uit in de hoofdmap (vereist Node >=18). Voor machineleesbare inventaris: `node scripts/check-references.mjs --json`. De scan is recursief en vindt afbeeldingen ook als de namen afwijken.
+3. Controleer de **exacte paden** van alle personages en monsters in de scènes. De drie actieve hoofdmodellen zijn verplicht:
+   - `assets/references/characters/Krek Cragheart Karaktermodelblad.png` — KREK-M03.
+   - `assets/references/characters/Nicola Tinkerer Karaktermodelblad.png` — NICOLA-M04.
+   - `assets/references/characters/Nyra Spellweaver Karaktermodelblad.png` — NYRA-M03.
+4. Bekijk de pixels van de relevante beelden en controleer identiteit, modelstatus en leesbare aanzichten. **Bestandsbestaan is geen visuele inspectie.** Een naam of registertekst alleen bewijst niet dat het juiste beeld erin zit.
+5. Geef de **daadwerkelijke afbeeldingen** aan het gebruikte beeldgeneratieproces als referentie waar die mogelijkheid bestaat; alleen een tekstuele verwijzing naar GitHub levert niet automatisch beeldconditionering op. Als de gekozen tool geen afbeeldingen kan aannemen, meld de beperking en vraag om een passende tool/workflow.
+6. Gebruik `MODEL_GUIDE.md` voor definitieve personagevorm, `VISUAL_DIRECTION.md` voor grafische afwerking, `MAGIC_EFFECTS.md` voor kaartgebonden effecten. Oude poster, oudere modelversies en Frozen Hollow-stijlbeelden zijn historisch, geen nieuwe actieve beeldankers.
+7. Bij ontbrekende, onleesbare of tegenstrijdige referenties: **stop voor het betrokken personage**, rapporteer het exacte ontbrekende pad/probleem, en verzin geen alternatief. Ga waar mogelijk door met onafhankelijke delen van de opdracht.
+
+## Aesther-bronnen voor Hail
+
+`content/sources/REFERENCES.md` noemt Aesther Summoner, Diviner en Nightshroud als anatomische/etherische inspiratie voor Hail. De daarin genoemde paden zijn nog **niet afzonderlijk bevestigd**. Het inventarisatiescript toont alle bestanden en Aesther-kandidaten; controleer die uitvoer en bekijk de inhoud. Pas daarna de exacte links in het bronregister aan. Geen officiële klassevermogens, biografie of toekomstige scenario-inhoud overnemen. Hail blijft een subtiel transparante Aesther-onderzoeker; haar afzonderlijke definitieve modelblad is nog niet goedgekeurd.
+
+## Wat dit technisch wel en niet oplost
+
+- **Wel:** recursieve bestandsinventarisatie in een lokale repository-checkout; automatische controle van verplichte hoofdpersonage-PNG's; vindbaarheid van andere referenties zonder vaste naamgok; duidelijke productiestop bij ontbrekende essentiële bestanden.
+- **Niet automatisch:** een beeld bekijken, beelden rechtstreeks uit ChatGPT's GitHub-connector halen, een afbeeldingsgenerator van visuele input voorzien, of de inhoud van afbeeldingen inhoudelijk valideren. Dat zijn aanvullende stappen in de daadwerkelijk gebruikte productieomgeving.
+- De GitHub-connector in een gewone chat kan in deze omgeving losse bekende bestanden opvragen, maar biedt niet noodzakelijk een recursieve directorylijst of direct bruikbare afbeeldingspixels. De scan hoort daarom in de **Codex-werkmap/checkout** te lopen.
+
+## Eenmalige proef
+
+Laat Codex in de repository `npm run check:references` uitvoeren en rapporteer de totale hoeveelheid gevonden beeldbestanden, de status van de drie hoofdmodelbladen en de exacte kandidaatpaden van Aesther. Bekijk vervolgens de Aesther-afbeeldingen voordat Hail een nieuw modelblad krijgt. Pas als deze proef slaagt is de inventarisatie **getest**; de aanwezigheid van het script op GitHub is nog geen uitgevoerde test.
