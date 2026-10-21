@@ -2,6 +2,10 @@
 
 Vastgelegd op 18 oktober 2026 na de Frozen Hollow-reviews. Gebruik dit als praktische volgorde bij een nieuwe aflevering. De [wereldbijbel](../WORLDBUILDING.md) bewaakt canon en spoilers; de [sessiewerkwijze](SESSION_WORKFLOW.md) bewaart de aanlevering. De gebruiker hoeft geen formulier in te vullen.
 
+## Bijpersonages zonder onnodige ontwerprondes
+
+Lees [CHARACTER_LIBRARY.md](CHARACTER_LIBRARY.md). Maak voor belangrijke NPC's, vijanden en bazen bij hun eerste relevante optreden een **compacte** registratie van bron, uiterlijk en karakterrol; voor eenmalige figuranten volstaat de monstersoort. Kies pas een volledig modelblad wanneer herkenbare terugkeer of een belangrijk verhaalbeeld dat nodig maakt. Hail is als belangrijke Aesther-NPC de eerste prioriteit, zonder een extra verplichte ontwerpronde voor iedere bijrol. Spoilers worden niet vooruit geregistreerd.
+
 ## Wat Frozen Hollow ons leert
 
 | Les | Vaste aanpak voortaan |
