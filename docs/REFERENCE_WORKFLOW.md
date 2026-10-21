@@ -18,7 +18,7 @@
 
 ## Aesther-bronnen voor Hail
 
-`content/sources/REFERENCES.md` noemt Aesther Summoner, Diviner en Nightshroud als anatomische/etherische inspiratie voor Hail. De daarin genoemde paden zijn nog **niet afzonderlijk bevestigd**. Het inventarisatiescript toont alle bestanden en niet-geregistreerde afbeeldingen; controleer die uitvoer en bekijk de inhoud. Pas daarna de exacte links in het bronregister aan. Geen officiële klassevermogens, biografie of toekomstige scenario-inhoud overnemen. Hail blijft een subtiel transparante Aesther-onderzoeker; haar afzonderlijke definitieve modelblad is nog niet goedgekeurd.
+`content/sources/REFERENCES.md` noemt Aesther Summoner, Diviner en Nightshroud als anatomische/etherische inspiratie voor Hail. De drie bijbehorende bestanden zijn volgens de lokale Codex-controle van 21 oktober 2026 op hun exacte paden aangetroffen en visueel bekeken. Ze zijn nu als **species-inspiration** bij Hail geregistreerd, niet als goedgekeurd model. Het controlescript controleert nu hun bestandsaanwezigheid; visuele beeldinspectie blijft bij productie nodig. Geen officiële klassevermogens, biografie of toekomstige scenario-inhoud overnemen. Hail blijft een subtiel transparante Aesther-onderzoeker; haar afzonderlijke definitieve modelblad is nog niet goedgekeurd.
 
 ## Wat dit technisch wel en niet oplost
 
@@ -28,4 +28,4 @@
 
 ## Eenmalige proef
 
-Laat Codex in de repository `npm run check:references` uitvoeren en rapporteer de totale hoeveelheid gevonden beeldbestanden, de status van de drie hoofdmodelbladen en de nog niet geregistreerde afbeeldingen, waaronder eventuele Aesther-referenties. Bekijk vervolgens de Aesther-afbeeldingen voordat Hail een nieuw modelblad krijgt. Pas als deze proef slaagt is de inventarisatie **getest**; de aanwezigheid van het script op GitHub is nog geen uitgevoerde test.
+Laat Codex in de repository `npm run check:references` uitvoeren en rapporteer de totale hoeveelheid gevonden beeldbestanden, de status van de drie hoofdmodelbladen en de gekoppelde ondersteunende referenties en eventuele nieuw toegevoegde, nog niet geregistreerde afbeeldingen. Bekijk vervolgens de Aesther-afbeeldingen voordat Hail een nieuw modelblad krijgt. Pas als deze proef slaagt is de inventarisatie **getest**; de aanwezigheid van het script op GitHub is nog geen uitgevoerde test.
