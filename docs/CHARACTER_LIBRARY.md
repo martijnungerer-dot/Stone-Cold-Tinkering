@@ -4,7 +4,7 @@
 
 **Centraal register:** [`assets/references/character-registry.json`](../assets/references/character-registry.json) bevat machineleesbare beeldreferenties en goedkeuringsstatus voor **ieder** relevant personage, niet alleen Hail. Koppel nieuwe beelden met exacte gecontroleerde paden; gebruik `pending` zolang een karakterblad nog niet is goedgekeurd.
 
-**Technische controle:** gebruik [REFERENCE_WORKFLOW.md](REFERENCE_WORKFLOW.md) en `npm run check:references` voordat Hail of een andere NPC wordt getekend. Het bronregister noemt Aesther-illustraties, maar de exacte paden moeten eerst via de scan en een daadwerkelijke beeldinspectie worden bevestigd.
+**Technische controle:** gebruik [REFERENCE_WORKFLOW.md](REFERENCE_WORKFLOW.md) en `npm run check:references` voordat Hail of een andere NPC wordt getekend. De drie Aesther-illustraties zijn volgens de Codex-proef van 21 oktober op de geregistreerde paden gevonden en visueel gecontroleerd. Ze zijn in het register gekoppeld als **soortinspiratie**, niet als goedgekeurd Hail-model.
 
 ## Wanneer registreren?
 
