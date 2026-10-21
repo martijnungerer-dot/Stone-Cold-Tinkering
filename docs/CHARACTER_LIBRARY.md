@@ -2,6 +2,8 @@
 
 **Status 21 oktober 2026.** Lichtgewicht registratie voor Stone & Cold Tinkering. Dit is geen nieuwe ontwerpverplichting: het verhaal staat voorop. De drie hoofdpersonages hebben hun eigen goedgekeurde modelbladen in `assets/references/characters/` en vallen onder `content/characters/MODEL_GUIDE.md`.
 
+**Technische controle:** gebruik [REFERENCE_WORKFLOW.md](REFERENCE_WORKFLOW.md) en `npm run check:references` voordat Hail of een andere NPC wordt getekend. Het bronregister noemt Aesther-illustraties, maar de exacte paden moeten eerst via de scan en een daadwerkelijke beeldinspectie worden bevestigd.
+
 ## Wanneer registreren?
 
 - **A — volledig:** belangrijke terugkerende bijpersonages of bijzondere eindbazen zodra hun verhaalrol het rechtvaardigt. Vast modelblad alleen als een expliciete review echt nodig is.
