@@ -25,12 +25,12 @@ Begin een registratie **pas na verschijning in gespeeld of door gebruiker vrijge
 
 Geen verplichte vragenlijsten, aparte documentatie per figurant of ontwerprondes zonder reden. Oude beelden blijven archief, geen automatisch stijlanker. `docs/VISUAL_DIRECTION.md` en `docs/MAGIC_EFFECTS.md` blijven leidend voor de getekende uitvoering.
 
-## Hail — eerste prioriteit (B, kandidaat A)
+## Hail — goedgekeurd model HAIL-M01 (niveau A)
 
 - **Soort/rol:** belangrijke Aesther-onderzoeker; betrokken bij de Frozen Hollow-epiloog en Nyra's verhaalhaak.
 - **Vastgelegde kenmerken:** licht etherisch en subtiel transparant, ook in stilstaand beeld; geen gewone elf, geen elfenoren. Droge, zakelijke onderzoeker met beperkte tolerantie voor onzin, herkenbaar anders dan Nyra's bedachtzame superioriteit.
 - **Referentie:** bestaande Aesther-bronnen en afspraken in `docs/VISUAL_DIRECTION.md` en `content/sources/REFERENCES.md`. Geen klassevermogens uit losse Aesther-afbeeldingen overnemen.
-- **Beeldstatus:** nog **geen apart goedgekeurd definitief karaktermodel**. Hergebruik de bestaande beschreven identiteit; maak pas indien nodig een compacte modelstudie bij een nieuwe scène. Markeer nieuw beeld als proef tot de gebruiker het goedkeurt.
+- **Beeldstatus:** **HAIL-M01 goedgekeurd**. Vaste visuele referentie: [Hail Aesther Karakterblad](../assets/references/characters/Hail%20Aesther%20Karakterblad.png). Diffuus en deels doorschijnend, zwart/goud, uitstraling van enorme magische macht, karakterblad met grijs-beige achtergrond. De drie Aesther-klassebeelden blijven uitsluitend ondersteunende soort-/etherische inspiratie. Eerdere blauw/paarse, elfachtige of zwarte-achtergrondproeven zijn geen actuele karakterreferentie.
 - **Lorestatus:** alleen bevestigde episodefeiten worden canon; andere uitwerkingen blijven creatief of onbevestigd.
 
 ## Vijanden en eindbazen
