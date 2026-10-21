@@ -106,3 +106,16 @@ Krek heeft in rustige scènes een gesloten stenen kaak met natuurlijke naad. Zij
 ## Beeld krijgt voorrang in de reader
 
 Gebruikersfeedback van 18 oktober: het is een strip; laat het beeld de leesbreedte dragen. Gebruik compacte koppen, een kort bijschrift en kleine ondersteunende bediening. Een brede tekstzijbalk mag de illustratie niet verdringen. Behoud leesbare ballonnen, bruikbare knoppen, volledige uitsnede en correcte beeldverhouding op smal en breed scherm. Deze voorkeur geldt voor volgende afleveringen.
+
+## Stap 6 — filmische teamdynamiek (goedgekeurd 21 oktober 2026)
+
+**Richting B: filmisch en expressief, met geleidelijke ontwikkeling.** De hoofdpersonen zijn **Krek, Nicola en Nyra**. De wereld blijft ernstig en grafisch geloofwaardig; droge humor ontstaat uit pose, reactie, stilte en timing, niet uit cartoonmimiek. Silhouetten blijven leesbaar op mobiel.
+
+- **Krek:** massa, rechte voorwaartse lijnen, laag zwaartepunt bij beweging en oprechte heroïsche poses. Hij handelt vaak als eerste; hij is niet dom of standaardbodyguard.
+- **Nicola:** compacte precieze bewegingen, onderzoekende blik, actieve handen en gadgets. Zijn vierdewandblik en quantumbeeldtaal zijn spaarzaam en alleen passend bij de scène en de goedgekeurde kaarteffecten.
+- **Nyra:** eeuwenoude wijsheid, waardige rust en afgemeten reacties; wanneer een werkelijk gebruikte grote spreuk losbarst, kan haar vuur- of ijspenseel de hele compositie domineren. Niet voortdurend boos of theatraal.
+- **Onderlinge dynamiek:** Krek brengt beweging, Nicola onderzoekt en improviseert, Nyra overziet en oordeelt. Laat hun verschillende reacties elkaar versterken; toon waar mogelijk eerst een blik of pauze vóór een verklarende tekstballon.
+- **Groei:** vroeg in de campagne vaak afzonderlijke acties en botsende richtingen; later vaker gedeelde kadrering, anticipatie en vloeiende actieovergangen. Nooit automatisch een perfect gecoördineerd team. De daadwerkelijk gespeelde gebeurtenissen bepalen het tempo.
+- **Hail:** uitsluitend in scènes waarin zij voorkomt. Haar goedgekeurde HAIL-M01-model blijft beschikbaar, maar zij is geen vierde hoofdrolspeler in de teamdynamiek.
+
+Zie [CHARACTER_ARCS.md](../content/characters/CHARACTER_ARCS.md) voor de onderlinge verhoudingen en [COMIC_PLAYBOOK.md](COMIC_PLAYBOOK.md) voor de praktische paneelcontrole. Dit is een tekstuele productieregel, geen opdracht om Frozen Hollow opnieuw te tekenen.
