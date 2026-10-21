@@ -13,6 +13,11 @@
           "path": "assets/references/characters/Krek Cragheart Karaktermodelblad.png",
           "role": "approved-model",
           "required": true
+        },
+        {
+          "path": "assets/references/characters/savvas-cragheart.png",
+          "role": "species-anatomy",
+          "required": true
         }
       ]
     },
@@ -26,6 +31,11 @@
         {
           "path": "assets/references/characters/Nicola Tinkerer Karaktermodelblad.png",
           "role": "approved-model",
+          "required": true
+        },
+        {
+          "path": "assets/references/characters/quatryl-tinkerer.png",
+          "role": "species-anatomy",
           "required": true
         }
       ]
@@ -41,6 +51,11 @@
           "path": "assets/references/characters/Nyra Spellweaver Karaktermodelblad.png",
           "role": "approved-model",
           "required": true
+        },
+        {
+          "path": "assets/references/characters/orchid-spellweaver.png",
+          "role": "species-anatomy",
+          "required": true
         }
       ]
     },
@@ -50,8 +65,24 @@
       "kind": "npc",
       "model": null,
       "approval": "pending",
-      "references": [],
-      "note": "Aesther-referenties uit bronregister nog niet op exact pad geverifieerd; voeg pas na scan en beeldinspectie toe. Geen goedgekeurd modelblad."
+      "references": [
+        {
+          "path": "assets/references/characters/aesther-summoner.png",
+          "role": "species-inspiration",
+          "required": true
+        },
+        {
+          "path": "assets/references/characters/aesther-diviner.png",
+          "role": "species-inspiration",
+          "required": true
+        },
+        {
+          "path": "assets/references/characters/aesther-nightshroud.png",
+          "role": "species-inspiration",
+          "required": true
+        }
+      ],
+      "note": "Drie Aesther-bronplaten op exacte paden geïdentificeerd en volgens Codex visueel bekeken op 21 oktober 2026. Alleen soort-/etherische inspiratie; geen goedgekeurd Hail-modelblad. Hail blijft pending."
     }
   ]
 }
