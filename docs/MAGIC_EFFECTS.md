@@ -1,6 +1,6 @@
 # Effecttaal voor magie en gadgets — Stone & Cold Tinkering
 
-**Status 21 oktober 2026:** Krek (5a) en Nicola (5b) inhoudelijk goedgekeurd. Nyra (5c) **nog niet uitgewerkt of goedgekeurd**. Dit is een projectspecifieke visuele richtlijn, geen toevoeging aan officiële Gloomhaven-regels of lore. De daadwerkelijk gespeelde kaart/vaardigheid en het sessieverslag bepalen wat mechanisch en narratief is gebeurd. Verzin geen extra effecten, bevoegdheden of portalen bij een kaart die dat niet toestaat.
+**Status 21 oktober 2026:** Krek (5a), Nicola (5b) en Nyra (5c) inhoudelijk goedgekeurd. Dit is een projectspecifieke visuele richtlijn, geen toevoeging aan officiële Gloomhaven-regels of lore. De daadwerkelijk gespeelde kaart/vaardigheid en het sessieverslag bepalen wat mechanisch en narratief is gebeurd. Verzin geen extra effecten, bevoegdheden of portalen bij een kaart die dat niet toestaat.
 
 Lees samen met [VISUAL_DIRECTION](VISUAL_DIRECTION.md) en [MODEL_GUIDE](../content/characters/MODEL_GUIDE.md). Karaktervormen volgens de drie feitelijk geüploade, goedgekeurde bladen in `assets/references/characters/`: KREK-M03, NICOLA-M04, NYRA-M03. Oudere sheets en afleveringsbeelden zijn geen actuele generatie-ankers.
 
@@ -33,9 +33,27 @@ Lees samen met [VISUAL_DIRECTION](VISUAL_DIRECTION.md) en [MODEL_GUIDE](../conte
 
 **Quantumniveau B:** overlap regelmatig bij relevante activaties, niet voortdurend. **Portaalsterkte B:** zichtbaar maar compact en technisch. **Werkelijkheidsafwijking B:** lokaal, vreemd, beheerst. De sfeer van quantumexperimenten en Nicola's vierdewandhumor mag, maar verandert spelmechanica niet.
 
-## 5c. Nyra — nog open
+## 5c. Nyra — twee penselen, vuur en ijs (goedgekeurd 21 oktober 2026)
 
-Voor vuur, ijs, kleur, schaal en kristaleffecten is nog geen definitieve effectstandaard door de gebruiker goedgekeurd. Bewaar voorlopig alleen de bestaande vastgelegde anatomie en algemene situationele magie uit VISUAL_DIRECTION en MODEL_GUIDE. Vul haar precieze effecttaal pas in na gezamenlijk overleg.
+**Artistiek principe:** Nyra's magie schildert de omgeving met twee penselen: vuur en ijs. Ze is een eeuwenoude, daadwerkelijk wijze Orchid en weeft doelgericht, precies en beheerst. Bij grote offensieve spreuken mag de **magie zelf bijna een schilderij / tableau** worden, zonder dat de **vaste grafische dark-comic stijl van de personages** verandert. Statische scènes blijven donker, scherp geïnkt en herkenbaar; de schilderachtigheid is het gecomponeerde magische effect, geen terugkeer naar de oude schilderachtige stripstijl.
+
+- **Vuur:** vloeiende, expressieve rood-/oranje-/magenta penseelbogen. Groot vuur is sierlijk én vernietigend wanneer de gespeelde aanval daarom vraagt.
+- **IJs:** scherp, kristallijn en sculpturaal in wit, ijsblauw en cyaan; fijne snijdende lijnen, waaiers, verharding, geen generieke sneeuwmist als enig visueel effect.
+- **Twee elementen:** alleen combineren als de werkelijk uitgevoerde kaart/handeling meerdere elementen rechtvaardigt. Niet bij iedere actie automatisch vuur én ijs.
+- **Intensiteit:** offensieve spreuken mogen zeer schilderachtig (keuze C); ijs is kristallijn en snijdend (B); vuur is vloeiend met verwoestende uitbarsting bij grote aanvallen (B); combinatie situatiegebonden (B).
+- **Ondersteunende/eigen magie:** juist klein, fijn en vlak bij hand, lichaam of gekozen bondgenoot. Geen constante aura, geen permanente verkleuring van Nyra's bijna melkachtig lichte huid.
+- **Uitputting:** behoud ervaring en waardigheid; een moeizamer gebaar of zwaardere inspanning is geloofwaardiger dan willekeurig magisch controleverlies.
+
+### Kaartgebonden effecten
+
+- **Icy Blast (kaart 20):** grote, over meerdere doelwitten gecomponeerde ijswaaier of kristallijne breuklijn. Volg de daadwerkelijke aanvalsvorm/kaartkeuze; geen extra vijanden, bereik of automatisch bevriezen verzinnen.
+- **Arcane Bolt (kaart 70):** een gerichte, scherp gevormde arcane penseelbaan. De gekozen boven-/onderactie bepaalt het feitelijke effect; **geen verplicht ijs** in een algemeen arcane effect. Vuur alleen wanneer de betreffende kaartactie/elementvoorwaarde dat rechtvaardigt.
+- **Etheric Echo (kaart 50):** **transparante echo van haar vroegere handbeweging**, één oude penseelstreek die opnieuw door de lucht loopt en de gekozen verloren level-1-kaartactie weerspiegelt. Het is een **specifieke herhaling**, geen algemene terugkeer van alle spreuken. Verzin geen nieuwe actie naast de herhaalde kaartactie.
+- **Ice Armor (kaart 25):** op de gekozen bondgenoot (of zichzelf volgens de werkelijk gebruikte kaarthelft) een dunne, transparante glazige ijslaag, die bij afwenden van schade eventjes scherp oplicht. Geen massief of permanent zichtbaar harnas en geen bescherming boven de kaartwerking.
+- **Flameswell (kaart 83):** subtiele warme vuurspanning rond hand, pols en spreuklijn, alsof Nyra haar penseel in vuur doopt voor de daaropvolgende versterkte aanvallen. Geen directe grote uitbarsting bij het voorbereiden. De kaartkeuze bepaalt of het een versterking of andere actie is.
+- **Reviving Ether (kaart 80): de sleutelkaart van Nyra.** Een bijzonder maar **stil en fundamenteel** moment. De sporen van eerdere penseelstreken, ijsfragmenten en vuurkleuren verschijnen doorschijnend en worden in etherische draden *terug naar haar toe geweven*: **haar verloren palet keert terug**. Geen aanvalsexplosie; geen extra spreuken boven wat daadwerkelijk uit de lost pile wordt teruggehaald. Visueel onderscheiden van Etheric Echo: **Echo = één eerder gebaar opnieuw**, **Reviving = haar gebruikte magie opnieuw beschikbaar**.
+
+**Lore versus project:** de penseelmetafoor, composities en etherische visuele vormen zijn onze gekozen striptaal, geen afzonderlijke officiële magieschool of extra speelregel. Kaartmechaniek en concreet sessieverslag winnen van esthetisch verlangen.
 
 ## Verplichte productiecontrole
 
