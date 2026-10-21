@@ -41,3 +41,10 @@ De gebruiker verandert de titel naar “Een team in wording” en vraagt meer be
 ## 18 oktober 2026 — zijpijlen en volledig scherm
 
 Op gebruikersverzoek krijgt reader 1.4.0 pijlen naast de scène en een fullscreenknop. De pijlen bedekken geen illustratie of interactie. Native browserfullscreen is optioneel; een ontbrekende/geweigerde API valt terug op een grote leesweergave in de tab. De lezer behoudt navigatie en reacties en kan terug via knop/Escape. Verhaal en assets veranderen niet.
+
+## 21 oktober 2026 — Karakterachtergronden en Nyra's wijsheid
+
+De gebruiker bevestigt de besproken achtergrondthema's voor Krek, Nicola en Nyra als projectbasis. Krek heeft permanent een donkere fysieke borstholte en uitsluitend bij aardemagie tijdelijk groene gloed. Nicola blijft de onderzoekende Quatryl met eigen quantummagie en vierdewandgrappen. Nyra is eeuwenoud en **werkelijk wijs**, zeker tegenover de twee anderen; haar Orchid-volk hoeft haar beslissingen niet als wijs te erkennen, maar zij kan met hen op hetzelfde filosofische niveau communiceren. Haar sarcastische, soms vernietigende optreden is afgewogen in plaats van impulsief.
+
+Dit besluit vervangt strijdige oudere schrijfinterpretaties, maar niet gespeelde feiten, gemaakte afleveringen of goedgekeurde visuele modellen. De specifieke reden voor Nyra's tocht met Krek en Nicola blijft OPEN. Besproken officiële achtergronden krijgen geen OFFICIEEL-2E-label zonder primaire broncontrole.
+

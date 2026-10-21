@@ -170,6 +170,17 @@ Herbergiers, reizigers of handelaren kunnen als `CREATIEF` figureren zonder mete
 
 ## 7. De hoofdpersonages
 
+### 7.0 Karakterherkomst en lorestatus (21 oktober 2026)
+
+Dit is door de gebruiker bevestigde PROJECTCANON, niet automatisch officieel Gloomhaven Second Edition-materiaal. Algemeen besproken ras- en klasseachtergrond blijft ONBEVESTIGD-2E tot een controleerbare primaire editiebron is toegevoegd.
+
+- Krek, Savvas Cragheart: de beschadigde borstholte staat symbool voor imperfectie en mogelijke uitsluiting in de besproken Savvas-achtergrond. De precieze rituele oorsprong is nog niet onafhankelijk geverifieerd. Zijn borst heeft altijd een echt, onregelmatig, donker gat; alleen bij actieve aardemagie gloeit het tijdelijk groen. Dit is een vaste creatieve visuele keuze, geen officiële regel.
+- Nicola, Quatryl Tinkerer: sluit aan bij een cultuur van nieuwsgierigheid, kennis, uitvinden en experimenteren. Specifieke instellingen en plaatsen uit eerdere loregesprekken eerst verifiëren. Quantummagie, parodieën op beroemde quantumexperimenten en het doorbreken van de vierde wand zijn onze eigen creatieve projectcanon.
+- Nyra, Orchid Spellweaver: is **eeuwenoud en daadwerkelijk wijs**, vooral in vergelijking met Krek en Nicola. Haar volk hoeft haar manier van handelen niet als wijs te erkennen; zij kan echter op hun filosofische niveau met hen communiceren. De besproken Orchid-traditie waardeert langdurige contemplatie; de Spellweaver-richting combineert bezinning met doelbewust ingrijpen. De precieze persoonlijke reden om met deze groep te reizen blijft OPEN.
+- Nyra beheerst haar emoties; haar sarcastische opmerkingen komen voort uit ervaring, niet uit kinderlijke ergernis. Vuur en ijs zijn bewuste keuzes en esthetische expressie. Ze is niet standaard impulsief of driftig. Haar uitputting in Frozen Hollow blijft geldig.
+
+Deze keuzes vervangen tegenstrijdige **oudere creatieve karakterinterpretaties**, niet gespeelde sessiefeiten, bestaande dialogen of goedgekeurde beeldmodellen. Nieuwe scènes volgen deze versie.
+
 ### 7.1 Krek — steen in voorwaartse beweging
 
 `GESPEELD`: Cragheart. Krek gaat altijd voorwaarts. Zijn overtuiging dat metaal bij steen hoort is persoonlijke logica, geen kosmologische wereldwet.
@@ -206,7 +217,7 @@ Dit is karaktercanon voor de strip. Quantummagie en metakennis zijn niet vastges
 
 ### 7.3 Nyra — kleur als oordeel
 
-`GESPEELD`: Orchid Spellweaver. Nyra's magie kleurt de grauwe wereld. Arrogantie en esthetische voorkeur sturen de manier waarop Nyra over vernietiging spreekt.
+`GESPEELD`: Orchid Spellweaver. Nyra's magie kleurt de grauwe wereld. Haar eeuwenoude wijsheid, beheerste sarcasme en esthetische voorkeur bepalen hoe zij bewust met vernietiging omgaat.
 
 Vaste uitspraken, exact bewaren:
 
@@ -215,7 +226,7 @@ Vaste uitspraken, exact bewaren:
 
 Het beeld van ijslolly's van bevroren vijanden hoort bij Nyra's humor en de aangeleverde karaktercontext. Het is geen officiële buit, voedselregel of wereldgebruik. De precieze verschijningsvorm — letterlijke scène, beeldgrap of terloopse opmerking — is nog creatieve uitwerking.
 
-**Drijfveer:** controle, schoonheid en zichtbare superioriteit. **Blinde vlek:** stijl en zelfvertrouwen kunnen de eigen reserves overschatten. **Competentie:** overweldigende magische aanwezigheid. **Kwetsbaarheid:** aan het eind van Frozen Hollow is Nyra uitgeput.
+**Drijfveer:** weloverwogen handelen, schoonheid en een doorleefd zelfvertrouwen. **Blinde vlek:** stijl en zelfvertrouwen kunnen de eigen reserves overschatten. **Competentie:** overweldigende magische aanwezigheid. **Kwetsbaarheid:** aan het eind van Frozen Hollow is Nyra uitgeput.
 
 **Spelregie — `CREATIEF`:** verzadigde kleur trekt het oog naar magie; na de finale worden licht, houding en timing soberder. Uitputting maakt eerdere arrogantie menselijk zonder de persoonlijkheid te vervangen. Een laatste droge opmerking mag, maar herstelt geen energie.
 
@@ -238,7 +249,7 @@ Werk iedere relevante locatie in drie lagen uit: de gecontroleerde wereldfeiten,
 
 ### 7.6 Karakterisering uit de gekozen poster
 
-SRC-STYLE-02 is ook een creatieve karakterreferentie: Kreks rotslogica en belangstelling voor schatten, Nicola's realiteit als experiment met de lezer als waarnemer, en Nyra's elegante, ongeduldige kleurverbetering van de wereld. Deze karakterisering is uitgewerkt in [CHARACTER_ARCS.md](content/characters/CHARACTER_ARCS.md), met wensen, sterke kanten, blinde vlekken, humor en de kleine veranderingen die het bestaande Frozen Hollow-script al laat zien.
+SRC-STYLE-02 is ook een creatieve karakterreferentie: Kreks rotslogica en belangstelling voor schatten, Nicola's realiteit als experiment met de lezer als waarnemer, en Nyra's elegante, weloverwogen kleurverbetering van de wereld. Deze karakterisering is uitgewerkt in [CHARACTER_ARCS.md](content/characters/CHARACTER_ARCS.md), met wensen, sterke kanten, blinde vlekken, humor en de kleine veranderingen die het bestaande Frozen Hollow-script al laat zien.
 
 De creatieve ontwikkellijnen zijn: Krek laat bij Nyra's uitputting ruimte voor het tempo van een ander; Nicola laat bij Hail een grap achterwege om haar reactie werkelijk te zien; Nyra's zelfverzekerde kleurcontrole krijgt een kwetsbare onderlaag en een verlangen naar blijvende kracht. Dit legt geen toekomstige campagne-uitkomst vast. De vaste quotes hierboven blijven de tekstbron; postertekst vervangt ze niet automatisch.
 
