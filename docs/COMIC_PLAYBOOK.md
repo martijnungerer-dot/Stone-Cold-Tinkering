@@ -9,7 +9,7 @@ Vastgelegd op 18 oktober 2026 na de Frozen Hollow-reviews. Gebruik dit als prakt
 | Een stijlomschrijving alleen hield gezichten niet gelijk | Geef de echte gezichts- en lichaamsreferenties mee. Controleer iedere nieuwe scène tegen de [vaste modellen](../content/characters/MODEL_GUIDE.md) |
 | De gegenereerde poster verdrong de oorspronkelijke soortkenmerken | Klassebeelden en actuele modelkeuzes bepalen anatomie; de poster is hoogstens historische inspiratie voor humor, kaders en ballonnen, nooit voor de grafische tekenstijl |
 | Krek kreeg overal dezelfde open mond | Noteer vóór het tekenen: rust, spreken of actie. Gesloten kaak in rust; een open mond past bij beweging of strijd |
-| Nicola werd een ander persoon in nieuwe beelden | NICOLA-M02 is het gezichtsanker bij elke generatie, ook voor profiel en driekwart |
+| Nicola werd een ander persoon in nieuwe beelden | NICOLA-M04 en de goedgekeurde sheet zijn de huidige referentie bij elke generatie, met oorspronkelijke Quatryl-plaat voor anatomie; NICOLA-M02 blijft historisch |
 | Hail werd elfachtig | Gebruik haar Aesther-referenties en licht doorschijnende werkmodel; behoud haar rol als onderzoeker |
 | Volgorde, bezetting en scènes moesten achteraf worden hersteld | Zet eerst de gespeelde tijdlijn, kamers, zichtbare tegenstanders en afloop vast. Geef ieder paneel een aantoonbare functie |
 | Een grote beeldronde verspreidde een fout over veel scènes | Begin met één samenhangende scène, controleer die en werk daarna in kleine rondes verder |
@@ -44,6 +44,9 @@ Controleer de tekst zonder de tekeningen: is de spreker herkenbaar, reageert hij
 Bewaar ook de bestaande tekstvorm: vaste sprekerlabels, dezelfde letterstijl en leesbare schaling uit de reader. Gewone ballonnen blijven crème, Nyra lichtlila en Nicola zacht grijsgroen; zijn directe lezerscontact is lichtblauw. Gebruik die blauwe ballon consequent voor zijn vierde wand. Verander kleuren of typografie niet per nieuwe afbeelding. Alle tekst blijft apart van het beeld en staat ook in het transcript.
 
 ## 3. Maak een kleine beeldlijst met vaste modellen
+
+**Verplicht voor alle nieuwe afleveringen:** gebruik uitsluitend **NICOLA-M04, NYRA-M03 en KREK-M03** als actieve personageontwerpen. Oude sheets, historische poster en bestaande Frozen Hollow-atlassen mogen hoogstens verhaalcontinuïteit/kadrering verklaren, maar zijn geen stijl- of identiteitsreferenties. Als het goedgekeurde PNG-karakterblad nog niet in de repository staat, vraag eerst dat beeld op, in plaats van een oud model als fallback te nemen. KREK-M03 heeft een permanent echt borstgat (donker in rust, groen bij actieve aardemagie), dat in hoofd-closeups hoogstens gedeeltelijk zichtbaar kan zijn.
+
 
 Lees de [modelgids](../content/characters/MODEL_GUIDE.md) en [visuele richting](VISUAL_DIRECTION.md). Selecteer de huidige model-IDs en bestanden vóór het eerste beeld. Gebruik bij iedere generatie die referenties zelf, niet alleen een afgeleid werkbeeld. Pas uitsluitend de actuele grafische dark-comic beeldtaal uit VISUAL_DIRECTION.md toe. Neem nooit de vroegere schilderachtige afwerking, oude poster of Frozen Hollow-atlassen als stijlanker. Gebruik klassebeelden alleen voor anatomie/identiteit en de vaste modelbeelden voor gezichtsherkenning.
 
