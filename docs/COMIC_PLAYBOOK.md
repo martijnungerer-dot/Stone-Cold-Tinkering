@@ -116,3 +116,11 @@ Bij feedback: noteer paneel-ID, gewenste wijziging en of het om verhaal, tekst, 
 Gebruikersfeedback van 18 oktober: het is een strip; laat het beeld de leesbreedte dragen. Gebruik compacte koppen, een kort bijschrift en kleine ondersteunende bediening. Een brede tekstzijbalk mag de illustratie niet verdringen. Behoud leesbare ballonnen, bruikbare knoppen, volledige uitsnede en correcte beeldverhouding op smal en breed scherm. Deze voorkeur geldt voor volgende afleveringen.
 
 Bedieningsvoorkeur: links/rechts naast het beeld terug/verder, zonder gezicht of klikpunt te bedekken. Bied optioneel volledig scherm met behoud van verhouding, ballonnen en navigatie. Een browser die fullscreen niet toestaat krijgt een grote leesweergave binnen het venster, met een zichtbare terugknop en Escape.
+
+## Stap 6 — praktische controle van visuele teamdynamiek (21 oktober 2026)
+
+Gebruik bij nieuwe scènes de goedgekeurde **filmisch-expressieve** dynamiek van het hoofdtrio, beschreven in [CHARACTER_ARCS.md](../content/characters/CHARACTER_ARCS.md). Krek = massa en actie; Nicola = precisie en experiment; Nyra = wijsheid, beheersing en situationeel explosieve magie. Laat hun lichaamstaal, afstand, kijkrichting en reacties het verhaal dragen; gebruik droge humor via kadrering en stilte, zonder cartoonachtige gezichten.
+
+Controleer vóór beeldproductie: (1) zijn de drie actuele hoofdmodelbladen als echte afbeeldingen beschikbaar, (2) vertelt de pose wie handelt en wie reageert, (3) is de groepscompositie passend bij de **op dat moment gespeelde** mate van samenwerking, (4) volgen magische effecten de gebruikte kaart en MAGIC_EFFECTS.md, (5) is het paneel mobiel leesbaar? Naarmate de campagne aantoonbaar vordert, mogen acties en composities meer op elkaar aansluiten, zonder een perfect team te veronderstellen.
+
+**Hail is uitsluitend een bijpersonage waar zij daadwerkelijk optreedt.** Gebruik dan haar goedgekeurde HAIL-M01-sheet; zij hoort niet standaard in de dynamiek van Krek, Nicola en Nyra. De bestaande Frozen Hollow-reader wordt door deze richtlijn niet automatisch gewijzigd.
