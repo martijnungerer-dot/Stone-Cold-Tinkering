@@ -10,7 +10,7 @@ Zie [visuele richting](../../docs/VISUAL_DIRECTION.md), [persoonlijkheden](CHARA
 
 **Assetstatus:** de goedgekeurde PNG is op 21 oktober 2026 in GitHub bevestigd: [`assets/references/characters/Nicola Tinkerer Karaktermodelblad.png`](../../assets/references/characters/Nicola%20Tinkerer%20Karaktermodelblad.png). Gebruik dit karakterblad als actuele NICOLA-M04-referentie; de oorspronkelijke Quatryl-klasseplaat blijft de anatomische controle. Niet terugvallen op NICOLA-M03-studies als stijlankers. De eerste eerder gegenereerde modelsheet met enorme zijwaartse oren is expliciet **afgekeurd**.
 
-De grafische dark-comic standaard blijft [VISUAL_DIRECTION.md](../../docs/VISUAL_DIRECTION.md). Bestaande Frozen Hollow-beelden en oude schildereffecten zijn geen stijlankers voor een nieuwe strip.
+De grafische dark-comic standaard blijft [VISUAL_DIRECTION.md](../../docs/VISUAL_DIRECTION.md); voor aardemagie, quantummagie en de beperkte selectie toepasselijke kaarten is [MAGIC_EFFECTS.md](../../docs/MAGIC_EFFECTS.md) verplicht. Quantummagie is een projectspecifieke interpretatie, geen officiële lore of standaard Tinkerer-vaardigheid. Bestaande Frozen Hollow-beelden en oude schildereffecten zijn geen stijlankers voor een nieuwe strip.
 
 ## Referenties die bij elke beeldopdracht meegaan
 
