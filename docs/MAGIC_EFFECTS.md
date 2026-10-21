@@ -17,6 +17,15 @@ Lees samen met [VISUAL_DIRECTION](VISUAL_DIRECTION.md) en [MODEL_GUIDE](../conte
 
 **Groenintensiteit B:** herkenbaar maar nooit dominant. **Verplaatsingsspoor B:** subtiel. **Muren B:** ruw functioneel. Niet bij elke fysieke slag magisch groen toevoegen; koppel zichtbare magie aan daadwerkelijke vaardigheidsactivatie. Bij close-ups in portretkadrering kan alleen de bovenrand van de borstholte zichtbaar zijn; teken geen volledig gat op de hals.
 
+### Grote aardespreuken en bewegingsstijlen (aanvulling 21 oktober 2026)
+
+- **Mud Eruption:** verticale erupties van natte aarde, modder en steen onder de door de gespeelde actie getroffen doelen; grond bolt op, barst en spat uit elkaar. Wanneer de werkelijk gebruikte kaartactie obstakels legt, blijven ruwe modder-/rotsobstakels op de aangewezen plekken achter. Geen lava, groene energie-explosie of nieuwe obstakels buiten kaartwerking.
+- **Dirt Tornado:** een roterende, brede, zware wolk van aarde, stof, gruis en stenen die door het doelgebied veegt. Geen luchtige windtornado of plantmagie; natuur-elementaccoord mag de aardse textuur beïnvloeden wanneer kaart en situatie dat ondersteunen.
+- **Crater:** **bovengrondse** stormbeweging/sprong en zware fysieke inslag met stof, opspringende steenplaten en ruwe impact. Beeld de gekozen kaarthelft correct uit; eventuele schade aan aangrenzende bondgenoten wordt niet weggemoffeld. Een krater is visuele impact, geen automatisch blijvend terreineffect.
+- **Burrow:** **ondergrondse** bewegingsmetafoor: aarde opent bij vertrek, een subtiel spoor van opbolling/scheurtjes laat de route vermoeden, Krek komt weer boven op de gekozen positie. Deze vormtaal verandert **niet** de Move/Jump-regels van de kaart; geen vrije teleportatie, onbeperkte ondergrondse route of extra aanvallen verzinnen.
+
+**Strikt onderscheid:** Crater = bovengrondse impuls en inslag; Burrow = passage door aarde. Niet vermengen tot één bewegingsstijl. Alleen bij daadwerkelijke aardemagie kort groen licht in Kreks beschadigde borstholte en subtiele scheurlijnen; gewone fysieke beweging vereist geen magische gloed.
+
 ## 5b. Nicola — techniek en quantummagie (goedgekeurd; overal keuze B)
 
 **Omkadering:** *quantummagie* is Nicola's projectspecifieke, zelfbenoemde interpretatie en experimentele werkwijze; het is **geen officieel benoemde magieschool**, Quatryl-standaard of Gloomhaven-natuurwet. De drie hieronder aangewezen speelkaarten bieden aanknopingspunten voor zulke beelden wanneer de gebruiker die kaart of toepassing in het verhaal noemt. **Dit zijn 3 van de 15 huidige kaarten, niet de standaard voor alle Nicola-acties.** Andere kaarten tonen normale Tinkerer-techniek tenzij later expliciet goedgekeurd.
