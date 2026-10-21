@@ -63,9 +63,14 @@
       "id": "hail",
       "name": "Hail",
       "kind": "npc",
-      "model": null,
-      "approval": "pending",
+      "model": "HAIL-M01",
+      "approval": "approved",
       "references": [
+        {
+          "path": "assets/references/characters/Hail Aesther Karakterblad.png",
+          "role": "approved-model",
+          "required": true
+        },
         {
           "path": "assets/references/characters/aesther-summoner.png",
           "role": "species-inspiration",
@@ -82,7 +87,7 @@
           "required": true
         }
       ],
-      "note": "Drie Aesther-bronplaten op exacte paden geïdentificeerd en volgens Codex visueel bekeken op 21 oktober 2026. Alleen soort-/etherische inspiratie; geen goedgekeurd Hail-modelblad. Hail blijft pending."
+      "note": "HAIL-M01 door gebruiker goedgekeurd op 21 oktober 2026: diffuse, gedeeltelijk transparante Aesther, goud/zwart, enorme magische kracht, uniform grijs-beige karakterblad. Drie Aesther-klasseillustraties zijn uitsluitend ondersteunende soortinspiratie."
     }
   ]
 }
