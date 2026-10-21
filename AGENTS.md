@@ -16,7 +16,7 @@ Storyboard v0.8 en sessie S001 zijn de actuele basis. Laatste correctie: claustr
 
 ## Verplichte controle van afbeeldingsreferenties
 
-- Bij start van een nieuwe strip of karakterontwerp in een lokale Codex-checkout: voer **`npm run check:references`** uit. Dit inventariseert recursief `assets/references` en controleert KREK-M03, NICOLA-M04 en NYRA-M03. Bekijk de uitkomst en controleer ook de benodigde NPC-/monsterbeelden voor de huidige scènes.
+- Bij start van een nieuwe strip of karakterontwerp in een lokale Codex-checkout: lees eerst **`assets/references/character-registry.json`** en voer **`npm run check:references`** uit. Voeg elk nieuw belangrijk personage, monster of eindbaas met zijn referenties aan het register toe zonder het script te veranderen. Dit inventariseert recursief `assets/references` en controleert KREK-M03, NICOLA-M04 en NYRA-M03. Bekijk de uitkomst en controleer ook de benodigde NPC-/monsterbeelden voor de huidige scènes.
 - Het [referentieregister](docs/REFERENCE_WORKFLOW.md) bevat de bronhiërarchie en de werkstappen. Gebruik exacte bestaande paden uit de scan, **niet** eerder genoemde, maar niet-geverifieerde bestandsnamen. Hail/Aesther-bronnen kunnen andere bestandsnamen hebben; zoek ze in de scan en registreer het juiste pad na visuele verificatie.
 - Een script controleert bestaan en bestandsomvang, **niet** de inhoud, het juiste personage, de geschiktheid als beeldanker of de feitelijke levering aan een beeldgenerator. Inspecteer beelden en zorg dat de gebruikte beeldgenerator de pixels zelf als referentie krijgt. Alleen een tekstpad doorgeven garandeert niets.
 - Als de vereiste referentie ontbreekt of niet visueel toegankelijk is, meld dit vóór beeldgeneratie; val nooit stilzwijgend terug op een afgekeurd oud beeld.
