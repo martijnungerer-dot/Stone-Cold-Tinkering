@@ -2,7 +2,33 @@
 
 De [modelgids](../content/characters/MODEL_GUIDE.md) selecteert vaste gezichten en vormen. Gebruik voor productie het [stripstappenplan](COMIC_PLAYBOOK.md).
 
-## Actuele beeldselectie — reader 1.2.0
+## SRC-STYLE-03 — goedgekeurde artproef 3
+
+**Gebruikersgoedkeuring:** “Deze is goed. Kan je deze artstijl vasthouden en beschrijven in github? Ik wil dezs graag gebruiken en straks een motion comic van maken”. Dit keurt de gecorrigeerde artproef 3 goed als te gebruiken stijlanker. Het is geen goedkeuring van de eerdere tussenproeven of een reeds gebouwde nieuwe motion comic.
+
+| Bestand | Eigenschappen | Rol |
+| --- | --- | --- |
+| [frozen-hollow-s06-p18-p19-artproef-03.png](../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png) | PNG, 1536 × 1024, vijf beeldvakken, zonder tekst of losse lagen | Goedgekeurd origineel; SRC-STYLE-03 voor art, materialen, licht en regie |
+| [frozen-hollow-s06-p18-p19-artproef-03-preview.jpg](../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03-preview.jpg) | JPEG, 960 × 640, 111.072 bytes | Compacte beoordelingskopie; gebruik de PNG bij productie |
+
+**SHA-256 origineel:** `68a16824c9a1164d009e846bbb9f687e5a511938ac36ba4381317051686a529c`. De PNG is ongewijzigd overgenomen uit de beeldgeneratie. De JPEG is een verkleinde, gecomprimeerde weergavekopie.
+
+**Herkomst en scène:** CREATIEF; met `image_gen.imagegen` gemaakt voor Frozen Hollow S06 P18–P19. De gebruikersupload “De Golem Stormt Door de Mist - compact.jpg” leverde de gekozen art en sfeer. Daarna zijn de goedgekeurde karakteridentiteiten toegepast en is vooral Nicola gecorrigeerd. De definitieve correctie gebruikte onderstaande echte lokale bestanden in `referenced_image_paths` (paden relatief aan de repository weergegeven), in deze volgorde:
+
+1. `assets/concepts/frozen-hollow-s06-p18-p19-artproef-02.png` — destijds lokaal werkbestand, geen actief model- of stijlanker; niet onderdeel van deze publicatie.
+2. `assets/references/characters/Nicola Tinkerer Karaktermodelblad.png` — NICOLA-M04.
+3. `assets/references/characters/Krek Cragheart Karaktermodelblad.png` — KREK-M03.
+4. `assets/references/characters/Nyra Spellweaver Karaktermodelblad.png` — NYRA-M03.
+
+**Promptkern van de laatste correctie (samenvatting):** corrigeer Nicola in alle drie zijn aanzichten rechtstreeks vanuit de hoofd- en lichaamstudies van NICOLA-M04. Herstel het smalle hoekige volwassen Quatryl-gezicht, compacte snuit, kleine oren, proportionele ooglenzen, okeren kopstructuur en slanke bouw. Behoud de donkere art, omgeving, compositie, Krek en Nyra. Geen nieuwe handelingen, tekst of magie. De herbruikbare promptbasis voor nieuwe scènes staat in [VISUAL_DIRECTION.md](VISUAL_DIRECTION.md).
+
+**Beoordeling:** de agent vergeleek het resultaat visueel met de originele modellen; daarna heeft de gebruiker deze versie expliciet aanvaard. Het beeld bepaalt art, niet nieuwe anatomie of spelcanon. KREK-M03, NICOLA-M04, NYRA-M03 en HAIL-M01 behouden hun eigen originele modelbladen. De hoge architectuur en verre vormen in de proef leggen geen officiële plattegrond of buitenscène vast; producties volgen de ruimte uit het storyboard. De vijf vakken zijn uitsneden van de twee bestaande verhaalbeats, geen vijf nieuwe gebeurtenissen.
+
+**Vervolggebruik:** geef deze PNG én de originele relevante modelbladen als echte beeldinput mee. De bestaande reader gebruikt nog zijn historische beelden. Deze vlakke conceptpagina bevat geen afzonderlijke animatielagen; de voorbereiding voor een latere motion comic staat in VISUAL_DIRECTION.md.
+
+## Bestaande readerbeeldselectie — vastgelegd bij reader 1.2.0
+
+Onderstaande registratie beschrijft de behouden readerbeelden en hun toenmalige referenties. Voor nieuwe productie geldt SRC-STYLE-03 hierboven; historische namen, prompts en eerdere stijlkeuzes hieronder zijn geen actieve generatie-instructies.
 
 Actueel geselecteerd: arrival-v4.png, hollow-v3.png, breakthrough-v3.png, aftermath-v4.png en chamber-two-v4.png, naast de behouden stash-after.png. Vier atlassen van twee kolommen/drie rijen; één afzonderlijk kamerbeeld. De originele bestanden en eerdere versies blijven bewaard.
 

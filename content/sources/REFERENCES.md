@@ -1,6 +1,14 @@
 # Bronregister — aangeleverde referenties
 
-Bijgewerkt: 17 oktober 2026. Dit register bewaart wat iedere bron daadwerkelijk ondersteunt. Een bronbeschrijving is geen verslag van iedere handeling aan tafel.
+Dit register bewaart wat iedere bron daadwerkelijk ondersteunt. **Actuele artreferentie: SRC-STYLE-03**, hieronder. De gedateerde registraties bewaren hun historische context. Een bronbeschrijving is geen verslag van iedere handeling aan tafel.
+
+## SRC-STYLE-03 — goedgekeurde artproef 3
+
+- Bestand: [frozen-hollow-s06-p18-p19-artproef-03.png](../../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png); [compacte beoordeling](../../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03-preview.jpg).
+- Status: `CREATIEF / DOOR GEBRUIKER GOEDGEKEURD`; primaire artreferentie voor vervolgbeelden en de latere motion comic. Goedkeuring: “Deze is goed”, met de expliciete vraag de stijl op GitHub vast te leggen.
+- Ondersteunt: organische inktlijnen, gedempt kleurgebruik, diepe schaduw, verweerde gotische steenarchitectuur, mistdiepte en filmische regie. De oorspronkelijke goedgekeurde modelbladen blijven bepalend voor identiteit en anatomie; Nicola's laatste gezichtscorrectie is onderdeel van deze goedgekeurde uitvoering.
+- Herkomst: de geüploade “De Golem Stormt Door de Mist - compact.jpg” leverde de gekozen art en setting. Dat uploadbeeld bevat afwijkende karaktermodellen en is geen identiteitsanker. De gecorrigeerde artproef 3 combineert de art met KREK-M03, NICOLA-M04 en NYRA-M03. Zie [ASSET_REGISTER.md](../../docs/ASSET_REGISTER.md) voor de modelinputs, SHA-256 en generatieherkomst.
+- Grenzen: geen officiële lorebron, nieuwe kaartplattegrond, extra gebeurtenis of reeds gemaakte animatie. Oude proeven en SRC-STYLE-02 zijn historische bronnen. Gebruik voor nieuwe generatie de echte PNG van SRC-STYLE-03 én de originele relevante modelbladen volgens [REFERENCE_WORKFLOW.md](../../docs/REFERENCE_WORKFLOW.md).
 
 ## Status en labels
 
@@ -68,7 +76,7 @@ De volgende scenario's, uitnodigingen, achievements, exacte beloningen en hun sy
 
 De afbeelding is opnieuw beschikbaar als de gekozen campagnekaart. Gebruik zichtbare opschriften en brede verhoudingen zoals vastgelegd in de wereldbijbel. De foto van de introductie ondersteunt nu de koppeling van Frozen Hollow aan de Copperneck Mountains; een exacte route of pin volgt daar niet uit.
 
-## SRC-STYLE — eerder gegenereerde stripillustratie
+## SRC-STYLE — historische gegenereerde stripillustratie
 
 - Bron: [Steen, Magie en Slechte Beslissingen](https://chatgpt.com/s/m_6ad3c4f7276c8191b8a9af237d610681).
 - Bekeken via de browser; de openbare webopvraging kon de pagina niet ophalen.
@@ -76,14 +84,14 @@ De afbeelding is opnieuw beschikbaar als de gekozen campagnekaart. Gebruik zicht
 
 Zichtbare richting: een geschilderde fantasystrip met omlijnde panelen, verweerde kaders, warme aardetonen, uitgesproken steenstructuur, paars magielicht en blauwe technische accenten. Het trio heeft sterk verschillende silhouetten: een massieve rotsfiguur, een kleine uitvinder met ronde lenzen en instrumenten, en een elegante magiër met donker haar en paarse magie.
 
-Gebruik dit als aanvullende stijlreferentie. SRC-STYLE-02 is na de latere gebruikerskeuze het primaire visuele vertrekpunt. Neem de ingebakken teksten, eventuele spelclaims of willekeurige achtergronddetails niet over als canon. Definitieve kleding, gezichten, kleuren en accessoires worden later afzonderlijk vastgelegd. Voor de motion comic blijven tekstballonnen los van de illustraties.
+Deze bron is historisch en is geen actieve stijlreferentie. SRC-STYLE-02 werd destijds het volgende vertrekpunt; voor nieuwe productie geldt inmiddels SRC-STYLE-03. Neem de ingebakken teksten, eventuele spelclaims of willekeurige achtergronddetails niet over als canon. De huidige modellen staan in MODEL_GUIDE.md. Voor de motion comic blijven tekstballonnen los van de illustraties.
 
-## SRC-STYLE-02 — gekozen visuele basis
+## SRC-STYLE-02 — historische gekozen visuele basis
 
 - Bestand: `Gloomhaven_ Drie Helden in een Gebroken Wereld.png`, rechtstreeks als bijlage aangeleverd.
 - SHA-256: `3c96ef41d7c7ee5a953f6ba7ec82dfe0f817b40839fea2e9568f93ffc7be589e`.
 - Gebruikerskeuze op 17 oktober 2026: “Dit vond ik wel een goede basis”.
-- Status: `CREATIEF`; primaire stijlreferentie voor de strip, geen geografische of officiële lorebron.
+- Status: `CREATIEF / HISTORISCH`; destijds gekozen stijlreferentie, inmiddels vervangen door SRC-STYLE-03. Geen geografische of officiële lorebron.
 
 De afbeelding is bekeken. Sterke zwarte inktlijnen, diepe schaduwen, ruwe steenstructuur, warme aardekleuren en crème tekstvlakken bepalen het uiterlijk. Blauw markeert Nicola's techniek; violet en rood/oranje dragen Nyra's magie. De drie silhouetten zijn duidelijk verschillend.
 
@@ -116,11 +124,13 @@ Alle drie daadwerkelijk bekeken. De gebruiker geeft deze als het bedoelde oorspr
 | SRC-AESTHER-DIVINER | aesther-diviner.png | Licht doorschijnende huid en een gelaagd silhouet |
 | SRC-AESTHER-NIGHTSHROUD | aesther-nightshroud.png | Ijle contouren, koel licht |
 
-**Controle 21 oktober 2026:** Codex heeft de drie Aesther-platen aangetroffen en visueel bekeken op `assets/references/characters/aesther-summoner.png`, `assets/references/characters/aesther-diviner.png` en `assets/references/characters/aesther-nightshroud.png`. Ze zijn als ondersteunende soortinspiratie bij Hail opgenomen in `assets/references/character-registry.json`; Hail heeft nog geen goedgekeurd eigen modelblad.\n\nBRONFOTO / gebruikersreferentie, daadwerkelijk bekeken. Gebruikerscorrectie: Hail is een Aesther, geen elf, en een beetje transparant. Alleen de illustraties dienen als inspiratie; tekst, klassen, vermogens en biografieën worden niet aan Hail of de campagne toegevoegd. De editie van deze platen is niet onafhankelijk vastgesteld. De volledige bronplaten worden niet aan de reader geleverd.
-## SRC-NICOLA-FACE-02 — vaste gezichtsreferentie
+**Controle 21 oktober 2026:** Codex heeft de drie Aesther-platen aangetroffen en visueel bekeken op `assets/references/characters/aesther-summoner.png`, `assets/references/characters/aesther-diviner.png` en `assets/references/characters/aesther-nightshroud.png`. Ze zijn als ondersteunende soortinspiratie bij Hail opgenomen in `assets/references/character-registry.json`; Hail heeft inmiddels het goedgekeurde HAIL-M01-modelblad op `assets/references/characters/Hail Aesther Karakterblad.png`. De drie klassebeelden blijven ondersteunende soortinspiratie.
 
-`assets/concepts/nicola-reader-head-v2.png` is het eerder met de ingebouwde beeldgenerator gemaakte Quatryl-gezicht. Op basis van de tweede gebruikersreview is dit het vaste identiteitsbeeld voor Nicola in de volledige aflevering, naast het oorspronkelijke klassebeeld voor anatomie en uitrusting. Status CREATIEF / gebruikersreferentie, geen lorebron. Geef het bestand zichtbaar mee bij iedere nieuwe Nicola-tekening; behoud zijn identiteit vanuit de benodigde gezichtshoek.
+BRONFOTO / gebruikersreferentie, daadwerkelijk bekeken. Gebruikerscorrectie: Hail is een Aesther, geen elf, en een beetje transparant. Alleen de illustraties dienen als inspiratie; tekst, klassen, vermogens en biografieën worden niet aan Hail of de campagne toegevoegd. De editie van deze platen is niet onafhankelijk vastgesteld. De volledige bronplaten worden niet aan de reader geleverd.
+## SRC-NICOLA-FACE-02 — historische readergezichtsreferentie
 
-## Actuele productiehiërarchie — 20 oktober 2026
+`assets/concepts/nicola-reader-head-v2.png` is het eerder met de ingebouwde beeldgenerator gemaakte Quatryl-gezicht voor de bestaande reader. Status CREATIEF / historische gebruikersreferentie, geen lorebron. Dit bestand blijft alleen in de bestaande aflevering; voor nieuwe Nicola-beelden geldt het originele NICOLA-M04-modelblad, met SRC-STYLE-03 voor art en belichting.
 
-Voor **nieuwe** Nyra-illustraties is uitsluitend **NYRA-M03**, de door gebruiker goedgekeurde melkachtig bleke model-sheet, de actuele beeldreferentie (PNG-upload naar `assets/references/approved/NYRA-M03-approved-character-sheet.png` nog te bevestigen). Oudere Nyra-sheets, SRC-STYLE-02 en eerdere Frozen Hollow-beelden zijn **historisch** en mogen niet als kleur-, anatomie-, outfit- of stijlanker worden gebruikt. SRC-CHAR-ORCHID blijft nuttig als oorspronkelijke soort-/klassebron, maar bij verschil in concrete persoonlijke vormgeving wint de goedgekeurde NYRA-M03. Zie MODEL_GUIDE.md en VISUAL_DIRECTION.md.
+## Actuele productiehiërarchie
+
+Voor nieuwe beelden bepalen **KREK-M03, NICOLA-M04, NYRA-M03** en bij Hails optreden **HAIL-M01** de identiteit. Hun originele goedgekeurde PNG's en de ondersteunende klassebeelden staan met exacte paden in [character-registry.json](../../assets/references/character-registry.json). Nyra's actuele bestand is `assets/references/characters/Nyra Spellweaver Karaktermodelblad.png`. **SRC-STYLE-03** bepaalt art en omgevingslicht. Geef stijlplaat én relevante modelbladen daadwerkelijk als beeldinput mee. Bij concrete persoonlijke ontwerpkeuzes wint het goedgekeurde modelblad van oudere klasse- of scènebeelden. Oudere modellen, posters en readerbeelden blijven historisch; zie MODEL_GUIDE.md en VISUAL_DIRECTION.md.

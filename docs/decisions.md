@@ -2,6 +2,14 @@
 
 Bewaar hier concrete gebruikerskeuzes en hun gevolgen voor het werk. De wereldbijbel bewaart canonregels; dit log maakt zichtbaar waarom de werkwijze of productievorm veranderde. Deze registratiedatum is geen speeldatum.
 
+## Actueel — artproef 3 goedgekeurd als SRC-STYLE-03
+
+De gebruiker keurt de laatste versie met gecorrigeerde Nicola expliciet goed: “Deze is goed”. Hij vraagt deze artstijl op GitHub vast te leggen, te blijven gebruiken en er later een motion comic van te maken. [Artproef 3](../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png) is voortaan het concrete stijlanker. Het [assetregister](ASSET_REGISTER.md) bewaart bestand, hash, herkomst, modelinputs en beoordelingsstatus; [VISUAL_DIRECTION.md](VISUAL_DIRECTION.md) beschrijft de uitvoering en voorbereiding voor beweging.
+
+De gekozen art komt uit de donkere geüploade strip: gotische steenarchitectuur, natuurlijk inktwerk, gedempte kleuren, zware schaduw en atmosferische mist. De goedgekeurde modelbladen blijven bepalend voor de personages. Vooral Nicola's smalle hoekige Quatryl-gezicht, compacte snuit, kleine oren, proportionele lenzen en slanke volwassen bouw zijn in de laatste proef hersteld. De eerdere proef met rond kindergezicht en eerdere blends zijn geen productieankers.
+
+Deze keuze legt stijl en het goedgekeurde concept vast. Er is geen nieuw model-ID, nieuwe campagnecanon of automatische vervanging van de bestaande aflevering. De latere motion comic gebruikt deze art, losse tekst en passende bewegingslagen in de bestaande reader; die bouw is hiermee nog niet uitgevoerd. De huidige opdracht autoriseert het opslaan van het concept en deze afspraken op GitHub.
+
 ## 17 oktober 2026 — Volledige Frozen Hollow-motion comic
 
 De gebruiker geeft expliciet opdracht de volledige story met bewegende beelden te maken. De laatste kamerindeling vervangt eerdere onduidelijkheid: claustrofobische smalle gang met wolven, ijsdemonen in kamer 2, halverwege die kamer Kreks sprint vol kracht door mist naar kamer 3 voor het eindgevecht. De uitputting en Hail-epiloog blijven staan.

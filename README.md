@@ -16,7 +16,7 @@ Het opnieuw gedeelde eigen kamer-verslag staat in [sessie S001](content/sessions
 
 Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaart, spelpagina's en gedeelde illustratie. De [visuele briefing](docs/VISUAL_DIRECTION.md) vertaalt die referenties naar tekstuele ontwerpuitgangspunten.
 
-**Actuele beeldtaal (20 oktober 2026):** volwassen grafische dark fantasy met zware zwartvlakken, krachtige inktcontouren, meer gerichte kleur en levende zandsteen-Krek met donker borstgat (groen bij aardemagie), Quatryl Nicola met compacte cyaan-techniek en melkachtig bleke Orchid Nyra met ijsblauwe kristalgroei. Actieve modellen: **KREK-M03, NICOLA-M04, NYRA-M03**. Zie [VISUAL_DIRECTION.md](docs/VISUAL_DIRECTION.md) en de [effectgids voor aardemagie en quantummagie](docs/MAGIC_EFFECTS.md). De oorspronkelijke klasse-illustraties bepalen soort/anatomie/identiteit, niet de schilderachtige afwerking. De vroegere poster SRC-STYLE-02 en bestaande afleveringbeelden zijn historisch materiaal, géén stijlreferenties voor nieuwe afleveringen. De campagnekaart blijft de geografische referentie.
+**Actuele beeldtaal: SRC-STYLE-03.** De gebruiker heeft [artproef 3](assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png) goedgekeurd: atmosferische gotische fantasystrip, organisch inktwerk, zware zwartvlakken, gedempte kleuren, verweerd steenwerk en filmisch mistlicht. [Bekijk de compacte JPEG](assets/concepts/frozen-hollow-s06-p18-p19-artproef-03-preview.jpg). De originele modellen **KREK-M03, NICOLA-M04, NYRA-M03** en bij Hails optreden **HAIL-M01** blijven verplicht voor identiteit; de stijlplaat bepaalt art en belichting. Vooral Nicola behoudt het gecorrigeerde smalle, hoekige volwassen Quatryl-gezicht. [VISUAL_DIRECTION.md](docs/VISUAL_DIRECTION.md) legt de stijl, referentiehiërarchie en voorbereiding op een latere motion comic vast; [MAGIC_EFFECTS.md](docs/MAGIC_EFFECTS.md) blijft leidend voor effecten. Eerdere proeven, SRC-STYLE-02 en oude readerbeelden zijn geen nieuwe stijlankers. De bestaande aflevering blijft behouden.
 
 [Karakterisering en ontwikkeling](content/characters/CHARACTER_ARCS.md) vertaalt de persoonlijkheden op de poster naar schrijfbare reacties, onderlinge dynamiek en de ontwikkeling van het trio binnen Frozen Hollow.
 
@@ -24,7 +24,7 @@ Het [bronregister](content/sources/REFERENCES.md) beschrijft de aangeleverde kaa
 
 ## Projectstatus
 
-De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Klikken op Nicola laat hem naar de lezer kijken en een blauwe tekstballon binnen het stripkader tonen. Werkbeeld v3 is voorlopig bruikbaar; voor nieuwe beelden gelden de oorspronkelijke klasse- en Aesther-referenties. Er is geen hosting toegevoegd.
+De eerste lokale interactieve proef is gebouwd op expliciete gebruikersopdracht: drie panelen, zelf bladeren, een optioneel Nicola-perspectief, korte beweging en optioneel geluid. Klikken op Nicola laat hem naar de lezer kijken en een blauwe tekstballon binnen het stripkader tonen. Werkbeeld v3 blijft historisch; voor nieuwe beelden gelden SRC-STYLE-03 en de originele goedgekeurde modelbladen. Er is geen hosting toegevoegd.
 
 De gebruiker heeft de proef afgerond en de leesvorm en Nicola-interactie aanvaard. Krek en Nyra mogen voorlopig statisch blijven. Het project gaat verder als een serie op basis van de speelsessies; de volgende sessie is nog niet aangeleverd. De proef vraagt geen verdere verfijning zonder nieuwe opdracht.
 

@@ -1,17 +1,54 @@
 # Visuele richting — tekstuele briefing
 
-**Actuele productiestandaard vanaf 20 oktober 2026:** onderstaande grafische dark-comic beeldtaal vervangt de eerdere schilderachtige stijl. Oude poster, SRC-STYLE-02 en bestaande afleveringsbeelden zijn archief/continuïteitsbronnen en worden nooit automatisch als visueel stijlanker gebruikt. De oorspronkelijke klassebeelden blijven wel leidend voor anatomie, soort en identiteit; alle bestaande afleveringsbestanden blijven ongewijzigd.
+**Actuele productiestandaard: SRC-STYLE-03.** De gebruiker heeft **artproef 3** expliciet goedgekeurd met “Deze is goed” en wil deze stijl behouden voor volgende beelden en een latere motion comic. Het vaste visuele stijlanker is [de goedgekeurde PNG](../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png); [de compacte JPEG](../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03-preview.jpg) dient voor beoordeling op het scherm. De concrete afwerking van dit beeld gaat vóór de eerdere algemene stijlomschrijvingen en mockups. De goedgekeurde karaktermodellen blijven leidend voor identiteit en anatomie. Oude poster, SRC-STYLE-02 en bestaande readerbeelden blijven historische bronnen.
 
 Voor de actuele gezichtsankers en lichaamsvormen: lees de [modelgids](../content/characters/MODEL_GUIDE.md). Voor de volgorde van tekst, beeldproductie en controle: volg het [stripstappenplan](COMIC_PLAYBOOK.md). De modelgids bewaart het persoonlijke gezicht; de oorspronkelijke klassebeelden bewaken soort en lichaamsbouw.
 
 Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk is bekeken. Het [storyboard](../content/episodes/frozen-hollow/STORYBOARD.md) bepaalt de scènes; de [wereldbijbel](../WORLDBUILDING.md) bewaakt personages en canon.
 
-## Stijl — gekozen dark-comic richting (20 oktober 2026)
+## SRC-STYLE-03 — vastgelegde artstijl
 
-**Status: door gebruiker gekozen visuele richting na opeenvolgende mockups.** Voor Nyra geldt uitsluitend NYRA-M03; eerdere kleurvoorkeuren zijn door de latere expliciete gebruikerscorrectie vervangen. Dit vervangt de eerdere schilderachtige afwerking als standaard voor nieuwe illustraties. Het bestaande materiaal en de aflevering worden niet automatisch opnieuw getekend. De laatste door de gebruiker als 'prima' beoordeelde drietal-mockup uit het gesprek op 20 oktober is de **stijlreferentie**, maar niet een nieuwe bron voor gewijzigde anatomie. Het gesprekbeeld is nog niet als repository-asset opgeslagen; gebruik dit document en de oorspronkelijke klassebeelden tot een goedgekeurd beeldbestand in het assetregister is opgenomen.
+**Kern:** een volwassen, atmosferische gotische fantasystrip met organisch inktwerk, diepe zwartvlakken, gedempte kleuren en voelbaar verweerde materialen. Personages delen hetzelfde licht, dezelfde textuur en dezelfde schaduwwerking als hun omgeving. Hun gezicht en anatomie blijven herkenbaar vanuit de modelbladen; de heldere presentatieverlichting van die bladen wordt niet overgenomen.
+
+| Onderdeel | Vaste uitvoering |
+| --- | --- |
+| Lijn en textuur | Gevarieerde, hoekige en organische inktcontouren; droge penseeltextuur, fijne arcering en onregelmatige materiaalranden. Details ondersteunen de grote vormen. Geen gladde 3D-afwerking of gelijkmatig scherpe catalogusweergave |
+| Schaduw | Grote, samenhangende bijna zwarte vlakken onder koppen, kleding, gewelven en in nissen. Gezichtsvlakken en bepalende soortkenmerken blijven leesbaar; geen volledige figuren in onleesbaar zwart |
+| Kleur | Koele blauwgrijze en houtskoolkleurige schaduwen; gedempt zandsteenoker, oud koper, mos en donker bordeaux. Lokale karakterkleuren reageren op het omgevingslicht. Selectieve amber-, cyaan- en kristalaccenten trekken de aandacht; geen overal verzadigde sierdetails |
+| Licht en diepte | Gericht koud licht, selectieve randlichten en mist die achtergronden geleidelijk doet wegvallen. Voorgrond is scherper en donkerder, de verte zachter. Licht maakt deel uit van de ruimte; personages hebben geen afzonderlijke studiolamp |
+| Materialen | Gebroken steen, verweerd metselwerk, versleten stof en dof gebruikt metaal. Rijke oppervlaktekenmerken blijven getekend en mat; geen glanzend speelgoed of gepolijste game-assets |
+| Omgeving | Dreigende gotische architectuur, verweerde pijlers en donkere doorgangen waar de scène dat ondersteunt. De mist in P19 is gewoon weer/omgevingssfeer, geen spreuk. De concrete ruimte en schaal volgen altijd het storyboard |
+| Camera en spel | Filmische afwisseling van groepsbeeld, close-up, laag actiestandpunt en reactie. Gezichtshoek, blik en houding dragen de droge humor. De vijf vakken van de proef zijn een regievoorbeeld, geen verplicht raster voor iedere scène |
+
+### Referentiehiërarchie bij elke nieuwe generatie
+
+1. **Scène-inhoud en effectwerking:** sessie, storyboard en MAGIC_EFFECTS.md bepalen wat gebeurt en welke magie zichtbaar mag zijn.
+2. **Karakteridentiteit:** de originele goedgekeurde PNG's uit `assets/references/character-registry.json` bepalen soort, gezicht, verhoudingen, kleding en uitrusting: KREK-M03, NICOLA-M04, NYRA-M03 en bij daadwerkelijk optreden HAIL-M01. De oorspronkelijke klassebeelden ondersteunen anatomische controle.
+3. **Art en belichting:** geef SRC-STYLE-03 óók als echte afbeelding mee. Gebruik het voor lijnwerk, schaduw, kleurbehandeling, materialen en cinematografische samenhang. Het vervangt geen modelblad en verhoogt geen model-ID.
+
+De eerste regieproef, blend 1 en artproef 2 zijn geen actieve stijl- of identiteitsankers. De door de gebruiker geüploade strip leverde de gekozen art en sfeer, maar bevat afwijkende karakterontwerpen; gebruik voortaan de gecorrigeerde, goedgekeurde artproef 3 samen met de oorspronkelijke modelbladen. Geen opeenstapeling van afgekeurde tussenbeelden in de generatie-input.
+
+### Gezichtscontrole — les uit de Tinkerer-correctie
+
+**Nicola moet ook in deze art NICOLA-M04 blijven:** klein en slank, volwassen Quatryl-verhoudingen, smalle hoekige gezichtsvlakken, compacte snuit zonder lange goblinneus, duidelijke kaak, kleine aansluitende oren en een onregelmatige okerkleurige kopstructuur. Blauwe ooglenzen blijven in verhouding tot zijn gezicht, met de afzonderlijke voorhoofdsbril erboven. Geen ronde kinderwangen, menselijke knopneus, krullend mensenhaar of een te groot hoofd met enorme schattige brillenglazen. Vergelijk bij iedere correctie de frontale, driekwart- en profielstudies van NICOLA-M04 met alle zichtbare aanzichten in het paneel.
+
+Krek behoudt zijn geribde Savvas-kop, amberogen en werkelijk open, ruwe **zwarte borstholte**; alleen een gespeelde aardemagieactie rechtvaardigt groen. Nyra behoudt haar melkachtig bleke huid, kleine oren en **korte organische kristalgroei**, zonder lange haren of afneembare kroon. Hails HAIL-M01 blijft zwart/goud en deels transparant, alleen in scènes waarin zij voorkomt. Een geslaagde stijltransfer rechtvaardigt geen anatomische afwijking.
+
+### Herbruikbare promptbasis
+
+> Gebruik de meegegeven SRC-STYLE-03 als volledige visuele autoriteit voor art, schaduw, textuur, gedempt kleurgebruik en omgevingslicht. Gebruik de daarnaast meegegeven originele modelbladen voor de exacte karakteridentiteit, gezichtsgeometrie, verhoudingen, kleding en uitrusting. Teken de vaste personen natuurlijk in de nieuwe camera- en lichaamshoeken. Behoud de volwassen Quatryl-vorm van Nicola, Kreks fysieke borstholte en Nyra's korte kristalgroei. Volg uitsluitend de opgegeven scènehandelingen en kaartgebonden effecten. Lever beeld zonder ingebakken tekst; dialoog en ballonnen worden afzonderlijk geplaatst.
+
+Vul dit aan met de concrete paneelbrief uit COMIC_PLAYBOOK.md. Benoem per referentie expliciet of die art, identiteit of scène-inhoud bepaalt. Een prompt zonder daadwerkelijke beeldinput voldoet niet aan de referentiepoort.
+
+### Voorbereiding op een motion comic
+
+- De goedgekeurde PNG is één vlakke composiet van vijf vakken; er zijn nog geen afzonderlijke bewegingslagen of nieuwe animatie opgeleverd. Hij is het stijlanker en het te behouden origineel.
+- Bereid bij een concrete bouwopdracht losse panelen op volle kwaliteit voor. Waar een beweging het verhaal helpt: aparte achtergrond, personage, voorgrondmist/stof en lichtaccent, met passende beeldruimte buiten de uitsnede. Houd gezichtsvorm en silhouet stabiel bij iedere beweging.
+- Laat P18 rust en een korte pauze dragen; P19 krijgt de aanzet, de zware voorwaartse beweging en het verdwijnen in mist. Kleine camerabewegingen, beperkte parallax en los bewegende mist kunnen dit ondersteunen. Geen vervorming van gezichten of nieuwe handelingen om beweging te krijgen.
+- Behoud dialoog als losse schaalbare tekst volgens het storyboard. Gebruik de bestaande reader, handmatige navigatie, geluid standaard uit en een volledige statische versie voor minder beweging. Een latere motion-comicbouw volgt de eigen opdracht; de huidige reader en aflevering zijn door deze stijlvastlegging niet vervangen.
 
 ### Grafische vormtaal
-- Volwassen, duistere **gothic dark-fantasy graphic novel**, geïnspireerd door de algemene grafische eigenschappen van Hellboy/Mignola, **niet** een letterlijke stijlkopie.
+- Volwassen, duistere **gothic dark-fantasy graphic novel**, concreet verankerd in SRC-STYLE-03.
 - Grote diepzwarte schaduwvlakken, krachtige hoekige silhouetten, scherpe inktcontouren, grafische licht-donkercontrasten en selectieve, ruwe textuur.
 - Iets rijkere materialen, kleurnuance en anatomische detaillering dan extreem minimalistische schaduwstrips. Beeld moet herkenbaar een **getekende strip** zijn, geen glanzende 3D-game-render of zachte kinderboekillustratie.
 - Schaduw mag de vaste ogen, gezichten, kristallen, apparaten en silhouetten nooit onleesbaar maken. Houd scènes leesbaar op telefoonformaat.
@@ -21,7 +58,7 @@ Zie het [bronregister](../content/sources/REFERENCES.md) voor wat daadwerkelijk 
 ### Kleurrichting
 **Magie en speciale effecten:** volg verplicht [MAGIC_EFFECTS.md](MAGIC_EFFECTS.md) voor de op 21 oktober 2026 goedgekeurde effecttaal van Krek, Nicola en Nyra. Krek: fysieke steen/puin dominant, beperkt groen in scheuren en borstgat uitsluitend tijdens aardemagie; Nicola: quantum-overlap uitsluitend bij geselecteerde kaartacties (Enhancement Field 61, Teleportation Pad 62, Repulsor Gun 35) of later expliciet goedgekeurde toepassing, geen permanente quantum-aura. Portaalbeeld is een metafoor voor kaartwerking, niet nieuwe teleportregels. Nyra: vuur en ijs als twee onderscheidbare penselen; grote spreuken mogen **zeer schilderachtige composities** zijn, zonder overgang naar de verouderde schilderachtige totaalrender. Kleine eigen/ondersteunende magie blijft verfijnd; Reviving Ether heeft de unieke terugweefsignatuur. 
 
-**Donkere wereld, kleurrijke personages.** Gebruik diepzwart, koel leigrijs, rotsbruin, vuil oker, gedempt mosgroen en koud blauw voor de omgeving. Vermijd algehele ontkleuring. Kleuren dragen óók identiteit, zonder actieve magie:
+**Donkere wereld, herkenbare karakterkleuren in hetzelfde omgevingslicht.** Gebruik diepzwart, koel leigrijs, rotsbruin, vuil oker, gedempt mosgroen en koud blauw. Behoud lokale kleur, maar temper verzadiging en glans volgens SRC-STYLE-03; geen helder verlichte figuren die losstaan van hun omgeving. Kleuren dragen óók identiteit, zonder actieve magie:
 - **Krek (KREK-M03):** **levende zandsteen** in beige, oker en aardebruin, met onregelmatig mosgroen en erosie in scheuren, rug en schouders; geen egaal olijfkleurige huid. Amberogen, oorspronkelijke geribde kop, donkere kaaknaad en **permanent open, diep borstgat** blijven herkenbaar: in rust zwart en niet verlicht; tijdens actieve aardemagie mag de holte tijdelijk felgroen oplichten.
 - **Nicola (NICOLA-M04):** okerkleurige Quatryl-huid, koper/messing en doorleefd leer; **helder cyaanblauw** voor lenzen, spoelen, energiekernen, kleine elektrische ontladingen en experimentele gadgets. Laat techniek tastbaar, vreemd en ambachtelijk lijken, niet als één generiek geweer.
 - **Nyra (NYRA-M03):** bijna melkachtig bleke ivoor-lila huid en zachte koelviolette schaduw; geen diepverzadigde violette basishuid. Haar ijsblauw/witte kristalstructuur is organisch geïntegreerd in korte haarachtige kopgroei, hals, borst en schouders. Kleine oren dicht bij de kop, lichte beweeglijke bouw; asymmetrische rafelige bordeaux/zwarte stoflagen. Magie voegt situationele magenta, rood/oranje en blauw/cyaan contrasten toe. De **laatste door gebruiker goedgekeurde Nyra-modelsheet** is het beslissende visuele anker; NYRA-M02 sheets zijn afgekeurd.
@@ -40,7 +77,7 @@ Geen pastelachtige kinderfantasy, geen gladde videogamerender, geen alles-verdui
 
 ### Productiewerkwijze
 1. Lees [MODEL_GUIDE.md](../content/characters/MODEL_GUIDE.md), [CHARACTER_ARCS.md](../content/characters/CHARACTER_ARCS.md) en de oorspronkelijke [klassebeelden](../assets/references/characters/) vóór beeldproductie.
-2. Gebruik echte karakterbeelden als **beeldreferenties**, niet alleen een prompt. De klassebeelden en vaste gezichtsankers hebben altijd voorrang op de mockup als die iets anatomisch verkeerd toont.
+2. Geef de goedgekeurde modelbladen én SRC-STYLE-03 daadwerkelijk als **beeldreferenties** mee. De modellen bepalen identiteit, de stijlplaat bepaalt afwerking en licht. Gebruik de klassebeelden voor anatomische controle.
 3. Test het ontwerp eerst als driekarakterstudie; toets elke figuur afzonderlijk op soort, gezicht, kleur, silhouet en uitrusting. Kijk ook naar de expressie en onderlinge dynamiek.
 4. Corrigeer gericht, met **dezelfde compositie** als alleen een detail verandert; behoud wat al goedgekeurd is.
 5. Sla pas een daadwerkelijk beoordeelde en goedgekeurde definitieve stijlafbeelding op als asset en registreer de bron/versie. Pas na een aparte opdracht bestaande Frozen Hollow-panelen aan.
@@ -58,7 +95,7 @@ De oudere poster is uitsluitend een historische referentie voor karakterhumor en
 | Krek (KREK-M03) | Levend zandsteen met mos, amberogen, geribde kop, **permanent donkere diep uitgeholde beschadigde borstholte**; alleen bij aardemagie groene gloed van binnenuit | Geen gesloten borst, ronde reactor of permanente gloed. In close-up enkel bovenrand waar perspectief dat rechtvaardigt; geen blauw oog of zwaar borstpantser |
 | Nicola | Kleine slanke mannelijke Quatryl; gezicht en neus direct volgens de oorspronkelijke Quatryl-bron; okerkleurige huid, herkenbare brillen/lenzen en verfijnde techniek; compact bescheiden rugapparaat, hybride handtool en level-1 subtiele quantummagie | Geen lange haakneus uit de eerdere AI-modellen, geen goblin/vliegenier, geen enorm rugapparaat, geen overdaad aan quantumvuurwerk; de oorspronkelijke Quatryl-tekening wint van oude gegenereerde hoofdbeelden |
 | Nyra (NYRA-M03) | Melkachtig bleke ivoor-lila huid, kleine onopvallende oren, organische ijsblauwe kristalhaargroei en borst/schouderkristallen, beweeglijke bouw en asymmetrische gelaagde donkerrode/zwarte kleding | Volg de laatste goedgekeurde sheet; geen grote elfenoren, rijk violette basishuid, decoratieve hoge kroon of zwaar statig kostuum. Sarcasme licht-minachtend, magie situationeel |
-| Hail | Licht doorschijnende Aesther; koel bleke/lila huid, donkere ogen, ijl zilverblauw haar, praktische leigrijze onderzoekersmantel; kleine ronde of bedekte oren | Geen elf of puntoren. Boeken/ladder/tafel mogen heel subtiel door armen, schouders en mantel zichtbaar zijn. Haar onderzoekende houding blijft leidend |
+| Hail (HAIL-M01) | Goedgekeurde diffuse, deels doorschijnende Aesther in zwart/goud; krachtige onderzoekende aanwezigheid volgens haar eigen modelblad | Geen terugkeer naar de oude blauw/grijze look of elfenanatomie. Haar transparantie blijft ook in stilstaand beeld zichtbaar; zij verschijnt uitsluitend waar het verhaal haar bevat |
 
 Deze zichtbare kenmerken volgen de nieuwe gebruikersreferenties (BRONFOTO). De afbeeldingen zijn bekeken en in assets/references/characters/ bewaard. Hun editie is niet onafhankelijk vastgesteld; de begeleidende biografieën worden geen nieuwe lore. Scènebeelden blijven creatieve adaptaties, geen officiële platen of volledige turnarounds.
 

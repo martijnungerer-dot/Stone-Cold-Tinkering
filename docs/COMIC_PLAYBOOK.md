@@ -49,6 +49,8 @@ Bewaar ook de bestaande tekstvorm: vaste sprekerlabels, dezelfde letterstijl en 
 
 ## 3. Maak een kleine beeldlijst met vaste modellen
 
+**Actief artanker:** geef [SRC-STYLE-03 — artproef 3](../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png) mee voor de volledig gekozen donkere art, samen met de originele relevante modelbladen voor identiteit. Volg de [concrete stijlrichtlijn en motion-comicvoorbereiding](VISUAL_DIRECTION.md). Behoud vooral Nicola's gecorrigeerde volwassen Quatryl-gezicht; een fraaie sfeer compenseert geen afwijkend model. De eerste regieproef, blend 1 en artproef 2 zijn geen actieve ankers.
+
 **Verplicht voor alle nieuwe afleveringen:** gebruik uitsluitend **NICOLA-M04, NYRA-M03 en KREK-M03** als actieve personageontwerpen. Oude sheets, historische poster en bestaande Frozen Hollow-atlassen mogen hoogstens verhaalcontinuïteit/kadrering verklaren, maar zijn geen stijl- of identiteitsreferenties. De drie goedgekeurde PNG-karakterbladen staan in `assets/references/characters/` als `Krek Cragheart Karaktermodelblad.png`, `Nicola Tinkerer Karaktermodelblad.png` en `Nyra Spellweaver Karaktermodelblad.png`. Gebruik deze bestanden echt als beeldreferenties en val niet terug op oudere modellen. KREK-M03 heeft een permanent echt borstgat (donker in rust, groen bij actieve aardemagie), dat in hoofd-closeups hoogstens gedeeltelijk zichtbaar kan zijn.
 
 
@@ -61,6 +63,7 @@ Paneel / scène:
 Bevestigde ankers:
 Functie van dit beeld:
 Personages + model-IDs + zichtbare referentiebestanden:
+Stijlreferentie: SRC-STYLE-03 + daadwerkelijk meegegeven PNG:
 Positie / kijkrichting / onderlinge schaal:
 Rust, spreken of actie + mondstand / emotie:
 Omgeving + zichtbare tegenstanders en voorwerpen:
@@ -88,6 +91,8 @@ Controleer de hele scène: klopt de ruimte, staan de bevestigde tegenstanders er
 Herstel een afwijking gericht: benoem het doelbestand, de vaste referentie, wat verandert en wat behouden blijft. Controleer na de correctie ook de behouden onderdelen. Bewaar de oude versie; selecteer één actuele versie in de readerconfiguratie en het assetregister.
 
 ## 6. Bouw met de bestaande reader
+
+Bij de latere bouw in SRC-STYLE-03: bereid losse panelen en alleen de benodigde bewegingslagen voor volgens VISUAL_DIRECTION.md. De goedgekeurde proef is één vlakke vijfvaksafbeelding, geen reeds gescheiden of geanimeerd materiaal. Leg per scène uitsneden, beweging en statische eindtoestand vast; behoud het origineel. De huidige stijlvastlegging wijzigt de bestaande reader niet.
 
 Hergebruik bediening, losse ballonnen, transcript, voorkeuren en beperkte beweging. Maak geen nieuwe leesomgeving per aflevering. De lezer bepaalt het tempo; geluid begint uit. Nicola's directe lezerscontact blijft een blauwe ballon binnen de strip met een passende bliklaag. Krek en Nyra mogen statisch blijven.
 

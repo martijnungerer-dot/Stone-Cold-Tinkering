@@ -4,6 +4,12 @@ Actuele werkstandaard · 20 oktober 2026. Lees dit vóór iedere nieuwe illustra
 
 Zie [visuele richting](../../docs/VISUAL_DIRECTION.md), [persoonlijkheden](CHARACTER_ARCS.md) en [productiestappen](../../docs/COMIC_PLAYBOOK.md). Deze tabel bepaalt de actuele selectie; oudere versies in het assetregister zijn geschiedenis.
 
+## Goedgekeurde vertaling naar de actuele art — SRC-STYLE-03
+
+De gebruiker heeft [artproef 3](../../assets/concepts/frozen-hollow-s06-p18-p19-artproef-03.png) goedgekeurd voor de donkere, gedempte, atmosferische uitvoering van deze modellen. Gebruik deze plaat als **aanvullende artreferentie**, samen met de originele modelbladen hieronder. De stijlplaat bepaalt lijnwerk, licht en materiaalbehandeling; de modellen bepalen exacte gezichtsvormen, anatomie, proporties en uitrusting. De model-ID's veranderen niet.
+
+De laatste correctie herstelde vooral Nicola: smalle hoekige gezichtsvlakken en kaak, compacte Quatryl-snuit, kleine aansluitende oren, proportionele blauwe ooglenzen, onregelmatige okeren kopstructuur en slanke volwassen bouw. Geen terugkeer naar het ronde kindergezicht, menselijke knopneus, krullen of te grote brillenglazen uit artproef 2. Controleer ieder zichtbaar aanzicht tegen de originele NICOLA-M04-hoofdstudies, ook wanneer de art verder klopt. Voor nieuwe beelden zijn de eerdere regie- en blendproeven geen referenties.
+
 ## Nieuw goedgekeurd karakterblad — Nicola (20 oktober 2026)
 
 **Gebruikersgoedkeuring:** de tweede, gecorrigeerde NICOLA-M04-modelsheet is expliciet goedgekeurd met “Dit is perfect”. Deze sheet heeft kleine brongetrouwe oren, een compact hoofd zonder goblin-neus, een bescheiden technische rugopbouw, hybride handtool en subtiele level-1 quantummagie. Het is de **goedgekeurde visuele doelreferentie** voor toekomstige Nicola-afbeeldingen, samen met de oorspronkelijke Quatryl-klasseplaat voor anatomische correcties.
